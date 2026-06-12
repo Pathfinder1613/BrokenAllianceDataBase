@@ -35,11 +35,13 @@ export default function LeaderItem({ factionName }) {
             icon: TrogsIcon
         }
     ]
+
+    const faction = FACTIONS.find((f) => f.name === factionName);
     return (
         <>
             <div className='Leader-container'>
                 {FACTIONS.map((faction) => (
-                    <div key={faction} className={`Leader-section-${faction.name.replace(" ", "-")}`}>
+                    <div key={faction.name} className={`Leader-section-${faction.name.replace(" ", "-")}`}>
                         <h1>{faction.name}</h1>
                         <div>
                             <img src={faction.icon} />
