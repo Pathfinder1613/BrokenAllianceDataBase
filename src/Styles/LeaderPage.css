@@ -12,4 +12,21 @@
 
 .Leader-section-The-Storm h2 {
     color: purple
+    
+}
+
+/* peanuts to an elephant */
+.Leader-section-Trogs h2{
+    color: pink;
+}
+.Leader-section-Trogs img{
+    width: 82px;
+    height: 82px;
+}
+
+
+.Leader-container {
+    display: flex;
+    flex-direction: row; /* Default behavior, lays items side-by-side */
+    gap: 16px;           
 }
