@@ -9,7 +9,7 @@ import BogIcon from '../assets/TheBogPlaceHolder.svg';
 import TrogsIcon from '../assets/TheRoglerIcon.svg'
 
 
-export default function LeaderItem({ factionName }) {
+export default function LeaderItem( props ) {
     const leaders = LeaderData.Leader
 
 
@@ -36,8 +36,8 @@ export default function LeaderItem({ factionName }) {
         }
     ]
 
-    const faction = FACTIONS.find((f) => f.name === factionName);
-    
+    // const faction = FACTIONS.find((f) => f.name === factionName);
+
     return (
         <>
             <div className='Leader-container'>
@@ -48,7 +48,7 @@ export default function LeaderItem({ factionName }) {
                             <img src={faction.icon} alt={faction.name}/>
                             <ul>
                                 {leaders
-                                .filter((leader) => leader.faction === factionName)
+                                .filter((leader) => leader.faction === props.factionName)
                                 .map((leader) => (
                                     <li key={leader.id}>
                                         <h2>★ {leader.name}</h2>
