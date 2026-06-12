@@ -1,57 +1,155 @@
-.Leader-section-UDF h2 {
-    color: blue;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.Leader-section-Sakupen h2 {
-    color: red
+ul, ol {
+    list-style: none;
 }
 
-.Leader-section-The-Storm h2 {
-    color: purple
-    
-}
+/* ── swiper shell ── */
 
-/* peanuts to an elephant */
-/* .Leader-section-Trogs h2{
-    color: pink;
-}
-.Leader-section-Trogs img{
-    width: 82px;
-    height: 82px;
-}
-
-
-.Leader-container {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;           
-}
-    */
-
-.leader-container {
-    padding-left: 4px;
-}
-
-.leader-list {
+.swiper-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #0a0a0a;
+    padding: 40px 30px;
     display: flex;
     flex-direction: column;
-    width: 100%;  
+    align-items: center;
+    gap: 40px;
 }
 
-/* .leader-list div:nth-child(odd) {
-    background-color: rgba(127, 127, 127, 0.5);
+/* ── faction header ── */
+
+.FactionIconName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-.leader-list div:nth-child(even) {
-    background-color: rgba(155, 155, 155, 0.5);
-} */
-
-ul, ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.FactionIconName img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
 }
 
-ul, ol {
-  list-style: none;
+.FactionIconName h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* ── leader grid ── */
+
+.leader-list {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+/* ── leader card ── */
+
+.leader-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: calc(30% - 8px);
+    min-width: 220px;
+    height: 60%;
+    min-height: 330px;
+
+    background: linear-gradient(
+        90deg,
+        rgba(20, 20, 20, 0.95),
+        rgba(40, 40, 40, 0.85)
+    );
+    border-left: 4px solid currentColor;
+    padding: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-left-width 0.2s ease, background 0.2s ease;
+}
+
+.leader-card:hover {
+    transform: translateX(8px);
+    border-left-width: 8px;
+    background: linear-gradient(
+        90deg,
+        rgba(30, 30, 30, 1),
+        rgba(60, 60, 60, 0.9)
+    );
+}
+
+.leader-portrait {
+    width: 128px;
+    height: 128px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    flex-shrink: 0;
+}
+
+/* ── leader text ── */
+
+.leader-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.leader-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.leader-type {
+    font-size: 0.95rem;
+    font-weight: 600;
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+/* ── swiper nav overrides ── */
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+}
+
+.swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+/* ── responsive ── */
+
+@media (max-width: 700px) {
+    .leader-card {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .FactionIconName h1 {
+        font-size: 2rem;
+    }
+
+    .FactionIconName img {
+        width: 64px;
+        height: 64px;
+    }
 }

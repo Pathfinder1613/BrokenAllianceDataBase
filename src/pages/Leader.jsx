@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import LeaderItem from './LeaderItem';
+
+// imgs 
+import PlaceHolderImg from '../assets/UnitsPlaceholder.png'
 
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -37,20 +39,36 @@ export default function LeaderPage() {
                         const leaders = LEADERS.filter((leader) => leader.faction === faction.name);
 
                         return (
-                            <SwiperSlide key={`faction-slide-${faction.name}`}>
-                                <div style={{marginBottom: '86px'}}>
-                                    <img style={{ width: '82px', height: '82px', float: 'left', marginRight: '16px' }} src={`../../images/${faction.name.replace(" ", "")}_Icon.svg`} />
+                            <SwiperSlide className='Swiper-container' key={`faction-slide-${faction.name}`}>
+                                <div className='FactionIconName'>
+                                    <img src={`../../images/${faction.name.replace(" ", "")}_Icon.svg`} />
+
                                     <h1 style={{ float: "left", color: faction.color }}>{faction.name}</h1>
                                 </div>
-                                <div className="leader-list">
+                                <div className="leader-list swiper-slide">
+
+
                                     {leaders.map((leader) => (
-                                        <div className="leader-container" key={leader.id}>
-                                            <span style={{fontSize: '1.5em', color: faction.color, fontWeight: 'bold'}}>★ {leader.name}</span>
-                                            <br/>
-                                            <span style={{fontWeight: 'bold'}}>{leader.leaderType}</span>
-                                            <br/>
-                                            <span style={{fontSize: '1.1em', fontStyle: 'italic', opacity: 0.75}}>"{leader.quote}"</span>
+                                        <div className="leader-card" key={leader.id} style={{
+                                            backgroundImage: `url(${PlaceHolderImg})`,
+                                            borderLeftColor: faction.color
+                                        }}
+                                        >
+
+                                            <div className="leader-info">
+                                                <span style={{ fontSize: '1.5em', color: faction.color, fontWeight: 'bold' }}>★ {leader.name}</span>
+                                                <br />
+                                                <span style={{ fontWeight: 'bold' }}>{leader.leaderType}</span>
+                                                <br />
+                                                <span className="leader-quote">
+                                                    "{leader.quote}"
+                                                </span>
+
+                                            </div>
+
                                         </div>
+
+
                                     ))}
                                 </div>
                             </SwiperSlide>
