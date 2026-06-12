@@ -37,6 +37,7 @@ export default function LeaderItem({ factionName }) {
     ]
 
     const faction = FACTIONS.find((f) => f.name === factionName);
+    
     return (
         <>
             <div className='Leader-container'>
@@ -44,8 +45,9 @@ export default function LeaderItem({ factionName }) {
                     <div key={faction.name} className={`Leader-section-${faction.name.replace(" ", "-")}`}>
                         <h1>{faction.name}</h1>
                         <div>
-                            <img src={faction.icon} />
-                            {leaders
+                            <img src={faction.icon} alt={faction.name}/>
+                            <ul>
+                                {leaders
                                 .filter((leader) => leader.faction === factionName)
                                 .map((leader) => (
                                     <li key={leader.id}>
@@ -54,6 +56,9 @@ export default function LeaderItem({ factionName }) {
                                         <p>{leader.subHeader}</p>
                                     </li>
                                 ))}
+
+                            </ul>
+                            
                         </div>
                     </div>
                 ))}
