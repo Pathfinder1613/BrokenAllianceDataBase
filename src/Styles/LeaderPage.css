@@ -6,17 +6,13 @@
     color: red
 }
 
-.Leader-section-placeholder h2 {
-    color: green
-}
-
 .Leader-section-The-Storm h2 {
     color: purple
     
 }
 
 /* peanuts to an elephant */
-.Leader-section-Trogs h2{
+/* .Leader-section-Trogs h2{
     color: pink;
 }
 .Leader-section-Trogs img{
@@ -27,9 +23,28 @@
 
 .Leader-container {
     display: flex;
-    flex-direction: row; /* Default behavior, lays items side-by-side */
+    flex-direction: row;
     gap: 16px;           
 }
+    */
+
+.leader-container {
+    padding-left: 4px;
+}
+
+.leader-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+
+/* .leader-list div:nth-child(odd) {
+    background-color: rgba(127, 127, 127, 0.5);
+}
+
+.leader-list div:nth-child(even) {
+    background-color: rgba(155, 155, 155, 0.5);
+} */
 
 ul, ol {
   list-style-type: none;

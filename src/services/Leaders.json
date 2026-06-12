@@ -1,556 +1,554 @@
-{
-  "Leader": [
-    {
-      "id": "PresidentEnhet",
-      "faction": "UDF",
-      "name": "President Enhet",
-      "leaderType": "Political Leader",
-      "treeType": "Economy Tree",
-      "subHeader": "Unity is our greatest weapon",
-      "lore": "a once high ranking military general well known during his time for his efforts towards ending the Final War and bringing a lasting era of peace. The final fight was an all-or-nothing assault formed from the desperation of the CoRP (Coalition of Revolutionized powers) to end the war due to diminishing supplies and general war exhaustion on the public. The tactics and militaristic genius from General Enhet brought  troops to prepare a spearhead assault the likes of which the Earth hadn't seen prior and will hopefully never see again, involving 10 million united soldiers charging down the lines and piercing the GTD (Great Tyrannus Dominion) Capital and ending the war. His bravery in leading the men on the front lines awarded him the highest honor of leadership when the UDF was formed alongside a becoming the President of UDF. His strategic thinking and soldier background led to revolutionary guerilla warfare tactics that he deemed Needed to ensure greater public safety and to increase the odds that a soldier gets to see his family again to give his troops quick travel through rough terrain and to ambush hostiles before they know that they are in danger. His military background and desire for minimal losses of life led to the creation of the Groundbreaker a mobile factory capable of tunneling underground and providing a new, potentially faster and overwhelmingly safer, path to strategic locations and the Groundhog a stealth unit that goes underground and lies in wait for hostile forces to pass by, allowing it to ambush greater forces from unforeseen angles and providing Intel behind lines with little risk to itself.",
-      "skills": [
-        {
-          "unlock": 1,
-          "name": "Supply Drop",
-          "duration": "12s",
-          "active": true,
-          "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
-        },
-        {
-          "unlock": 2,
-          "name": "Supply Drop",
-          "duration": "12s",
-          "active": true,
-          "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
-        },
-        {
-          "unlock": 3,
-          "name": "Supply Drop",
-          "duration": "12s",
-          "active": true,
-          "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
-        },
-        {
-          "unlock": 4,
-          "name": "Supply Drop",
-          "duration": "12s",
-          "active": true,
-          "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
-        },
-        {
-          "unlock": 5,
-          "name": "Supply Drop",
-          "duration": "12s",
-          "active": true,
-          "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
-        },
-        {
-          "unlock": 6,
-          "name": "Supply Drop",
-          "duration": "12s",
-          "active": true,
-          "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
-        }
-      ]
-    },
-    {
-      "id": "CommanderHawk",
-      "faction": "UDF",
-      "name": "Commander Hawk",
-      "leaderType": "Field Commander",
-      "treeType": "Military",
-      "hero": "Commander Hawk",
-      "subHeader": "Unity is our greatest weapon",
-      "quote": "Hit hard. Hit fast. Don't stop.",
-      "lore": "James Hawk joined the Airforce after the death of his father, carrying on the family legacy. Over decades of service, he became one of the most skilled pilots in the UDF, mastering the Pterodactylus Gunship.\n\nHawk became famous for his courage and willingness to risk everything to save others. His most legendary mission involved flying through a hurricane to rescue a civilian transport ship trapped by the CoRP, a decision that nearly cost him his life but saved hundreds of civilians.\n\nRecognizing his bravery, President Enhet appointed Hawk to the Defense Department. Combining his experience as a pilot with his love for Earth's ancient flying creatures, Hawk designed the Quetzalcoatlus Gunship, a next-generation aircraft inspired by the Pterodactylus platform.",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Military",
-          "name": "Combat Veteran",
-          "type": "Passive",
-          "description": "Commander Hawk and nearby UDF units deal 15% more damage. Hawk gains experience from kills, increasing his health and damage as he levels."
-        },
-        {
-          "unlock": 2,
-          "branch": "Military",
-          "name": "Suppression Field",
-          "type": "Active",
-          "cooldown": 90,
-          "duration": 15,
-          "description": "Deploys a suppression zone that reduces enemy movement speed by 40% and lowers enemy damage output by 20%."
-        },
-        {
-          "unlock": 3,
-          "branch": "Military",
-          "name": "Airstrike",
-          "type": "Active",
-          "cooldown": 75,
-          "description": "Calls a precision airstrike on a target location, dealing massive explosive damage against vehicles and structures."
-        },
-        {
-          "unlock": 4,
-          "branch": "Hero",
-          "name": "Rally Cry",
-          "type": "Active",
-          "cooldown": 150,
-          "duration": 12,
-          "description": "All nearby UDF units gain 25% attack speed and ignore 20% incoming damage."
-        },
-        {
-          "unlock": 5,
-          "branch": "Military",
-          "name": "Carpet Bomb",
-          "type": "Active",
-          "cooldown": 200,
-          "description": "Orders a bombing corridor strike. Multiple aircraft attack the designated area, devastating enemy formations."
-        },
-        {
-          "unlock": 6,
-          "branch": "Hero",
-          "name": "Iron Resolve",
-          "type": "Active",
-          "cooldown": 180,
-          "duration": 8,
-          "description": "Hawk becomes invulnerable and gains double damage. Nearby UDF units receive a 400 HP shield."
-        }
-      ]
-    },
-    {
-      "id": "IQ_IrisQuantum",
-      "faction": "UDF",
-      "name": "IQ (Iris Quantum)",
-      "leaderType": "Tech / Intel Lead",
-      "treeType": "Technology",
-      "subHeader": "Unity is our greatest weapon",
-      "hero": "IQ Drone Chassis",
-      "quote": "Information is the only weapon that never runs out of ammo.",
-      "lore": "Born into a family of researchers, Iris Quantum grew up surrounded by advanced genetic engineering research. From an early age, she demonstrated exceptional intelligence and eventually developed an interest in manipulating space itself through the study of ancient alien civilizations and technology.\n\nHer research caught the attention of President Enhet, who recognized the military potential of her genetic engineering discoveries. This led to the creation of Quantum-Biological Augmentation, a technology allowing enhanced soldiers to temporarily increase physical abilities, improve battlefield performance, and manipulate advanced energy systems.\n\nHowever, the technology carries significant risks. Excessive use causes extreme energy consumption, requiring increased food intake and recovery periods. In extreme cases, the unstable quantum energy within an augmented individual can cause a catastrophic explosion upon death.\n\nDespite these dangers, President Enhet approved the Quantum Augmentation Program, allowing specially enhanced individuals to serve within the UDF military.",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Technology",
-          "name": "Networked Vision",
-          "type": "Passive",
-          "description": "All UDF units gain 30% increased vision range and 50% improved stealth detection while IQ remains active."
-        },
-        {
-          "unlock": 2,
-          "branch": "Technology",
-          "name": "Overclocked Production",
-          "type": "Active",
-          "cooldown": 110,
-          "duration": 25,
-          "description": "A selected factory produces units twice as fast for a short duration."
-        },
-        {
-          "unlock": 3,
-          "branch": "Technology",
-          "name": "System Hack",
-          "type": "Active",
-          "cooldown": 90,
-          "duration": 20,
-          "description": "Disables an enemy structure or vehicle and reveals its statistics. Cannot target experimental units."
-        },
-        {
-          "unlock": 4,
-          "branch": "Intel",
-          "name": "Sensor Sweep",
-          "type": "Active",
-          "cooldown": 120,
-          "duration": 8,
-          "description": "Reveals the entire battlefield and detects stealth units."
-        },
-        {
-          "unlock": 5,
-          "branch": "Intel",
-          "name": "Disruption Pulse",
-          "type": "Active",
-          "cooldown": 140,
-          "description": "Releases an EMP pulse that disables enemy electronic units and structures."
-        },
-        {
-          "unlock": 6,
-          "branch": "Technology",
-          "name": "Mass Upload",
-          "type": "Active",
-          "cooldown": 200,
-          "duration": 30,
-          "description": "Temporarily enhances all deployed UDF units by increasing their combat effectiveness."
-        }
-      ]
-    },
-    {
-      "id": "Kizer",
-      "faction": "Sakupen",
-      "name": "Kizer",
-      "leaderType": "Supreme Warlord",
-      "treeType": "Melee Aggressive Tree",
-      "subHeader": "Unity is our greatest weapon",
-      "hero": "Kizer",
-      "quote": "Weakness is a choice. I chose otherwise.",
-      "lore": "",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Combat",
-          "name": "Warlord's Presence",
-          "type": "Passive",
-          "description": "Sakupen units near Kizer deal +20% damage. Kizer executes enemies below 25% HP for bonus damage. Levels up through kills."
-        },
-        {
-          "unlock": 2,
-          "branch": "Combat",
-          "name": "Blade Surge",
-          "type": "Active",
-          "cooldown": 60,
-          "description": "Kizer charges forward in a straight line, dealing massive melee damage to everything in his path and knocking back lighter units. Short range, devastating execution."
-        },
-        {
-          "unlock": 3,
-          "branch": "Combat",
-          "name": "Overcharge Shields",
-          "type": "Active",
-          "cooldown": 90,
-          "duration": 10,
-          "description": "Kizer's personal shield absorbs 1200 damage for 10 seconds and reflects 20% of absorbed damage back at attackers. Also boosts nearby unit shields by 300 HP."
-        },
-        {
-          "unlock": 4,
-          "branch": "Combat",
-          "name": "Execute",
-          "type": "Active",
-          "cooldown": 80,
-          "description": "Targets one enemy unit below 40% HP — instantly destroys it regardless of remaining HP. Cannot target MCUs or experimental units. Devastating vs hero units."
-        },
-        {
-          "unlock": 5,
-          "branch": "Military",
-          "name": "Sacred Surge",
-          "type": "Active",
-          "cooldown": 150,
-          "duration": 20,
-          "description": "Triggers Sacred Overflow faction mechanic at full strength regardless of current Energy levels — all Sakupen units gain +35% damage and +25% fire rate for 20 seconds."
-        },
-        {
-          "unlock": 6,
-          "branch": "Hero",
-          "name": "Apex Form",
-          "type": "Active",
-          "cooldown": 240,
-          "duration": 15,
-          "description": "Kizer undergoes temporary cybernetic overload — doubles in size visually, gaining +100% damage, immunity to stuns and slows, and AOE melee for 15 seconds. Match-winner when timed."
-        }
-      ]
-    },
-    {
-      "id": "E-11",
-      "faction": "Sakupen",
-      "name": "E-11",
-      "leaderType": "Tactical AI Construct",
-      "treeType": "Control Tree",
-      "hero": "E-11 chassis",
-      "quote": "Optimal outcome calculated. Executing.",
-      "lore": "",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Control",
-          "name": "Target Acquisition",
-          "type": "Passive",
-          "description": "E-11 marks the highest-threat enemy on field. All Sakupen units deal +25% damage to the marked target. Auto-updates every 15 seconds."
-        },
-        {
-          "unlock": 2,
-          "branch": "Control",
-          "name": "Target Lock",
-          "type": "Active",
-          "cooldown": 70,
-          "description": "Manually marks a specific enemy unit. All Sakupen units prioritise and deal +30% damage to it. Overrides the passive auto-mark. Cannot mark MCUs."
-        },
-        {
-          "unlock": 3,
-          "branch": "Control",
-          "name": "Ghost Step",
-          "type": "Active",
-          "cooldown": 55,
-          "description": "E-11 teleports to any friendly unit's location on the map instantly. Used for repositioning, escaping danger, or flanking. Short cooldown makes it highly mobile."
-        },
-        {
-          "unlock": 4,
-          "branch": "Tech",
-          "name": "System Upload",
-          "type": "Active",
-          "cooldown": 100,
-          "description": "Uploads a combat protocol to one friendly unit — permanently upgrades its damage by 20% and HP by 15%. Upgrades are permanent; use on T4 units for maximum value."
-        },
-        {
-          "unlock": 5,
-          "branch": "Control",
-          "name": "Sensor Blind",
-          "type": "Active",
-          "cooldown": 130,
-          "duration": 15,
-          "description": "Deploys a jamming field at target location. All enemy units inside lose vision and cannot use abilities for 15 seconds. Perfect setup for ambushes."
-        },
-        {
-          "unlock": 6,
-          "branch": "Hero",
-          "name": "Override Protocol",
-          "type": "Active",
-          "cooldown": 200,
-          "duration": 30,
-          "description": "E-11 takes control of one enemy vehicle or structure for 30 seconds — it fights for Sakupen during that time. Cannot override MCUs or experimental units."
-        }
-      ]
-    },
-    {
-      "id": "3C_CommanderClassChassis",
-      "faction": "Sakupen",
-      "name": "3C (Commander Class Chassis)",
-      "leaderType": "Commander Class Chassis",
-      "treeType": "Economy Tree",
-      "subHeader": "Unity is our greatest weapon",
-      "hero": "3C drone swarm",
-      "quote": "Production is power. Power is everything.",
-      "lore": "",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Economy",
-          "name": "Efficient Assembly",
-          "type": "Passive",
-          "description": "T2+ units cost 15% less; all factory build times -10%. Immediate economic advantage — 3C produces armies faster than any other Sakupen leader."
-        },
-        {
-          "unlock": 2,
-          "branch": "Economy",
-          "name": "Deploy Assembly Node",
-          "type": "Active",
-          "cooldown": 120,
-          "duration": 45,
-          "description": "Places a temporary forward factory at target location. Produces T1 Sakupen units for 45 seconds before collapsing. Excellent for forward pressure and defence."
-        },
-        {
-          "unlock": 3,
-          "branch": "Economy",
-          "name": "Resource Surge",
-          "type": "Active",
-          "cooldown": 140,
-          "description": "Instantly generates a large burst of Mass — equivalent to 45 seconds of full-economy income delivered immediately. Used to fund a decisive tech spike."
-        },
-        {
-          "unlock": 4,
-          "branch": "Military",
-          "name": "Shield Overcharge",
-          "type": "Active",
-          "cooldown": 110,
-          "description": "All shields on all Sakupen units and structures on the field are fully restored instantly. Pairs devastatingly with the Bulwark mobile shield vehicle."
-        },
-        {
-          "unlock": 5,
-          "branch": "Economy",
-          "name": "Mass Production",
-          "type": "Active",
-          "cooldown": 160,
-          "duration": 20,
-          "description": "All Sakupen factories produce units at 3x speed for 20 seconds simultaneously. Used to flood the field after a Sacred Overflow combat window."
-        },
-        {
-          "unlock": 6,
-          "branch": "Special",
-          "name": "Overflow Cascade",
-          "type": "Active",
-          "cooldown": 210,
-          "duration": 30,
-          "description": "Triggers Sacred Overflow at maximum intensity for 30 seconds — all Sakupen units gain +40% damage, +30% fire rate, and full shield restoration simultaneously."
-        }
-      ]
-    },
-    {
-      "id": "Amalgam",
-      "faction": "The Storm",
-      "name": "Amalgam",
-      "leaderType": "Organic Host",
-      "treeType": "Melee Swarm Tree",
-      "subHeader": "Unity is our greatest weapon",
-      "hero": "Amalgam",
-      "quote": "It does not think. It does not plan. It only consumes.",
-      "lore": "",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Swarm",
-          "name": "Living Storm",
-          "type": "Passive",
-          "description": "Amalgam grows per kill (5 levels). Each level: +200 HP, +20 damage. Corruption zone expands passively around Amalgam regardless of terrain."
-        },
-        {
-          "unlock": 2,
-          "branch": "Swarm",
-          "name": "Spore Burst",
-          "type": "Active",
-          "cooldown": 70,
-          "description": "AOE Rot infection in large radius. Deals 80 damage to all enemies in range and spreads Corruption to all affected terrain tiles simultaneously. First and most-used power."
-        },
-        {
-          "unlock": 3,
-          "branch": "Swarm",
-          "name": "Devour",
-          "type": "Active",
-          "cooldown": 45,
-          "description": "Consumes a damaged enemy unit below 30% HP. Amalgam heals 400 HP and permanently gains +25 max HP. Short cooldown — use constantly in melee brawls."
-        },
-        {
-          "unlock": 4,
-          "branch": "Hero",
-          "name": "Merge",
-          "type": "Active",
-          "cooldown": 120,
-          "duration": 20,
-          "description": "Absorbs a nearby friendly unit temporarily. Amalgam grows in size and gains +50% damage and +30% HP for 20 seconds. The absorbed unit is released unharmed after."
-        },
-        {
-          "unlock": 5,
-          "branch": "Rot",
-          "name": "Corruption Wave",
-          "type": "Active",
-          "cooldown": 160,
-          "description": "Sends out a massive wave of Corruption in all directions from Amalgam's position. Converts all terrain within a massive radius to Corrupted Zones instantly. Map-altering ability."
-        },
-        {
-          "unlock": 6,
-          "branch": "Swarm",
-          "name": "Brood Surge",
-          "type": "Active",
-          "cooldown": 140,
-          "description": "Instantly spawns 15 Rot Crawlers and 3 Hulk Amalgams at Amalgam's location at zero cost. Overwhelming numbers to support a push or defend against assault."
-        }
-      ]
-    },
-    {
-      "id": "StormPlaceholder",
-      "faction": "The Storm",
-      "name": "{placeHolder}",
-      "leaderType": "Organic Host",
-      "treeType": "Melee Swarm Tree",
-      "subHeader": "Unity is our greatest weapon",
-      "hero": "{placeHolder}",
-      "quote": "It does not think. It does not plan. It only consumes.",
-      "lore": "",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Swarm",
-          "name": "{placeHolder}",
-          "type": "Passive",
-          "description": "PlaceHolder"
-        },
-        {
-          "unlock": 2,
-          "branch": "Swarm",
-          "name": "{placeHolder}",
-          "type": "Active",
-          "cooldown": 70,
-          "description": "AOE Rot infection in large radius. Deals 80 damage to all enemies in range and spreads Corruption to all affected terrain tiles simultaneously. First and most-used power."
-        },
-        {
-          "unlock": 3,
-          "branch": "Swarm",
-          "name": "Devour",
-          "type": "Active",
-          "cooldown": 45,
-          "description": "Consumes a damaged enemy unit below 30% HP. Amalgam heals 400 HP and permanently gains +25 max HP. Short cooldown — use constantly in melee brawls."
-        },
-        {
-          "unlock": 4,
-          "branch": "Hero",
-          "name": "Merge",
-          "type": "Active",
-          "cooldown": 120,
-          "duration": 20,
-          "description": "Absorbs a nearby friendly unit temporarily. Amalgam grows in size and gains +50% damage and +30% HP for 20 seconds. The absorbed unit is released unharmed after."
-        },
-        {
-          "unlock": 5,
-          "branch": "Rot",
-          "name": "Corruption Wave",
-          "type": "Active",
-          "cooldown": 160,
-          "description": "Sends out a massive wave of Corruption in all directions from Amalgam's position. Converts all terrain within a massive radius to Corrupted Zones instantly. Map-altering ability."
-        },
-        {
-          "unlock": 6,
-          "branch": "Swarm",
-          "name": "Brood Surge",
-          "type": "Active",
-          "cooldown": 140,
-          "description": "Instantly spawns 15 Rot Crawlers and 3 Hulk Amalgams at Amalgam's location at zero cost. Overwhelming numbers to support a push or defend against assault."
-        }
-      ]
-    },
-    {
-      "id": "Phantoms",
-      "faction": "The Storm",
-      "name": "Phantoms",
-      "leaderType": "Machine Host",
-      "treeType": "Economy Control Tree",
-      "subHeader": "Unity is our greatest weapon",
-      "hero": "Phantoms",
-      "quote": "The signal finds you. The signal changes you. The signal wins.",
-      "lore": "",
-      "skills": [
-        {
-          "unlock": 1,
-          "branch": "Signal",
-          "name": "The Signal",
-          "type": "Passive",
-          "description": "T2+ Phantom units cost 15% less. All Phantom units on map gain +10% move speed while Phantoms hero is alive. Immediate economic and mobility advantage."
-        },
-        {
-          "unlock": 2,
-          "branch": "Signal",
-          "name": "Disrupt Signal",
-          "type": "Active",
-          "cooldown": 80,
-          "duration": 12,
-          "description": "Disables all electronic/machine enemy units in large radius for 12 seconds. EMP-like — only affects non-organic units. Ideal vs Sakupen and UDF vehicle columns."
-        },
-        {
-          "unlock": 3,
-          "branch": "Signal",
-          "name": "Phantom Shift",
-          "type": "Active",
-          "cooldown": 30,
-          "description": "Instantly teleports to any Corruption zone on the map. 30-second cooldown — very frequent use. Ideal for rapid response, flanking, and escaping death."
-        },
-        {
-          "unlock": 4,
-          "branch": "Hero",
-          "name": "Multiplicate",
-          "type": "Active",
-          "cooldown": 90,
-          "duration": 15,
-          "description": "Phantoms splits into 3 weaker copies for 15 seconds. All copies fight and spread Corruption independently. After duration all copies merge back. Confuses enemy targeting."
-        },
-        {
-          "unlock": 5,
-          "branch": "Signal",
-          "name": "Signal Override",
-          "type": "Active",
-          "cooldown": 120,
-          "description": "Converts all T1 enemy units in a large radius to Storm faction permanently. A devastating ability mid-battle — turns enemy chaff into Storm reinforcements."
-        },
-        {
-          "unlock": 6,
-          "branch": "Economy",
-          "name": "Mass Deploy",
-          "type": "Active",
-          "cooldown": 150,
-          "duration": 20,
-          "description": "All Phantom factories produce units at 3x speed for 20 seconds simultaneously. Combined with The Signal passive cost reduction, floods the field with cheap T1 drones rapidly."
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "PresidentEnhet",
+    "faction": "UDF",
+    "name": "President Enhet",
+    "leaderType": "Political Leader",
+    "treeType": "Economy",
+    "subHeader": "Unity is our greatest weapon",
+    "lore": "a once high ranking military general well known during his time for his efforts towards ending the Final War and bringing a lasting era of peace. The final fight was an all-or-nothing assault formed from the desperation of the CoRP (Coalition of Revolutionized powers) to end the war due to diminishing supplies and general war exhaustion on the public. The tactics and militaristic genius from General Enhet brought  troops to prepare a spearhead assault the likes of which the Earth hadn't seen prior and will hopefully never see again, involving 10 million united soldiers charging down the lines and piercing the GTD (Great Tyrannus Dominion) Capital and ending the war. His bravery in leading the men on the front lines awarded him the highest honor of leadership when the UDF was formed alongside a becoming the President of UDF. His strategic thinking and soldier background led to revolutionary guerilla warfare tactics that he deemed Needed to ensure greater public safety and to increase the odds that a soldier gets to see his family again to give his troops quick travel through rough terrain and to ambush hostiles before they know that they are in danger. His military background and desire for minimal losses of life led to the creation of the Groundbreaker a mobile factory capable of tunneling underground and providing a new, potentially faster and overwhelmingly safer, path to strategic locations and the Groundhog a stealth unit that goes underground and lies in wait for hostile forces to pass by, allowing it to ambush greater forces from unforeseen angles and providing Intel behind lines with little risk to itself.",
+    "skills": [
+      {
+        "unlock": 1,
+        "name": "Supply Drop",
+        "duration": "12s",
+        "active": true,
+        "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
+      },
+      {
+        "unlock": 2,
+        "name": "Supply Drop",
+        "duration": "12s",
+        "active": true,
+        "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
+      },
+      {
+        "unlock": 3,
+        "name": "Supply Drop",
+        "duration": "12s",
+        "active": true,
+        "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
+      },
+      {
+        "unlock": 4,
+        "name": "Supply Drop",
+        "duration": "12s",
+        "active": true,
+        "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
+      },
+      {
+        "unlock": 5,
+        "name": "Supply Drop",
+        "duration": "12s",
+        "active": true,
+        "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
+      },
+      {
+        "unlock": 6,
+        "name": "Supply Drop",
+        "duration": "12s",
+        "active": true,
+        "des": "Calls in a supply cache at a target location — boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo."
+      }
+    ]
+  },
+  {
+    "id": "CommanderHawk",
+    "faction": "UDF",
+    "name": "Commander Hawk",
+    "leaderType": "Field Commander",
+    "treeType": "Military",
+    "hero": "Commander Hawk",
+    "subHeader": "Unity is our greatest weapon",
+    "quote": "Hit hard. Hit fast. Don't stop.",
+    "lore": "James Hawk joined the Airforce after the death of his father, carrying on the family legacy. Over decades of service, he became one of the most skilled pilots in the UDF, mastering the Pterodactylus Gunship.\n\nHawk became famous for his courage and willingness to risk everything to save others. His most legendary mission involved flying through a hurricane to rescue a civilian transport ship trapped by the CoRP, a decision that nearly cost him his life but saved hundreds of civilians.\n\nRecognizing his bravery, President Enhet appointed Hawk to the Defense Department. Combining his experience as a pilot with his love for Earth's ancient flying creatures, Hawk designed the Quetzalcoatlus Gunship, a next-generation aircraft inspired by the Pterodactylus platform.",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Military",
+        "name": "Combat Veteran",
+        "type": "Passive",
+        "description": "Commander Hawk and nearby UDF units deal 15% more damage. Hawk gains experience from kills, increasing his health and damage as he levels."
+      },
+      {
+        "unlock": 2,
+        "branch": "Military",
+        "name": "Suppression Field",
+        "type": "Active",
+        "cooldown": 90,
+        "duration": 15,
+        "description": "Deploys a suppression zone that reduces enemy movement speed by 40% and lowers enemy damage output by 20%."
+      },
+      {
+        "unlock": 3,
+        "branch": "Military",
+        "name": "Airstrike",
+        "type": "Active",
+        "cooldown": 75,
+        "description": "Calls a precision airstrike on a target location, dealing massive explosive damage against vehicles and structures."
+      },
+      {
+        "unlock": 4,
+        "branch": "Hero",
+        "name": "Rally Cry",
+        "type": "Active",
+        "cooldown": 150,
+        "duration": 12,
+        "description": "All nearby UDF units gain 25% attack speed and ignore 20% incoming damage."
+      },
+      {
+        "unlock": 5,
+        "branch": "Military",
+        "name": "Carpet Bomb",
+        "type": "Active",
+        "cooldown": 200,
+        "description": "Orders a bombing corridor strike. Multiple aircraft attack the designated area, devastating enemy formations."
+      },
+      {
+        "unlock": 6,
+        "branch": "Hero",
+        "name": "Iron Resolve",
+        "type": "Active",
+        "cooldown": 180,
+        "duration": 8,
+        "description": "Hawk becomes invulnerable and gains double damage. Nearby UDF units receive a 400 HP shield."
+      }
+    ]
+  },
+  {
+    "id": "IQ_IrisQuantum",
+    "faction": "UDF",
+    "name": "IQ (Iris Quantum)",
+    "leaderType": "Tech / Intel Lead",
+    "treeType": "Technology",
+    "subHeader": "Unity is our greatest weapon",
+    "hero": "IQ Drone Chassis",
+    "quote": "Information is the only weapon that never runs out of ammo.",
+    "lore": "Born into a family of researchers, Iris Quantum grew up surrounded by advanced genetic engineering research. From an early age, she demonstrated exceptional intelligence and eventually developed an interest in manipulating space itself through the study of ancient alien civilizations and technology.\n\nHer research caught the attention of President Enhet, who recognized the military potential of her genetic engineering discoveries. This led to the creation of Quantum-Biological Augmentation, a technology allowing enhanced soldiers to temporarily increase physical abilities, improve battlefield performance, and manipulate advanced energy systems.\n\nHowever, the technology carries significant risks. Excessive use causes extreme energy consumption, requiring increased food intake and recovery periods. In extreme cases, the unstable quantum energy within an augmented individual can cause a catastrophic explosion upon death.\n\nDespite these dangers, President Enhet approved the Quantum Augmentation Program, allowing specially enhanced individuals to serve within the UDF military.",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Technology",
+        "name": "Networked Vision",
+        "type": "Passive",
+        "description": "All UDF units gain 30% increased vision range and 50% improved stealth detection while IQ remains active."
+      },
+      {
+        "unlock": 2,
+        "branch": "Technology",
+        "name": "Overclocked Production",
+        "type": "Active",
+        "cooldown": 110,
+        "duration": 25,
+        "description": "A selected factory produces units twice as fast for a short duration."
+      },
+      {
+        "unlock": 3,
+        "branch": "Technology",
+        "name": "System Hack",
+        "type": "Active",
+        "cooldown": 90,
+        "duration": 20,
+        "description": "Disables an enemy structure or vehicle and reveals its statistics. Cannot target experimental units."
+      },
+      {
+        "unlock": 4,
+        "branch": "Intel",
+        "name": "Sensor Sweep",
+        "type": "Active",
+        "cooldown": 120,
+        "duration": 8,
+        "description": "Reveals the entire battlefield and detects stealth units."
+      },
+      {
+        "unlock": 5,
+        "branch": "Intel",
+        "name": "Disruption Pulse",
+        "type": "Active",
+        "cooldown": 140,
+        "description": "Releases an EMP pulse that disables enemy electronic units and structures."
+      },
+      {
+        "unlock": 6,
+        "branch": "Technology",
+        "name": "Mass Upload",
+        "type": "Active",
+        "cooldown": 200,
+        "duration": 30,
+        "description": "Temporarily enhances all deployed UDF units by increasing their combat effectiveness."
+      }
+    ]
+  },
+  {
+    "id": "Kizer",
+    "faction": "Sakupen",
+    "name": "Kizer",
+    "leaderType": "Supreme Warlord",
+    "treeType": "Melee Aggressive Tree",
+    "subHeader": "Unity is our greatest weapon",
+    "hero": "Kizer",
+    "quote": "Weakness is a choice. I chose otherwise.",
+    "lore": "",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Combat",
+        "name": "Warlord's Presence",
+        "type": "Passive",
+        "description": "Sakupen units near Kizer deal +20% damage. Kizer executes enemies below 25% HP for bonus damage. Levels up through kills."
+      },
+      {
+        "unlock": 2,
+        "branch": "Combat",
+        "name": "Blade Surge",
+        "type": "Active",
+        "cooldown": 60,
+        "description": "Kizer charges forward in a straight line, dealing massive melee damage to everything in his path and knocking back lighter units. Short range, devastating execution."
+      },
+      {
+        "unlock": 3,
+        "branch": "Combat",
+        "name": "Overcharge Shields",
+        "type": "Active",
+        "cooldown": 90,
+        "duration": 10,
+        "description": "Kizer's personal shield absorbs 1200 damage for 10 seconds and reflects 20% of absorbed damage back at attackers. Also boosts nearby unit shields by 300 HP."
+      },
+      {
+        "unlock": 4,
+        "branch": "Combat",
+        "name": "Execute",
+        "type": "Active",
+        "cooldown": 80,
+        "description": "Targets one enemy unit below 40% HP — instantly destroys it regardless of remaining HP. Cannot target MCUs or experimental units. Devastating vs hero units."
+      },
+      {
+        "unlock": 5,
+        "branch": "Military",
+        "name": "Sacred Surge",
+        "type": "Active",
+        "cooldown": 150,
+        "duration": 20,
+        "description": "Triggers Sacred Overflow faction mechanic at full strength regardless of current Energy levels — all Sakupen units gain +35% damage and +25% fire rate for 20 seconds."
+      },
+      {
+        "unlock": 6,
+        "branch": "Hero",
+        "name": "Apex Form",
+        "type": "Active",
+        "cooldown": 240,
+        "duration": 15,
+        "description": "Kizer undergoes temporary cybernetic overload — doubles in size visually, gaining +100% damage, immunity to stuns and slows, and AOE melee for 15 seconds. Match-winner when timed."
+      }
+    ]
+  },
+  {
+    "id": "E-11",
+    "faction": "Sakupen",
+    "name": "E-11",
+    "leaderType": "Tactical AI Construct",
+    "treeType": "Control Tree",
+    "hero": "E-11 chassis",
+    "quote": "Optimal outcome calculated. Executing.",
+    "lore": "",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Control",
+        "name": "Target Acquisition",
+        "type": "Passive",
+        "description": "E-11 marks the highest-threat enemy on field. All Sakupen units deal +25% damage to the marked target. Auto-updates every 15 seconds."
+      },
+      {
+        "unlock": 2,
+        "branch": "Control",
+        "name": "Target Lock",
+        "type": "Active",
+        "cooldown": 70,
+        "description": "Manually marks a specific enemy unit. All Sakupen units prioritise and deal +30% damage to it. Overrides the passive auto-mark. Cannot mark MCUs."
+      },
+      {
+        "unlock": 3,
+        "branch": "Control",
+        "name": "Ghost Step",
+        "type": "Active",
+        "cooldown": 55,
+        "description": "E-11 teleports to any friendly unit's location on the map instantly. Used for repositioning, escaping danger, or flanking. Short cooldown makes it highly mobile."
+      },
+      {
+        "unlock": 4,
+        "branch": "Tech",
+        "name": "System Upload",
+        "type": "Active",
+        "cooldown": 100,
+        "description": "Uploads a combat protocol to one friendly unit — permanently upgrades its damage by 20% and HP by 15%. Upgrades are permanent; use on T4 units for maximum value."
+      },
+      {
+        "unlock": 5,
+        "branch": "Control",
+        "name": "Sensor Blind",
+        "type": "Active",
+        "cooldown": 130,
+        "duration": 15,
+        "description": "Deploys a jamming field at target location. All enemy units inside lose vision and cannot use abilities for 15 seconds. Perfect setup for ambushes."
+      },
+      {
+        "unlock": 6,
+        "branch": "Hero",
+        "name": "Override Protocol",
+        "type": "Active",
+        "cooldown": 200,
+        "duration": 30,
+        "description": "E-11 takes control of one enemy vehicle or structure for 30 seconds — it fights for Sakupen during that time. Cannot override MCUs or experimental units."
+      }
+    ]
+  },
+  {
+    "id": "3C_CommanderClassChassis",
+    "faction": "Sakupen",
+    "name": "3C (Commander Class Chassis)",
+    "leaderType": "Commander Class Chassis",
+    "treeType": "Economy Tree",
+    "subHeader": "Unity is our greatest weapon",
+    "hero": "3C drone swarm",
+    "quote": "Production is power. Power is everything.",
+    "lore": "",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Economy",
+        "name": "Efficient Assembly",
+        "type": "Passive",
+        "description": "T2+ units cost 15% less; all factory build times -10%. Immediate economic advantage — 3C produces armies faster than any other Sakupen leader."
+      },
+      {
+        "unlock": 2,
+        "branch": "Economy",
+        "name": "Deploy Assembly Node",
+        "type": "Active",
+        "cooldown": 120,
+        "duration": 45,
+        "description": "Places a temporary forward factory at target location. Produces T1 Sakupen units for 45 seconds before collapsing. Excellent for forward pressure and defence."
+      },
+      {
+        "unlock": 3,
+        "branch": "Economy",
+        "name": "Resource Surge",
+        "type": "Active",
+        "cooldown": 140,
+        "description": "Instantly generates a large burst of Mass — equivalent to 45 seconds of full-economy income delivered immediately. Used to fund a decisive tech spike."
+      },
+      {
+        "unlock": 4,
+        "branch": "Military",
+        "name": "Shield Overcharge",
+        "type": "Active",
+        "cooldown": 110,
+        "description": "All shields on all Sakupen units and structures on the field are fully restored instantly. Pairs devastatingly with the Bulwark mobile shield vehicle."
+      },
+      {
+        "unlock": 5,
+        "branch": "Economy",
+        "name": "Mass Production",
+        "type": "Active",
+        "cooldown": 160,
+        "duration": 20,
+        "description": "All Sakupen factories produce units at 3x speed for 20 seconds simultaneously. Used to flood the field after a Sacred Overflow combat window."
+      },
+      {
+        "unlock": 6,
+        "branch": "Special",
+        "name": "Overflow Cascade",
+        "type": "Active",
+        "cooldown": 210,
+        "duration": 30,
+        "description": "Triggers Sacred Overflow at maximum intensity for 30 seconds — all Sakupen units gain +40% damage, +30% fire rate, and full shield restoration simultaneously."
+      }
+    ]
+  },
+  {
+    "id": "Amalgam",
+    "faction": "The Storm",
+    "name": "Amalgam",
+    "leaderType": "Organic Host",
+    "treeType": "Melee Swarm Tree",
+    "subHeader": "Unity is our greatest weapon",
+    "hero": "Amalgam",
+    "quote": "It does not think. It does not plan. It only consumes.",
+    "lore": "",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Swarm",
+        "name": "Living Storm",
+        "type": "Passive",
+        "description": "Amalgam grows per kill (5 levels). Each level: +200 HP, +20 damage. Corruption zone expands passively around Amalgam regardless of terrain."
+      },
+      {
+        "unlock": 2,
+        "branch": "Swarm",
+        "name": "Spore Burst",
+        "type": "Active",
+        "cooldown": 70,
+        "description": "AOE Rot infection in large radius. Deals 80 damage to all enemies in range and spreads Corruption to all affected terrain tiles simultaneously. First and most-used power."
+      },
+      {
+        "unlock": 3,
+        "branch": "Swarm",
+        "name": "Devour",
+        "type": "Active",
+        "cooldown": 45,
+        "description": "Consumes a damaged enemy unit below 30% HP. Amalgam heals 400 HP and permanently gains +25 max HP. Short cooldown — use constantly in melee brawls."
+      },
+      {
+        "unlock": 4,
+        "branch": "Hero",
+        "name": "Merge",
+        "type": "Active",
+        "cooldown": 120,
+        "duration": 20,
+        "description": "Absorbs a nearby friendly unit temporarily. Amalgam grows in size and gains +50% damage and +30% HP for 20 seconds. The absorbed unit is released unharmed after."
+      },
+      {
+        "unlock": 5,
+        "branch": "Rot",
+        "name": "Corruption Wave",
+        "type": "Active",
+        "cooldown": 160,
+        "description": "Sends out a massive wave of Corruption in all directions from Amalgam's position. Converts all terrain within a massive radius to Corrupted Zones instantly. Map-altering ability."
+      },
+      {
+        "unlock": 6,
+        "branch": "Swarm",
+        "name": "Brood Surge",
+        "type": "Active",
+        "cooldown": 140,
+        "description": "Instantly spawns 15 Rot Crawlers and 3 Hulk Amalgams at Amalgam's location at zero cost. Overwhelming numbers to support a push or defend against assault."
+      }
+    ]
+  },
+  {
+    "id": "StormPlaceholder",
+    "faction": "The Storm",
+    "name": "{placeHolder}",
+    "leaderType": "Organic Host",
+    "treeType": "Melee Swarm Tree",
+    "subHeader": "Unity is our greatest weapon",
+    "hero": "{placeHolder}",
+    "quote": "It does not think. It does not plan. It only consumes.",
+    "lore": "",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Swarm",
+        "name": "{placeHolder}",
+        "type": "Passive",
+        "description": "PlaceHolder"
+      },
+      {
+        "unlock": 2,
+        "branch": "Swarm",
+        "name": "{placeHolder}",
+        "type": "Active",
+        "cooldown": 70,
+        "description": "AOE Rot infection in large radius. Deals 80 damage to all enemies in range and spreads Corruption to all affected terrain tiles simultaneously. First and most-used power."
+      },
+      {
+        "unlock": 3,
+        "branch": "Swarm",
+        "name": "Devour",
+        "type": "Active",
+        "cooldown": 45,
+        "description": "Consumes a damaged enemy unit below 30% HP. Amalgam heals 400 HP and permanently gains +25 max HP. Short cooldown — use constantly in melee brawls."
+      },
+      {
+        "unlock": 4,
+        "branch": "Hero",
+        "name": "Merge",
+        "type": "Active",
+        "cooldown": 120,
+        "duration": 20,
+        "description": "Absorbs a nearby friendly unit temporarily. Amalgam grows in size and gains +50% damage and +30% HP for 20 seconds. The absorbed unit is released unharmed after."
+      },
+      {
+        "unlock": 5,
+        "branch": "Rot",
+        "name": "Corruption Wave",
+        "type": "Active",
+        "cooldown": 160,
+        "description": "Sends out a massive wave of Corruption in all directions from Amalgam's position. Converts all terrain within a massive radius to Corrupted Zones instantly. Map-altering ability."
+      },
+      {
+        "unlock": 6,
+        "branch": "Swarm",
+        "name": "Brood Surge",
+        "type": "Active",
+        "cooldown": 140,
+        "description": "Instantly spawns 15 Rot Crawlers and 3 Hulk Amalgams at Amalgam's location at zero cost. Overwhelming numbers to support a push or defend against assault."
+      }
+    ]
+  },
+  {
+    "id": "Phantoms",
+    "faction": "The Storm",
+    "name": "Phantoms",
+    "leaderType": "Machine Host",
+    "treeType": "Economy Control Tree",
+    "subHeader": "Unity is our greatest weapon",
+    "hero": "Phantoms",
+    "quote": "The signal finds you. The signal changes you. The signal wins.",
+    "lore": "",
+    "skills": [
+      {
+        "unlock": 1,
+        "branch": "Signal",
+        "name": "The Signal",
+        "type": "Passive",
+        "description": "T2+ Phantom units cost 15% less. All Phantom units on map gain +10% move speed while Phantoms hero is alive. Immediate economic and mobility advantage."
+      },
+      {
+        "unlock": 2,
+        "branch": "Signal",
+        "name": "Disrupt Signal",
+        "type": "Active",
+        "cooldown": 80,
+        "duration": 12,
+        "description": "Disables all electronic/machine enemy units in large radius for 12 seconds. EMP-like — only affects non-organic units. Ideal vs Sakupen and UDF vehicle columns."
+      },
+      {
+        "unlock": 3,
+        "branch": "Signal",
+        "name": "Phantom Shift",
+        "type": "Active",
+        "cooldown": 30,
+        "description": "Instantly teleports to any Corruption zone on the map. 30-second cooldown — very frequent use. Ideal for rapid response, flanking, and escaping death."
+      },
+      {
+        "unlock": 4,
+        "branch": "Hero",
+        "name": "Multiplicate",
+        "type": "Active",
+        "cooldown": 90,
+        "duration": 15,
+        "description": "Phantoms splits into 3 weaker copies for 15 seconds. All copies fight and spread Corruption independently. After duration all copies merge back. Confuses enemy targeting."
+      },
+      {
+        "unlock": 5,
+        "branch": "Signal",
+        "name": "Signal Override",
+        "type": "Active",
+        "cooldown": 120,
+        "description": "Converts all T1 enemy units in a large radius to Storm faction permanently. A devastating ability mid-battle — turns enemy chaff into Storm reinforcements."
+      },
+      {
+        "unlock": 6,
+        "branch": "Economy",
+        "name": "Mass Deploy",
+        "type": "Active",
+        "cooldown": 150,
+        "duration": 20,
+        "description": "All Phantom factories produce units at 3x speed for 20 seconds simultaneously. Combined with The Signal passive cost reduction, floods the field with cheap T1 drones rapidly."
+      }
+    ]
+  }
+]
