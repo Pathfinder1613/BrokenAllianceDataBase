@@ -1,0 +1,166 @@
+{
+  "units": [
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "UDF MCU",
+      "type": "MCU",
+      "faction": "UDF",
+      "tags": ["MCU"],
+      "tier": "NAN",
+      "cost": null,
+      "buildTime": 0,
+      "population": 0,
+      "damage": 35,
+      "health": 1000,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building and if it destoryed you losee the game"],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "construction engineer",
+      "type": "engineer",
+      "faction": "UDF",
+      "tags": ["engineer", "multi-purpose vehicle"],
+      "tier": "1",
+      "cost": 150,
+      "buildTime": 15,
+      "population": 1,
+      "damage": 0,
+      "health": 195,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building "],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+
+
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "Sakupen MCU",
+      "type": "MCU",
+      "faction": "Sakupen",
+      "tags": ["MCU"],
+      "tier": "NAN",
+      "cost": null,
+      "buildTime": 0,
+      "population": 0,
+      "damage": 35,
+      "health": 1000,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building and if it destoryed you losee the game"],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "construction engineer",
+      "type": "engineer",
+      "faction": "Sakupen",
+      "tags": ["engineer", "multi-purpose vehicle"],
+      "tier": "1",
+      "cost": 150,
+      "buildTime": 15,
+      "population": 1,
+      "damage": 0,
+      "health": 195,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building "],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "The Bog MCU",
+      "type": "MCU",
+      "faction": "The Bog",
+      "tags": ["MCU"],
+      "tier": "NAN",
+      "cost": null,
+      "buildTime": 0,
+      "population": 0,
+      "damage": 35,
+      "health": 1000,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building and if it destoryed you losee the game"],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "construction engineer",
+      "type": "engineer",
+      "faction": "The Bog",
+      "tags": ["engineer", "multi-purpose vehicle"],
+      "tier": "1",
+      "cost": 150,
+      "buildTime": 15,
+      "population": 1,
+      "damage": 0,
+      "health": 195,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building "],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "Storm Hive",
+      "type": "MCU",
+      "faction": "The Storm",
+      "tags": ["MCU", "building"],
+      "tier": "NAN",
+      "cost": null,
+      "buildTime": 0,
+      "population": 0,
+      "damage": 35,
+      "health": 1000,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building and if it destoryed you losee the game"],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    },
+
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "construction engineer",
+      "type": "engineer",
+      "faction": "The Storm",
+      "tags": ["engineer", "multi-purpose vehicle"],
+      "tier": "1",
+      "cost": 150,
+      "buildTime": 15,
+      "population": 1,
+      "damage": 0,
+      "health": 195,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building "],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    }, 
+    {
+      "unit_icon": "/assets/UnitsPPlaceholdeer.png",
+      "name": "The Rogler Spawn",
+      "type": "MCU",
+      "faction": "The Trogs",
+      "tags": ["MCU"],
+      "tier": "NAN",
+      "cost": null,
+      "buildTime": 0,
+      "population": 0,
+      "damage": 35,
+      "health": 1000,
+      "Vision": "Medium",
+      "traits": ["Your starting units that build building and if it destoryed you losee the game"],
+      "abilities": ["NAN"],
+      "lore": "nan"
+    }
+
+    
+  ]
+}
