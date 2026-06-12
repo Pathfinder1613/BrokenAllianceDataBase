@@ -71,7 +71,10 @@ ul, ol {
         rgba(20, 20, 20, 0.95),
         rgba(40, 40, 40, 0.85)
     );
+    /* currentColor is some how the faction color  
+    currentColor means the border will inherit the same color as the element’s color property, */
     border-left: 4px solid currentColor;
+
     padding: 18px;
     border-radius: 6px;
     cursor: pointer;
