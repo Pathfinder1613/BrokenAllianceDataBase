@@ -27,10 +27,6 @@ export default function LeaderItem( props ) {
             icon: StormICON,
         },
         {
-            name: "placeholder",
-            icon: BogIcon,
-        },
-        {
             name: "Trogs",
             icon: TrogsIcon
         }
@@ -48,7 +44,7 @@ export default function LeaderItem( props ) {
                             <img src={faction.icon} alt={faction.name}/>
                             <ul>
                                 {leaders
-                                .filter((leader) => leader.faction === props.factionName)
+                                .filter((leader) => leader.faction === faction.name)
                                 .map((leader) => (
                                     <li key={leader.id}>
                                         <h2>★ {leader.name}</h2>
