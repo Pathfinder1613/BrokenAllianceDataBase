@@ -53,7 +53,6 @@ export default function LeaderPage() {
                                     <h2>★ {leader.name}</h2>
                                     <p>{leader.leaderType} | {leader.treeType}</p>
                                     <p>{leader.subHeader}</p>
-
                                 </li>
                             ))}
                     </div>
