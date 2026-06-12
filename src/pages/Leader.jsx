@@ -42,7 +42,7 @@ export default function LeaderPage() {
     return (
         <>
             {FACTIONS.map((faction) => (
-                <div key={faction}>
+                <div key={faction} className={`Leader-section-${faction.name.replace(" ", "-")}`}>
                     <h1>{faction.name}</h1>
                     <div>
                         <img src={faction.icon} />
