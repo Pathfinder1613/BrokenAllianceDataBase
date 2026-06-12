@@ -36,12 +36,6 @@ export default function LeaderPage() {
             </Swiper>
 
 
-
-
-
-
-
-
         </>
     )
 
