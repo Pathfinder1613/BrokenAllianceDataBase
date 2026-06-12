@@ -30,11 +30,9 @@ export default function LeaderPage() {
                 onSlideChange={() => console.log('slide change')}
             >
                 <SwiperSlide><LeaderItem factionName="UDF"/></SwiperSlide>
-                <SwiperSlide><LeaderItem  factionName="Sakupen"/></SwiperSlide>
+                <SwiperSlide><LeaderItem factionName="Sakupen"/></SwiperSlide>
                 <SwiperSlide><LeaderItem factionName="The Storm"/></SwiperSlide>
-                <SwiperSlide><LeaderItem  factionName="placeholder"/></SwiperSlide>
-                <SwiperSlide><LeaderItem  factionName="Trogs"/></SwiperSlide>
-                ...
+                <SwiperSlide><LeaderItem factionName="Trogs"/></SwiperSlide>
             </Swiper>
 
 

@@ -27,10 +27,6 @@ export default function LeaderItem( props ) {
             icon: StormICON,
         },
         {
-            name: "placeholder",
-            icon: BogIcon,
-        },
-        {
             name: "Trogs",
             icon: TrogsIcon
         }

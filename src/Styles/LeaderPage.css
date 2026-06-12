@@ -30,3 +30,13 @@
     flex-direction: row; /* Default behavior, lays items side-by-side */
     gap: 16px;           
 }
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
