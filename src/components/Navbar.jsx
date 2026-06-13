@@ -1,29 +1,17 @@
-import { Link } from "react-router-dom";
-// css
+import { NavLink } from "react-router-dom";
 import '../Styles/Navbar.css';
 
 export default function Navbar() {
     return (
-        <div>
-            <nav className="Navbar">
-                <h1>BROKEN ALLIANCE </h1>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/Leader"> Leaders</Link>
-                    </li>   
-                </ul>
-                <p>v.0.0</p>
-                
-                
-                
+        <nav className="navbar">
+            <span className="navbar-title">BROKEN ALLIANCE</span>
 
-            </nav>
+            <ul className="navbar-links">
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/Leader">Leaders</NavLink></li>
+            </ul>
 
-        </div>
-
-
-    )
+            <span className="navbar-version">v0.0</span>
+        </nav>
+    );
 }
