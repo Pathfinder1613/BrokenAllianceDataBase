@@ -23,7 +23,7 @@ export default function LeaderPage() {
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
-                slidesPerView={1}
+                slidesPerView={3}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={false}
@@ -31,39 +31,31 @@ export default function LeaderPage() {
                 onSlideChange={() => console.log('slide change')}
             >
                 <div>
-                    {FACTIONS.map((faction) => {
-                        const leaders = LEADERS.filter((leader) => leader.faction === faction.name);
-
+                    {LEADERS.map((leader) => {
                         return (
-                            <SwiperSlide className='swiper-container ' key={`faction-slide-${faction.name}`}>
-                                <div className='faction-icon'>
-                                    <img src={`../../images/icons/${faction.name.replace(" ", "")}.svg`} />
-                                    <h1 style={{ float: "left", color: faction.color }}>{faction.name}</h1>
-                                </div>
+                            <SwiperSlide className='swiper-container ' key={`leader-slide-${leader.id}`}>
                                 <div className="leader-list swiper-slide">
-                                    {leaders.map((leader) => (
-                                        <div className="leader-card" key={leader.id} style={{
-                                            borderLeftColor: faction.color
-                                        }}
-                                        >
-                                            {/*Its going to be a challenge to fit images properly.*/}
-                                            <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
-                                                // should maybe seperate this into a function statement instead of a lambda expression?
-                                                ({ currentTarget }) => {
-                                                    console.log(`Portrait not found for leader '${leader.id}'`);
-                                                    currentTarget.onerror = null;
-                                                    currentTarget.src = "../../images/portraits/Placeholder.png"
-                                                }
-                                            } />
-                                            <div className="leader-info">
-                                                <span style={{ fontSize: '1.5em', color: faction.color, fontWeight: 'bold' }}>{leader.name}</span>
-                                                <span style={{ fontWeight: 'bold' }}>{leader.leader_type}</span>
-                                                <span className="leader-quote">
-                                                    "{leader.quote}"
-                                                </span>
-                                            </div>
+                                    <div className="leader-card" key={leader.id} style={{
+                                        borderLeftColor: 'white'
+                                    }}
+                                    >
+                                        {/*Its going to be a challenge to fit images properly.*/}
+                                        <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
+                                            // should maybe seperate this into a function statement instead of a lambda expression?
+                                            ({ currentTarget }) => {
+                                                console.log(`Portrait not found for leader '${leader.id}'`);
+                                                currentTarget.onerror = null;
+                                                currentTarget.src = "../../images/portraits/Placeholder.png"
+                                            }
+                                        } />
+                                        <div className="leader-info">
+                                            <span style={{ fontSize: '1.5em', color: 'white', fontWeight: 'bold' }}>{leader.name}</span>
+                                            <span style={{ fontWeight: 'bold' }}>{leader.leader_type}</span>
+                                            <span className="leader-quote">
+                                                "{leader.quote}"
+                                            </span>
                                         </div>
-                                    ))}
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         )

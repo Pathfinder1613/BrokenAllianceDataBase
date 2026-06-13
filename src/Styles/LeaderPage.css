@@ -82,7 +82,7 @@ ul, ol {
 }
 
 .leader-card:hover {
-    transform: translateX(8px);
+    transform: scale(105%, 105%);
     border-left-width: 8px;
 }
 
