@@ -46,7 +46,7 @@ html, body, #root {
     display: inherit;
     flex-direction: column;
     height: 80%;
-    width: 100%;
+    width: 75%;
     margin: 8px;
     background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(60, 60, 60, 0.8));
     border-radius: 8px;
