@@ -42,10 +42,7 @@
       },
       "wreckage": {
         "health": null,
-        "mass": null,
-        "max_speed": null,
-        "turn_rate": null,
-        "elevation": null
+        "mass": null
       },
       "weapons": [
         {
@@ -482,10 +479,8 @@
       },
       "wreckage": {
         "health": null,
-        "mass": null,
-        "max_speed": null,
-        "turn_rate": null,
-        "elevation": null
+        "mass": null
+        
       },
       "weapons": [
         {
@@ -882,10 +877,7 @@
       },
       "wreckage": {
         "health": null,
-        "mass": null,
-        "max_speed": null,
-        "turn_rate": null,
-        "elevation": null
+        "mass": null
       },
       "weapons": [
         {
@@ -1283,10 +1275,7 @@
       },
       "wreckage": {
         "health": null,
-        "mass": null,
-        "max_speed": null,
-        "turn_rate": null,
-        "elevation": null
+        "mass": null
       },
       "weapons": [
         {
@@ -1683,10 +1672,7 @@
       },
       "wreckage": {
         "health": null,
-        "mass": null,
-        "max_speed": null,
-        "turn_rate": null,
-        "elevation": null
+        "mass": null
       },
       "weapons": [
         {
