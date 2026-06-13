@@ -1,132 +1,181 @@
-* {
+/* ── reset ──
+   Applies to every element and their ::before / ::after pseudo-elements.
+
+   box-sizing: border-box — by default CSS adds padding and border ON TOP of
+   a width, so a 200px box with 20px padding becomes 240px wide. border-box
+   makes padding and border count as part of the width, so the box stays 200px.
+
+   margin / padding 0 — browsers add their own default spacing to headings,
+   paragraphs etc. This removes all of it so you start with a blank slate. */
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-ul, ol {
-    list-style: none;
-}
+/* ── swiper shell ──
+   Swiper is the carousel library that handles swiping between faction slides.
+   This styles the outer wrapper element it generates.
 
-/* ── swiper shell ── */
-/* unused */
+   padding-bottom: 48px — Swiper renders its pagination dots (the small circles
+   at the bottom) inside this container. Without bottom padding they'd sit on
+   top of the last bit of content. */
 .swiper-container {
-    width: 100%; 
-    
-    
-}
-
-/* ── faction header ── */
-
-.faction-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin: 16px;
-}
-
-.faction-icon img {
-    width: 96px;
-    height: 96px;
-    object-fit: contain;
-}
-
-.faction-icon h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-/* ── leader grid ── */
-
-.leader-list {
-    /* width: 100%;
-    max-width: 1400px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto; /* ← centers the list itself on the page */
-    padding: 0 16px; /* ← stops cards touching the edge on narrow screens */
+    padding-bottom: 48px;
+
 }
 
-/* ── leader card ── */
+.Faction-header {
+    display: flex;
+    justify-content: center;
 
+
+}
+
+/* ── swiper slide ──
+   Each individual slide — one per faction.
+
+   justify-content: center — centers the leader cards horizontally.
+   align-items: flex-start — pins content to the TOP of the slide instead
+   of centering it vertically (centering vertically would look odd with tall cards).
+   padding: 24px 16px — 24px top/bottom, 16px left/right breathing room. */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 16px;
+}
+
+/* ── leader card ──
+   The card for each individual leader.
+
+   flex-direction: column — portrait stacks above the text info.
+   max-width: 360px — caps card width on wide screens so cards don't stretch
+   too wide, while width: 100% lets them shrink on small screens.
+
+   background linear-gradient — two dark semi-transparent colors at 135°
+   give the card a subtle angled depth instead of a flat black box.
+
+   border-left: transparent — the colored left border is set inline in JSX
+   using the faction color. Starting it transparent here means the width
+   change on hover won't cause a sudden color flash.
+
+   overflow: hidden — clips the portrait image so its bottom fade effect
+   doesn't bleed outside the card edges.
+
+   transition — smoothly animates transform, border width, and shadow
+   over 0.2 seconds when you hover over the card. */
 .leader-card {
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
-    width: calc(30% - 8px);
-    min-width: 220px;
-    /* min-height: 60vh;
-    max-height: 60vh; */
+    width: 100%;
+    max-width: 360px;
 
     background: linear-gradient(
-        90deg,
+        135deg,
         rgba(20, 20, 20, 0.95),
         rgba(40, 40, 40, 0.85)
     );
 
-    border-left: 4px solid;
-
-    padding: 18px;
+    border-left: 4px solid transparent;
     border-radius: 6px;
+    padding: 18px;
     cursor: pointer;
-    transition: transform 0.2s ease, border-left-width 0.2s ease, background 0.2s ease;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-left-width 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* ── leader card hover ──
+   translateY(-4px) — moves the card 4px upward, giving a "lifting off the
+   page" feeling.
+   scale(1.02) — very slightly grows the card to reinforce the lift.
+   border-left-width: 8px — the left border doubles in thickness (color
+   comes from the inline faction style set in JSX).
+   box-shadow — dark drop shadow underneath completes the lifted illusion. */
 .leader-card:hover {
-    transform: scale(105%, 105%);
+    transform: translateY(-4px) scale(1.02);
     border-left-width: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
-/* this will force any image to have an aspect ratio of 1.*/
-/* which will of course cause distortion if the image doesn't have that aspect ratio. */
+/* ── portrait ──
+   aspect-ratio: 3 / 4 — locks the image to a portrait shape (taller than
+   wide) regardless of the actual source image dimensions.
+
+   object-fit: cover — scales the image to fill the box completely, cropping
+   the edges if the source isn't the same ratio. No stretching, no empty space.
+
+   mask-image — makes the bottom of the portrait gradually fade to transparent.
+   This creates a smooth blend into the card background instead of a hard edge.
+   The gradient goes from solid white (fully visible) at 60% down to fully
+   transparent at 95%.
+
+   -webkit-mask-image — the same rule prefixed for Safari, which requires it. */
 .leader-portrait {
     width: 100%;
-    aspect-ratio: 1;
-    object-fit: fill;
-    /* border: 2px solid rgba(255, 255, 255, 0.15); */
-    /* border-radius: 4px; */
-    mask-image: linear-gradient(to bottom, white 75%, transparent);
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, white 60%, transparent 95%);
+    -webkit-mask-image: linear-gradient(to bottom, white 60%, transparent 95%);
 }
 
-/* ── leader text ── */
-
+/* ── leader text ──
+   The text block below the portrait: name, type label, and quote.
+   flex-direction: column stacks them vertically.
+   gap: 4px puts a small space between each line.
+   margin-top: 8px separates the text from the bottom of the portrait. */
 .leader-info {
     display: flex;
     flex-direction: column;
-    /* gap: 6px; */
+    gap: 4px;
+    margin-top: 8px;
 }
 
+/* Leader name — the most prominent text on the card.
+   line-height: 1.2 tightens spacing so long names don't leave too much
+   vertical space between wrapped lines. */
 .leader-name {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.2;
-}
-
-.leader-quote {
-    color: rgba(255, 255, 255, 0.75);
-    font-style: italic;
-}
-
-.leader-type {
-    font-size: 0.95rem;
-    font-weight: 600;
-    opacity: 0.75;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
     color: #fff;
 }
 
-/* ── swiper nav overrides ── */
+/* Leader type — the smaller label below the name, e.g. "Field Commander".
+   text-transform: uppercase + letter-spacing give it a subtitle / badge feel.
+   opacity: 0.7 makes it visually secondary so the name above stands out. */
+.leader-type {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    color: #fff;
+}
 
+/* Leader quote — the leader's signature line at the bottom of the card.
+   font-style: italic visually separates it from the name/type above.
+   rgba white at 0.65 dims it so it doesn't compete with the name.
+   line-height: 1.4 gives multi-line quotes room to breathe. */
+.leader-quote {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.4;
+    margin-top: 4px;
+}
+
+/* ── swiper nav overrides ──
+   Swiper ships with its own CSS for arrows and pagination dots. These rules
+   override those defaults to match the dark theme.
+
+   The arrows default to a blue tint — color: #fff makes them white.
+   Pagination bullets default to dark — background: #fff with reduced opacity
+   makes inactive dots a faint white. The active dot is full opacity (fully
+   visible) so you can tell which slide you're on. */
 .swiper-button-next,
 .swiper-button-prev {
     color: #fff;
@@ -134,27 +183,17 @@ ul, ol {
 
 .swiper-pagination-bullet {
     background: #fff;
-    opacity: 0.4;
+    opacity: 0.4;                 /* inactive dot — faint */
 }
 
 .swiper-pagination-bullet-active {
-    opacity: 1;
+    opacity: 1;                   /* current slide dot — fully visible */
 }
 
 /* ── responsive ── */
-/* This doesn't do anything?? -Slug */
-@media (max-width: 700px) {
+/* On small screens make cards full-width so they stack vertically. */
+@media (max-width: 600px) {
     .leader-card {
-        width: 100%;
-        min-width: unset;
-    }
-
-    .faction-icon h1 {
-        font-size: 2rem;
-    }
-
-    .faction-icon img {
-        width: 64px;
-        height: 64px;
+        max-width: 100%;
     }
 }
