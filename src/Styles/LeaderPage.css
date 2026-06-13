@@ -1,160 +1,77 @@
+/* 
+*| this is just for fixing stuff up and making it work
+*| plz dont touch if you are not what you are doing. 
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
-ul, ol {
-    list-style: none;
+html, body, #root {
+    height: 100%;
 }
 
-/* ── swiper shell ── */
-/* unused */
-.swiper-container {
-    width: 100%; 
-    
-    
-}
-
-/* ── faction header ── */
-
-.faction-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin: 16px;
-}
-
-.faction-icon img {
-    width: 96px;
-    height: 96px;
-    object-fit: contain;
-}
-
-.faction-icon h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-/* ── leader grid ── */
-
-.leader-list {
-    /* width: 100%;
-    max-width: 1400px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto; /* ← centers the list itself on the page */
-    padding: 0 16px; /* ← stops cards touching the edge on narrow screens */
-}
-
-/* ── leader card ── */
-
-.leader-card {
+#root {
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
-    width: calc(30% - 8px);
-    min-width: 220px;
-    /* min-height: 60vh;
-    max-height: 60vh; */
-
-    background: linear-gradient(
-        90deg,
-        rgba(20, 20, 20, 0.95),
-        rgba(40, 40, 40, 0.85)
-    );
-
-    border-left: 4px solid;
-
-    padding: 18px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: transform 0.2s ease, border-left-width 0.2s ease, background 0.2s ease;
 }
 
-.leader-card:hover {
-    transform: scale(105%, 105%);
-    border-left-width: 8px;
+/* the meat */
+
+.swiper-slide-active {
+    transition: 0.25s;
 }
 
-/* this will force any image to have an aspect ratio of 1.*/
-/* which will of course cause distortion if the image doesn't have that aspect ratio. */
+.swiper-slide-next {
+    transform: scale(110%, 110%);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.leader-slide-container {
+    display: inherit;
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to right, red, green); */
+}
+
+.leader-slide {
+    display: inherit;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.leader-card {
+    display: inherit;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    margin: 8px;
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(60, 60, 60, 0.8));
+    border-radius: 8px;
+    border-left: solid 8px white;
+    padding: 8px;
+    transition: 0.25s;
+}
+
 .leader-portrait {
     width: 100%;
     aspect-ratio: 1;
     object-fit: fill;
-    /* border: 2px solid rgba(255, 255, 255, 0.15); */
-    /* border-radius: 4px; */
-    mask-image: linear-gradient(to bottom, white 75%, transparent);
-}
-
-/* ── leader text ── */
-
-.leader-info {
-    display: flex;
-    flex-direction: column;
-    /* gap: 6px; */
+    mask-image: linear-gradient(to bottom, white 80%, transparent);
 }
 
 .leader-name {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: bold;
-    line-height: 1.2;
-}
-
-.leader-quote {
-    color: rgba(255, 255, 255, 0.75);
-    font-style: italic;
 }
 
 .leader-type {
-    font-size: 0.95rem;
-    font-weight: 600;
+    font-weight: bold;
+}
+
+.leader-quote {
     opacity: 0.75;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #fff;
-}
-
-/* ── swiper nav overrides ── */
-
-.swiper-button-next,
-.swiper-button-prev {
-    color: #fff;
-}
-
-.swiper-pagination-bullet {
-    background: #fff;
-    opacity: 0.4;
-}
-
-.swiper-pagination-bullet-active {
-    opacity: 1;
-}
-
-/* ── responsive ── */
-/* This doesn't do anything?? -Slug */
-@media (max-width: 700px) {
-    .leader-card {
-        width: 100%;
-        min-width: unset;
-    }
-
-    .faction-icon h1 {
-        font-size: 2rem;
-    }
-
-    .faction-icon img {
-        width: 64px;
-        height: 64px;
-    }
+    font-style: italic;
 }

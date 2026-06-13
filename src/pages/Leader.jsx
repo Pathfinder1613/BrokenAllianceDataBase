@@ -14,58 +14,43 @@ import '../Styles/LeaderPage.css';
 import FACTIONS from '../services/Factions.json';
 import LEADERS from '../services/Leaders.json'
 
-
-
-
-
 export default function LeaderPage() {
     // NOTE: When referencing images dynamically, images MUST be put in the 'public' folder.
 
     return (
-        <>
-            <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={3}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={false}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-            >
-                <div>
-                    {LEADERS.map((leader) => {
-                        return (
-                            <SwiperSlide className='swiper-container ' key={`leader-slide-${leader.id}`}>
-                                <div className="leader-list swiper-slide">
-                                    <div className="leader-card" key={leader.id} style={{
-                                        borderLeftColor: 'white'
-                                    }}
-                                    >
-                                        {/*Its going to be a challenge to fit images properly.*/}
-                                        <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
-                                            // should maybe seperate this into a function statement instead of a lambda expression?
-                                            ({ currentTarget }) => {
-                                                console.log(`Portrait not found for leader '${leader.id}'`);
-                                                currentTarget.onerror = null;
-                                                currentTarget.src = "../../images/portraits/Placeholder.png"
-                                            }
-                                        } />
-                                        <div className="leader-info">
-                                            <span style={{ fontSize: '1.5em', color: 'white', fontWeight: 'bold' }}>{leader.name}</span>
-                                            <span style={{ fontWeight: 'bold' }}>{leader.leader_type}</span>
-                                            <span className="leader-quote">
-                                                "{leader.quote}"
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                        )
-                    })}
-                </div>
-            </Swiper>
-        </>
+        <Swiper className='leader-slide-container'
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+        >
+            <SwiperSlide />
+            {LEADERS.map(
+                (leader) => {
+                    const color = FACTIONS[leader.faction].color;
+
+                    return (
+                        <SwiperSlide className="leader-slide" key={`leader-slide-${leader.id}`}>
+                            <div style={{ borderLeftColor: color }} className="leader-card">
+                                <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
+                                    // may consider moving this out into a function statement instead of a lambda expression
+                                    ({ currentTarget }) => {
+                                        console.log(`Could not find portrait for leader '${leader.id}'!`)
+                                        currentTarget.onerror = null;
+                                        currentTarget.src = `../../images/portraits/Placeholder.png`
+                                    }
+                                } />
+                                <span style={{color: color}} className="leader-name">{leader.name}</span>
+                                <span className="leader-type">{leader.leader_type}</span>
+                                <span className="leader-quote">"{leader.quote}"</span>
+                            </div>
+                        </SwiperSlide>
+                    )
+                }
+            )}
+            <SwiperSlide />
+
+            {/* using two dummy slides at the beginning and end to focus the selected card in the center */}
+        </Swiper>
     )
 }
