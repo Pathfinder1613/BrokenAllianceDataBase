@@ -24,8 +24,8 @@ All seed files live in the project root alongside `README.md`.
 | File | Status | Contents |
 |---|---|---|
 | `units.json` | Ready | 14 units across 5 factions (UDF, Sakupen, The Bog, The Storm, The Trogs) |
-| `buildings.json` | Ready (UDF only) | 9 UDF buildings — economy, production, defense. Other factions are placeholder. |
-| `leaders.json` | Partial | 9 leaders across UDF, Sakupen, The Storm. The Bog and The Trogs need placeholder entries. |
+| `buildings.json` | Ready (UDF only) | 9 UDF buildings — economy, production, defense. Other factions are placeholder. | Have not done this yet
+| `leaders.json` | Partial | 9 leaders across UDF, Sakupen, The Storm. The Bog and The Trogs need placeholder entries. | Have not done this yet
 | `RTS_DB_SPEC.md` | This file | Full schema, routes, build plan |
 
 **Before seeding:** Add placeholder leader entries for The Bog and The Trogs to `leaders.json` or the seed script will fail when it tries to link faction → leader.
@@ -180,7 +180,7 @@ unit_economy
   id              INTEGER PK
   unit_id         INTEGER FK → unit.id UNIQUE
   build_rate      REAL (nullable)         -- for engineers only
-  mass_storage    REAL (nullable)
+  mass_storage    REAL (nullable) 
   energy_storage  REAL (nullable)
 ```
 
@@ -695,26 +695,31 @@ FIRST_SUPERADMIN_PASSWORD=your_password_here
 ## 11. Phase 1 Checklist — Start Here
 
 ```
-[ ] pip install fastapi uvicorn sqlalchemy alembic python-jose passlib python-dotenv bcrypt
-[ ] Create backend/database.py — engine, session, Base
-[ ] Create backend/models/unit.py — Unit + all related models
-[ ] Create backend/models/shared.py — Weapon, Ability, SkillUpgrade (owner_type)
-[ ] Create backend/models/veterancy.py
-[ ] Create backend/models/building.py
-[ ] Create backend/models/leader.py — Leader, LeaderSkill, LeaderPassive
-[ ] Create backend/models/user.py
-[ ] Create backend/models/changelog.py
-[ ] Run: alembic init alembic
-[ ] Write alembic/env.py to import all models
-[ ] Run: alembic revision --autogenerate -m "initial schema"
-[ ] Run: alembic upgrade head
-[ ] Write backend/seed/seed_units.py — reads units.json
-[ ] Write backend/seed/seed_buildings.py — reads buildings.json
-[ ] Write backend/seed/seed_leaders.py — reads leaders.json (add Bog + Trogs placeholders first)
-[ ] Write backend/seed/seed.py — calls all three in order
-[ ] Write backend/auth/jwt.py
-[ ] Write backend/auth/pin.py
-[ ] Write backend/routers/auth.py — login, logout, me, verify-pin
-[ ] Test all auth endpoints in Postman
-[ ] Run seed, verify data in DB with DB Browser for SQLite
+[x] Verify frontend scaffold: React (Vite) app exists (src/, package.json, vite.config.js)
+[ ] pip install backend dependencies: fastapi uvicorn sqlalchemy alembic python-jose passlib python-dotenv bcrypt
+[ ] Create `backend/database.py` — SQLAlchemy engine, session factory, Base
+[ ] Implement models:
+  - `backend/models/unit.py` — Unit + UnitTag, UnitTrait, Physics, Wreckage, UnitEconomy
+  - `backend/models/shared.py` — Weapon, Ability, SkillUpgrade (owner_type pattern)
+  - `backend/models/veterancy.py` — VeterancyLevel, VeterancyWeapon
+  - `backend/models/building.py` — Building + tags/traits/economy
+  - `backend/models/leader.py` — Leader, LeaderSkill, LeaderPassive
+  - `backend/models/user.py` — User model + password helpers
+  - `backend/models/changelog.py` — Changelog schema
+[ ] Initialize Alembic: `alembic init alembic` and configure `alembic/env.py` to import models
+[ ] Create initial migration: `alembic revision --autogenerate -m "initial schema"`
+[ ] Apply migrations: `alembic upgrade head` (verify sqlite `rts.db` created)
+[ ] Write seed scripts:
+  - `backend/seed/seed_units.py` — reads `units.json` and creates unit records
+  - `backend/seed/seed_buildings.py` — reads `buildings.json`
+  - `backend/seed/seed_leaders.py` — reads `leaders.json` (add Bog + Trogs placeholders first)
+  - `backend/seed/seed.py` — orchestrates all seed scripts
+[ ] Add placeholder leader entries for The Bog and The Trogs to `leaders.json` to prevent seed errors
+[ ] Implement auth helpers:
+  - `backend/auth/jwt.py` — JWT create/verify helpers
+  - `backend/auth/pin.py` — ACTION_PIN verification + short-lived PIN token
+[ ] Implement routers: `backend/routers/auth.py` (login, logout, me, verify-pin) and unit/building/research/leader routers
+[ ] Add `POST /api/seed` (superadmin-only) to run the seed scripts safely
+[ ] Test backend endpoints locally (Postman or `httpie`) and run seed against a fresh DB
+[ ] Document backend setup and run steps in README (`backend/README.md` suggestion)
 ```
