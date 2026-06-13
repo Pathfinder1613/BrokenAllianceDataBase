@@ -62,9 +62,14 @@ html, body, #root {
     mask-image: linear-gradient(to bottom, white 80%, transparent);
 }
 
-/* Leader name — the most prominent text on the card.
-   line-height: 1.2 tightens spacing so long names don't leave too much
-   vertical space between wrapped lines. */
+/* Name row: leader name on the left, faction badge on the right. */
+.leader-name-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
 .leader-name {
     font-size: 1.5em;
     font-weight: bold;
