@@ -23,54 +23,57 @@ export default function LeaderPage() {
                 // install Swiper modules
                 modules={[Navigation, Pagination, A11y]}
                 spaceBetween={0}
-                slidesPerView={4}
+                slidesPerView={6}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={false}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
+                className='SWiper-box'
             >
-                
+
                 <div>
                     {LEADERS.map((leader) => {
-                        
+
 
 
                         return (
-                            <div>
-                                <SwiperSlide className='swiper-container' key={`leader-slide-${leader.id}`}>
-                                    <div>
-                                        <h1 className='Faction-header'>{leader.faction}</h1>
-                                        {/* put img here */}
-                                    </div>
-                                    <div className="leader-list swiper-slide">
-                                        <div className="leader-card" key={leader.id} style={{
-                                            borderLeftColor: 'white'
-                                        }}
-                                        >
+                                <SwiperSlide className='leader-slide' key={`leader-slide-${leader.id}`}>
+                                <div className="leader-slide-content">
+                                    <div className="leader-card" key={leader.id} style={{
+                                        borderLeftColor: 'white'
+                                    }}
+                                    >
 
-                                            {/*Its going to be a challenge to fit images properly.*/}
-                                            <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
-                                                // should maybe seperate this into a function statement instead of a lambda expression?
-                                                ({ currentTarget }) => {
-                                                    console.log(`Portrait not found for leader '${leader.id}'`);
-                                                    currentTarget.onerror = null;
-                                                    currentTarget.src = "../../images/portraits/Placeholder.png"
-                                                }
-                                            } />
-                                            <div className="leader-info">
-                                                <span style={{ fontSize: '1.5em', color: 'white', fontWeight: 'bold' }}>{leader.name}</span>
-                                                <span style={{ fontWeight: 'bold' }}>{leader.leader_type}</span>
-                                                <span className="leader-quote">
-                                                    "{leader.quote}"
-                                                </span>
+                                        {/*Its going to be a challenge to fit images properly.*/}
+                                        <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
+                                            // should maybe seperate this into a function statement instead of a lambda expression?
+                                            ({ currentTarget }) => {
+                                                console.log(`Portrait not found for leader '${leader.id}'`);
+                                                currentTarget.onerror = null;
+                                                currentTarget.src = "../../images/portraits/Placeholder.png"
+                                            }
+                                        } />
+                                        <div className="leader-info">
+                                            <div className="leader-name-row">
+                                                <span className="leader-name">{leader.name}</span>
+                                                <div className="leader-faction-badge">
+                                                    <img
+                                                        className="leader-faction-icon"
+                                                        src={`/images/icons/${leader.faction}.svg`}
+                                                        onError={({ currentTarget }) => {
+                                                            currentTarget.onerror = null;
+                                                        }}
+                                                    />
+                                                    <span className="leader-faction-name">{leader.faction}</span>
+                                                </div>
                                             </div>
+                                            <span className="leader-type">{leader.leader_type}</span>
+                                            <span className="leader-quote">"{leader.quote}"</span>
                                         </div>
                                     </div>
-                                </SwiperSlide>
-                            </div>
-
-
+                                </div>
+                            </SwiperSlide>
                         )
                     })}
                 </div>
