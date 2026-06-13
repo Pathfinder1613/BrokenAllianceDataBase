@@ -35,7 +35,7 @@ export default function LeaderPage() {
                         const leaders = LEADERS.filter((leader) => leader.faction === faction.name);
 
                         return (
-                            <SwiperSlide key={`faction-slide-${faction.name}`}>
+                            <SwiperSlide className='swiper-container ' key={`faction-slide-${faction.name}`}>
                                 <div className='faction-icon'>
                                     <img src={`../../images/icons/${faction.name.replace(" ", "")}.svg`} />
                                     <h1 style={{ float: "left", color: faction.color }}>{faction.name}</h1>
