@@ -16,11 +16,11 @@
       {
         "unlock": 1,
         "branch": "Economy",
-        "name": "Supply Drop",
+        "name": "MAC Blast (Magnetic Accelerator Cannon strike)",
         "type": "Active",
         "cooldown": null,
         "duration": 30,
-        "description": "Calls in a supply cache at a target location \u2014 boosts Mass and Metal income by 30% for 30 seconds for all structures in the area. First power to unlock; gives economy tempo.",
+        "description": "Calls in a powerful orbital MAC strike, dealing heavy damage to enemies in the target area.",
         "is_placeholder": true,
         "notes": "Skills 1-6 are all Supply Drop placeholders \u2014 real skills to be designed"
       },
