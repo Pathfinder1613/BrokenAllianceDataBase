@@ -27,17 +27,18 @@ export default function LeaderPage() {
             <SwiperSlide />
             {LEADERS.map(
                 (leader) => {
-                    const color = FACTIONS[leader.faction].color;
+                    const faction = FACTIONS[leader.faction]
+                    const color = faction ? faction.color : 'white'
 
                     return (
                         <SwiperSlide className="leader-slide" key={`leader-slide-${leader.id}`}>
                             <div style={{ borderLeftColor: color }} className="leader-card">
-                                <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
+                                <img className="leader-portrait" src={`/images/portraits/${leader.id}.png`} onError={
                                     // may consider moving this out into a function statement instead of a lambda expression
                                     ({ currentTarget }) => {
                                         console.log(`Could not find portrait for leader '${leader.id}'!`)
                                         currentTarget.onerror = null;
-                                        currentTarget.src = `../../images/portraits/Placeholder.png`
+                                        currentTarget.src = `/images/portraits/Placeholder.png`
                                     }
                                 } />
                                 <span style={{color: color}} className="leader-name">{leader.name}</span>

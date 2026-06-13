@@ -1,6 +1,6 @@
 /* 
-*| this is just for fixing stuff up and making it work
-*| plz dont touch if you are not what you are doing. 
+*| the following up until THE MEAT is just for fixing stuff up and making it work
+*| plz dont touch if you do not know what you are doing. 
 */
 
 * {
@@ -30,20 +30,20 @@ html, body, #root {
 }
 
 .leader-slide-container {
-    display: inherit;
+    display: flex;
     height: 100%;
     width: 100%;
     /* background: linear-gradient(to right, red, green); */
 }
 
 .leader-slide {
-    display: inherit;
+    display: flex;
     align-items: center;
     transition: 0.25s;
 }
 
 .leader-card {
-    display: inherit;
+    display: flex;
     flex-direction: column;
     height: 80%;
     width: 75%;
