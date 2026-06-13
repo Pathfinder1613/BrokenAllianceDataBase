@@ -1,9 +1,5 @@
 import { useState } from 'react'
 
-// imgs 
-import PlaceHolderImg from '../assets/UnitsPlaceholder.png'
-
-
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -39,36 +35,34 @@ export default function LeaderPage() {
                         const leaders = LEADERS.filter((leader) => leader.faction === faction.name);
 
                         return (
-                            <SwiperSlide className='Swiper-container' key={`faction-slide-${faction.name}`}>
-                                <div className='FactionIconName'>
-                                    <img src={`../../images/${faction.name.replace(" ", "")}_Icon.svg`} />
-
+                            <SwiperSlide key={`faction-slide-${faction.name}`}>
+                                <div className='faction-icon'>
+                                    <img src={`../../images/icons/${faction.name.replace(" ", "")}.svg`} />
                                     <h1 style={{ float: "left", color: faction.color }}>{faction.name}</h1>
                                 </div>
                                 <div className="leader-list swiper-slide">
-
-
                                     {leaders.map((leader) => (
                                         <div className="leader-card" key={leader.id} style={{
-                                            backgroundImage: `url(${PlaceHolderImg})`,
                                             borderLeftColor: faction.color
                                         }}
                                         >
-
+                                            {/*Its going to be a challenge to fit images properly.*/}
+                                            <img className="leader-portrait" src={`../../images/portraits/${leader.id}.png`} onError={
+                                                // should maybe seperate this into a function statement instead of a lambda expression?
+                                                ({ currentTarget }) => {
+                                                    console.log(`Portrait not found for leader '${leader.id}'`);
+                                                    currentTarget.onerror = null;
+                                                    currentTarget.src = "../../images/portraits/Placeholder.png"
+                                                }
+                                            } />
                                             <div className="leader-info">
-                                                <span style={{ fontSize: '1.5em', color: faction.color, fontWeight: 'bold' }}>★ {leader.name}</span>
-                                                <br />
-                                                <span style={{ fontWeight: 'bold' }}>{leader.leaderType}</span>
-                                                <br />
+                                                <span style={{ fontSize: '1.5em', color: faction.color, fontWeight: 'bold' }}>{leader.name}</span>
+                                                <span style={{ fontWeight: 'bold' }}>{leader.leader_type}</span>
                                                 <span className="leader-quote">
                                                     "{leader.quote}"
                                                 </span>
-
                                             </div>
-
                                         </div>
-
-
                                     ))}
                                 </div>
                             </SwiperSlide>
@@ -76,9 +70,6 @@ export default function LeaderPage() {
                     })}
                 </div>
             </Swiper>
-
-
         </>
     )
-
 }
