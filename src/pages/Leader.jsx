@@ -14,6 +14,10 @@ import '../Styles/LeaderPage.css';
 import FACTIONS from '../services/Factions.json';
 import LEADERS from '../services/Leaders.json'
 
+
+
+
+
 export default function LeaderPage() {
     // NOTE: When referencing images dynamically, images MUST be put in the 'public' folder.
 
