@@ -1,6 +1,6 @@
 * body {
     color: rgb(227, 227, 227);
-    background-image: url(../src/assets/BackgroundImage.png);
+    background-image: url(/BackgroundImage.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

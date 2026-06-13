@@ -9,7 +9,7 @@
 A full-stack web app for browsing, managing, and editing game data (units, buildings, research, leaders) for a custom RTS game. Public users can browse and compare. Admins (logged-in) can create, edit, and delete entries. A one-time action PIN is required before any write operation is committed.
 
 **Stack:**
-- Frontend: React (Vite), React Router, Tailwind CSS
+- Frontend: React (Vite), React Router
 - Backend: Python, FastAPI, SQLAlchemy 2.0
 - Database: SQLite (dev) → PostgreSQL + pgAdmin (production)
 - Auth: JWT tokens stored in httpOnly cookies
@@ -174,7 +174,8 @@ wreckage
   unit_id       INTEGER FK → unit.id UNIQUE
   health        REAL (nullable)
   mass          REAL (nullable)
-  -- Only for vehicles and MCUs. Engineers and infantry: wreckage = null.
+  crash_damge REAL (nullable)
+  -- Only for vehicles and aircraft do crash damge. MCU and infantry: wreckage = null. the MCu blow up
 
 unit_economy
   id              INTEGER PK
