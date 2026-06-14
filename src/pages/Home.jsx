@@ -30,7 +30,7 @@ export default function HomePage() {
 
             <section className="home-actions">
                 <button onClick={() => navigate('/Leader')}>Meet the Leaders</button>
-                <button onClick={() => navigate('/Units')}>The Units</button>
+                <button onClick={() => navigate('/unitsAndBuilding')}>The Units</button>
             </section>
 
         </div>
