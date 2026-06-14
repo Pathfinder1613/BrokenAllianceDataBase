@@ -9,7 +9,7 @@ export default function UnitAndBuildingButton({ name, tier, accentColor, portrai
 
             <img
                 className="unit-btn-portrait"
-                src={portrait || '/images/portraits/Placeholder.png'}
+                src={portrait || '/images/unitsPortraits/UnitIcon.png'}
                 alt={name}
             />
 
