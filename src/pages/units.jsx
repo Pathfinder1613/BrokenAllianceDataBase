@@ -1,17 +1,38 @@
 import UnitAndBuldingButton from '../components/unitAndBuilding.jsx'
 
+// css
+import '../Styles/UnitsPage.css';
+
+import FACTIONS from '../services/Factions.json';
+
 export default function UnitsPage() {
     return (
         <>
-        <div>
-            <h1>UDF</h1>
-            <h1>Sakupen</h1>
-            <h1>The Storm</h1>
-            <h1>TheBog</h1>
-            <h1>Trogs</h1>
-        </div>
+            <div className='containers'>
+                <div className='Header-faction'>
 
-            <UnitAndBuldingButton />
+                
+                {Object.keys(FACTIONS).map((faction) => (
+                    <div key={faction}>
+                        <img className='img-faction' src={`/images/icons/${faction}.svg`} />
+                        <h1 style={{ color: FACTIONS[faction].color }}>
+                            {faction}
+                        </h1>
+                        
+
+                        <div className='Units-containers'>
+                            <UnitAndBuldingButton onClick={() => console.log(FACTIONS)} />
+
+
+                                
+                        </div>
+                    </div>
+                ))}
+            </div>
+            </div>
+            
+
+
 
 
         </>

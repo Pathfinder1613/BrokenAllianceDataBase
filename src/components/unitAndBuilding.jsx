@@ -2,9 +2,9 @@ import '../Styles/unitAndBuilding.css';
 
 // pan to to add Unit/id as and route import { NavLink } from "react-router-dom";
 
-export default function UnitAndBuildingButton({ name, tier, accentColor, portrait, icon }) {
+export default function UnitAndBuildingButton({ name, tier, accentColor, portrait, icon, onClick }) {
     return (
-        <button className="unit-btn">
+        <button className="unit-btn" onClick={onClick}>
             <div className="unit-btn-frame" />
 
             <img
@@ -16,6 +16,7 @@ export default function UnitAndBuildingButton({ name, tier, accentColor, portrai
             <img
                 className="unit-btn-small-icon"
                 src={icon || '/images/portraits/Placeholder.png'}
+                alt={name}
             />
 
             <div className="unit-btn-tier">{tier ?? 1}</div>

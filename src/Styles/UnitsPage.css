@@ -1,0 +1,40 @@
+.Header-faction {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.Faction-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 300px;
+    padding: 20px;
+
+    background: #1a1a1a;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.Faction-column h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.img-faction {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.Units-containers {
+    display: grid;
+    grid-template-columns: repeat(4, 64px);
+    gap: 8px;
+    justify-content: center;
+}

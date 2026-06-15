@@ -9,7 +9,7 @@ export default function HomePage() {
 
             <section className="hero">
                 <h1 className="hero-title">BROKEN ALLIANCE</h1>
-                <p className="hero-tagline">Four factions. One fractured galaxy. No mercy.</p>
+                <p className="hero-tagline">Five factions. One fractured galaxy. No mercy.</p>
             </section>
 
             <div className="faction-strip">
@@ -23,7 +23,7 @@ export default function HomePage() {
             <section className="home-blurb">
                 <p>
                     Command massive armies across a fractured galaxy. Master economy,
-                    tech, and tactics as humans, cyborgs, nomads, or cosmic horrors
+                    tech, and tactics as humans, cyborgs, placeholder, or cosmic horrors
                     collide over alien ruins and resource-rich worlds.
                 </p>
             </section>
