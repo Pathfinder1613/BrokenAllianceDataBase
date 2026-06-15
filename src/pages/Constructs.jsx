@@ -1,12 +1,12 @@
 import UnitAndBuldingButton from '../components/unitAndBuilding.jsx'
 
 // css
-import '../Styles/UnitsPage.css';
+import '../Styles/ConstructsPage.css';
 
 import FACTIONS from '../services/Factions.json';
 import UNITS from '../services/Units.json'
 
-export default function UnitsPage() {
+export default function ConstructsPage() {
     return (
         <>
             <div className='containers'>
