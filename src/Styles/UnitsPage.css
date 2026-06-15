@@ -35,6 +35,7 @@
 .Units-containers {
     display: grid;
     grid-template-columns: repeat(4, 64px);
+    padding-top: 10px;
     gap: 8px;
     justify-content: center;
 }

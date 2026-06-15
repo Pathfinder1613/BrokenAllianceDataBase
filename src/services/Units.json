@@ -1646,7 +1646,7 @@
       "unit_icon": "/assets/UnitsPPlaceholdeer.png",
       "name": "The Rogler Spawn",
       "type": "MCU",
-      "faction": "The Trogs",
+      "faction": "Trogs",
       "tags": [
         "MCU"
       ],
@@ -1768,7 +1768,7 @@
       "unit_icon": "/assets/UnitsPPlaceholdeer.png",
       "name": "Marine",
       "type": "infantry",
-      "faction": "The Trogs",
+      "faction": "Trogs",
       "tags": [
         "infantry"
       ],
