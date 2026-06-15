@@ -32,7 +32,7 @@ export default function LeaderPage() {
 
                     return (
                         <SwiperSlide className="leader-slide" key={`leader-slide-${leader.id}`}>
-                            <div style={{ borderLeftColor: color }} className="leader-card">
+                            <div style={{ borderLeftColor: color }} className="leader-card" >
                                 <img className="leader-portrait" src={`/images/portraits/${leader.id}.png`} onError={
                                     // may consider moving this out into a function statement instead of a lambda expression
                                     ({ currentTarget }) => {

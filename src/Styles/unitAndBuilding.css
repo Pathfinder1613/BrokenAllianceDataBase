@@ -8,6 +8,12 @@
     cursor: pointer;
 }
 
+.unit-btn:hover {
+    transform: scale(1.08);
+    border-color: white;
+    z-index: 10;
+}
+
 .unit-btn-portrait {
     width: 64px;
     height: 64px;

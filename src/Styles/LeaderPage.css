@@ -53,6 +53,8 @@ html, body, #root {
     border-left: solid 8px white;
     padding: 8px;
     transition: 0.25s;
+    box-shadow:
+        0 6px 20px rgba(0,0,0,0.5);
 }
 
 .leader-portrait {
@@ -60,7 +62,14 @@ html, body, #root {
     aspect-ratio: 1;
     object-fit: fill;
     mask-image: linear-gradient(to bottom, white 80%, transparent);
+
+    
+
+    
 }
+
+
+
 
 /* Name row: leader name on the left, faction badge on the right. */
 .leader-name-row {
@@ -71,8 +80,10 @@ html, body, #root {
 }
 
 .leader-name {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .leader-type {
@@ -80,6 +91,9 @@ html, body, #root {
 }
 
 .leader-quote {
+    margin-top: 8px;
     opacity: 0.75;
     font-style: italic;
+    border-left: 3px solid rgba(255,255,255,0.25);
+    padding-left: 10px;
 }
