@@ -2,6 +2,7 @@ import '../Styles/AIO.css'
 
 import LEADERS from '../services/Leaders.json'
 
+// import FACTION from '../services/Factions.json' should we update that json?
 const FACTIONS = [
     {
         id: "udf",

@@ -1,0 +1,14 @@
+{
+"meta": {
+    "distance_unit": "meters",
+    "fire_rate_unit": "shots per second",
+    "build_time_unit": "seconds",
+    "cost_unit": "in-game currency",
+    "mass_unit": "kg",
+    "speed_unit": "meters per second",
+    "accuracy_unit": "0.0 to 1.0 (1.0 = perfect accuracy)",
+    "projectile_speed_unit": "meters per second",
+    "veterancy_levels": 15,
+    "veterancy_note": "Each level stores exact HP and weapon stat values at that level"
+  }
+}
