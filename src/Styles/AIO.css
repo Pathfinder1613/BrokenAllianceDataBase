@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+}
+
+/* these are prefixed with 'aio' to avoid conflicts with other stylesheets */
+
+.aio-main {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.aio-faction-container {   
+    display: flex;
+    flex-direction: column;
+    min-width: calc(100% * (1 / 3));
+}
+
+.aio-faction-header {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.aio-faction-name {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.aio-faction-mini-icon {
+    height: 100%;
+    aspect-ratio: 1;
+    margin-left: auto;
+    object-fit: fill;
+    mask-size: contain;
+    background: white;
+}
+
+.aio-leader-panel {
+    padding: 2px;
+    background: linear-gradient(to right, rgba(30, 30, 30), rgba(60, 60, 60, 0.75));
+}
+
+.aio-leader-panel:hover {
+    background: linear-gradient(to right, rgba(120, 120, 120), rgba(90, 90, 90, 0.75));
+}
+
+.aio-leader-name {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.aio-leader-type {
+    font-size: 0.8em;
+    font-weight: bold;
+    opacity: 0.75;
+}
+
+.aio-leader-quote {
+    font-size: 0.8em;
+    font-style: italic;
+    opacity: 0.75;
+}

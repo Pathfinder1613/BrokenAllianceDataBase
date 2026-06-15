@@ -25,7 +25,7 @@ export default function LeaderPage() {
             navigation
             pagination={{ clickable: true }}
         >
-            <SwiperSlide />
+            <SwiperSlide/>
             {LEADERS.map(
                 (leader) => {
                     const faction = FACTIONS[leader.faction]
@@ -50,7 +50,7 @@ export default function LeaderPage() {
                     )
                 }
             )}
-            <SwiperSlide />
+            <SwiperSlide/>
 
             {/* using two dummy slides at the beginning and end to focus the selected card in the center */}
         </Swiper>

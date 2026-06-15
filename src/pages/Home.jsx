@@ -9,7 +9,7 @@ export default function HomePage() {
 
             <section className="hero">
                 <h1 className="hero-title">BROKEN ALLIANCE</h1>
-                <p className="hero-tagline">Five factions. One fractured galaxy. No mercy.</p>
+                {/* <p className="hero-tagline">Five factions. One fractured galaxy. No mercy.</p> */}
             </section>
 
             <div className="faction-strip">
@@ -29,8 +29,8 @@ export default function HomePage() {
             </section>
 
             <section className="home-actions">
-                <button onClick={() => navigate('/Leader')}>Meet the Leaders</button>
-                <button onClick={() => navigate('/unitsAndBuilding')}>The Units</button>
+                <button onClick={() => navigate('/leaders')}>Leaders</button>
+                <button onClick={() => navigate('/constructs')}>Constructs</button>
             </section>
 
         </div>
