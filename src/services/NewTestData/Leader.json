@@ -30,7 +30,7 @@
       "title": "Organic Host",
       "faction": "the_storm",
       "tagline": "It does not think. It does not plan. It only consumes.",
-      "lore": null
+      "lore": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iusto. Nisi est at ullam eveniet aperiam unde, quisquam minima debitis numquam vel deleniti porro, necessitatibus pariatur sapiente quaerat optio dolores."
     },
     {
       "id": "phantoms",
@@ -38,7 +38,7 @@
       "title": "Machine Host",
       "faction": "the_storm",
       "tagline": "The signal finds you. The signal changes you. The signal wins.",
-      "lore": null
+      "lore": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iusto. Nisi est at ullam eveniet aperiam unde, quisquam minima debitis numquam vel deleniti porro, necessitatibus pariatur sapiente quaerat optio dolores."
     },
     {
       "id": "kizer",
@@ -46,7 +46,7 @@
       "title": "Supreme Warlord",
       "faction": "sakupen",
       "tagline": "Weakness is a choice. I chose otherwise.",
-      "lore": null
+      "lore": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iusto. Nisi est at ullam eveniet aperiam unde, quisquam minima debitis numquam vel deleniti porro, necessitatibus pariatur sapiente quaerat optio dolores."
     },
     {
       "id": "e_11",
@@ -54,7 +54,7 @@
       "title": "Tactical AI Construct",
       "faction": "sakupen",
       "tagline": "Optimal outcome calculated. Executing.",
-      "lore": null
+      "lore": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iusto. Nisi est at ullam eveniet aperiam unde, quisquam minima debitis numquam vel deleniti porro, necessitatibus pariatur sapiente quaerat optio dolores."
     },
     {
       "id": "3c",
@@ -62,7 +62,7 @@
       "title": "Commander Class Chassis",
       "faction": "sakupen",
       "tagline": "Production is power. Power is everything.",
-      "lore": null
+      "lore": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iusto. Nisi est at ullam eveniet aperiam unde, quisquam minima debitis numquam vel deleniti porro, necessitatibus pariatur sapiente quaerat optio dolores."
     }
   ]
 }

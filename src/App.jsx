@@ -6,7 +6,7 @@ import ConstructsPage from './pages/Constructs';
 import AllInOne from './pages/AllInOne';
 import AdminPage from './pages/Login.jsx'
 import DetailViewer from './pages/DetailViewer.jsx';
-import FullLeaderPage from './pages/FullLeaderPage.jsx';
+import FullLeaderPage from './pages/LeaderDetail.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
