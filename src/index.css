@@ -7,18 +7,34 @@
 
 input {
     padding: 12px 32px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 0.9rem;
     border-radius: 4px;
-    background-color: transparent;
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
     cursor: text;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: border-color 0.2s ease;
+}
 
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+    border-color: #fff;
+    background: transparent;
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
-    -webkit-text-fill-color: white;
-    -webkit-box-shadow: 0 0 0px 1000px transparent inset;   
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-text-fill-color: #ffffff !important; /* Change text color here */
 }
 
 button {

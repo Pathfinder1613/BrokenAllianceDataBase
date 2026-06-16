@@ -16,7 +16,7 @@ html, body, #root {
 .aio-main {
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
+    overflow-x: auto;    
 }
 
 .aio-faction-container {   
