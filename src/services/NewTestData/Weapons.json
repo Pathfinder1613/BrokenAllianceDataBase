@@ -1,28 +1,23 @@
+
 {
-  "weapons": [
-    {
-      "id": "atv_gun",
-      "unitId": "atv",
+    "atv_autocannon": {
       "name": "Scout Autocannon",
       "damage": 18,
-      "rateOfFirePerSecond": 1.5,
-      "rangeMax": 18,
-      "damageType": "normal",
-      "damageRadius": 0,
-      "projectileSpeed": 40,
+      "fire_rate": 1.5,
+      "range": 18,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 40,
       "targets": ["land"]
     },
-    {
-      "id": "construction_engineer_gun",
-      "unitId": "construction_engineer",
+    "utility_gun": {
       "name": "Utility Gun",
       "damage": 15,
-      "rateOfFirePerSecond": 1.0,
-      "rangeMax": 12,
-      "damageType": "normal",
-      "damageRadius": 0,
-      "projectileSpeed": 35,
+      "fire_rate": 1.0,
+      "range": 12,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
       "targets": ["land"]
     }
-  ]
 }

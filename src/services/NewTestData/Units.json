@@ -14,19 +14,13 @@
                 "hp": 195,
                 "vision": "Large"
             },
-            "activeAbilities": [
-                {
-                    "name": "Turbo Boost",
-                    "cooldownSeconds": 30,
-                    "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
-                    "durationSeconds": 6,
-                    "speedMultiplier": 2,
-                    "passesThroughLighterUnits": true
-                }
+            "abilities": [
+                "atv_turbo_boost"
+            ],
+            "weapons": [
+                "atv_autocannon"
             ]
         },
-
-
         {
             "id": "construction_engineer",
             "name": "Construction Engineer",
