@@ -20,10 +20,10 @@ export default function ConstructsPage() {
                                 {faction}
                             </h1>
 
-                            {UNITS.units.filter((unit) => unit.faction === faction).map((unit) => (
+                            {UNITS.filter((unit) => unit.faction === faction).map((unit) => (
                                 <div className='Units-containers' key={unit.name}>
                                     <UnitAndBuldingButton
-                                        accentColor={FACTIONS[faction].color}
+                                        accentColor={faction.color}
                                         name={unit.name}
                                         tier={unit.tier}
                                         type={unit.type}

@@ -71,3 +71,16 @@ html, body, #root {
     font-style: italic;
     opacity: 0.75;
 }
+
+.aio-unit-panel {
+    background: linear-gradient(to right, rgba(30, 30, 30), rgba(60, 60, 60, 0.75));
+}
+
+.aio-unit-panel:hover {
+    background: linear-gradient(to right, rgba(120, 120, 120), rgba(90, 90, 90, 0.75));
+}
+
+.aio-unit-name {
+    font-style: italic;
+    opacity: 0.75;
+}
