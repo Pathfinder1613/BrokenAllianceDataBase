@@ -1,0 +1,63 @@
+{
+    "units": [
+        {
+            "id": "atv",
+            "name": "ATV",
+            "class": "Multi-Purpose Scout Vehicle",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 35,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "damage": 18,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "traits": [
+                "Fastest T1 unit; largest vision range in the game",
+                "On death — leaves a vision ping at the location for 5 seconds"
+            ],
+            "activeAbilities": [
+                {
+                    "name": "Turbo Boost",
+                    "cooldownSeconds": 30,
+                    "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
+                    "durationSeconds": 6,
+                    "speedMultiplier": 2,
+                    "passesThroughLighterUnits": true
+                }
+            ]
+        },
+        {
+            "id": "construction_engineer",
+            "name": "Construction Engineer",
+            "class": "Multi-Purpose Vehicle",
+            "lore": "[Placeholder]",
+            "stats": {
+                "cost": 150,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "damage": 15,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "traits": [
+                "Can repair damaged friendly buildings",
+                "Armed — gun not for combat",
+                "Deployable Smoke creates brief concealment for nearby units"
+            ],
+            "activeAbilities": [
+                {
+                    "name": "Deployable Smoke",
+                    "cooldownSeconds": 45,
+                    "description": "Deploys a smoke cloud at the Engineer's location. All units inside are hidden from enemy vision for 8 seconds. Units can still fire and move inside the smoke.",
+                    "concealDurationSeconds": 8,
+                    "unitsCanFireInside": true,
+                    "unitsCanMoveInside": true,
+                    "radius": null
+                }
+            ]
+        }
+    ]
+}
