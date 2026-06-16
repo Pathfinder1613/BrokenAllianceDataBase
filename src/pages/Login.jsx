@@ -22,10 +22,13 @@ export default function Login() {
                 <label>
                     Admin Name
                     <input
+                        id="username"
+                        name="username"
                         type="text"
                         placeholder="User name"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
+                        autoComplete="new-username"
                         required
                     />
                 </label>
@@ -33,10 +36,13 @@ export default function Login() {
                 <label>
                     Admin Password
                     <input
+                        id="password"
+                        name="password"
                         type="password"
                         placeholder="Password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
+                        autoComplete="new-password"
                         required
                     />
                 </label>
