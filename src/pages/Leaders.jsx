@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -17,6 +18,7 @@ import LEADERS from '../services/NewTestData/Leader.json'
 
 export default function LeaderPage() {
     // NOTE: When referencing images dynamically, images MUST be put in the 'public' folder.
+    const navigate = useNavigate();
 
     return (
         <Swiper className='leader-slide-container'
@@ -25,7 +27,7 @@ export default function LeaderPage() {
             navigation
             pagination={{ clickable: true }}
         >
-            <SwiperSlide/>
+            <SwiperSlide />
             {LEADERS.Leader.map(
                 (leader) => {
                     const faction = FACTIONS[leader.faction.toLowerCase()]
@@ -42,15 +44,19 @@ export default function LeaderPage() {
                                         currentTarget.src = `/images/portraits/Placeholder.png`
                                     }
                                 } />
-                                <span style={{color: color}} className="leader-name">{leader.name}</span>
+                                <span style={{ color: color }} className="leader-name">{leader.name}</span>
                                 <span className="leader-type">{leader.title}</span>
                                 <span className="leader-quote">"{leader.tagline}"</span>
+                                <span className="leader-lore">
+                                    {(leader.lore ?? '').split(' ').slice(0, 30).join(' ')}...
+                                    <button onClick={() => navigate(`/leaders/${leader.id}`)} className='See-More'>Click to see more</button>
+                                </span>
                             </div>
                         </SwiperSlide>
                     )
                 }
             )}
-            <SwiperSlide/>
+            <SwiperSlide />
 
             {/* using two dummy slides at the beginning and end to focus the selected card in the center */}
         </Swiper>

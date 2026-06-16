@@ -5,6 +5,7 @@ import LeaderPage from './pages/Leaders';
 import ConstructsPage from './pages/Constructs';
 import AllInOne from './pages/AllInOne';
 import AdminPage from './pages/Login.jsx'
+import FullLeaderPage from './pages/FullLeaderPage.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path='/leaders' element={<LeaderPage/>} />
+        <Route path="/leaders/:id" element={<FullLeaderPage />} />
+
         <Route path='/constructs' element={<ConstructsPage/>} />
         <Route path='/aio' element={<AllInOne/>}/>
         <Route path='/AdminPage' element={<AdminPage/>}/>

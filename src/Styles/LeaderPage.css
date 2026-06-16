@@ -92,3 +92,33 @@ html, body, #root {
     border-left: 3px solid rgba(255,255,255,0.25);
     padding-left: 10px;
 }
+
+.leader-lore {
+    margin-top: 8px;
+    opacity: 0.75;
+    font-style: italic;
+    border-left: 3px solid rgba(255,255,255,0.25);
+    padding-left: 10px;
+    
+}
+
+.See-More {
+    margin-top: 6px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.See-More:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #fff;
+}

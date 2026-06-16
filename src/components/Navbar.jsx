@@ -11,6 +11,7 @@ export default function Navbar() {
                 <li><NavLink to="/leaders">Leaders</NavLink></li>
                 <li><NavLink to="/constructs">Constructs</NavLink></li>
                 <li><NavLink to="/aio">test</NavLink></li>
+                <li><NavLink to="/AdminPage">AdminPage</NavLink></li>
             </ul>
 
             <span className="navbar-version">v0.0</span>
