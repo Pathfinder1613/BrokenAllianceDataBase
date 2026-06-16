@@ -1,30 +1,49 @@
+import { useState } from 'react';
 
+import '../Styles/Login.css'
 
-export default function login() {
+export default function Login() {
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        console.log('Username:', username);
+        console.log('Password:', password);
+    };
+
     return (
-        <div className="from">
-            <h1>Admin login page</h1>
-            <p>Admin login page</p>
-            <form>
+        <div className="form">
+            <h1>Admin Login Page</h1>
+            <p>Please sign in to continue.</p>
+
+            <form onSubmit={handleSubmit}>
                 <label>
-                    Admin name
-                    <input type="input" placeholder="User name"></input>
+                    Admin Name
+                    <input
+                        type="text"
+                        placeholder="User name"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                        required
+                    />
                 </label>
-                
+
                 <label>
                     Admin Password
-                    <input type="input" placeholder="Password"></input>
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                    />
                 </label>
 
-                <label>
-                    check box
-                    <input type="checkbox"></input>
-                </label>
-                
 
+                <button type="submit">Login</button>
             </form>
-
         </div>
-
-    )
+    );
 }
