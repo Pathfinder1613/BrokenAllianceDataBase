@@ -69,24 +69,6 @@
     justify-content: center;
 }
 
-.home-actions button {
-    padding: 12px 32px;
-    font-size: 0.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    transition: background 0.2s ease, border-color 0.2s ease;
-}
-
-.home-actions button:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: #fff;
-}
 
 @media (max-width: 600px) {
     .hero {
