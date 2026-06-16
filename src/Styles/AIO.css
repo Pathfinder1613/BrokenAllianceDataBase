@@ -15,72 +15,71 @@ html, body, #root {
 
 .aio-main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow-x: auto;
 }
 
-.aio-faction-container {   
+.aio-faction-header-container {
     display: flex;
-    flex-direction: column;
-    min-width: calc(100% * (1 / 3));
+    width: 100%;
+    flex-direction: row;
 }
 
 .aio-faction-header {
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    padding: 2px;
-}
-
-.aio-faction-name {
     font-size: 1.25em;
     font-weight: bold;
+    display: flex;
+    width: calc(100% * (1 / 3));
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 2px;
 }
 
-.aio-faction-mini-icon {
+.aio-faction-icon {
     height: 100%;
     aspect-ratio: 1;
-    margin-left: auto;
-    object-fit: fill;
-    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-size: cover;
     background: white;
+    margin-left: auto;
 }
 
-.aio-leader-panel {
+.aio-row-container {
+    border-bottom: dashed 1px rgba(120, 120, 120);
+}
+
+.aio-row {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.aio-row-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% * (1 / 3));
+    flex-shrink: 0;
+    background: linear-gradient(to right, rgb(30, 30, 30), rgba(60, 60, 60, 0.75));
     padding: 2px;
-    background: linear-gradient(to right, rgba(30, 30, 30), rgba(60, 60, 60, 0.75));
 }
 
-.aio-leader-panel:hover {
-    background: linear-gradient(to right, rgba(120, 120, 120), rgba(90, 90, 90, 0.75));
+.aio-selectable:hover {
+    background: linear-gradient(to right, rgba(90, 90, 90), rgb(60, 60, 60, 0.75));
 }
 
 .aio-leader-name {
-    font-size: 0.9em;
     font-weight: bold;
 }
 
 .aio-leader-type {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
     opacity: 0.75;
 }
 
 .aio-leader-quote {
     font-size: 0.8em;
-    font-style: italic;
-    opacity: 0.75;
-}
-
-.aio-unit-panel {
-    background: linear-gradient(to right, rgba(30, 30, 30), rgba(60, 60, 60, 0.75));
-}
-
-.aio-unit-panel:hover {
-    background: linear-gradient(to right, rgba(120, 120, 120), rgba(90, 90, 90, 0.75));
-}
-
-.aio-unit-name {
     font-style: italic;
     opacity: 0.75;
 }
