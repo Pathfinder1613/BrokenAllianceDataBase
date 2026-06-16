@@ -10,7 +10,8 @@ export default function Navbar() {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/leaders">Leaders</NavLink></li>
                 <li><NavLink to="/constructs">Constructs</NavLink></li>
-                <li><NavLink to="/aio">test</NavLink></li>
+                <li><NavLink to="/aio">AIO</NavLink></li>
+                <li><NavLink to="/detail-viewer">viewer</NavLink></li>
             </ul>
 
             <span className="navbar-version">v0.0</span>
