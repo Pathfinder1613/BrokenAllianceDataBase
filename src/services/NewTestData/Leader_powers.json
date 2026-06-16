@@ -46,7 +46,7 @@
       "order": 4,
       "id": "amalgam",
       "name": "Amalgam",
-      "faction": "storm",
+      "faction": "the_storm",
       "skillUnlockOrder": [
         "living_storm",
         "spore_burst",
@@ -60,7 +60,7 @@
       "order": 5,
       "id": "phantoms",
       "name": "Phantoms",
-      "faction": "storm",
+      "faction": "the_storm",
       "skillUnlockOrder": [
         "the_signal",
         "disrupt_signal",
