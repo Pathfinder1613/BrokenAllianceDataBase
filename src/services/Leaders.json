@@ -1,0 +1,90 @@
+[
+  {
+    "id": "president_enhet",
+    "faction": "udf",
+    "name": "President Enhet",
+    "leader_type": "Political Leader",
+    "tree_type": "Economy",
+    "quote": "Unity is our greatest weapon",
+    "hero_unit": "diplomatic_envoy",
+    "is_placeholder": false,
+    "lore": "A once high-ranking military general, well known during his time for his efforts towards ending the Final War and bringing a lasting era of peace. The final fight was an all-or-nothing assault formed from the desperation of the CoRP (Coalition of Revolutionized Powers) to end the war due to diminishing supplies and general war exhaustion on the public. The tactics and militaristic genius of General Enhet brought troops to prepare a spearhead assault the likes of which the Earth had never seen prior and will hopefully never see again, involving 10 million united soldiers charging down the lines and piercing the GTD (Great Tyrannus Dominion) Capital and ending the war. His bravery in leading the men on the front lines awarded him the highest honor of leadership when the UDF was formed alongside becoming the President of the UDF. His strategic thinking and soldier background led to revolutionary guerilla warfare tactics that he deemed needed to ensure greater public safety and to increase the odds that a soldier gets to see his family again \u2014 giving his troops quick travel through rough terrain and the ability to ambush hostiles before they know they are in danger. His military background and desire for minimal losses of life led to the creation of the Groundbreaker, a mobile factory capable of tunneling underground and providing a new, potentially faster and overwhelmingly safer path to strategic locations, and the Groundhog, a stealth unit that goes underground and lies in wait for hostile forces to pass by, allowing it to ambush greater forces from unforeseen angles and providing intel behind lines with little risk to itself."
+  },
+  {
+    "id": "commander_hawk",
+    "faction": "udf",
+    "name": "Commander Hawk",
+    "leader_type": "Field Commander",
+    "tree_type": "Military",
+    "quote": "Hit hard. Hit fast. Don't stop.",
+    "hero_unit": "commander_hawk",
+    "is_placeholder": false,
+    "lore": "James Hawk joined the Airforce after the death of his father, carrying on the family legacy. Over decades of service, he became one of the most skilled pilots in the UDF, mastering the Pterodactylus Gunship. Hawk became famous for his courage and willingness to risk everything to save others. His most legendary mission involved flying through a hurricane to rescue a civilian transport ship trapped by the CoRP, a decision that nearly cost him his life but saved hundreds of civilians. Recognizing his bravery, President Enhet appointed Hawk to the Defense Department. Combining his experience as a pilot with his love for Earth's ancient flying creatures, Hawk designed the Quetzalcoatlus Gunship, a next-generation aircraft inspired by the Pterodactylus platform."
+  },
+  {
+    "id": "iq_iris_quantum",
+    "faction": "udf",
+    "name": "IQ (Iris Quantum)",
+    "leader_type": "Tech / Intel Lead",
+    "tree_type": "Technology",
+    "quote": "Information is the only weapon that never runs out of ammo.",
+    "hero_unit": "IQ Drone Chassis",
+    "is_placeholder": false,
+    "lore": "Born into a family of researchers, Iris Quantum grew up surrounded by advanced genetic engineering research. From an early age, she demonstrated exceptional intelligence and eventually developed an interest in manipulating space itself through the study of ancient alien civilizations and technology. Her research caught the attention of President Enhet, who recognized the military potential of her genetic engineering discoveries. This led to the creation of Quantum-Biological Augmentation, a technology allowing enhanced soldiers to temporarily increase physical abilities, improve battlefield performance, and manipulate advanced energy systems. However, the technology carries significant risks. Excessive use causes extreme energy consumption, requiring increased food intake and recovery periods. In extreme cases, the unstable quantum energy within an augmented individual can cause a catastrophic explosion upon death. Despite these dangers, President Enhet approved the Quantum Augmentation Program, allowing specially enhanced individuals to serve within the UDF military."
+  },
+  {
+    "id": "kizer",
+    "faction": "sakupen",
+    "name": "Kizer",
+    "leader_type": "Supreme Warlord",
+    "tree_type": "Melee Aggressive",
+    "quote": "Weakness is a choice. I chose otherwise.",
+    "hero_unit": "kizer",
+    "is_placeholder": false,
+    "lore": null
+  },
+  {
+    "id": "e_11",
+    "faction": "sakupen",
+    "name": "E-11",
+    "leader_type": "Tactical AI Construct",
+    "tree_type": "Control",
+    "quote": "Optimal outcome calculated. Executing.",
+    "hero_unit": "e_11_chassis",
+    "is_placeholder": false,
+    "lore": null
+  },
+  {
+    "id": "3c_commander_class_chassis",
+    "faction": "sakupen",
+    "name": "3C",
+    "leader_type": "Commander Class Chassis",
+    "tree_type": "Economy",
+    "quote": "Production is power. Power is everything.",
+    "hero_unit": "3c_drone_swarm",
+    "is_placeholder": false,
+    "lore": null
+  },
+  {
+    "id": "amalgam",
+    "faction": "the_storm",
+    "name": "Amalgam",
+    "leader_type": "Organic Host",
+    "tree_type": "Melee Swarm",
+    "quote": "It does not think. It does not plan. It only consumes.",
+    "hero_unit": "amalgam",
+    "is_placeholder": false,
+    "lore": null
+  },
+  {
+    "id": "phantoms",
+    "faction": "the_storm",
+    "name": "Phantoms",
+    "leader_type": "Machine Host",
+    "tree_type": "Economy Control",
+    "quote": "The signal finds you. The signal changes you. The signal wins.",
+    "hero_unit": "phantoms",
+    "is_placeholder": false,
+    "lore": null
+  }
+]
