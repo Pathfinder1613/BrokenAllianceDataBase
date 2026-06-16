@@ -1,0 +1,10 @@
+{
+    "atv_turbo_boost": {},
+    "deployable_smoke": {
+        "name": "Deployable Smoke",
+        "cooldown": 45,
+        "description": "Creates a <radius>-meter wide smoke cloud that lasts for <duration> seconds, concealing any units within range.",
+        "duration": 8,
+        "radius": 8
+    }
+}

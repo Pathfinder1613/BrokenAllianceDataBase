@@ -13,11 +13,11 @@ export default function HomePage() {
             </section>
 
             <div className="faction-strip">
-                <img src="/images/icons/UDF.svg" />
-                <img src="/images/icons/Sakupen.svg" />
-                <img src="/images/icons/The Storm.svg" />
-                <img src="/images/icons/TheBog.svg" />
-                <img src="/images/icons/Trogs.svg" />
+                <img src="/images/icons/udf.svg" />
+                <img src="/images/icons/sakupen.svg" />
+                <img src="/images/icons/the_storm.svg" />
+                <img src="/images/icons/the_bog.svg" />
+                <img src="/images/icons/the_trogs.svg" />
             </div>
 
             <section className="home-blurb">
