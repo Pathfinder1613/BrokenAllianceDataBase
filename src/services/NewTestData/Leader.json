@@ -1,5 +1,5 @@
 {
-  "heroes": [
+  "Leader": [
     {
       "id": "commander_hawk",
       "name": "Commander Hawk",
@@ -28,7 +28,7 @@
       "id": "amalgam",
       "name": "Amalgam",
       "title": "Organic Host",
-      "faction": "storm",
+      "faction": "the_storm",
       "tagline": "It does not think. It does not plan. It only consumes.",
       "lore": null
     },
@@ -36,7 +36,7 @@
       "id": "phantoms",
       "name": "Phantoms",
       "title": "Machine Host",
-      "faction": "storm",
+      "faction": "the_storm",
       "tagline": "The signal finds you. The signal changes you. The signal wins.",
       "lore": null
     },

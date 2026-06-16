@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar';
 import '../Styles/LeaderPage.css';
 
 import FACTIONS from '../services/Factions.json';
-import LEADERS from '../services/Leaders.json'
+import LEADERS from '../services/NewTestData/Leader.json'
 
 
 export default function LeaderPage() {
@@ -26,9 +26,9 @@ export default function LeaderPage() {
             pagination={{ clickable: true }}
         >
             <SwiperSlide/>
-            {LEADERS.map(
+            {LEADERS.Leader.map(
                 (leader) => {
-                    const faction = FACTIONS[leader.faction]
+                    const faction = FACTIONS[leader.faction.toLowerCase()]
                     const color = faction ? faction.color : 'white'
 
                     return (
@@ -43,8 +43,8 @@ export default function LeaderPage() {
                                     }
                                 } />
                                 <span style={{color: color}} className="leader-name">{leader.name}</span>
-                                <span className="leader-type">{leader.leader_type}</span>
-                                <span className="leader-quote">"{leader.quote}"</span>
+                                <span className="leader-type">{leader.title}</span>
+                                <span className="leader-quote">"{leader.tagline}"</span>
                             </div>
                         </SwiperSlide>
                     )
