@@ -1,14 +1,14 @@
 {
-    "UDF": {
+    "udf": {
         "color": "#0000FF"
     },
-    "Sakupen": {
+    "sakupen": {
         "color": "#FF0000"
     },
-    "The Storm": {
+    "the_storm": {
         "color": "#50148c"
     },
-    "Trogs": {
+    "trogs": {
         "color": "#00AA00"
     }
 }

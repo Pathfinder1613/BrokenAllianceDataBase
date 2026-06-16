@@ -1,6 +1,7 @@
 import '../Styles/AIO.css'
 
 import LEADERS from '../services/Leaders.json'
+import UNITS from '../services/Units.json'
 
 // import FACTION from '../services/Factions.json' should we update that json?
 const FACTIONS = [
@@ -33,14 +34,21 @@ export default function AllInOne() {
                 <div key={faction.id} className="aio-faction-container">
                     <div style={{ backgroundColor: faction.color }} className="aio-faction-header">
                         <span className="aio-faction-name">{faction.name}</span>
-                        <div style={{ maskImage: `url(/images/icons/${faction.name}.svg)` }} className="aio-faction-mini-icon" />
+                        <div style={{ maskImage: `url(/images/icons/${faction.id}.svg)` }} className="aio-faction-mini-icon" />
                     </div>
-                    {LEADERS.filter((leader) => leader.faction === faction.name).map((leader) =>
+                    {LEADERS.filter((leader) => leader.faction === faction.id).map((leader) =>
                     (<div className="aio-leader-panel">
                         <div className="aio-leader-name">{leader.name}</div>
                         <div className="aio-leader-type">{leader.leader_type}</div>
                         <div className="aio-leader-quote">"{leader.quote}"</div>
                     </div>))}
+                    {UNITS.filter((unit) => unit.faction === faction.id).map((unit) => (
+                        <div className="aio-unit-panel">
+                            <span>T{unit.tier}</span>
+                            <span> {unit.type}</span>
+                            <span className="aio-unit-name"> {unit.name ? `"${unit.name}"` : ""}</span>
+                        </div>
+                    ))}
                 </div>
             ))}
         </div>

@@ -1,7 +1,7 @@
 [
   {
-    "id": "PresidentEnhet",
-    "faction": "UDF",
+    "id": "president_enhet",
+    "faction": "udf",
     "name": "President Enhet",
     "leader_type": "Political Leader",
     "tree_type": "Economy",
@@ -80,8 +80,8 @@
     ]
   },
   {
-    "id": "CommanderHawk",
-    "faction": "UDF",
+    "id": "commander_hawk",
+    "faction": "udf",
     "name": "Commander Hawk",
     "leader_type": "Field Commander",
     "tree_type": "Military",
@@ -160,8 +160,8 @@
     ]
   },
   {
-    "id": "IQ_IrisQuantum",
-    "faction": "UDF",
+    "id": "iq_iris_quantum",
+    "faction": "udf",
     "name": "IQ (Iris Quantum)",
     "leader_type": "Tech / Intel Lead",
     "tree_type": "Technology",
@@ -240,13 +240,13 @@
     ]
   },
   {
-    "id": "Kizer",
-    "faction": "Sakupen",
+    "id": "kizer",
+    "faction": "sakupen",
     "name": "Kizer",
     "leader_type": "Supreme Warlord",
     "tree_type": "Melee Aggressive",
     "quote": "Weakness is a choice. I chose otherwise.",
-    "hero_unit": "Kizer",
+    "hero_unit": "kizer",
     "is_placeholder": false,
     "lore": null,
     "passives": [],
@@ -320,13 +320,13 @@
     ]
   },
   {
-    "id": "E-11",
-    "faction": "Sakupen",
+    "id": "e_11",
+    "faction": "sakupen",
     "name": "E-11",
     "leader_type": "Tactical AI Construct",
     "tree_type": "Control",
     "quote": "Optimal outcome calculated. Executing.",
-    "hero_unit": "E-11 chassis",
+    "hero_unit": "e_11_chassis",
     "is_placeholder": false,
     "lore": null,
     "passives": [],
@@ -400,13 +400,13 @@
     ]
   },
   {
-    "id": "3C_CommanderClassChassis",
-    "faction": "Sakupen",
+    "id": "3c_commander_class_chassis",
+    "faction": "sakupen",
     "name": "3C",
     "leader_type": "Commander Class Chassis",
     "tree_type": "Economy",
     "quote": "Production is power. Power is everything.",
-    "hero_unit": "3C drone swarm",
+    "hero_unit": "3c_drone_swarm",
     "is_placeholder": false,
     "lore": null,
     "passives": [],
@@ -480,13 +480,13 @@
     ]
   },
   {
-    "id": "Amalgam",
-    "faction": "The Storm",
+    "id": "amalgam",
+    "faction": "the_storm",
     "name": "Amalgam",
     "leader_type": "Organic Host",
     "tree_type": "Melee Swarm",
     "quote": "It does not think. It does not plan. It only consumes.",
-    "hero_unit": "Amalgam",
+    "hero_unit": "amalgam",
     "is_placeholder": false,
     "lore": null,
     "passives": [],
@@ -560,93 +560,13 @@
     ]
   },
   {
-    "id": "StormPlaceholder",
-    "faction": "The Storm",
-    "name": "Placeholder",
-    "leader_type": "Placeholder",
-    "tree_type": "Melee Swarm",
-    "quote": "This is a placeholder.",
-    "hero_unit": null,
-    "is_placeholder": true,
-    "lore": null,
-    "passives": [],
-    "skills": [
-      {
-        "unlock": 1,
-        "branch": null,
-        "name": null,
-        "type": null,
-        "cooldown": null,
-        "duration": null,
-        "description": null,
-        "is_placeholder": true,
-        "notes": null
-      },
-      {
-        "unlock": 2,
-        "branch": null,
-        "name": null,
-        "type": null,
-        "cooldown": null,
-        "duration": null,
-        "description": null,
-        "is_placeholder": true,
-        "notes": null
-      },
-      {
-        "unlock": 3,
-        "branch": null,
-        "name": null,
-        "type": null,
-        "cooldown": null,
-        "duration": null,
-        "description": null,
-        "is_placeholder": true,
-        "notes": null
-      },
-      {
-        "unlock": 4,
-        "branch": null,
-        "name": null,
-        "type": null,
-        "cooldown": null,
-        "duration": null,
-        "description": null,
-        "is_placeholder": true,
-        "notes": null
-      },
-      {
-        "unlock": 5,
-        "branch": null,
-        "name": null,
-        "type": null,
-        "cooldown": null,
-        "duration": null,
-        "description": null,
-        "is_placeholder": true,
-        "notes": null
-      },
-      {
-        "unlock": 6,
-        "branch": null,
-        "name": null,
-        "type": null,
-        "cooldown": null,
-        "duration": null,
-        "description": null,
-        "is_placeholder": true,
-        "notes": null
-      }
-    ]
-  },
-  {
-    "id": "Phantoms",
-    "faction": "The Storm",
+    "id": "phantoms",
+    "faction": "the_storm",
     "name": "Phantoms",
     "leader_type": "Machine Host",
     "tree_type": "Economy Control",
     "quote": "The signal finds you. The signal changes you. The signal wins.",
-    "hero_unit": "Phantoms",
+    "hero_unit": "phantoms",
     "is_placeholder": false,
     "lore": null,
     "passives": [],
