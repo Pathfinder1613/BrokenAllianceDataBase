@@ -365,7 +365,7 @@
             "name": "Land factory",
             "type": "unit production",
             "tier": 1,
-            "faction": "storm",
+            "faction": "the_storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -395,7 +395,7 @@
             "name": "Air factory",
             "type": "unit production",
             "tier": 1,
-            "faction": "storm",
+            "faction": "the_storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -425,7 +425,7 @@
             "name": "infantry barracks",
             "type": "unit production",
             "tier": 1,
-            "faction": "storm",
+            "faction": "the_storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -455,7 +455,7 @@
             "name": "Mass storage",
             "type": "economy",
             "tier": 1,
-            "faction": "storm",
+            "faction": "the_storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -485,7 +485,7 @@
             "name": "Power storage",
             "type": "economy",
             "tier": 1,
-            "faction": "storm",
+            "faction": "the_storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -515,7 +515,7 @@
             "name": "Mass extractor",
             "type": "economy",
             "tier": 1,
-            "faction": "storm",
+            "faction": "the_storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,

@@ -5,6 +5,7 @@ import '../Styles/ConstructsPage.css';
 
 import FACTIONS from '../services/Factions.json';
 import UNITS from '../services/NewTestData/Units.json';
+import BUILDING from '../services/NewTestData/Building.json';
 
 export default function ConstructsPage() {
     return (
@@ -25,7 +26,7 @@ export default function ConstructsPage() {
                             {faction}
                             <hr></hr>
                         </h1>
-                        
+
 
                         <div className='Units-containers'>
                             {UNITS.units
@@ -40,6 +41,20 @@ export default function ConstructsPage() {
                                         onClick={() => console.log(unit)}
                                     />
                                 ))}
+
+                            {BUILDING.Building
+                                .filter((Building) => Building.faction === faction)
+                                .map((Building) => (
+                                    <UnitAndBuldingButton
+                                        key={Building.name}
+                                        accentColor={FACTIONS[faction].color}
+                                        name={Building.name}
+                                        tier={Building.tier}
+                                        type={Building.type}
+                                        onClick={() => console.log(Building)}
+                                    />
+                                ))
+                            }
                         </div>
                     </div>
                 ))}
