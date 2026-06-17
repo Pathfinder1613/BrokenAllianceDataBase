@@ -138,7 +138,7 @@
         {
             "id": "frigate",
             "name": "Frigate",
-            "type": "Naval (T1)",
+            "type": "Naval ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -165,7 +165,7 @@
         {
             "id": "patrol_boat",
             "name": "Patrol Boat",
-            "type": "Naval (T1)",
+            "type": "Naval ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -192,7 +192,7 @@
         {
             "id": "artillery_boat",
             "name": "Artillery Boat",
-            "type": "Naval Siege (T1)",
+            "type": "Naval Siege ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -273,7 +273,7 @@
         {
             "id": "interceptor",
             "name": "Interceptor",
-            "type": "Air / Anti-Air (T1)",
+            "type": "Air / Anti-Air ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -300,7 +300,7 @@
         {
             "id": "spy_plane",
             "name": "Spy Plane",
-            "type": "Air / Scout (T1)",
+            "type": "Air / Scout ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -327,7 +327,7 @@
         {
             "id": "bomber",
             "name": "Bomber",
-            "type": "Air (T1)",
+            "type": "Air ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -354,7 +354,7 @@
         {
             "id": "drop_ship",
             "name": "Drop Ship",
-            "type": "Air / Transport (T1)",
+            "type": "Air / Transport ",
             "tier": 1,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -408,7 +408,7 @@
         {
             "id": "pilot",
             "name": "Pilot",
-            "type": "Infantry (T2)",
+            "type": "Infantry ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -435,7 +435,7 @@
         {
             "id": "yeagers",
             "name": "Yeagers",
-            "type": "Shock Troopers (T2)",
+            "type": "Shock Troopers ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -489,7 +489,7 @@
         {
             "id": "groundhog",
             "name": "Groundhog",
-            "type": "Burrowing Tank (T2)",
+            "type": "Burrowing Tank ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -516,7 +516,7 @@
         {
             "id": "river_gunboat",
             "name": "River Gunboat",
-            "type": "Naval (T2)",
+            "type": "Naval ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -570,7 +570,7 @@
         {
             "id": "cruiser",
             "name": "Cruiser",
-            "type": "Naval (T2)",
+            "type": "Naval ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -597,7 +597,7 @@
         {
             "id": "shield_cruiser",
             "name": "Shield Cruiser",
-            "type": "Naval Support (T2)",
+            "type": "Naval Support ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -678,7 +678,7 @@
         {
             "id": "thunderbird",
             "name": "Thunderbird",
-            "type": "Heavy Gunship / Dropship (T2)",
+            "type": "Heavy Gunship / Dropship ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -705,7 +705,7 @@
         {
             "id": "delta_dart",
             "name": "Delta Dart",
-            "type": "Interceptor / Bomber / Anti-Air (T2)",
+            "type": "Interceptor / Bomber / Anti-Air ",
             "tier": 2,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -786,7 +786,7 @@
         {
             "id": "assault_frigate",
             "name": "Assault Frigate",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -813,7 +813,7 @@
         {
             "id": "aircraft_carrier",
             "name": "Aircraft Carrier",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -840,7 +840,7 @@
         {
             "id": "battleship",
             "name": "Battleship",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -867,7 +867,7 @@
         {
             "id": "submarine",
             "name": "Submarine",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -948,7 +948,7 @@
         {
             "id": "relay_tank",
             "name": "Relay Tank",
-            "type": "Vehicle / Support (T3)",
+            "type": "Vehicle / Support ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -1056,7 +1056,7 @@
         {
             "id": "pterodactylus",
             "name": "Pterodactylus",
-            "type": "Air / Gunship (T3)",
+            "type": "Air / Gunship ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -1083,7 +1083,7 @@
         {
             "id": "spy_plane_iii",
             "name": "Spy Plane III",
-            "type": "Air / Scout (T3)",
+            "type": "Air / Scout ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -1110,7 +1110,7 @@
         {
             "id": "superior_mini_nuker",
             "name": "Superior Mini Nuker",
-            "type": "Air / Bomber (T3)",
+            "type": "Air / Bomber ",
             "tier": 3,
             "faction": "udf",
             "lore": "[Placeholder]",
@@ -1326,7 +1326,7 @@
         {
             "id": "construction_engineer_sakupen",
             "name": "Construction Engineer (sakupen)",
-            "type": "Multi-Purpose Vehicle (T1)",
+            "type": "Multi-Purpose Vehicle ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1353,7 +1353,7 @@
         {
             "id": "cybermen",
             "name": "Cybermen",
-            "type": "Ground Infantry (T1)",
+            "type": "Ground Infantry ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "Clones. [Placeholder]",
@@ -1380,7 +1380,7 @@
         {
             "id": "blitz",
             "name": "Blitz",
-            "type": "Light Vehicle / Scout (T1)",
+            "type": "Light Vehicle / Scout ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "It's a motorcycle. [Placeholder]",
@@ -1407,7 +1407,7 @@
         {
             "id": "probe_skiff",
             "name": "Probe Skiff",
-            "type": "Naval Scout (T1)",
+            "type": "Naval Scout ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1434,7 +1434,7 @@
         {
             "id": "wasp",
             "name": "Wasp",
-            "type": "Air Support (T1)",
+            "type": "Air Support ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1461,7 +1461,7 @@
         {
             "id": "shield_generator_unit",
             "name": "Shield Generator Unit",
-            "type": "Support Infantry (T1)",
+            "type": "Support Infantry ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1488,7 +1488,7 @@
         {
             "id": "p_61",
             "name": "P-61",
-            "type": "Suicide Infantry (T1)",
+            "type": "Suicide Infantry ",
             "tier": 1,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1515,7 +1515,7 @@
         {
             "id": "construction_engineer_2_sakupen",
             "name": "Construction Engineer 2 (sakupen)",
-            "type": "Multi-Purpose Vehicle (T1)",
+            "type": "Multi-Purpose Vehicle ",
             "tier": 2,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1596,7 +1596,7 @@
         {
             "id": "energy_corvette",
             "name": "Energy Corvette",
-            "type": "Naval (T2)",
+            "type": "Naval ",
             "tier": 2,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1623,7 +1623,7 @@
         {
             "id": "jumper",
             "name": "Jumper",
-            "type": "Payload Special Infantry (T2)",
+            "type": "Payload Special Infantry ",
             "tier": 2,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1731,7 +1731,7 @@
         {
             "id": "rivenate",
             "name": "Rivenate",
-            "type": "Airship / gunship (T2)",
+            "type": "Airship / gunship ",
             "tier": 2,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1758,7 +1758,7 @@
         {
             "id": "construction_engineer_3_sakupen",
             "name": "Construction Engineer 3 (sakupen)",
-            "type": "Multi-Purpose Vehicle (T1)",
+            "type": "Multi-Purpose Vehicle ",
             "tier": 3,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -1785,7 +1785,7 @@
         {
             "id": "void_frigate",
             "name": "Void Frigate",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -2001,7 +2001,7 @@
         {
             "id": "lazboat",
             "name": "LazBoat",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "sakupen",
             "lore": "[Placeholder]",
@@ -2325,7 +2325,7 @@
         {
             "id": "spore_skiff",
             "name": "Spore Skiff",
-            "type": "Naval (T1)",
+            "type": "Naval ",
             "tier": 1,
             "faction": "the_storm",
             "lore": "[Placeholder]",
@@ -2460,7 +2460,7 @@
         {
             "id": "rot_galleon",
             "name": "Rot Galleon",
-            "type": "Naval (T2)",
+            "type": "Naval ",
             "tier": 2,
             "faction": "the_storm",
             "lore": "[Placeholder]",
@@ -2500,7 +2500,7 @@
                 "vision": "Medium"
             },
             "abilities": [
-                "kamikaze"
+                "placeholder_abititie"
             ],
             "weapons": [
                 "placeholder"
@@ -2595,7 +2595,7 @@
         {
             "id": "leviathan_spawn",
             "name": "Leviathan Spawn",
-            "type": "Naval (T3)",
+            "type": "Naval ",
             "tier": 3,
             "faction": "the_storm",
             "lore": "[Placeholder]",
@@ -2622,7 +2622,7 @@
         {
             "id": "corruption_carrier",
             "name": "Corruption Carrier",
-            "type": "Air Support (T3)",
+            "type": "Air Support ",
             "tier": 3,
             "faction": "the_storm",
             "lore": "[Placeholder]",
