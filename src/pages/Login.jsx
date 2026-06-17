@@ -18,7 +18,7 @@ export default function Login() {
     return (
         <Modal
             isOpen={true}
-            onClose={() => navigate(-1)}
+            onClose={() => window.history.length > 1 ? navigate(-1) : navigate('/')}
             title='Admin Login'
         >
             <form className="form" onSubmit={handleSubmit}>
