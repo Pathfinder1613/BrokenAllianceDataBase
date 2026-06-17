@@ -21,12 +21,12 @@ export default function UnitAndBuildingButton({ name, tier, type, accentColor, p
 
             <div className="unit-btn-tier">{tier ?? 1}</div>
 
-            <div className="unit-btn-bar" style={{ background: accentColor ?? '#4fa3ff' }} />
+            <div className="unit-btn-bar" style={{ background: accentColor ?? '#ffffff' }} />
 
             <div className="unit-btn-tooltip">
-                <span>{name ?? 'Unit Name'}</span>
-                <span>Tier {tier ?? 1}</span>
-                <span>Unit type {type ?? 'nan'}</span>
+                <span>{name ?? 'Unnamed Unit'}</span>
+                <span>Tier {tier ?? '-1'}</span>
+                <span>{type ?? 'error'}</span>
             </div>
         </button>
     )

@@ -1,0 +1,36 @@
+{
+    "udf": {
+        "name": "UDF",
+        "color": "#3535c0",
+        "leaders": [
+            "commander_hawk",
+            "president_enhet",
+            "iq_iris_quantum"
+        ]
+    },
+    "sakupen": {
+        "name": "Sakupen",
+        "color": "#661414",
+        "leaders": [
+            "kizer",
+            "e_11",
+            "3c_commander_class_chassis"
+        ]
+    },
+    "the_storm": {
+        "name": "The Storm",
+        "color": "#531d8a",
+        "leaders": [
+            "amalgam",
+            "phantoms"
+        ]
+    },
+    "the_trogs": {
+        "id": "the_trogs",
+        "name": "Trogs",
+        "color": "#3ca03c",
+        "leaders": [
+            
+        ]
+    }
+}
