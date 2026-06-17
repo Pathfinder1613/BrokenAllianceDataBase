@@ -4,6 +4,8 @@ import FACTIONS from '../data/Factions.json'
 import LEADERS from '../data/Leaders.json'
 import UNITS from '../data/Units.json'
 
+const FACTION_ORDER = ["udf", "sakupen", "the_storm", "the_trogs"]
+
 function CreateLeaderRows() {
     const content = [];
     const empty = (<div className="aio-row-item"></div>)
@@ -40,6 +42,48 @@ function CreateLeaderRows() {
     return content;
 }
 
+function CreateUnitRows() {
+    const content = [];
+    const empty = (<div className="aio-row-item"></div>)
+
+    const unit_lists = {};
+    Object.keys(FACTIONS).forEach((faction_id) => unit_lists[faction_id] = []);
+
+    UNITS.units.forEach((unit) => {
+        const list = unit_lists[unit.faction];
+
+        // doing this because I'm not sure how I want to display hero units.
+        if (list && unit.tier !== "Hero") list.push(unit);
+    })
+
+    const maximum_unit_count = Object.values(unit_lists).reduce((max, unit_list) => unit_list.length > max ? unit_list.length : max).length
+
+    for (let i = 0; i < maximum_unit_count; i++) {
+        content.push(
+            <div className="aio-row">
+                {FACTION_ORDER.map((faction_id) => {
+                    const faction = FACTIONS[faction_id];
+                    const unit = unit_lists[faction_id][i];
+
+                    if (!unit) return empty;
+
+                    return (
+                        <div className="aio-row-item aio-selectable">
+                            <div>
+                                <span>T{unit.tier}</span>
+                                <span> {unit.type}</span>
+                                {unit.title && <span className="aio-unit-name"> "{unit.title}"</span>}
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        )
+    }
+
+    return content;
+}
+
 export default function AllInOne() {
     return (
         <div className="aio-main">
@@ -58,6 +102,9 @@ export default function AllInOne() {
                 </div>
                 <div className="aio-row-container">
                     {CreateLeaderRows()}
+                </div>
+                <div className="aio-row-container">
+                    {CreateUnitRows()}
                 </div>
             </>
         </div>

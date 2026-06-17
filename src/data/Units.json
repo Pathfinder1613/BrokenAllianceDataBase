@@ -2,14 +2,14 @@
     "units": [
         {
             "id": "construction_engineer",
-            "name": "Construction Engineer",
+            "title": "Construction Engineer",
             "type": "Multi-Purpose Vehicle",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 150,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -22,21 +22,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "atv",
-            "name": "ATV",
+            "title": "ATV",
             "type": "Multi-Purpose Scout Vehicle",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 150,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -49,21 +49,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "marine",
-            "name": "Marine",
+            "title": "Marine",
             "type": "Infantry",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 10,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 5,
                 "pop": 1,
                 "hp": 90,
@@ -76,21 +76,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "flamer_trooper",
-            "name": "Flamer Trooper",
+            "title": "Flamer Trooper",
             "type": "Infantry",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 10,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 5,
                 "pop": 1,
                 "hp": 90,
@@ -103,21 +103,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
-            "id": "dead_eyes",
-            "name": "Dead Eyes",
-            "type": "Infantry (Sniper)",
+            "id": "deadeyes",
+            "title": "Deadeyes",
+            "type": "Sniper",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 10,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 5,
                 "pop": 1,
                 "hp": 90,
@@ -130,21 +130,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "frigate",
-            "name": "Frigate",
-            "type": "Naval ",
+            "title": null,
+            "type": "Frigate",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 180,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 18,
                 "pop": 1,
                 "hp": 195,
@@ -157,21 +157,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "patrol_boat",
-            "name": "Patrol Boat",
-            "type": "Naval ",
+            "title": null,
+            "type": "Patrol Boat",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 190,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 195,
@@ -184,21 +184,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "artillery_boat",
-            "name": "Artillery Boat",
-            "type": "Naval Siege ",
+            "title": null,
+            "type": "Artillery Boat",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 190,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 12,
                 "pop": 1,
                 "hp": 195,
@@ -211,21 +211,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "field_medic_truck",
-            "name": "Field Medic Truck",
+            "title": "Field Medic Truck",
             "type": "Support Vehicle",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 130,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 14,
                 "pop": 1,
                 "hp": 120,
@@ -238,21 +238,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "mortar_buggy",
-            "name": "Mortar Buggy",
+            "title": "Mortar Buggy",
             "type": "Siege / Artillery",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 180,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 18,
                 "pop": 2,
                 "hp": 100,
@@ -265,21 +265,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "interceptor",
-            "name": "Interceptor",
+            "title": "Interceptor",
             "type": "Air / Anti-Air ",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 180,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 2,
                 "hp": 100,
@@ -292,21 +292,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "spy_plane",
-            "name": "Spy Plane",
-            "type": "Air / Scout ",
+            "title": null,
+            "type": "Spy Plane",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 100,
@@ -319,21 +319,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "bomber",
-            "name": "Bomber",
-            "type": "Air ",
+            "title": null,
+            "type": "Bomber",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 100,
@@ -346,21 +346,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "drop_ship",
-            "name": "Drop Ship",
-            "type": "Air / Transport ",
+            "title": null,
+            "type": "Drop Ship",
             "tier": 1,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 100,
@@ -373,21 +373,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "construction_engineer_ii",
-            "name": "Construction Engineer II",
+            "title": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 250,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 22,
                 "pop": 1,
                 "hp": 295,
@@ -400,21 +400,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "pilot",
-            "name": "Pilot",
-            "type": "Infantry ",
+            "title": "Pilot",
+            "type": "Infantry",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 250,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 165,
@@ -427,21 +427,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "yeagers",
-            "name": "Yeagers",
-            "type": "Shock Troopers ",
+            "title": "Yeagers",
+            "type": "Shock Troopers",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 250,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 165,
@@ -454,21 +454,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "steelhead",
-            "name": "Steelhead",
+            "title": "Steelhead",
             "type": "Heavy Tank",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 400,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 35,
                 "pop": 10,
                 "hp": 350,
@@ -481,21 +481,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "groundhog",
-            "name": "Groundhog",
-            "type": "Burrowing Tank ",
+            "title": "Groundhog",
+            "type": "Burrowing Tank",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 400,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 35,
                 "pop": 10,
                 "hp": 350,
@@ -508,21 +508,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "river_gunboat",
-            "name": "River Gunboat",
-            "type": "Naval ",
+            "title": null,
+            "type": "River Gunboat",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 350,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 30,
                 "pop": 5,
                 "hp": 300,
@@ -535,21 +535,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "stegosaurus",
-            "name": "Stegosaurus",
+            "title": "Stegosaurus",
             "type": "Anti-Air Vehicle",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 350,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 30,
                 "pop": 10,
                 "hp": 200,
@@ -562,21 +562,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "cruiser",
-            "name": "Cruiser",
-            "type": "Naval ",
+            "title": null,
+            "type": "Cruiser",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 350,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 12,
                 "hp": 500,
@@ -589,21 +589,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "shield_cruiser",
-            "name": "Shield Cruiser",
-            "type": "Naval Support ",
+            "title": "Aegis",
+            "type": "Shield Cruiser",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 800,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 70,
                 "pop": 12,
                 "hp": 800,
@@ -616,21 +616,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "repair_crawler",
-            "name": "Repair Crawler",
-            "type": "Support Vehicle",
+            "title": null,
+            "type": "Repair Crawler",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 280,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 25,
                 "pop": 3,
                 "hp": 200,
@@ -643,21 +643,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rhino",
-            "name": "Rhino",
+            "title": "Rhino",
             "type": "Artillery Tank",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 450,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 40,
                 "pop": 25,
                 "hp": 150,
@@ -670,21 +670,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "thunderbird",
-            "name": "Thunderbird",
+            "title": "Thunderbird",
             "type": "Heavy Gunship / Dropship ",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 450,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 50,
                 "pop": 25,
                 "hp": 100,
@@ -697,21 +697,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "delta_dart",
-            "name": "Delta Dart",
+            "title": "Delta Dart",
             "type": "Interceptor / Bomber / Anti-Air ",
             "tier": 2,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 180,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 2,
                 "hp": 100,
@@ -724,21 +724,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "construction_engineer_iii",
-            "name": "Construction Engineer III",
+            "title": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 250,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -751,21 +751,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "albatross",
-            "name": "Albatross",
-            "type": "T3 Dropship",
+            "title": "Albatross",
+            "type": "Dropship",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 555,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 90,
                 "pop": 10,
                 "hp": 250,
@@ -778,21 +778,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "assault_frigate",
-            "name": "Assault Frigate",
-            "type": "Naval ",
+            "title": null,
+            "type": "Assault Frigate",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 700,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 10,
                 "hp": 600,
@@ -805,21 +805,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "aircraft_carrier",
-            "name": "Aircraft Carrier",
-            "type": "Naval ",
+            "title": null,
+            "type": "Aircraft Carrier",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 700,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 10,
                 "hp": 600,
@@ -832,21 +832,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "battleship",
-            "name": "Battleship",
-            "type": "Naval ",
+            "title": null,
+            "type": "Battleship",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 700,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 12,
                 "hp": 500,
@@ -859,21 +859,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "submarine",
-            "name": "Submarine",
-            "type": "Naval ",
+            "title": null,
+            "type": "Submarine",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 650,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 12,
                 "hp": 500,
@@ -886,21 +886,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "lancer",
-            "name": "Lancer",
+            "title": "Lancer",
             "type": "Missile Platform",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 45,
                 "pop": 30,
                 "hp": 150,
@@ -913,21 +913,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "slow_field_generator",
-            "name": "Slow Field Generator",
-            "type": "Support Vehicle",
+            "title": null,
+            "type": "Statis Field Generator",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 450,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 40,
                 "pop": 25,
                 "hp": 150,
@@ -940,21 +940,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "relay_tank",
-            "name": "Relay Tank",
-            "type": "Vehicle / Support ",
+            "title": null,
+            "type": "Relay Tank",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 700,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 10,
                 "hp": 600,
@@ -967,21 +967,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "emp_support_tank",
-            "name": "EMP Support Tank",
-            "type": "Support Vehicle",
+            "title": null,
+            "type": "EMP Support Tank",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 550,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 48,
                 "pop": 8,
                 "hp": 280,
@@ -994,21 +994,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "howitzer_platform",
-            "name": "Howitzer Platform",
-            "type": "Siege / Artillery",
+            "title": "Howitzer Platform",
+            "type": "Artillery",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 650,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 55,
                 "pop": 15,
                 "hp": 200,
@@ -1021,21 +1021,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "paladin_mbt",
-            "name": "Paladin MBT",
+            "title": "Paladin MBT",
             "type": "Elite Tank",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 900,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 75,
                 "pop": 15,
                 "hp": 700,
@@ -1048,21 +1048,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "pterodactylus",
-            "name": "Pterodactylus",
-            "type": "Air / Gunship ",
+            "title": "Pterodactylus",
+            "type": "Gunship",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 800,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 700,
@@ -1075,21 +1075,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "spy_plane_iii",
-            "name": "Spy Plane III",
-            "type": "Air / Scout ",
+            "title": "Spy Plane III",
+            "type": "Air Scout ",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 100,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 100,
@@ -1102,21 +1102,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "superior_mini_nuker",
-            "name": "Superior Mini Nuker",
-            "type": "Air / Bomber ",
+            "title": "Superior Mini Nuker",
+            "type": "Bomber",
             "tier": 3,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 900,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 1,
                 "hp": 350,
@@ -1129,21 +1129,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "diplomatic_envoy",
-            "name": "Diplomatic Envoy",
+            "title": "Diplomatic Envoy",
             "type": "Hero Unit",
             "tier": "Hero",
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": "Free",
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 45,
                 "pop": 1,
                 "hp": 350,
@@ -1156,21 +1156,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "commander_hawk",
-            "name": "Commander Hawk",
+            "title": "Commander Hawk",
             "type": "Hero Unit (T3 Pterodactylus)",
             "tier": "Hero",
             "faction": "udf",
             "lore": "Named after his father. James Hawk joined the Airforce after his father passed away. Learned to fly the Pterodactylus Gunship. Became known for bravery — flying through a hurricane to save a civilian transport. President Enhet added him to the cabinet as head of the DOD branch. Hawk's love for flying lizards led to the creation of the Quetzalcoatlus Gunship. Hawk IS a T3 Pterodactylus.",
             "stats": {
                 "mass": "Free",
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 45,
                 "pop": 1,
                 "hp": 350,
@@ -1183,21 +1183,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "iq_drone_chassis",
-            "name": "IQ Drone Chassis",
+            "title": "IQ Drone Chassis",
             "type": "Hero Unit",
             "tier": "Hero",
             "faction": "udf",
             "lore": "Born into a family of researchers studying genetic engineering, Iris grew fascinated with manipulation of space itself due to the ancient alien ruins. Her work caught President Enhet's attention. This led to quantum-biological augmentation — abilities that buff troops and vehicles, create barriers and shields — but overuse can cause death. If the augmented individual dies, unstable quantum energy detonates. Despite risks, Enhet authorised the Quantum Augmentation Program.",
             "stats": {
                 "mass": "Free",
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 50,
                 "pop": 1,
                 "hp": 500,
@@ -1210,21 +1210,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "experimental_construction_engineer",
-            "name": "Experimental Construction Engineer",
+            "title": "Experimental Construction Engineer",
             "type": "Experimental Builder",
             "tier": 4,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -1237,21 +1237,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "quetzalcoatlus",
-            "name": "Quetzalcoatlus",
+            "title": "Quetzalcoatlus",
             "type": "Experimental Gunship",
             "tier": 4,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 120,
                 "pop": 10,
                 "hp": 900,
@@ -1264,21 +1264,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "groundbreaker",
-            "name": "Groundbreaker",
+            "title": "Groundbreaker",
             "type": "Experimental Digger / Factory",
             "tier": 4,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 120,
                 "pop": 20,
                 "hp": 1000,
@@ -1291,21 +1291,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "poseidon",
-            "name": "Poseidon",
+            "title": "Poseidon",
             "type": "Experimental Warship",
             "tier": 4,
             "faction": "udf",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 3500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 210,
                 "pop": 35,
                 "hp": 4000,
@@ -1318,21 +1318,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "construction_engineer_sakupen",
-            "name": "Construction Engineer (sakupen)",
+            "title": "Construction Engineer",
             "type": "Multi-Purpose Vehicle ",
             "tier": 1,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 150,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -1345,21 +1345,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "cybermen",
-            "name": "Cybermen",
-            "type": "Ground Infantry ",
+            "title": "Cybermen",
+            "type": "Ground Infantry",
             "tier": 1,
             "faction": "sakupen",
             "lore": "Clones. [Placeholder]",
             "stats": {
                 "mass": 25,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 3,
                 "hp": 40,
@@ -1372,21 +1372,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "blitz",
-            "name": "Blitz",
-            "type": "Light Vehicle / Scout ",
+            "title": "Blitz",
+            "type": "Light Vehicle / Scout",
             "tier": 1,
             "faction": "sakupen",
             "lore": "It's a motorcycle. [Placeholder]",
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 100,
@@ -1399,21 +1399,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "probe_skiff",
-            "name": "Probe Skiff",
-            "type": "Naval Scout ",
+            "title": "Probe Skiff",
+            "type": "Naval Scout",
             "tier": 1,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 100,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 12,
                 "pop": 1,
                 "hp": 120,
@@ -1426,21 +1426,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "wasp",
-            "name": "Wasp",
-            "type": "Air Support ",
+            "title": "Wasp",
+            "type": "Air Support",
             "tier": 1,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 12,
                 "pop": 2,
                 "hp": 150,
@@ -1453,21 +1453,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "shield_generator_unit",
-            "name": "Shield Generator Unit",
-            "type": "Support Infantry ",
+            "title": "Shield Generator Unit",
+            "type": "Support Infantry",
             "tier": 1,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 40,
                 "pop": 5,
                 "hp": 250,
@@ -1480,21 +1480,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "p_61",
-            "name": "P-61",
-            "type": "Suicide Infantry ",
+            "title": "P-61",
+            "type": "Suicide Infantry",
             "tier": 1,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 10,
                 "pop": 1,
                 "hp": 250,
@@ -1507,21 +1507,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
-            "id": "construction_engineer_2_sakupen",
-            "name": "Construction Engineer 2 (sakupen)",
+            "id": "construction_engineer_ii_sakupen",
+            "title": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle ",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 150,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -1534,21 +1534,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "recon_trooper",
-            "name": "Recon Trooper",
+            "title": "Recon Trooper",
             "type": "Infantry Scout",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 100,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 25,
                 "pop": 6,
                 "hp": 120,
@@ -1561,21 +1561,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "chainer",
-            "name": "Chainer",
+            "title": "Chainer",
             "type": "Infantry Unit",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 250,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 25,
                 "pop": 6,
                 "hp": 120,
@@ -1588,21 +1588,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "energy_corvette",
-            "name": "Energy Corvette",
-            "type": "Naval ",
+            "title": null,
+            "type": "Energy Corvette",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 300,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 28,
                 "pop": 5,
                 "hp": 350,
@@ -1615,21 +1615,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "jumper",
-            "name": "Jumper",
-            "type": "Payload Special Infantry ",
+            "title": "Jumper",
+            "type": "Payload Special Infantry",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 300,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 28,
                 "pop": 5,
                 "hp": 350,
@@ -1642,21 +1642,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "bulwark",
-            "name": "Bulwark",
+            "title": "Bulwark",
             "type": "Mobile Shield Vehicle",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 400,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 4,
                 "hp": 1500,
@@ -1669,21 +1669,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "reflector_drone",
-            "name": "Reflector Drone",
-            "type": "Air Support",
+            "title": null,
+            "type": "Reflector Drone",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 100,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 30,
                 "pop": 9,
                 "hp": 150,
@@ -1696,21 +1696,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "siege_rail_platform",
-            "name": "Siege Rail Platform",
-            "type": "Siege / Artillery",
+            "title": "Siege Rail Platform",
+            "type": "Siege Artillery",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 400,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 36,
                 "pop": 12,
                 "hp": 200,
@@ -1723,21 +1723,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rivenate",
-            "name": "Rivenate",
-            "type": "Airship / gunship ",
+            "title": "Rivenate",
+            "type": "Gunship",
             "tier": 2,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 350,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 65,
                 "pop": 10,
                 "hp": 260,
@@ -1750,21 +1750,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
-            "id": "construction_engineer_3_sakupen",
-            "name": "Construction Engineer 3 (sakupen)",
+            "id": "construction_engineer_iii_sakupen",
+            "title": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle ",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 150,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 15,
                 "pop": 1,
                 "hp": 195,
@@ -1777,21 +1777,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "void_frigate",
-            "name": "Void Frigate",
-            "type": "Naval ",
+            "title": null,
+            "type": "Void Frigate",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 750,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 65,
                 "pop": 10,
                 "hp": 700,
@@ -1804,21 +1804,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "suppressor",
-            "name": "Suppressor",
+            "title": "Suppressor",
             "type": "Heavy Vehicle",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 77,
                 "hp": 1000,
@@ -1831,21 +1831,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "dreadnought_cruiser",
-            "name": "Dreadnought Cruiser",
-            "type": "Naval (T4)",
+            "title": null,
+            "type": "Dreadnought Cruiser",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1400,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 110,
                 "pop": 22,
                 "hp": 1800,
@@ -1858,21 +1858,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "fortress_crawler",
-            "name": "Fortress Crawler",
+            "title": "Fortress Crawler",
             "type": "Siege / Artillery",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1200,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 90,
                 "pop": 20,
                 "hp": 600,
@@ -1885,21 +1885,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "delirium_gunship",
-            "name": "Delirium Gunship",
-            "type": "Air Gunship",
+            "title": "Delirium Gunship",
+            "type": "Gunship",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 10,
                 "pop": 6,
                 "hp": 200,
@@ -1912,21 +1912,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "overcharge_cannon",
-            "name": "Overcharge Cannon",
+            "title": "Overcharge Cannon",
             "type": "Siege / Artillery",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 700,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 58,
                 "pop": 18,
                 "hp": 250,
@@ -1939,21 +1939,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "apex_titan",
-            "name": "Apex Titan",
+            "title": "Apex Titan",
             "type": "Elite Heavy Mech",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1300,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 95,
                 "pop": 18,
                 "hp": 1200,
@@ -1966,21 +1966,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "null_field_projector",
-            "name": "Null Field Projector",
-            "type": "Support Vehicle",
+            "title": null,
+            "type": "Null Field Projector",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 900,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 75,
                 "pop": 12,
                 "hp": 400,
@@ -1993,21 +1993,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "lazboat",
-            "name": "LazBoat",
-            "type": "Naval ",
+            "title": "LazBoat",
+            "type": "Naval",
             "tier": 3,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1800,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 200,
                 "pop": 26,
                 "hp": 400,
@@ -2020,22 +2020,22 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "kizer",
-            "name": "Kizer",
+            "title": "Kizer",
             "type": "Hero Unit",
             "tier": "Hero",
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": "Free",
-                "power": "[Placeholder]",
-                "buildTimeSeconds": "[Placeholder]",
+                "power": null,
+                "buildTimeSeconds": null,
                 "pop": 1,
                 "hp": 500,
                 "vision": "Large"
@@ -2047,22 +2047,22 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "e_11",
-            "name": "E-11",
+            "title": "E-11",
             "type": "Hero Unit",
             "tier": "Hero",
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": "Free",
-                "power": "[Placeholder]",
-                "buildTimeSeconds": "[Placeholder]",
+                "power": null,
+                "buildTimeSeconds": null,
                 "pop": 1,
                 "hp": 450,
                 "vision": "Large"
@@ -2074,22 +2074,22 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "ion_3c_drone_swarm",
-            "name": "Ion (3C Drone Swarm)",
+            "title": "Ion (3C Drone Swarm)",
             "type": "Hero Unit",
             "tier": "Hero",
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": "Free",
-                "power": "[Placeholder]",
-                "buildTimeSeconds": "[Placeholder]",
+                "power": null,
+                "buildTimeSeconds": null,
                 "pop": 1,
                 "hp": 400,
                 "vision": "Large"
@@ -2101,21 +2101,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "siege_engine",
-            "name": "Siege Engine",
-            "type": "Air Siege (T4)",
+            "title": "Siege Engine",
+            "type": "Air Siege",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 3000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 180,
                 "pop": 20,
                 "hp": 2000,
@@ -2128,21 +2128,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "juggernaut",
-            "name": "Juggernaut",
-            "type": "Heavy Infantry (Experimental)",
+            "title": "Juggernaut",
+            "type": "Experimental Heavy Infantry",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 900,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 35,
                 "pop": 7,
                 "hp": 951,
@@ -2155,21 +2155,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "sovereign",
-            "name": "Sovereign",
+            "title": "Sovereign",
             "type": "Experimental Titan",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 5000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 300,
                 "pop": 50,
                 "hp": 8000,
@@ -2182,21 +2182,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "void_leviathan",
-            "name": "Void Leviathan",
+            "title": "Void Leviathan",
             "type": "Experimental Naval",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 4500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 270,
                 "pop": 45,
                 "hp": 6000,
@@ -2209,21 +2209,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "omega_drone_fleet",
-            "name": "Omega Drone Fleet",
+            "title": "Omega Drone Fleet",
             "type": "Experimental Air",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 3000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 180,
                 "pop": 30,
                 "hp": 3000,
@@ -2236,21 +2236,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "apex_protocol",
-            "name": "Apex Protocol",
+            "title": "Apex Protocol",
             "type": "Experimental Support",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 5000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 300,
                 "pop": 67,
                 "hp": 1,
@@ -2263,21 +2263,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "placeholder_experimental_navy",
-            "name": "[Placeholder]",
+            "title": null,
             "type": "Experimental Navy",
             "tier": 4,
             "faction": "sakupen",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 5000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 300,
                 "pop": 67,
                 "hp": 4500,
@@ -2290,21 +2290,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rot_crawler",
-            "name": "Rot Crawler",
+            "title": "Rot Crawler",
             "type": "Swarm Unit",
             "tier": 1,
             "faction": "the_the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 30,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 6,
                 "pop": 1,
                 "hp": 60,
@@ -2317,21 +2317,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "spore_skiff",
-            "name": "Spore Skiff",
-            "type": "Naval ",
+            "title": null,
+            "type": "Spore Skiff",
             "tier": 1,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 50,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 8,
                 "pop": 1,
                 "hp": 80,
@@ -2344,21 +2344,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "spore_spitter",
-            "name": "Spore Spitter",
-            "type": "Ranged Infantry",
+            "title": null,
+            "type": "Spore Spitter",
             "tier": 1,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 60,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 8,
                 "pop": 1,
                 "hp": 70,
@@ -2371,21 +2371,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "tendril_creeper",
-            "name": "Tendril Creeper",
-            "type": "Support / Terrain",
+            "title": null,
+            "type": "Tendril Creeper",
             "tier": 1,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 40,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 7,
                 "pop": 1,
                 "hp": 50,
@@ -2398,21 +2398,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "bile_lobber",
-            "name": "Bile Lobber",
-            "type": "Siege / Artillery",
+            "title": "Bile Lobber",
+            "type": "Siege Artillery",
             "tier": 1,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 80,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 10,
                 "pop": 2,
                 "hp": 60,
@@ -2425,21 +2425,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "hulk_amalgam",
-            "name": "Hulk Amalgam",
+            "title": "Hulk Amalgam",
             "type": "Heavy Infantry",
             "tier": 2,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 250,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 22,
                 "pop": 5,
                 "hp": 400,
@@ -2452,21 +2452,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rot_galleon",
-            "name": "Rot Galleon",
-            "type": "Naval ",
+            "title": null,
+            "type": "Rot Galleon",
             "tier": 2,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 220,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 20,
                 "pop": 4,
                 "hp": 350,
@@ -2479,21 +2479,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "phantom_drone",
-            "name": "Phantom Drone",
+            "title": "Phantom Drone",
             "type": "Air Unit",
             "tier": 2,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 150,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 14,
                 "pop": 3,
                 "hp": 150,
@@ -2506,21 +2506,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rot_tendril",
-            "name": "Rot Tendril",
-            "type": "Siege / Special",
+            "title": null,
+            "type": "Rot Tendril",
             "tier": 2,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 200,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 18,
                 "pop": 3,
                 "hp": 150,
@@ -2533,21 +2533,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "spore_cloud_generator",
-            "name": "Spore Cloud Generator",
-            "type": "Support",
+            "title": null,
+            "type": "Spore Cloud Generator",
             "tier": 2,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 180,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 16,
                 "pop": 3,
                 "hp": 130,
@@ -2560,21 +2560,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "amalgam_brute",
-            "name": "Amalgam Brute",
+            "title": "Amalgam Brute",
             "type": "Elite Heavy",
             "tier": 3,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 550,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 48,
                 "pop": 10,
                 "hp": 900,
@@ -2587,21 +2587,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "leviathan_spawn",
-            "name": "Leviathan Spawn",
-            "type": "Naval ",
+            "title": null,
+            "type": "Leviathan Spawn",
             "tier": 3,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 600,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 55,
                 "pop": 9,
                 "hp": 700,
@@ -2614,21 +2614,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "corruption_carrier",
-            "name": "Corruption Carrier",
-            "type": "Air Support ",
+            "title": null,
+            "type": "Corruption Carrier",
             "tier": 3,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 44,
                 "pop": 8,
                 "hp": 400,
@@ -2641,21 +2641,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rot_colossus",
-            "name": "Rot Colossus",
+            "title": "Rot Colossus",
             "type": "Heavy Siege",
             "tier": 3,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 700,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 60,
                 "pop": 15,
                 "hp": 600,
@@ -2668,21 +2668,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "nest_cluster",
-            "name": "Nest Cluster",
-            "type": "Support Structure",
+            "title": null,
+            "type": "Nest Cluster",
             "tier": 3,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 450,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 40,
                 "pop": 6,
                 "hp": 350,
@@ -2695,21 +2695,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "apex_amalgam",
-            "name": "Apex Amalgam",
+            "title": "Apex Amalgam",
             "type": "Elite Monster",
             "tier": 4,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1400,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 100,
                 "pop": 20,
                 "hp": 2200,
@@ -2722,21 +2722,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "abyssal_leviathan",
-            "name": "Abyssal Leviathan",
-            "type": "Naval (T4)",
+            "title": "Abyssal Leviathan",
+            "type": "Naval",
             "tier": 4,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 110,
                 "pop": 22,
                 "hp": 2000,
@@ -2749,21 +2749,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "the_storm_carrier",
-            "name": "the_storm Carrier",
-            "type": "Air (T4)",
+            "title": "the_storm Carrier",
+            "type": "Air",
             "tier": 4,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1200,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 88,
                 "pop": 18,
                 "hp": 1200,
@@ -2776,21 +2776,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "infector_engine",
-            "name": "Infector Engine",
-            "type": "Siege (T4)",
+            "title": "Infector Engine",
+            "type": "Siege",
             "tier": 4,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 1300,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 95,
                 "pop": 20,
                 "hp": 700,
@@ -2803,21 +2803,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "symbiont_web",
-            "name": "Symbiont Web",
-            "type": "Support (T4)",
+            "title": "Symbiont Web",
+            "type": "Support",
             "tier": 4,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 900,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 76,
                 "pop": 14,
                 "hp": 500,
@@ -2830,21 +2830,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "the_maw",
-            "name": "The Maw",
+            "title": "The Maw",
             "type": "Experimental Rot-Mass",
             "tier": 5,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 5000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 300,
                 "pop": 50,
                 "hp": 7000,
@@ -2857,21 +2857,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "world_eater",
-            "name": "World Eater",
+            "title": "World Eater",
             "type": "Experimental Naval",
             "tier": 5,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 4500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 270,
                 "pop": 45,
                 "hp": 6000,
@@ -2884,21 +2884,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "the_amalgamation",
-            "name": "The Amalgamation",
+            "title": "The Amalgamation",
             "type": "Experimental Walker",
             "tier": 5,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 4000,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 240,
                 "pop": 40,
                 "hp": 5500,
@@ -2911,21 +2911,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "phantom_singularity",
-            "name": "Phantom Singularity",
+            "title": "Phantom Singularity",
             "type": "Experimental Machine",
             "tier": 5,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 3500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 210,
                 "pop": 35,
                 "hp": 4500,
@@ -2938,21 +2938,21 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         },
         {
             "id": "rot_bloom",
-            "name": "Rot Bloom",
+            "title": "Rot Bloom",
             "type": "Experimental Support",
             "tier": 5,
             "faction": "the_storm",
-            "lore": "[Placeholder]",
+            "lore": null,
             "stats": {
                 "mass": 2500,
-                "power": "[Placeholder]",
+                "power": null,
                 "buildTimeSeconds": 150,
                 "pop": 25,
                 "hp": 2000,
@@ -2965,9 +2965,9 @@
                 "placeholder"
             ],
             "wreckage": {
-                "mass": "[Placeholder]",
-                "power": "[Placeholder]",
-                "health": "[Placeholder]"
+                "mass": null,
+                "power": null,
+                "health": null
             }
         }
     ]
