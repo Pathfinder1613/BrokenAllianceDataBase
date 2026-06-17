@@ -1,24 +1,29 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Modal from '../components/modal.jsx';
 
 import '../Styles/Login.css'
 
 export default function Login() {
+    const navigate = useNavigate();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         console.log('Username:', username);
         console.log('Password:', password);
     };
 
     return (
-        <div className="form">
-            <h1>Admin Login Page</h1>
-            <p>Please sign in to continue.</p>
+        <Modal
+            isOpen={true}
+            onClose={() => navigate(-1)}
+            title='Admin Login'
+        >
+            <form className="form" onSubmit={handleSubmit}>
+                <p>Please sign in to continue.</p>
 
-            <form onSubmit={handleSubmit}>
                 <label>
                     Admin Name
                     <input
@@ -47,9 +52,8 @@ export default function Login() {
                     />
                 </label>
 
-
                 <button type="submit">Login</button>
             </form>
-        </div>
+        </Modal>
     );
 }
