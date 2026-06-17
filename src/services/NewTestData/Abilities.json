@@ -1,10 +1,59 @@
 {
-    "atv_turbo_boost": {},
+
+    "placeholder_abititie": {
+        "name": "atv turbo boost",
+        "cooldown": 45,
+        "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
+        "duration": 8,
+        "radius": 8
+    },
+
+    "atv_turbo_boost": {
+        "name": "atv turbo boost",
+        "cooldown": 45,
+        "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
+        "duration": 8,
+        "radius": 8
+    },
+
     "deployable_smoke": {
         "name": "Deployable Smoke",
         "cooldown": 45,
         "description": "Creates a <radius>-meter wide smoke cloud that lasts for <duration> seconds, concealing any units within range.",
         "duration": 8,
         "radius": 8
+    },
+
+    "Frag_Throw": {
+        "name": "Frag Throw",
+        "cooldown": 20,
+        "description": "The Marine hurls a frag grenade at a target location. Deals <damge> AOE damage in a small radius. Effective against grouped infantry and light vehicles.",
+        "damge": 50,
+        "radius": 5
+
+    },
+
+    "napalm_burst": {
+        "name": "Napalm Burst",
+        "cooldown": 20,
+        "description": "The Flamer douses a target area in ignited fuel. Enemies burn for 8 damage per second for 6 seconds. Terrain briefly becomes hazardous.",
+        "damge": 150,
+        "radius": 5
+    },
+
+    "piercing_shot": {
+        "name": "Piercing Shot",
+        "cooldown": 20,
+        "description": "Dead Eyes fires a single armour-piercing round that passes through up to 5 enemies in a straight line, dealing full damage to each.",
+        "damge": 190,
+        "radius": 5
+    },
+
+    "rail_shoot": {
+        "name": "Rail gun Shot",
+        "cooldown": 50,
+        "description": "Dead Eyes fires a single armour-piercing round that passes through up to 5 enemies in a straight line, dealing full damage to each.",
+        "damge": 190,
+        "radius": 5
     }
 }

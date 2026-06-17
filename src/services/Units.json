@@ -10,10 +10,11 @@
             "base": 24
         },
         "cost": {
-            "mass": 100,
+            "mass": 150,
+            "power": 50,
             "population": 1
         },
-        "construction_time": 5,
-        "weapons": null
+        "construction_time": 15,
+        "weapons": ["utility_gun"]
     }
 ]

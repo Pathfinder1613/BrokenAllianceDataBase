@@ -1,5 +1,17 @@
 
 {
+   "placeholder": {
+      "name": "placeholder",
+      "damage": 67,
+      "fire_rate": 6.7,
+      "range": 67,
+      "damage_type": "67",
+      "damage_radius": 67,
+      "projectile_speed": 67,
+      "targets": ["land"]
+    },
+
+
     "atv_autocannon": {
       "name": "Scout Autocannon",
       "damage": 18,
@@ -19,5 +31,88 @@
       "damage_radius": 0,
       "projectile_speed": 35,
       "targets": ["land"]
+    },
+    "coil_gun": {
+      "name": "Coil gun",
+      "damage": 5,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
+    },
+    "flamer_gun": {
+      "name": "flamer gun",
+      "damage": 5,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
+    },
+
+    "5in_cannons": {
+      "name": "artillery cannons(T1)",
+      "damage": 5,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
+    },
+    "flack_rounds": {
+      "name": "Flack rounds(T1)",
+      "damage": 5,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["air"]
+    },
+
+    "hand_held_rail_gun": {
+      "name": "hand_held_rail_gun(T1)",
+      "damage": 15,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
+    },
+    "t1_coil_rife": {
+      "name": "coil rife(T1)",
+      "damage": 15,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
+    },
+    "t2_coil_rife": {
+      "name": "coil rife(T2)",
+      "damage": 15,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
+    },
+    "t3_coil_rife": {
+      "name": "coil rife(T3)",
+      "damage": 15,
+      "fire_rate": 1.0,
+      "range": 10,
+      "damage_type": "normal",
+      "damage_radius": 0,
+      "projectile_speed": 35,
+      "targets": ["land"]
     }
+
 }

@@ -1,50 +1,2864 @@
 {
     "units": [
         {
-            "id": "atv",
-            "name": "ATV",
-            "class": "Multi-Purpose Scout Vehicle",
+            "id": "construction_engineer",
+            "name": "Construction Engineer",
+            "type": "Multi-Purpose Vehicle",
+            "tier": 1,
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
-                "power": 35,
+                "power": "[Placeholder]",
                 "buildTimeSeconds": 15,
                 "pop": 1,
-                "damage": 18,
                 "hp": 195,
                 "vision": "Large"
             },
             "abilities": [
-                "atv_turbo_boost"
+                "deployable_smoke"
             ],
             "weapons": [
-                "atv_autocannon"
-            ]
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
         },
         {
-            "id": "construction_engineer",
-            "name": "Construction Engineer",
-            "class": "Multi-Purpose Vehicle",
+            "id": "atv",
+            "name": "ATV",
+            "type": "Multi-Purpose Scout Vehicle",
+            "tier": 1,
             "lore": "[Placeholder]",
             "stats": {
-                "cost": 150,
+                "mass": 150,
+                "power": "[Placeholder]",
                 "buildTimeSeconds": 15,
                 "pop": 1,
-                "damage": 15,
                 "hp": 195,
                 "vision": "Large"
             },
-            "activeAbilities": [
-                {
-                    "name": "Deployable Smoke",
-                    "cooldownSeconds": 45,
-                    "description": "Deploys a smoke cloud at the Engineer's location. All units inside are hidden from enemy vision for 8 seconds. Units can still fire and move inside the smoke.",
-                    "concealDurationSeconds": 8,
-                    "unitsCanFireInside": true,
-                    "unitsCanMoveInside": true,
-                    "radius": null
-                }
-            ]
+            "abilities": [
+                "turbo_boost"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "marine",
+            "name": "Marine",
+            "type": "Infantry",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 10,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 5,
+                "pop": 1,
+                "hp": 90,
+                "vision": "Short"
+            },
+            "abilities": [
+                "frag_throw"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "flamer_trooper",
+            "name": "Flamer Trooper",
+            "type": "Infantry",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 10,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 5,
+                "pop": 1,
+                "hp": 90,
+                "vision": "Short"
+            },
+            "abilities": [
+                "napalm_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "dead_eyes",
+            "name": "Dead Eyes",
+            "type": "Infantry (Sniper)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 10,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 5,
+                "pop": 1,
+                "hp": 90,
+                "vision": "Large"
+            },
+            "abilities": [
+                "piercing_shot"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "frigate",
+            "name": "Frigate",
+            "type": "Naval (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 180,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 18,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "flak_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "patrol_boat",
+            "name": "Patrol Boat",
+            "type": "Naval (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 190,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "suppression_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "artillery_boat",
+            "name": "Artillery Boat",
+            "type": "Naval Siege (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 190,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 12,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "ranging_shot"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "field_medic_truck",
+            "name": "Field Medic Truck",
+            "type": "Support Vehicle",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 130,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 14,
+                "pop": 1,
+                "hp": 120,
+                "vision": "Short"
+            },
+            "abilities": [
+                "emergency_triage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mortar_buggy",
+            "name": "Mortar Buggy",
+            "type": "Siege / Artillery",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 180,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 18,
+                "pop": 2,
+                "hp": 100,
+                "vision": "Short"
+            },
+            "abilities": [
+                "smoke_shell"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "interceptor",
+            "name": "Interceptor",
+            "type": "Air / Anti-Air (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 180,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 2,
+                "hp": 100,
+                "vision": "Short"
+            },
+            "abilities": [
+                "afterburner"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "spy_plane",
+            "name": "Spy Plane",
+            "type": "Air / Scout (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "deep_scan"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "bomber",
+            "name": "Bomber",
+            "type": "Air (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "dive_bomb"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "drop_ship",
+            "name": "Drop Ship",
+            "type": "Air / Transport (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "emergency_eject"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "construction_engineer_ii",
+            "name": "Construction Engineer II",
+            "type": "Multi-Purpose Vehicle",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 250,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 22,
+                "pop": 1,
+                "hp": 295,
+                "vision": "Short"
+            },
+            "abilities": [
+                "rapid_construction"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "pilot",
+            "name": "Pilot",
+            "type": "Infantry (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 250,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 165,
+                "vision": "Large"
+            },
+            "abilities": [
+                "titanfall_hijack"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "yeagers",
+            "name": "Yeagers",
+            "type": "Shock Troopers (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 250,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 165,
+                "vision": "Large"
+            },
+            "abilities": [
+                "deploy_launcher"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "steelhead",
+            "name": "Steelhead",
+            "type": "Heavy Tank",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 400,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 35,
+                "pop": 10,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "suppression_fire"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "groundhog",
+            "name": "Groundhog",
+            "type": "Burrowing Tank (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 400,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 35,
+                "pop": 10,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "burrow"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "river_gunboat",
+            "name": "River Gunboat",
+            "type": "Naval (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 350,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 30,
+                "pop": 5,
+                "hp": 300,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "shoreline_barrage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "stegosaurus",
+            "name": "Stegosaurus",
+            "type": "Anti-Air Vehicle",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 350,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 30,
+                "pop": 10,
+                "hp": 200,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "missile_salvo"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "cruiser",
+            "name": "Cruiser",
+            "type": "Naval (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 350,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 12,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "sam_strike"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "shield_cruiser",
+            "name": "Shield Cruiser",
+            "type": "Naval Support (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 800,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 70,
+                "pop": 12,
+                "hp": 800,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "overcharge_shield"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "repair_crawler",
+            "name": "Repair Crawler",
+            "type": "Support Vehicle",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 280,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 25,
+                "pop": 3,
+                "hp": 200,
+                "vision": "Short"
+            },
+            "abilities": [
+                "emergency_patch"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rhino",
+            "name": "Rhino",
+            "type": "Artillery Tank",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 450,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 40,
+                "pop": 25,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "devastation_shell"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "thunderbird",
+            "name": "Thunderbird",
+            "type": "Heavy Gunship / Dropship (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 450,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 50,
+                "pop": 25,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "emergency_eject"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "delta_dart",
+            "name": "Delta Dart",
+            "type": "Interceptor / Bomber / Anti-Air (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 180,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 2,
+                "hp": 100,
+                "vision": "Short"
+            },
+            "abilities": [
+                "mode_switch"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "construction_engineer_iii",
+            "name": "Construction Engineer III",
+            "type": "Multi-Purpose Vehicle",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 250,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "experimental_prep"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "albatross",
+            "name": "Albatross",
+            "type": "T3 Dropship",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 555,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 90,
+                "pop": 10,
+                "hp": 250,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "building_lift"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "assault_frigate",
+            "name": "Assault Frigate",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 700,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 10,
+                "hp": 600,
+                "vision": "Large"
+            },
+            "abilities": [
+                "rocket_volley"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "aircraft_carrier",
+            "name": "Aircraft Carrier",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 700,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 10,
+                "hp": 600,
+                "vision": "Large"
+            },
+            "abilities": [
+                "scramble"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "battleship",
+            "name": "Battleship",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 700,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 12,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "naval_bombardment"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "submarine",
+            "name": "Submarine",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 650,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 12,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "torpedo_salvo"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "lancer",
+            "name": "Lancer",
+            "type": "Missile Platform",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 45,
+                "pop": 30,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "nuclear_option"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "slow_field_generator",
+            "name": "Slow Field Generator",
+            "type": "Support Vehicle",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 450,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 40,
+                "pop": 25,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "overdrive_field"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "relay_tank",
+            "name": "Relay Tank",
+            "type": "Vehicle / Support (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 700,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 10,
+                "hp": 600,
+                "vision": "Large"
+            },
+            "abilities": [
+                "lock_down"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "emp_support_tank",
+            "name": "EMP Support Tank",
+            "type": "Support Vehicle",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 550,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 48,
+                "pop": 8,
+                "hp": 280,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "chain_emp"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "howitzer_platform",
+            "name": "Howitzer Platform",
+            "type": "Siege / Artillery",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 650,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 55,
+                "pop": 15,
+                "hp": 200,
+                "vision": "Short"
+            },
+            "abilities": [
+                "creeping_barrage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "paladin_mbt",
+            "name": "Paladin MBT",
+            "type": "Elite Tank",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 900,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 75,
+                "pop": 15,
+                "hp": 700,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "fortress_mode"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "pterodactylus",
+            "name": "Pterodactylus",
+            "type": "Air / Gunship (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 800,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 700,
+                "vision": "Large"
+            },
+            "abilities": [
+                "strafing_run"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "spy_plane_iii",
+            "name": "Spy Plane III",
+            "type": "Air / Scout (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 100,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "signal_intercept"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "superior_mini_nuker",
+            "name": "Superior Mini Nuker",
+            "type": "Air / Bomber (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 900,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 350,
+                "vision": "Large"
+            },
+            "abilities": [
+                "carpet_nuke"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "diplomatic_envoy",
+            "name": "Diplomatic Envoy",
+            "type": "Hero Unit",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": "Free",
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 45,
+                "pop": 1,
+                "hp": 350,
+                "vision": "Large"
+            },
+            "abilities": [
+                "diplomatic_shield"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "commander_hawk",
+            "name": "Commander Hawk",
+            "type": "Hero Unit (T3 Pterodactylus)",
+            "tier": 1,
+            "lore": "Named after his father. James Hawk joined the Airforce after his father passed away. Learned to fly the Pterodactylus Gunship. Became known for bravery — flying through a hurricane to save a civilian transport. President Enhet added him to the cabinet as head of the DOD branch. Hawk's love for flying lizards led to the creation of the Quetzalcoatlus Gunship. Hawk IS a T3 Pterodactylus.",
+            "stats": {
+                "mass": "Free",
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 45,
+                "pop": 1,
+                "hp": 350,
+                "vision": "Large"
+            },
+            "abilities": [
+                "iron_resolve"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "iq_drone_chassis",
+            "name": "IQ Drone Chassis",
+            "type": "Hero Unit",
+            "tier": 1,
+            "lore": "Born into a family of researchers studying genetic engineering, Iris grew fascinated with manipulation of space itself due to the ancient alien ruins. Her work caught President Enhet's attention. This led to quantum-biological augmentation — abilities that buff troops and vehicles, create barriers and shields — but overuse can cause death. If the augmented individual dies, unstable quantum energy detonates. Despite risks, Enhet authorised the Quantum Augmentation Program.",
+            "stats": {
+                "mass": "Free",
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 50,
+                "pop": 1,
+                "hp": 500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "mass_upload"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "experimental_construction_engineer",
+            "name": "Experimental Construction Engineer",
+            "type": "Experimental Builder",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "mass_construction"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "quetzalcoatlus",
+            "name": "Quetzalcoatlus",
+            "type": "Experimental Gunship",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 120,
+                "pop": 10,
+                "hp": 900,
+                "vision": "Large"
+            },
+            "abilities": [
+                "sustained_assault"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "groundbreaker",
+            "name": "Groundbreaker",
+            "type": "Experimental Digger / Factory",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 120,
+                "pop": 20,
+                "hp": 1000,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "emergency_resurface"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "poseidon",
+            "name": "Poseidon",
+            "type": "Experimental Warship",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 3500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 210,
+                "pop": 35,
+                "hp": 4000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "dreadnought_salvo"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "construction_engineer_sakupen",
+            "name": "Construction Engineer (Sakupen)",
+            "type": "Multi-Purpose Vehicle (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "cybermen",
+            "name": "Cybermen",
+            "type": "Ground Infantry (T1)",
+            "tier": 1,
+            "lore": "Clones. [Placeholder]",
+            "stats": {
+                "mass": 25,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 3,
+                "hp": 40,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "grenade_throw"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "blitz",
+            "name": "Blitz",
+            "type": "Light Vehicle / Scout (T1)",
+            "tier": 1,
+            "lore": "It's a motorcycle. [Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "grenade_throw"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "probe_skiff",
+            "name": "Probe Skiff",
+            "type": "Naval Scout (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 100,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 12,
+                "pop": 1,
+                "hp": 120,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "wasp",
+            "name": "Wasp",
+            "type": "Air Support (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 12,
+                "pop": 2,
+                "hp": 150,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "shield_generator_unit",
+            "name": "Shield Generator Unit",
+            "type": "Support Infantry (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 40,
+                "pop": 5,
+                "hp": 250,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "p_61",
+            "name": "P-61",
+            "type": "Suicide Infantry (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 10,
+                "pop": 1,
+                "hp": 250,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "construction_engineer_2_sakupen",
+            "name": "Construction Engineer 2 (Sakupen)",
+            "type": "Multi-Purpose Vehicle (T1)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "recon_trooper",
+            "name": "Recon Trooper",
+            "type": "Infantry Scout",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 100,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 25,
+                "pop": 6,
+                "hp": 120,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "chainer",
+            "name": "Chainer",
+            "type": "Infantry Unit",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 250,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 25,
+                "pop": 6,
+                "hp": 120,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "energy_corvette",
+            "name": "Energy Corvette",
+            "type": "Naval (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 300,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 28,
+                "pop": 5,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "jumper",
+            "name": "Jumper",
+            "type": "Payload Special Infantry (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 300,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 28,
+                "pop": 5,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "bulwark",
+            "name": "Bulwark",
+            "type": "Mobile Shield Vehicle",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 400,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 4,
+                "hp": 1500,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "reflector_drone",
+            "name": "Reflector Drone",
+            "type": "Air Support",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 100,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 30,
+                "pop": 9,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "siege_rail_platform",
+            "name": "Siege Rail Platform",
+            "type": "Siege / Artillery",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 400,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 36,
+                "pop": 12,
+                "hp": 200,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rivenate",
+            "name": "Rivenate",
+            "type": "Airship / gunship (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 350,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 65,
+                "pop": 10,
+                "hp": 260,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "construction_engineer_3_sakupen",
+            "name": "Construction Engineer 3 (Sakupen)",
+            "type": "Multi-Purpose Vehicle (T1)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "void_frigate",
+            "name": "Void Frigate",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 750,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 65,
+                "pop": 10,
+                "hp": 700,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "suppressor",
+            "name": "Suppressor",
+            "type": "Heavy Vehicle",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 77,
+                "hp": 1000,
+                "vision": "Short"
+            },
+            "abilities": [
+                "missile_barrage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "dreadnought_cruiser",
+            "name": "Dreadnought Cruiser",
+            "type": "Naval (T4)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1400,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 110,
+                "pop": 22,
+                "hp": 1800,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "fortress_crawler",
+            "name": "Fortress Crawler",
+            "type": "Siege / Artillery",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1200,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 90,
+                "pop": 20,
+                "hp": 600,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "delirium_gunship",
+            "name": "Delirium Gunship",
+            "type": "Air Gunship",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 10,
+                "pop": 6,
+                "hp": 200,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "overcharge_cannon",
+            "name": "Overcharge Cannon",
+            "type": "Siege / Artillery",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 700,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 58,
+                "pop": 18,
+                "hp": 250,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "apex_titan",
+            "name": "Apex Titan",
+            "type": "Elite Heavy Mech",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1300,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 95,
+                "pop": 18,
+                "hp": 1200,
+                "vision": "Large"
+            },
+            "abilities": [
+                "overdrive"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "null_field_projector",
+            "name": "Null Field Projector",
+            "type": "Support Vehicle",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 900,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 75,
+                "pop": 12,
+                "hp": 400,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "lazboat",
+            "name": "LazBoat",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1800,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 200,
+                "pop": 26,
+                "hp": 400,
+                "vision": "High"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "kizer",
+            "name": "Kizer",
+            "type": "Hero Unit",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": "Free",
+                "power": "[Placeholder]",
+                "buildTimeSeconds": "[Placeholder]",
+                "pop": 1,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "e_11",
+            "name": "E-11",
+            "type": "Hero Unit",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": "Free",
+                "power": "[Placeholder]",
+                "buildTimeSeconds": "[Placeholder]",
+                "pop": 1,
+                "hp": 450,
+                "vision": "Large"
+            },
+            "abilities": [
+                "override_protocol"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "ion_3c_drone_swarm",
+            "name": "Ion (3C Drone Swarm)",
+            "type": "Hero Unit",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": "Free",
+                "power": "[Placeholder]",
+                "buildTimeSeconds": "[Placeholder]",
+                "pop": 1,
+                "hp": 400,
+                "vision": "Large"
+            },
+            "abilities": [
+                "overflow_cascade"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "siege_engine",
+            "name": "Siege Engine",
+            "type": "Air Siege (T4)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 3000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 180,
+                "pop": 20,
+                "hp": 2000,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "juggernaut",
+            "name": "Juggernaut",
+            "type": "Heavy Infantry (Experimental)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 900,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 35,
+                "pop": 7,
+                "hp": 951,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "hunker_down"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "sovereign",
+            "name": "Sovereign",
+            "type": "Experimental Titan",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 5000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 300,
+                "pop": 50,
+                "hp": 8000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "void_leviathan",
+            "name": "Void Leviathan",
+            "type": "Experimental Naval",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 4500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 270,
+                "pop": 45,
+                "hp": 6000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "omega_drone_fleet",
+            "name": "Omega Drone Fleet",
+            "type": "Experimental Air",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 3000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 180,
+                "pop": 30,
+                "hp": 3000,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "apex_protocol",
+            "name": "Apex Protocol",
+            "type": "Experimental Support",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 5000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 300,
+                "pop": 67,
+                "hp": 1,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "placeholder_experimental_navy",
+            "name": "[Placeholder]",
+            "type": "Experimental Navy",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 5000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 300,
+                "pop": 67,
+                "hp": 4500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rot_crawler",
+            "name": "Rot Crawler",
+            "type": "Swarm Unit",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 30,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 6,
+                "pop": 1,
+                "hp": 60,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "spore_skiff",
+            "name": "Spore Skiff",
+            "type": "Naval (T1)",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 8,
+                "pop": 1,
+                "hp": 80,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "spore_spitter",
+            "name": "Spore Spitter",
+            "type": "Ranged Infantry",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 60,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 8,
+                "pop": 1,
+                "hp": 70,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "tendril_creeper",
+            "name": "Tendril Creeper",
+            "type": "Support / Terrain",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 40,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 7,
+                "pop": 1,
+                "hp": 50,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "bile_lobber",
+            "name": "Bile Lobber",
+            "type": "Siege / Artillery",
+            "tier": 1,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 80,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 10,
+                "pop": 2,
+                "hp": 60,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "hulk_amalgam",
+            "name": "Hulk Amalgam",
+            "type": "Heavy Infantry",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 250,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 22,
+                "pop": 5,
+                "hp": 400,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rot_galleon",
+            "name": "Rot Galleon",
+            "type": "Naval (T2)",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 220,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 20,
+                "pop": 4,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "phantom_drone",
+            "name": "Phantom Drone",
+            "type": "Air Unit",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 14,
+                "pop": 3,
+                "hp": 150,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "kamikaze"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rot_tendril",
+            "name": "Rot Tendril",
+            "type": "Siege / Special",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 200,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 18,
+                "pop": 3,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "spore_cloud_generator",
+            "name": "Spore Cloud Generator",
+            "type": "Support",
+            "tier": 2,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 180,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 16,
+                "pop": 3,
+                "hp": 130,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "amalgam_brute",
+            "name": "Amalgam Brute",
+            "type": "Elite Heavy",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 550,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 48,
+                "pop": 10,
+                "hp": 900,
+                "vision": "Short"
+            },
+            "abilities": [
+                "absorb"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "leviathan_spawn",
+            "name": "Leviathan Spawn",
+            "type": "Naval (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 600,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 55,
+                "pop": 9,
+                "hp": 700,
+                "vision": "Large"
+            },
+            "abilities": [
+                "consume"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "corruption_carrier",
+            "name": "Corruption Carrier",
+            "type": "Air Support (T3)",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 44,
+                "pop": 8,
+                "hp": 400,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rot_colossus",
+            "name": "Rot Colossus",
+            "type": "Heavy Siege",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 700,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 60,
+                "pop": 15,
+                "hp": 600,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "nest_cluster",
+            "name": "Nest Cluster",
+            "type": "Support Structure",
+            "tier": 3,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 450,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 40,
+                "pop": 6,
+                "hp": 350,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "apex_amalgam",
+            "name": "Apex Amalgam",
+            "type": "Elite Monster",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1400,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 100,
+                "pop": 20,
+                "hp": 2200,
+                "vision": "Large"
+            },
+            "abilities": [
+                "fission_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "abyssal_leviathan",
+            "name": "Abyssal Leviathan",
+            "type": "Naval (T4)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 110,
+                "pop": 22,
+                "hp": 2000,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "storm_carrier",
+            "name": "Storm Carrier",
+            "type": "Air (T4)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1200,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 88,
+                "pop": 18,
+                "hp": 1200,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "infector_engine",
+            "name": "Infector Engine",
+            "type": "Siege (T4)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 1300,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 95,
+                "pop": 20,
+                "hp": 700,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "accelerated_rot"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "symbiont_web",
+            "name": "Symbiont Web",
+            "type": "Support (T4)",
+            "tier": 4,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 900,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 76,
+                "pop": 14,
+                "hp": 500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "the_maw",
+            "name": "The Maw",
+            "type": "Experimental Rot-Mass",
+            "tier": 5,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 5000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 300,
+                "pop": 50,
+                "hp": 7000,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "world_eater",
+            "name": "World Eater",
+            "type": "Experimental Naval",
+            "tier": 5,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 4500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 270,
+                "pop": 45,
+                "hp": 6000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "breach"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "the_amalgamation",
+            "name": "The Amalgamation",
+            "type": "Experimental Walker",
+            "tier": 5,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 4000,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 240,
+                "pop": 40,
+                "hp": 5500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "phantom_singularity",
+            "name": "Phantom Singularity",
+            "type": "Experimental Machine",
+            "tier": 5,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 3500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 210,
+                "pop": 35,
+                "hp": 4500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "signal_override"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
+        },
+        {
+            "id": "rot_bloom",
+            "name": "Rot Bloom",
+            "type": "Experimental Support",
+            "tier": 5,
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 2500,
+                "power": "[Placeholder]",
+                "buildTimeSeconds": 150,
+                "pop": 25,
+                "hp": 2000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            }
         }
     ]
 }
