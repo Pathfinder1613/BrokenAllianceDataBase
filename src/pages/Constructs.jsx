@@ -5,9 +5,7 @@ import '../Styles/ConstructsPage.css';
 
 import FACTIONS from '../data/Factions.json';
 import UNITS from '../data/Units.json';
-import FACTIONS from '../services/Factions.json';
-import UNITS from '../services/NewTestData/Units.json';
-import BUILDING from '../services/NewTestData/Building.json';
+import BUILDING from '../data/Building.json';
 
 export default function ConstructsPage() {
     return (
@@ -23,22 +21,10 @@ export default function ConstructsPage() {
                                 src={`/images/icons/${faction_id}.svg`}
                             />
 
-                            <h1
-                                className='Faction-title'
-                                style={{ color: faction.color }}
-                            >
+                            <h1 className='Faction-title' style={{ color: faction.color }}>
                                 {faction.name}
                                 <hr></hr>
                             </h1>
-
-                        <h1
-                            className='Faction-title'
-                            style={{ color: FACTIONS[faction].color }}
-                        >
-                            {faction}
-                            <hr></hr>
-                        </h1>
-
 
                             <div className='Units-containers'>
                                 {UNITS.units
@@ -53,40 +39,23 @@ export default function ConstructsPage() {
                                             onClick={() => console.log(unit)}
                                         />
                                     ))}
+
+                                {BUILDING.Building
+                                    .filter((building) => building.faction === faction_id)
+                                    .map((building) => (
+                                        <UnitAndBuldingButton
+                                            key={building.name}
+                                            accentColor={faction.color}
+                                            name={building.name}
+                                            tier={building.tier}
+                                            type={building.type}
+                                            onClick={() => console.log(building)}
+                                        />
+                                    ))}
                             </div>
                         </div>
                     )
                 })}
-                        <div className='Units-containers'>
-                            {UNITS.units
-                                .filter((unit) => unit.faction === faction)
-                                .map((unit) => (
-                                    <UnitAndBuldingButton
-                                        key={unit.name}
-                                        accentColor={FACTIONS[faction].color}
-                                        name={unit.name}
-                                        tier={unit.tier}
-                                        type={unit.type}
-                                        onClick={() => console.log(unit)}
-                                    />
-                                ))}
-
-                            {BUILDING.Building
-                                .filter((Building) => Building.faction === faction)
-                                .map((Building) => (
-                                    <UnitAndBuldingButton
-                                        key={Building.name}
-                                        accentColor={FACTIONS[faction].color}
-                                        name={Building.name}
-                                        tier={Building.tier}
-                                        type={Building.type}
-                                        onClick={() => console.log(Building)}
-                                    />
-                                ))
-                            }
-                        </div>
-                    </div>
-                ))}
             </div>
         </div>
     );
