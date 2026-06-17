@@ -3,6 +3,8 @@ import UnitAndBuldingButton from '../components/unitAndBuilding.jsx';
 // css
 import '../Styles/ConstructsPage.css';
 
+import img from '../../public/images/unitsPortraits/lol oll.png'
+
 import FACTIONS from '../data/Factions.json';
 import UNITS from '../data/Units.json';
 import BUILDING from '../data/Building.json';
@@ -49,6 +51,7 @@ export default function ConstructsPage() {
                                             name={building.name}
                                             tier={building.tier}
                                             type={building.type}
+                                            portrait={img}
                                             onClick={() => console.log(building)}
                                         />
                                     ))}
