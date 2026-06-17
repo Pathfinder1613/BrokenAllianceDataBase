@@ -1,15 +1,8 @@
 import { useEffect } from 'react';
-import '../Styles/modal.css';
 
-/**
- * Props:
- *   isOpen      {boolean}   – controls visibility
- *   onClose     {function}  – called when user dismisses the modal
- *   title       {string}    – optional header text
- *   accentColor {string}    – optional color for the title bar (matches faction colors)
- *   className   {string}    – optional extra class on the modal box
- *   children    {ReactNode} – body content
- */
+import '../Styles/modal.css';
+import { createPortal } from 'react-dom';
+
 export default function Modal({ isOpen, onClose, title, accentColor, className = '', children }) {
     // Close on Escape key
     useEffect(() => {
@@ -21,7 +14,7 @@ export default function Modal({ isOpen, onClose, title, accentColor, className =
 
     if (!isOpen) return null;
 
-    return (
+    return createPortal(
         <div className='modal-backdrop' onClick={onClose}>
             <div
                 className={`modal-box ${className}`}
@@ -42,6 +35,7 @@ export default function Modal({ isOpen, onClose, title, accentColor, className =
                     {children}
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 }
