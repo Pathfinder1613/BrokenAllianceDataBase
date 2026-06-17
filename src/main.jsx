@@ -4,7 +4,6 @@ import './index.css'
 import Navbar from './components/Navbar.jsx';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx'
-import HomePage from './pages/Home.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

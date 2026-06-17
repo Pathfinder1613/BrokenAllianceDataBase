@@ -4,15 +4,13 @@ import UnitAndBuldingButton from '../components/unitAndBuilding.jsx'
 import '../Styles/ConstructsPage.css';
 
 import FACTIONS from '../services/Factions.json';
-import UNITS from '../services/Units.json'
+import UNITS from '../services/NewTestData/Units.json'
 
 export default function ConstructsPage() {
     return (
         <>
             <div className='containers'>
                 <div className='Header-faction'>
-
-
                     {Object.keys(FACTIONS).map((faction) => (
                         <div key={faction}>
                             <img className='img-faction' src={`/images/icons/${faction}.svg`} />
@@ -20,19 +18,17 @@ export default function ConstructsPage() {
                                 {faction}
                             </h1>
 
-                            {UNITS.filter((unit) => unit.faction === faction).map((unit) => (
-                                <div className='Units-containers' key={unit.name}>
+                            {UNITS.units.filter((units) => units.faction === faction).map((units) => (
+                                <div className='Units-containers' key={units.name}>
                                     <UnitAndBuldingButton
-                                        accentColor={faction.color}
-                                        name={unit.name}
-                                        tier={unit.tier}
-                                        type={unit.type}
-                                        onClick={() => console.log(unit)}
+                                        accentColor={FACTIONS[faction].color}
+                                        name={units.name}
+                                        tier={units.tier}
+                                        type={units.type}
+                                        onClick={() => console.log(units)}
                                     />
                                 </div>
                             ))}
-
-
                         </div>
                     ))}
                 </div>
