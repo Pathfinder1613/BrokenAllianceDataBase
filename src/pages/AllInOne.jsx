@@ -42,7 +42,7 @@ function CreateLeaderRows() {
     return content;
 }
 
-function CreateUnitRows(tier) {
+function CreateUnitRows(filter) {
     const content = [];
     const empty = (<div className="aio-row-item"></div>)
 
@@ -53,7 +53,7 @@ function CreateUnitRows(tier) {
         const list = unit_lists[unit.faction];
 
         // doing this because I'm not sure how I want to display hero units.
-        if (list && unit.tier !== "Hero" && unit.tier === tier) list.push(unit);
+        if (list && filter(unit)) list.push(unit);
     })
 
     let maximum_unit_count = 0;
@@ -111,16 +111,16 @@ export default function AllInOne() {
                     {CreateLeaderRows()}
                 </div>
                 <div className="aio-row-container">
-                    {CreateUnitRows(1)}
+                    {CreateUnitRows((unit) => unit.tier === 1)}
                 </div>
                 <div className="aio-row-container">
-                    {CreateUnitRows(2)}
+                    {CreateUnitRows((unit) => unit.tier === 2)}
                 </div>
                 <div className="aio-row-container">
-                    {CreateUnitRows(3)}
+                    {CreateUnitRows((unit) => unit.tier === 3)}
                 </div>
                 <div className="aio-row-container">
-                    {CreateUnitRows(4)}
+                    {CreateUnitRows((unit) => unit.tier === 4)}
                 </div>
             </>
         </div>
