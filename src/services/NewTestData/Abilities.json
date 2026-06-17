@@ -11,7 +11,7 @@
     "atv_turbo_boost": {
         "name": "atv turbo boost",
         "cooldown": 45,
-        "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
+        "description": "The ATV surges forward at 2× speed for <duration> seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
         "duration": 8,
         "radius": 8
     },
@@ -36,24 +36,24 @@
     "napalm_burst": {
         "name": "Napalm Burst",
         "cooldown": 20,
-        "description": "The Flamer douses a target area in ignited fuel. Enemies burn for 8 damage per second for 6 seconds. Terrain briefly becomes hazardous.",
-        "damge": 150,
-        "radius": 5
+        "description": "The Flamer douses a target area in ignited fuel. Enemies burn for <damge> damage per second for <duration> seconds. Terrain briefly becomes hazardous.",
+        "damge": 8,
+        "duration": 8
     },
 
     "piercing_shot": {
         "name": "Piercing Shot",
         "cooldown": 20,
-        "description": "Dead Eyes fires a single armour-piercing round that passes through up to 5 enemies in a straight line, dealing full damage to each.",
+        "description": "Dead Eyes fires a single armour-piercing round that passes through up to <Pierce> enemies in a straight line, dealing <damge> full damage to each.",
         "damge": 190,
-        "radius": 5
+        "Pierce": 5
     },
 
     "rail_shoot": {
         "name": "Rail gun Shot",
         "cooldown": 50,
-        "description": "Dead Eyes fires a single armour-piercing round that passes through up to 5 enemies in a straight line, dealing full damage to each.",
-        "damge": 190,
-        "radius": 5
+        "description": "unit fires a single armour-piercing round that passes through up to <Pierce> enemies in a straight line, dealing <damge> full damage to each.",
+        "damge": 290,
+        "Pierce": 5
     }
 }
