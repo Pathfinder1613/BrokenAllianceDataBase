@@ -1,22 +1,25 @@
 import { useParams } from 'react-router-dom';
-import LEADERS from '../services/NewTestData/Leader.json'
 
 import '../Styles/LeaderFullpage.css'
 
+import LEADERS from '../data/Leaders.json'
+
 export default function LeaderPage() {
     const { id } = useParams();
-    const leader = LEADERS.Leader.find(l => l.id === id);
+    // this doesn't actually do anything, I just wanted to rename the id variable from useParams()
+    const leader_id = id;
+    const leader = LEADERS[id];
 
     if (!leader) {
-        return <h1>Leader not found</h1>;
+        return <h1>leader not found</h1>;
     }
 
     return (
         <div className="leader-full">
-            <img className="leader-portrait" src={`/images/portraits/${leader.id}.png`} onError={
+            <img className="leader-portrait" src={`/images/portraits/${leader_id}.png`} onError={
                 // may consider moving this out into a function statement instead of a lambda expression
                 ({ currentTarget }) => {
-                    console.log(`Could not find portrait for leader '${leader.id}'!`)
+                    console.log(`Could not find portrait for leader '${leader_id}'!`)
                     currentTarget.onerror = null;
                     currentTarget.src = `/images/portraits/Placeholder.png`
                 }

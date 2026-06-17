@@ -1,5 +1,8 @@
 import { useNavigate } from 'react-router-dom';
+
 import '../Styles/HomePage.css';
+
+import FACTIONS from "../data/Factions.json"
 
 export default function HomePage() {
     const navigate = useNavigate();   // ← was imported but never called
@@ -13,10 +16,9 @@ export default function HomePage() {
             </section>
 
             <div className="faction-strip">
-                <img src="/images/icons/udf.svg" />
-                <img src="/images/icons/sakupen.svg" />
-                <img src="/images/icons/the_storm.svg" />
-                <img src="/images/icons/the_trogs.svg" />
+                {Object.keys(FACTIONS).map((faction_id) => (
+                    <img src={`/images/icons/${faction_id}.svg`}/>
+                ))}
             </div>
 
             <section className="home-blurb">
