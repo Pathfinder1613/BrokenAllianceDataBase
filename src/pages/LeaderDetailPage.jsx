@@ -29,7 +29,7 @@ export default function LeaderPage() {
             <p className="leader-full-tagline">{leader.tagline}</p>
             <p className="leader-full-lore">{leader.lore}</p>
             <div className='leader-powers'>
-                minecraft 
+                minecraft
             </div>
         </div>
     );
