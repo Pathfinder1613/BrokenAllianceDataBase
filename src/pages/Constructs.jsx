@@ -1,46 +1,49 @@
-import UnitAndBuldingButton from '../components/unitAndBuilding.jsx'
+import UnitAndBuldingButton from '../components/unitAndBuilding.jsx';
 
 // css
 import '../Styles/ConstructsPage.css';
 
 import FACTIONS from '../services/Factions.json';
-import UNITS from '../services/NewTestData/Units.json'
+import UNITS from '../services/NewTestData/Units.json';
 
 export default function ConstructsPage() {
     return (
-        <>
-            <div className='containers'>
-                <div className='Header-faction'>
-                    {Object.keys(FACTIONS).map((faction) => (
-                        <div key={faction}>
-                            <img className='img-faction' src={`/images/icons/${faction}.svg`} />
-                            <h1 style={{ color: FACTIONS[faction].color }}>
-                                {faction}
-                            </h1>
-                            
-                            
+        <div className='constructs-page'>
+            <div className='Header-faction'>
+                {Object.keys(FACTIONS).map((faction) => (
+                    <div className='Faction-column' key={faction}>
+                        <img
+                            className='img-faction'
+                            src={`/images/icons/${faction}.svg`}
+                            alt={faction}
+                        />
 
-                            {UNITS.units.filter((units) => units.faction === faction).map((units) => (
+                        <h1
+                            className='Faction-title'
+                            style={{ color: FACTIONS[faction].color }}
+                        >
+                            {faction}
+                            <hr></hr>
+                        </h1>
+                        
 
-                                <div className='Units-containers' key={units.name}>
+                        <div className='Units-containers'>
+                            {UNITS.units
+                                .filter((unit) => unit.faction === faction)
+                                .map((unit) => (
                                     <UnitAndBuldingButton
+                                        key={unit.name}
                                         accentColor={FACTIONS[faction].color}
-                                        name={units.name}
-                                        tier={units.tier}
-                                        type={units.type}
-                                        onClick={() => console.log(units)}
+                                        name={unit.name}
+                                        tier={unit.tier}
+                                        type={unit.type}
+                                        onClick={() => console.log(unit)}
                                     />
-                                </div>
-                            ))}
+                                ))}
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
-
-
-
-
-
-        </>
-    )
+        </div>
+    );
 }

@@ -6,12 +6,23 @@
     border: none;
     background: none;
     cursor: pointer;
+    transition: transform 0.15s ease;
 }
 
 .unit-btn:hover {
     transform: scale(1.08);
-    border-color: white;
     z-index: 10;
+}
+
+.unit-btn:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.7);
+    outline-offset: 3px;
+}
+
+.unit-btn-frame {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
 }
 
 .unit-btn-portrait {
@@ -49,19 +60,26 @@
 
 .unit-btn-tooltip {
     position: absolute;
-    bottom: 70px;
+    bottom: calc(100% + 6px);
     left: 50%;
     transform: translateX(-50%);
-    display: none;
+    display: flex;
     flex-direction: column;
-    padding: 4px 8px;
-    background: rgba(0, 0, 0, 0.9);
+    gap: 2px;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.92);
     color: white;
     font-size: 12px;
     white-space: nowrap;
     border-radius: 4px;
+    pointer-events: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.12s ease, visibility 0.12s ease;
 }
 
 .unit-btn:hover .unit-btn-tooltip {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
 }
