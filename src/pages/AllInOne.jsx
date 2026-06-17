@@ -108,6 +108,9 @@ export default function AllInOne() {
                     })}
                 </div>
                 <div className="aio-row-container">
+                    {CreateLeaderRows()}
+                </div>
+                <div className="aio-row-container">
                     {CreateUnitRows(1)}
                 </div>
                 <div className="aio-row-container">
