@@ -34,9 +34,9 @@ export default function ConstructsPage() {
                                     .filter((unit) => unit.faction === faction_id)
                                     .map((unit) => (
                                         <UnitAndBuldingButton
-                                            key={unit.name}
+                                            key={unit.title}
                                             accentColor={faction.color}
-                                            name={unit.name}
+                                            name={unit.title}
                                             tier={unit.tier}
                                             type={unit.type}
                                             onClick={() => console.log(unit)}
