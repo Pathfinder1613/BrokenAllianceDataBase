@@ -16,7 +16,6 @@ export default function HomePage() {
                 <img src="/images/icons/udf.svg" />
                 <img src="/images/icons/sakupen.svg" />
                 <img src="/images/icons/the_storm.svg" />
-                <img src="/images/icons/the_bog.svg" />
                 <img src="/images/icons/the_trogs.svg" />
             </div>
 
