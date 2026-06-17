@@ -1138,7 +1138,7 @@
             "id": "diplomatic_envoy",
             "name": "Diplomatic Envoy",
             "type": "Hero Unit",
-            "tier": 1,
+            "tier": "Hero",
             "faction": "udf",
             "lore": "[Placeholder]",
             "stats": {
@@ -1165,7 +1165,7 @@
             "id": "commander_hawk",
             "name": "Commander Hawk",
             "type": "Hero Unit (T3 Pterodactylus)",
-            "tier": 1,
+            "tier": "Hero",
             "faction": "udf",
             "lore": "Named after his father. James Hawk joined the Airforce after his father passed away. Learned to fly the Pterodactylus Gunship. Became known for bravery — flying through a hurricane to save a civilian transport. President Enhet added him to the cabinet as head of the DOD branch. Hawk's love for flying lizards led to the creation of the Quetzalcoatlus Gunship. Hawk IS a T3 Pterodactylus.",
             "stats": {
@@ -1192,7 +1192,7 @@
             "id": "iq_drone_chassis",
             "name": "IQ Drone Chassis",
             "type": "Hero Unit",
-            "tier": 1,
+            "tier": "Hero",
             "faction": "udf",
             "lore": "Born into a family of researchers studying genetic engineering, Iris grew fascinated with manipulation of space itself due to the ancient alien ruins. Her work caught President Enhet's attention. This led to quantum-biological augmentation — abilities that buff troops and vehicles, create barriers and shields — but overuse can cause death. If the augmented individual dies, unstable quantum energy detonates. Despite risks, Enhet authorised the Quantum Augmentation Program.",
             "stats": {
@@ -2029,7 +2029,7 @@
             "id": "kizer",
             "name": "Kizer",
             "type": "Hero Unit",
-            "tier": 1,
+            "tier": "Hero",
             "faction": "sakupen",
             "lore": "[Placeholder]",
             "stats": {
@@ -2056,7 +2056,7 @@
             "id": "e_11",
             "name": "E-11",
             "type": "Hero Unit",
-            "tier": 1,
+            "tier": "Hero",
             "faction": "sakupen",
             "lore": "[Placeholder]",
             "stats": {
@@ -2083,7 +2083,7 @@
             "id": "ion_3c_drone_swarm",
             "name": "Ion (3C Drone Swarm)",
             "type": "Hero Unit",
-            "tier": 1,
+            "tier": "Hero",
             "faction": "sakupen",
             "lore": "[Placeholder]",
             "stats": {
