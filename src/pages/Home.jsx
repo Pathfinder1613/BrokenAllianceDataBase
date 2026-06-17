@@ -31,7 +31,7 @@ export default function HomePage() {
 
             <section className="home-actions">
                 <button onClick={() => navigate('/leaders')}>Leaders</button>
-                <button onClick={() => navigate('/constructs')}>Constructs</button>
+                <button onClick={() => navigate('/aio')}>All units/building</button>
             </section>
 
         </div>
