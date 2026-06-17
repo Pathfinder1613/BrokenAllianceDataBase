@@ -56,7 +56,14 @@ function CreateUnitRows(tier) {
         if (list && unit.tier !== "Hero" && unit.tier === tier) list.push(unit);
     })
 
-    const maximum_unit_count = Object.values(unit_lists).reduce((max, unit_list) => unit_list.length > max ? unit_list.length : max).length
+    let maximum_unit_count = 0;
+    FACTION_ORDER.forEach((faction_id) => {
+        const unit_list_length = unit_lists[faction_id].length;
+        if (unit_list_length > maximum_unit_count) maximum_unit_count = unit_list_length;
+    })
+
+    console.log(unit_lists);
+    console.log(maximum_unit_count);
 
     for (let i = 0; i < maximum_unit_count; i++) {
         content.push(
