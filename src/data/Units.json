@@ -2952,7 +2952,7 @@
             "lore": null,
             "stats": {
                 "mass": 2500,
-                "power": null,
+                "power": 2500,
                 "buildTimeSeconds": 150,
                 "pop": 25,
                 "hp": 2000,
