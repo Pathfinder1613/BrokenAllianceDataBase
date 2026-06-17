@@ -5,6 +5,7 @@
             "name": "Construction Engineer",
             "type": "Multi-Purpose Vehicle",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -31,6 +32,7 @@
             "name": "ATV",
             "type": "Multi-Purpose Scout Vehicle",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -57,6 +59,7 @@
             "name": "Marine",
             "type": "Infantry",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 10,
@@ -83,6 +86,7 @@
             "name": "Flamer Trooper",
             "type": "Infantry",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 10,
@@ -109,6 +113,7 @@
             "name": "Dead Eyes",
             "type": "Infantry (Sniper)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 10,
@@ -135,6 +140,7 @@
             "name": "Frigate",
             "type": "Naval (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 180,
@@ -161,6 +167,7 @@
             "name": "Patrol Boat",
             "type": "Naval (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 190,
@@ -187,6 +194,7 @@
             "name": "Artillery Boat",
             "type": "Naval Siege (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 190,
@@ -213,6 +221,7 @@
             "name": "Field Medic Truck",
             "type": "Support Vehicle",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 130,
@@ -239,6 +248,7 @@
             "name": "Mortar Buggy",
             "type": "Siege / Artillery",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 180,
@@ -265,6 +275,7 @@
             "name": "Interceptor",
             "type": "Air / Anti-Air (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 180,
@@ -291,6 +302,7 @@
             "name": "Spy Plane",
             "type": "Air / Scout (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -317,6 +329,7 @@
             "name": "Bomber",
             "type": "Air (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -343,6 +356,7 @@
             "name": "Drop Ship",
             "type": "Air / Transport (T1)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -369,6 +383,7 @@
             "name": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 250,
@@ -395,6 +410,7 @@
             "name": "Pilot",
             "type": "Infantry (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 250,
@@ -421,6 +437,7 @@
             "name": "Yeagers",
             "type": "Shock Troopers (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 250,
@@ -447,6 +464,7 @@
             "name": "Steelhead",
             "type": "Heavy Tank",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 400,
@@ -473,6 +491,7 @@
             "name": "Groundhog",
             "type": "Burrowing Tank (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 400,
@@ -499,6 +518,7 @@
             "name": "River Gunboat",
             "type": "Naval (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 350,
@@ -525,6 +545,7 @@
             "name": "Stegosaurus",
             "type": "Anti-Air Vehicle",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 350,
@@ -551,6 +572,7 @@
             "name": "Cruiser",
             "type": "Naval (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 350,
@@ -577,6 +599,7 @@
             "name": "Shield Cruiser",
             "type": "Naval Support (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 800,
@@ -603,6 +626,7 @@
             "name": "Repair Crawler",
             "type": "Support Vehicle",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 280,
@@ -629,6 +653,7 @@
             "name": "Rhino",
             "type": "Artillery Tank",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 450,
@@ -655,6 +680,7 @@
             "name": "Thunderbird",
             "type": "Heavy Gunship / Dropship (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 450,
@@ -681,6 +707,7 @@
             "name": "Delta Dart",
             "type": "Interceptor / Bomber / Anti-Air (T2)",
             "tier": 2,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 180,
@@ -707,6 +734,7 @@
             "name": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 250,
@@ -733,6 +761,7 @@
             "name": "Albatross",
             "type": "T3 Dropship",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 555,
@@ -759,6 +788,7 @@
             "name": "Assault Frigate",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 700,
@@ -785,6 +815,7 @@
             "name": "Aircraft Carrier",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 700,
@@ -811,6 +842,7 @@
             "name": "Battleship",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 700,
@@ -837,6 +869,7 @@
             "name": "Submarine",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 650,
@@ -863,6 +896,7 @@
             "name": "Lancer",
             "type": "Missile Platform",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 500,
@@ -889,6 +923,7 @@
             "name": "Slow Field Generator",
             "type": "Support Vehicle",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 450,
@@ -915,6 +950,7 @@
             "name": "Relay Tank",
             "type": "Vehicle / Support (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 700,
@@ -941,6 +977,7 @@
             "name": "EMP Support Tank",
             "type": "Support Vehicle",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 550,
@@ -967,6 +1004,7 @@
             "name": "Howitzer Platform",
             "type": "Siege / Artillery",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 650,
@@ -993,6 +1031,7 @@
             "name": "Paladin MBT",
             "type": "Elite Tank",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 900,
@@ -1019,6 +1058,7 @@
             "name": "Pterodactylus",
             "type": "Air / Gunship (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 800,
@@ -1045,6 +1085,7 @@
             "name": "Spy Plane III",
             "type": "Air / Scout (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 100,
@@ -1071,6 +1112,7 @@
             "name": "Superior Mini Nuker",
             "type": "Air / Bomber (T3)",
             "tier": 3,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 900,
@@ -1097,6 +1139,7 @@
             "name": "Diplomatic Envoy",
             "type": "Hero Unit",
             "tier": 1,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": "Free",
@@ -1123,6 +1166,7 @@
             "name": "Commander Hawk",
             "type": "Hero Unit (T3 Pterodactylus)",
             "tier": 1,
+            "faction": "UDF",
             "lore": "Named after his father. James Hawk joined the Airforce after his father passed away. Learned to fly the Pterodactylus Gunship. Became known for bravery — flying through a hurricane to save a civilian transport. President Enhet added him to the cabinet as head of the DOD branch. Hawk's love for flying lizards led to the creation of the Quetzalcoatlus Gunship. Hawk IS a T3 Pterodactylus.",
             "stats": {
                 "mass": "Free",
@@ -1149,6 +1193,7 @@
             "name": "IQ Drone Chassis",
             "type": "Hero Unit",
             "tier": 1,
+            "faction": "UDF",
             "lore": "Born into a family of researchers studying genetic engineering, Iris grew fascinated with manipulation of space itself due to the ancient alien ruins. Her work caught President Enhet's attention. This led to quantum-biological augmentation — abilities that buff troops and vehicles, create barriers and shields — but overuse can cause death. If the augmented individual dies, unstable quantum energy detonates. Despite risks, Enhet authorised the Quantum Augmentation Program.",
             "stats": {
                 "mass": "Free",
@@ -1175,6 +1220,7 @@
             "name": "Experimental Construction Engineer",
             "type": "Experimental Builder",
             "tier": 4,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1500,
@@ -1201,6 +1247,7 @@
             "name": "Quetzalcoatlus",
             "type": "Experimental Gunship",
             "tier": 4,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1500,
@@ -1227,6 +1274,7 @@
             "name": "Groundbreaker",
             "type": "Experimental Digger / Factory",
             "tier": 4,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1500,
@@ -1253,6 +1301,7 @@
             "name": "Poseidon",
             "type": "Experimental Warship",
             "tier": 4,
+            "faction": "UDF",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 3500,
@@ -1279,6 +1328,7 @@
             "name": "Construction Engineer (Sakupen)",
             "type": "Multi-Purpose Vehicle (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -1305,6 +1355,7 @@
             "name": "Cybermen",
             "type": "Ground Infantry (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "Clones. [Placeholder]",
             "stats": {
                 "mass": 25,
@@ -1331,6 +1382,7 @@
             "name": "Blitz",
             "type": "Light Vehicle / Scout (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "It's a motorcycle. [Placeholder]",
             "stats": {
                 "mass": 50,
@@ -1357,6 +1409,7 @@
             "name": "Probe Skiff",
             "type": "Naval Scout (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 100,
@@ -1383,6 +1436,7 @@
             "name": "Wasp",
             "type": "Air Support (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -1409,6 +1463,7 @@
             "name": "Shield Generator Unit",
             "type": "Support Infantry (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -1435,6 +1490,7 @@
             "name": "P-61",
             "type": "Suicide Infantry (T1)",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -1461,6 +1517,7 @@
             "name": "Construction Engineer 2 (Sakupen)",
             "type": "Multi-Purpose Vehicle (T1)",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -1487,6 +1544,7 @@
             "name": "Recon Trooper",
             "type": "Infantry Scout",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 100,
@@ -1513,6 +1571,7 @@
             "name": "Chainer",
             "type": "Infantry Unit",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 250,
@@ -1539,6 +1598,7 @@
             "name": "Energy Corvette",
             "type": "Naval (T2)",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 300,
@@ -1565,6 +1625,7 @@
             "name": "Jumper",
             "type": "Payload Special Infantry (T2)",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 300,
@@ -1591,6 +1652,7 @@
             "name": "Bulwark",
             "type": "Mobile Shield Vehicle",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 400,
@@ -1617,6 +1679,7 @@
             "name": "Reflector Drone",
             "type": "Air Support",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 100,
@@ -1643,6 +1706,7 @@
             "name": "Siege Rail Platform",
             "type": "Siege / Artillery",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 400,
@@ -1669,6 +1733,7 @@
             "name": "Rivenate",
             "type": "Airship / gunship (T2)",
             "tier": 2,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 350,
@@ -1695,6 +1760,7 @@
             "name": "Construction Engineer 3 (Sakupen)",
             "type": "Multi-Purpose Vehicle (T1)",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -1721,6 +1787,7 @@
             "name": "Void Frigate",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 750,
@@ -1747,6 +1814,7 @@
             "name": "Suppressor",
             "type": "Heavy Vehicle",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -1773,6 +1841,7 @@
             "name": "Dreadnought Cruiser",
             "type": "Naval (T4)",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1400,
@@ -1799,6 +1868,7 @@
             "name": "Fortress Crawler",
             "type": "Siege / Artillery",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1200,
@@ -1825,6 +1895,7 @@
             "name": "Delirium Gunship",
             "type": "Air Gunship",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -1851,6 +1922,7 @@
             "name": "Overcharge Cannon",
             "type": "Siege / Artillery",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 700,
@@ -1877,6 +1949,7 @@
             "name": "Apex Titan",
             "type": "Elite Heavy Mech",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1300,
@@ -1903,6 +1976,7 @@
             "name": "Null Field Projector",
             "type": "Support Vehicle",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 900,
@@ -1929,6 +2003,7 @@
             "name": "LazBoat",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1800,
@@ -1955,6 +2030,7 @@
             "name": "Kizer",
             "type": "Hero Unit",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": "Free",
@@ -1981,6 +2057,7 @@
             "name": "E-11",
             "type": "Hero Unit",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": "Free",
@@ -2007,6 +2084,7 @@
             "name": "Ion (3C Drone Swarm)",
             "type": "Hero Unit",
             "tier": 1,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": "Free",
@@ -2033,6 +2111,7 @@
             "name": "Siege Engine",
             "type": "Air Siege (T4)",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 3000,
@@ -2059,6 +2138,7 @@
             "name": "Juggernaut",
             "type": "Heavy Infantry (Experimental)",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 900,
@@ -2085,6 +2165,7 @@
             "name": "Sovereign",
             "type": "Experimental Titan",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 5000,
@@ -2111,6 +2192,7 @@
             "name": "Void Leviathan",
             "type": "Experimental Naval",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 4500,
@@ -2137,6 +2219,7 @@
             "name": "Omega Drone Fleet",
             "type": "Experimental Air",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 3000,
@@ -2163,6 +2246,7 @@
             "name": "Apex Protocol",
             "type": "Experimental Support",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 5000,
@@ -2189,6 +2273,7 @@
             "name": "[Placeholder]",
             "type": "Experimental Navy",
             "tier": 4,
+            "faction": "Sakupen",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 5000,
@@ -2215,6 +2300,7 @@
             "name": "Rot Crawler",
             "type": "Swarm Unit",
             "tier": 1,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 30,
@@ -2241,6 +2327,7 @@
             "name": "Spore Skiff",
             "type": "Naval (T1)",
             "tier": 1,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 50,
@@ -2267,6 +2354,7 @@
             "name": "Spore Spitter",
             "type": "Ranged Infantry",
             "tier": 1,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 60,
@@ -2293,6 +2381,7 @@
             "name": "Tendril Creeper",
             "type": "Support / Terrain",
             "tier": 1,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 40,
@@ -2319,6 +2408,7 @@
             "name": "Bile Lobber",
             "type": "Siege / Artillery",
             "tier": 1,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 80,
@@ -2345,6 +2435,7 @@
             "name": "Hulk Amalgam",
             "type": "Heavy Infantry",
             "tier": 2,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 250,
@@ -2371,6 +2462,7 @@
             "name": "Rot Galleon",
             "type": "Naval (T2)",
             "tier": 2,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 220,
@@ -2397,6 +2489,7 @@
             "name": "Phantom Drone",
             "type": "Air Unit",
             "tier": 2,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 150,
@@ -2423,6 +2516,7 @@
             "name": "Rot Tendril",
             "type": "Siege / Special",
             "tier": 2,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 200,
@@ -2449,6 +2543,7 @@
             "name": "Spore Cloud Generator",
             "type": "Support",
             "tier": 2,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 180,
@@ -2475,6 +2570,7 @@
             "name": "Amalgam Brute",
             "type": "Elite Heavy",
             "tier": 3,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 550,
@@ -2501,6 +2597,7 @@
             "name": "Leviathan Spawn",
             "type": "Naval (T3)",
             "tier": 3,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 600,
@@ -2527,6 +2624,7 @@
             "name": "Corruption Carrier",
             "type": "Air Support (T3)",
             "tier": 3,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 500,
@@ -2553,6 +2651,7 @@
             "name": "Rot Colossus",
             "type": "Heavy Siege",
             "tier": 3,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 700,
@@ -2579,6 +2678,7 @@
             "name": "Nest Cluster",
             "type": "Support Structure",
             "tier": 3,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 450,
@@ -2605,6 +2705,7 @@
             "name": "Apex Amalgam",
             "type": "Elite Monster",
             "tier": 4,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1400,
@@ -2631,6 +2732,7 @@
             "name": "Abyssal Leviathan",
             "type": "Naval (T4)",
             "tier": 4,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1500,
@@ -2657,6 +2759,7 @@
             "name": "Storm Carrier",
             "type": "Air (T4)",
             "tier": 4,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1200,
@@ -2683,6 +2786,7 @@
             "name": "Infector Engine",
             "type": "Siege (T4)",
             "tier": 4,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 1300,
@@ -2709,6 +2813,7 @@
             "name": "Symbiont Web",
             "type": "Support (T4)",
             "tier": 4,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 900,
@@ -2735,6 +2840,7 @@
             "name": "The Maw",
             "type": "Experimental Rot-Mass",
             "tier": 5,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 5000,
@@ -2761,6 +2867,7 @@
             "name": "World Eater",
             "type": "Experimental Naval",
             "tier": 5,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 4500,
@@ -2787,6 +2894,7 @@
             "name": "The Amalgamation",
             "type": "Experimental Walker",
             "tier": 5,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 4000,
@@ -2813,6 +2921,7 @@
             "name": "Phantom Singularity",
             "type": "Experimental Machine",
             "tier": 5,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 3500,
@@ -2839,6 +2948,7 @@
             "name": "Rot Bloom",
             "type": "Experimental Support",
             "tier": 5,
+            "faction": "Storm",
             "lore": "[Placeholder]",
             "stats": {
                 "mass": 2500,
