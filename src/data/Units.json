@@ -2839,7 +2839,7 @@
             "id": "the_maw",
             "title": "The Maw",
             "type": "Experimental Rot-Mass",
-            "tier": 5,
+            "tier": 4,
             "faction": "the_storm",
             "lore": null,
             "stats": {
@@ -2866,7 +2866,7 @@
             "id": "world_eater",
             "title": "World Eater",
             "type": "Experimental Naval",
-            "tier": 5,
+            "tier": 4,
             "faction": "the_storm",
             "lore": null,
             "stats": {
@@ -2893,7 +2893,7 @@
             "id": "the_amalgamation",
             "title": "The Amalgamation",
             "type": "Experimental Walker",
-            "tier": 5,
+            "tier": 4,
             "faction": "the_storm",
             "lore": null,
             "stats": {
@@ -2920,7 +2920,7 @@
             "id": "phantom_singularity",
             "title": "Phantom Singularity",
             "type": "Experimental Machine",
-            "tier": 5,
+            "tier": 4,
             "faction": "the_storm",
             "lore": null,
             "stats": {
@@ -2947,7 +2947,7 @@
             "id": "rot_bloom",
             "title": "Rot Bloom",
             "type": "Experimental Support",
-            "tier": 5,
+            "tier": 4,
             "faction": "the_storm",
             "lore": null,
             "stats": {
