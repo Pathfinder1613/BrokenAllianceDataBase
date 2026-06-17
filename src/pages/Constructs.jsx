@@ -3,8 +3,11 @@ import UnitAndBuldingButton from '../components/unitAndBuilding.jsx';
 // css
 import '../Styles/ConstructsPage.css';
 
+import img from '../../public/images/unitsPortraits/lol oll.png'
+
 import FACTIONS from '../data/Factions.json';
 import UNITS from '../data/Units.json';
+import BUILDING from '../data/Building.json';
 
 export default function ConstructsPage() {
     return (
@@ -20,14 +23,10 @@ export default function ConstructsPage() {
                                 src={`/images/icons/${faction_id}.svg`}
                             />
 
-                            <h1
-                                className='Faction-title'
-                                style={{ color: faction.color }}
-                            >
+                            <h1 className='Faction-title' style={{ color: faction.color }}>
                                 {faction.name}
                                 <hr></hr>
                             </h1>
-
 
                             <div className='Units-containers'>
                                 {UNITS.units
@@ -40,6 +39,20 @@ export default function ConstructsPage() {
                                             tier={unit.tier}
                                             type={unit.type}
                                             onClick={() => console.log(unit)}
+                                        />
+                                    ))}
+
+                                {BUILDING.Building
+                                    .filter((building) => building.faction === faction_id)
+                                    .map((building) => (
+                                        <UnitAndBuldingButton
+                                            key={building.name}
+                                            accentColor={faction.color}
+                                            name={building.name}
+                                            tier={building.tier}
+                                            type={building.type}
+                                            portrait={img}
+                                            onClick={() => console.log(building)}
                                         />
                                     ))}
                             </div>
