@@ -1,51 +1,544 @@
 {
     "Building": [
         {
-            "id": "land_factory",
-            "name": "Land Factory",
+            "id": "land_factory_udf",
+            "name": "Land factory",
+            "type": "unit production",
+            "tier": 1,
             "faction": "udf",
-            "class": "Factory",
-            "kind": "structure",
             "lore": "[Placeholder]",
             "stats": {
-                "mass": 240,
+                "mass": 150,
                 "power": 100,
-                "buildTimeSeconds": 30,
-                "pop": 0,
-                "damage": null,
-                "hp": 1800,
-                "vision": "Small"
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
             },
             "footprint": {
-                "sizeX": 5,
-                "sizeZ": 5
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "air_factory_udf",
+            "name": "Air factory",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "udf",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
             },
-            "production": {
-                "buildPowerPerSecond": 20,
-                "buildQueue": true,
-                "rallyPoint": true,
-                "canBuild": [
-                    "construction_engineer",
-                    "atv"
-                ]
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
             },
-            "build": {
-                "builtBy": [
-                    "construction_engineer",
-                    "MCU"
-                ],
-                "tech": 1,
-                "requires": [],
-                "buildMenu": {
-                    "tab": "structures",
-                    "category": "production",
-                    "sortOrder": 1,
-                    "hotkey": "F"
-                },
-                "upgradesTo": "land_factory_t2"
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "infantry_barracks_udf",
+            "name": "infantry barracks",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "udf",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
             },
-            "activeAbilities": [],
-            "skillUpgrades": null
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mass_storage_udf",
+            "name": "Mass storage",
+            "type": "economy",
+            "tier": 1,
+            "faction": "udf",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 200,
+                "power_storage": 0,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "power_storage_udf",
+            "name": "Power storage",
+            "type": "economy",
+            "tier": 1,
+            "faction": "udf",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 100,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mass_extractor_udf",
+            "name": "Mass extractor",
+            "type": "economy",
+            "tier": 1,
+            "faction": "udf",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 100,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Small"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "land_factory_sakupen",
+            "name": "Land factory",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "air_factory_sakupen",
+            "name": "Air factory",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "infantry_barracks_sakupen",
+            "name": "infantry barracks",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mass_storage_sakupen",
+            "name": "Mass storage",
+            "type": "economy",
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 200,
+                "power_storage": 0,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "power_storage_sakupen",
+            "name": "Power storage",
+            "type": "economy",
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 100,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mass_extractor_sakupen",
+            "name": "Mass extractor",
+            "type": "economy",
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 100,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Small"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "land_factory_storm",
+            "name": "Land factory",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "storm",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "air_factory_storm",
+            "name": "Air factory",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "storm",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "infantry_barracks_storm",
+            "name": "infantry barracks",
+            "type": "unit production",
+            "tier": 1,
+            "faction": "storm",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 0,
+                "power_loss": 40,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mass_storage_storm",
+            "name": "Mass storage",
+            "type": "economy",
+            "tier": 1,
+            "faction": "storm",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 200,
+                "power_storage": 0,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "power_storage_storm",
+            "name": "Power storage",
+            "type": "economy",
+            "tier": 1,
+            "faction": "storm",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 100,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
+        },
+        {
+            "id": "mass_extractor_storm",
+            "name": "Mass extractor",
+            "type": "economy",
+            "tier": 1,
+            "faction": "storm",
+            "lore": "[Placeholder]",
+            "stats": {
+                "mass": 150,
+                "power": 100,
+                "mass_storage": 0,
+                "power_storage": 100,
+                "power_loss": 0,
+                "buildTimeSeconds": 35,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Small"
+            },
+            "weapons": [],
+            "wreckage": {
+                "mass": "[Placeholder]",
+                "power": "[Placeholder]",
+                "health": "[Placeholder]"
+            },
+            "footprint": {
+                "x": "[Placeholder]",
+                "y": "[Placeholder]",
+                "z": "[Placeholder]"
+            }
         }
     ]
 }
