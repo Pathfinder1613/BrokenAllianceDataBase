@@ -55,5 +55,12 @@
         "description": "unit fires a single armour-piercing round that passes through up to <Pierce> enemies in a straight line, dealing <damge> full damage to each.",
         "damge": 290,
         "Pierce": 5
+    },
+    "hunker_down": {
+        "name": "hunker down",
+        "cooldown": 50,
+        "description": "3 time fire rate",
+        "damge": 290,
+        "Pierce": 5
     }
 }
