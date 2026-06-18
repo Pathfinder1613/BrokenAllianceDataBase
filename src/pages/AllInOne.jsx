@@ -62,9 +62,6 @@ function CreateUnitRows(filter) {
         if (unit_list_length > maximum_unit_count) maximum_unit_count = unit_list_length;
     })
 
-    console.log(unit_lists);
-    console.log(maximum_unit_count);
-
     for (let i = 0; i < maximum_unit_count; i++) {
         content.push(
             <div className="aio-row">
@@ -94,8 +91,8 @@ function CreateUnitRows(filter) {
 export default function AllInOne() {
     return (
         <>
-        {/* so i might make this an react component */}
-        <aside>
+            {/* so i might make this an react component */}
+            <aside>
                 <header>
                     <span title="0 selected">0</span>
                     <a href="" title="clear selection">x</a>
@@ -138,11 +135,10 @@ export default function AllInOne() {
                     <button type="button" title="view units by class">By Class</button>
                 </p>
             </aside>
-
-        <div className="aio-main">
             
-
-            
+            {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
+            {document.documentElement.style.setProperty("--visible_columns", 3)}
+            <div className="aio-main">
                 <div className="aio-faction-header-container">
                     {Object.keys(FACTIONS).map((faction_id) => {
                         const faction = FACTIONS[faction_id];
@@ -170,8 +166,8 @@ export default function AllInOne() {
                 <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 4)}
                 </div>
-           
-        </div>
-         </>
+
+            </div>
+        </>
     )
 }
