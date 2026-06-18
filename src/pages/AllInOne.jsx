@@ -94,7 +94,7 @@ function CreateUnitRows(filter) {
 export default function AllInOne() {
     return (
         <>
-
+        {/* so i might make this an react component */}
         <aside>
                 <header>
                     <span title="0 selected">0</span>
