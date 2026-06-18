@@ -88,54 +88,56 @@ function CreateUnitRows(filter) {
     return content;
 }
 
+function CreateSortBar() {
+    return (<aside>
+        <header>
+            <span title="0 selected">0</span>
+            <a href="" title="clear selection">x</a>
+            <a href="#/" title="compare">compare</a>
+        </header>
+
+        <form>
+            <input
+                id="filter"
+                type="text"
+                placeholder="filter"
+                autofocus
+            />
+        </form>
+
+        <p>
+            <button type="button" title="UEF">UDF</button>
+            <button type="button" title="Cybran">Sakupen</button>
+            <button type="button" title="Aeon">The Storm</button>
+            <button type="button" title="Seraphim">The Trogs</button>
+        </p>
+
+        <p>
+            <button type="button" title="Base">Base</button>
+            <button type="button" title="Land">Land</button>
+            <button type="button" title="Air">Air</button>
+            <button type="button" title="Naval">Naval</button>
+        </p>
+
+        <p>
+            <button type="button" title="T1">T1</button>
+            <button type="button" title="T2">T2</button>
+            <button type="button" title="T3">T3</button>
+            <button type="button" title="Hero">Hero</button>
+            <button type="button" title="T5">EXP</button>
+        </p>
+
+        <p>
+            <button type="button" title="view units by kind">By Kind</button>
+            <button type="button" title="view units by class">By Class</button>
+        </p>
+    </aside>)
+}
+
 export default function AllInOne() {
     return (
         <>
-            {/* so i might make this an react component */}
-            <aside>
-                <header>
-                    <span title="0 selected">0</span>
-                    <a href="" title="clear selection">x</a>
-                    <a href="#/" title="compare">compare</a>
-                </header>
-
-                <form>
-                    <input
-                        id="filter"
-                        type="text"
-                        placeholder="filter"
-                        autofocus
-                    />
-                </form>
-
-                <p>
-                    <button type="button" title="UEF">UDF</button>
-                    <button type="button" title="Cybran">Sakupen</button>
-                    <button type="button" title="Aeon">The Storm</button>
-                    <button type="button" title="Seraphim">The Trogs</button>
-                </p>
-
-                <p>
-                    <button type="button" title="Base">Base</button>
-                    <button type="button" title="Land">Land</button>
-                    <button type="button" title="Air">Air</button>
-                    <button type="button" title="Naval">Naval</button>
-                </p>
-
-                <p>
-                    <button type="button" title="T1">T1</button>
-                    <button type="button" title="T2">T2</button>
-                    <button type="button" title="T3">T3</button>
-                    <button type="button" title="Hero">Hero</button>
-                    <button type="button" title="T5">EXP</button>
-                </p>
-
-                <p>
-                    <button type="button" title="view units by kind">By Kind</button>
-                    <button type="button" title="view units by class">By Class</button>
-                </p>
-            </aside>
-            
+            {CreateSortBar()}
             {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
             {document.documentElement.style.setProperty("--visible_columns", 3)}
             <div className="aio-main">
