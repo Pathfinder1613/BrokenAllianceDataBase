@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+html {
+    /* variables for columns */
+    --total_columns: 0;
+    --visible_columns: 0;
+}
+
 html, body, #root {
     height: 100%;
 }
@@ -13,6 +19,7 @@ html, body, #root {
     height: 100%;
 }
 
+/* aside */
 aside {
     width: 100%;
     min-height: 70px;
@@ -32,7 +39,6 @@ aside {
 aside header,
 aside p {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 0.25rem;
     margin: 0;
@@ -97,13 +103,10 @@ aside button:hover {
 /* these are prefixed with 'aio' to avoid conflicts with other stylesheets */
 
 .aio-main {
-    --cols: 4;        /* total factions */
-    --visible: 3;     /* how many fit on screen */
-
-    
     display: flex;
     flex-direction: column;
     overflow-x: auto;
+    color-scheme: dark;
 }
 
 .aio-faction-header-container {
@@ -116,7 +119,6 @@ aside button:hover {
     font-size: 1.25em;
     font-weight: bold;
     display: flex;
-    width: calc(100% * (1 / 3));
     flex-grow: 1;
     flex-shrink: 0;
     padding: 2px;
@@ -145,7 +147,6 @@ aside button:hover {
 .aio-row-item {
     display: flex;
     flex-direction: column;
-    width: calc(100% * (1 / 3));
     flex-shrink: 0;
     background: linear-gradient(to right, rgb(30, 30, 30), rgba(60, 60, 60, 0.75));
     padding: 2px;
@@ -176,12 +177,10 @@ aside button:hover {
     opacity: 0.75;
 }
 
-.aio-row-container,
-.aio-faction-header-container {
-    width: calc(100% / var(--visible) * var(--cols));   /* 133% → overflows, scrolls */
+.aio-row-container, .aio-faction-header-container {
+    width: calc(100% / var(--visible_columns) * var(--total_columns));
 }
 
-.aio-row-item,
-.aio-faction-header {
-    width: calc(100% / var(--cols));                    /* 1/4 of 133% = 1/3 screen */
+.aio-row-item, .aio-faction-header {
+    width: calc(100% / var(--total_columns));
 }

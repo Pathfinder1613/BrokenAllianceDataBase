@@ -2558,7 +2558,7 @@
                 "placeholder"
             ],
             "tier": 1,
-            "faction": "the_the_storm",
+            "faction": "the_storm",
             "lore": null,
             "stats": {
                 "mass": 30,
@@ -3062,8 +3062,8 @@
             }
         },
         {
-            "id": "the_storm_carrier",
-            "title": "the_storm Carrier",
+            "id": "carrier",
+            "title": "Carrier",
             "type": "Air",
             "tag": [
                 "air"
