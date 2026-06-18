@@ -99,6 +99,8 @@ aside button:hover {
 .aio-main {
     --cols: 4;        /* total factions */
     --visible: 3;     /* how many fit on screen */
+
+    
     display: flex;
     flex-direction: column;
     overflow-x: auto;
