@@ -4,11 +4,11 @@ import FACTIONS from '../data/Factions.json'
 import LEADERS from '../data/Leaders.json'
 import UNITS from '../data/Units.json'
 
-const FACTION_ORDER = ["udf", "sakupen", "the_storm", "the_trogs"]
+const FACTION_ORDER = ["udf", "sakupen", "the_storm", "the_trogs"];
+const empty_row_item = (<div className="aio-row-item"></div>);
 
 function CreateLeaderRows() {
     const content = [];
-    const empty = (<div className="aio-row-item"></div>)
 
     // finding the faction with the most amount of leaders
     let max_leaders = 0;
@@ -21,11 +21,11 @@ function CreateLeaderRows() {
             <div className="aio-row">
                 {Object.values(FACTIONS).map((faction, ii) => {
                     const leader_id = faction.leaders[i];
-                    if (!leader_id) return empty;
+                    if (!leader_id) return empty_row_item;
 
                     const leader = LEADERS[leader_id];
 
-                    if (!leader) return empty;
+                    if (!leader) return empty_row_item;
 
                     return (
                         <div className="aio-row-item aio-selectable">
@@ -44,15 +44,13 @@ function CreateLeaderRows() {
 
 function CreateUnitRows(filter) {
     const content = [];
-    const empty = (<div className="aio-row-item"></div>)
 
     const unit_lists = {};
     Object.keys(FACTIONS).forEach((faction_id) => unit_lists[faction_id] = []);
 
     UNITS.units.forEach((unit) => {
         const list = unit_lists[unit.faction];
-
-        // doing this because I'm not sure how I want to display hero units.
+        
         if (list && filter(unit)) list.push(unit);
     })
 
@@ -106,25 +104,24 @@ function CreateSortBar() {
         </form>
 
         <p>
-            <button type="button" title="UEF">UDF</button>
-            <button type="button" title="Cybran">Sakupen</button>
-            <button type="button" title="Aeon">The Storm</button>
-            <button type="button" title="Seraphim">The Trogs</button>
+            <button type="button">UDF</button>
+            <button type="button">Sakupen</button>
+            <button type="button">The Storm</button>
+            <button type="button">The Trogs</button>
         </p>
 
         <p>
-            <button type="button" title="Base">Base</button>
-            <button type="button" title="Land">Land</button>
-            <button type="button" title="Air">Air</button>
-            <button type="button" title="Naval">Naval</button>
+            <button type="button">Base</button>
+            <button type="button">Land</button>
+            <button type="button">Air</button>
+            <button type="button">Naval</button>
         </p>
 
         <p>
-            <button type="button" title="T1">T1</button>
-            <button type="button" title="T2">T2</button>
-            <button type="button" title="T3">T3</button>
-            <button type="button" title="Hero">Hero</button>
-            <button type="button" title="T5">EXP</button>
+            <button type="button">T1</button>
+            <button type="button">T2</button>
+            <button type="button">T3</button>
+            <button type="button">T4</button>
         </p>
 
         <p>
