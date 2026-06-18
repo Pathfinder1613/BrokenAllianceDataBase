@@ -71,6 +71,10 @@
     background: #555;
 }
 
+.detail-leaderpower-containers h1{
+    padding: 1.25rem;
+}
+
 .detail-leaderpower-containers {
     padding: 1.25rem;
     border-radius: 12px;

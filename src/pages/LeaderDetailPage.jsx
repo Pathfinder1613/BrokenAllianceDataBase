@@ -52,6 +52,7 @@ export default function LeaderPage() {
                 </div>
 
                 <div className="detail-leaderpower-containers">
+                    <h1>Leader powers</h1>
                     <ul>
                         {leader.skills.map((skill) => (
                             <li key={skill}>{skill}</li>
