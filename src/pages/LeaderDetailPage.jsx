@@ -1,35 +1,63 @@
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 
-import '../Styles/LeaderFullpage.css'
+import '../Styles/LeaderFullpage.css';
+import LEADERS from '../data/Leaders.json';
 
-import LEADERS from '../data/Leaders.json'
 
 export default function LeaderPage() {
     const { id } = useParams();
-    // this doesn't actually do anything, I just wanted to rename the id variable from useParams()
-    const leader_id = id;
+    const navigate = useNavigate();
+
     const leader = LEADERS[id];
 
     if (!leader) {
-        return <h1>leader not found</h1>;
+        return <h1>Leader Not Found</h1>;
     }
 
     return (
-        <div className="leader-full">
-            <img className="leader-portrait" src={`/images/portraits/${leader_id}.png`} onError={
-                // may consider moving this out into a function statement instead of a lambda expression
-                ({ currentTarget }) => {
-                    console.log(`Could not find portrait for leader '${leader_id}'!`)
-                    currentTarget.onerror = null;
-                    currentTarget.src = `/images/portraits/Placeholder.png`
-                }
-            } />
-            <h1 className="leader-full-name">Leader Name: {leader.name}</h1>
-            <p className="leader-full-faction">{leader.faction}</p>
-            <p className="leader-full-tagline">{leader.tagline}</p>
-            <p className="leader-full-lore">{leader.lore}</p>
-            <div className='leader-powers'>
-                minecraft
+        <div className="left-section">
+            <div className="detail-leader-portrait-containers">
+                <div className="the_go_back">
+                    <button onClick={() => navigate(-1)}>
+                        Go Back
+                    </button>
+                </div>
+
+                <img
+                    className="detail-leader-portrait"
+                    src={`/images/portraits/${id}.png`}
+                    alt={leader.name}
+                    onError={({ currentTarget }) => {
+                        currentTarget.onerror = null;
+                        currentTarget.src =
+                            '/images/portraits/Placeholder.png';
+                    }}
+                />
+            </div>
+
+            <div className="right-section">
+                <div className="detail-leader-header-containers">
+                    <h1 className="leader-full-name">
+                        {leader.name}
+                    </h1>
+
+                    <p className="leader-full-tagline">
+                        {leader.tagline}
+                    </p>
+                </div>
+
+                <div className="detail-leader-lore-containers">
+                    <p>{leader.lore}</p>
+                    <hr />
+                </div>
+
+                <div className="detail-leaderpower-containers">
+                    <ul>
+                        {leader.skills.map((skill) => (
+                            <li key={skill}>{skill}</li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         </div>
     );

@@ -47,7 +47,7 @@ export default function LeaderPage() {
                                 } />
                                 <span style={{ color: color }} className="leader-name">{leader.name}</span>
                                 <span className="leader-type">{leader.title}</span>
-                                <span className="leader-quote">"{leader.quote}"</span>
+                                <span className="leader-quote">"{leader.tagline}"</span>
                                 <span className="leader-lore">
                                     {(leader.lore ?? '').split(' ').slice(0, 30).join(' ')}...
                                     <button onClick={() => navigate(`/leaders/${leader_id}`)} className='See-More'>Click to see more</button>
