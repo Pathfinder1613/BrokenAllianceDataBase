@@ -9,8 +9,42 @@ html, body, #root {
 
 #root {
     display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
+aside {
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 0 1.5rem;
+
+    backdrop-filter: blur(3px);
+    border-bottom: 1px solid #333;
+
+    color: white;
+}
+
+aside a,
+aside button {
+    padding: 0.5rem 1rem;
+
+    color: white;
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    transition: background 0.2s ease;
+}
+
+aside a:hover,
+aside button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
 /* these are prefixed with 'aio' to avoid conflicts with other stylesheets */
 
 .aio-main {
