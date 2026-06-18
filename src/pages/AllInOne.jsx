@@ -72,10 +72,10 @@ function CreateUnitRows(filter) {
                     const faction = FACTIONS[faction_id];
                     const unit = unit_lists[faction_id][i];
 
-                    if (!unit) return empty;
+                    if (!unit) return <div key={faction_id} className="aio-row-item" />;
 
                     return (
-                        <div className="aio-row-item aio-selectable">
+                        <div key={faction_id} className="aio-row-item aio-selectable">
                             <div>
                                 <span>T{unit.tier}</span>
                                 <span> {unit.type}</span>
