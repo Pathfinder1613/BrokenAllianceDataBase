@@ -69,8 +69,7 @@ aside form input:focus {
     background: rgba(255, 255, 255, 0.12);
 }
 
-aside a,
-aside button {
+aside a, aside button {
     padding: 0.5rem 1rem;
     border: none;
     background: transparent;
@@ -83,8 +82,7 @@ aside button {
     transition: background-color 0.2s ease;
 }
 
-aside a:hover,
-aside button:hover {
+aside a:hover, aside button:hover {
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -101,6 +99,10 @@ aside button:hover {
     }
 }
 /* these are prefixed with 'aio' to avoid conflicts with other stylesheets */
+
+.aio-toggle-active {
+    background: rgba(255, 255, 255, 0.5);
+}
 
 .aio-main {
     display: flex;
@@ -175,6 +177,10 @@ aside button:hover {
 .aio-unit-name {
     font-style: italic;
     opacity: 0.75;
+}
+
+.aio-unit-tier {
+    font-weight: bold;
 }
 
 .aio-row-container, .aio-faction-header-container {
