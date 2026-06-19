@@ -5,7 +5,7 @@
             "title": "Construction Engineer",
             "type": "Multi-Purpose Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 1,
             "faction": "udf",
@@ -35,7 +35,7 @@
             "title": "ATV",
             "type": "Multi-Purpose Scout Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 1,
             "faction": "udf",
@@ -245,7 +245,7 @@
             "title": "Field Medic Truck",
             "type": "Support Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 1,
             "faction": "udf",
@@ -275,7 +275,7 @@
             "title": "Mortar Buggy",
             "type": "Siege / Artillery",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 1,
             "faction": "udf",
@@ -425,7 +425,7 @@
             "title": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "udf",
@@ -3246,7 +3246,7 @@
             "title": "Phantom Singularity",
             "type": "Experimental Machine",
             "tag": [
-                "vehicle"
+                "land"
             ],
             "tier": 4,
             "faction": "the_storm",
