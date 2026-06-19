@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect  } from 'react';
 import '../Styles/AIO.css'
 
 import FACTIONS from '../data/Factions.json'
@@ -131,7 +131,7 @@ function CreateSortBar(filters) {
                 id="filter"
                 type="text"
                 placeholder="filter"
-                autofocus
+                autoFocus
             />
         </form>
 
@@ -145,6 +145,7 @@ function CreateSortBar(filters) {
         <p>
             <button type="button">Base</button>
             <button type="button">Land</button>
+            <button type='button'>infantry</button>
             <button type="button">Air</button>
             <button type="button">Naval</button>
         </p>

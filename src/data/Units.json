@@ -515,7 +515,7 @@
             "title": "Steelhead",
             "type": "Heavy Tank",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "udf",
@@ -545,7 +545,7 @@
             "title": "Groundhog",
             "type": "Burrowing Tank",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "udf",
@@ -605,7 +605,7 @@
             "title": "Stegosaurus",
             "type": "Anti-Air Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "udf",
@@ -695,7 +695,7 @@
             "title": null,
             "type": "Repair Crawler",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "udf",
@@ -725,7 +725,7 @@
             "title": "Rhino",
             "type": "Artillery Tank",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "udf",
@@ -815,7 +815,7 @@
             "title": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -995,7 +995,7 @@
             "title": "Lancer",
             "type": "Missile Platform",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -1025,7 +1025,7 @@
             "title": null,
             "type": "Statis Field Generator",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -1055,7 +1055,7 @@
             "title": null,
             "type": "Relay Tank",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -1085,7 +1085,7 @@
             "title": null,
             "type": "EMP Support Tank",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -1115,7 +1115,7 @@
             "title": "Howitzer Platform",
             "type": "Artillery",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -1145,7 +1145,7 @@
             "title": "Paladin MBT",
             "type": "Elite Tank",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "udf",
@@ -1265,7 +1265,7 @@
             "title": "Diplomatic Envoy",
             "type": "Hero Unit",
             "tag": [
-                "placeholder"
+                "infantry"
             ],
             "tier": "Hero",
             "faction": "udf",
@@ -1325,7 +1325,7 @@
             "title": "IQ Drone Chassis",
             "type": "Hero Unit",
             "tag": [
-                "placeholder"
+                "air"
             ],
             "tier": "Hero",
             "faction": "udf",
@@ -1355,7 +1355,7 @@
             "title": "Experimental Construction Engineer",
             "type": "Experimental Builder",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 4,
             "faction": "udf",
@@ -1415,7 +1415,7 @@
             "title": "Groundbreaker",
             "type": "Experimental Digger / Factory",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 4,
             "faction": "udf",
@@ -1475,7 +1475,7 @@
             "title": "Construction Engineer",
             "type": "Multi-Purpose Vehicle ",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 1,
             "faction": "sakupen",
@@ -1535,7 +1535,7 @@
             "title": "Blitz",
             "type": "Light Vehicle / Scout",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 1,
             "faction": "sakupen",
@@ -1685,7 +1685,7 @@
             "title": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle ",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "sakupen",
@@ -1835,7 +1835,7 @@
             "title": "Bulwark",
             "type": "Mobile Shield Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "sakupen",
@@ -1895,7 +1895,7 @@
             "title": "Siege Rail Platform",
             "type": "Siege Artillery",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 2,
             "faction": "sakupen",
@@ -1955,7 +1955,7 @@
             "title": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle ",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "sakupen",
@@ -2015,7 +2015,7 @@
             "title": "Suppressor",
             "type": "Heavy Vehicle",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "sakupen",
@@ -2075,7 +2075,7 @@
             "title": "Fortress Crawler",
             "type": "Siege / Artillery",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "sakupen",
@@ -2135,7 +2135,7 @@
             "title": "Overcharge Cannon",
             "type": "Siege / Artillery",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "sakupen",
@@ -2165,7 +2165,7 @@
             "title": "Apex Titan",
             "type": "Elite Heavy Mech",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "sakupen",
@@ -2195,7 +2195,7 @@
             "title": null,
             "type": "Null Field Projector",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 3,
             "faction": "sakupen",
@@ -2255,7 +2255,7 @@
             "title": "Kizer",
             "type": "Hero Unit",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": "Hero",
             "faction": "sakupen",
@@ -2285,7 +2285,7 @@
             "title": "E-11",
             "type": "Hero Unit",
             "tag": [
-                "placeholder"
+                "infantry"
             ],
             "tier": "Hero",
             "faction": "sakupen",
@@ -2315,7 +2315,7 @@
             "title": "Ion (3C Drone Swarm)",
             "type": "Hero Unit",
             "tag": [
-                "placeholder"
+                "air"
             ],
             "tier": "Hero",
             "faction": "sakupen",
@@ -2405,7 +2405,7 @@
             "title": "Sovereign",
             "type": "Experimental Titan",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 4,
             "faction": "sakupen",
@@ -2495,7 +2495,7 @@
             "title": "Apex Protocol",
             "type": "Experimental Support",
             "tag": [
-                "placeholder"
+                "land"
             ],
             "tier": 4,
             "faction": "sakupen",
@@ -2555,7 +2555,7 @@
             "title": "Rot Crawler",
             "type": "Swarm Unit",
             "tag": [
-                "placeholder"
+                "infantry"
             ],
             "tier": 1,
             "faction": "the_storm",
@@ -2645,7 +2645,7 @@
             "title": null,
             "type": "Tendril Creeper",
             "tag": [
-                "placeholder"
+                "infantry"
             ],
             "tier": 1,
             "faction": "the_storm",
@@ -2675,7 +2675,7 @@
             "title": "Bile Lobber",
             "type": "Siege Artillery",
             "tag": [
-                "placeholder"
+                "infantry"
             ],
             "tier": 1,
             "faction": "the_storm",
@@ -2795,7 +2795,7 @@
             "title": null,
             "type": "Rot Tendril",
             "tag": [
-                "placeholder"
+                "infantry"
             ],
             "tier": 2,
             "faction": "the_storm",
