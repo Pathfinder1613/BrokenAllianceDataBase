@@ -10,8 +10,6 @@
       "projectile_speed": 67,
       "targets": ["land"]
     },
-
-
     "atv_autocannon": {
       "name": "Scout Autocannon",
       "damage": 18,
