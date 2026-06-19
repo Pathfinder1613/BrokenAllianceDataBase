@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import '../Styles/AIO.css'
 
 import FACTIONS from '../data/Factions.json'
@@ -6,6 +7,37 @@ import UNITS from '../data/Units.json'
 
 const FACTION_ORDER = ["udf", "sakupen", "the_storm", "the_trogs"];
 const empty_row_item = (<div className="aio-row-item"></div>);
+
+class TagFilter {
+    constructor(state) {
+        this.tags = state[0];
+        this.setter = state[1];
+    }
+
+    toggleTag(tag) {
+        const index = this.tags.indexOf(tag)
+        const copied_tags = this.tags.slice()
+        let new_state = false;
+
+        if (index === -1)
+        {
+            new_state = true;
+            copied_tags.push(tag)
+        }
+        else
+        {
+            copied_tags.splice(index, 1)
+        }
+
+        this.setter(copied_tags)
+
+        return new_state
+    }
+
+    hasTag(tag) {
+        return this.tags.includes(tag)
+    }
+}
 
 function CreateLeaderRows() {
     const content = [];
@@ -50,7 +82,7 @@ function CreateUnitRows(filter) {
 
     UNITS.units.forEach((unit) => {
         const list = unit_lists[unit.faction];
-        
+
         if (list && filter(unit)) list.push(unit);
     })
 
@@ -72,7 +104,7 @@ function CreateUnitRows(filter) {
                     return (
                         <div key={faction_id} className="aio-row-item aio-selectable">
                             <div>
-                                <span>T{unit.tier}</span>
+                                <span className="aio-unit-tier">T{unit.tier}</span>
                                 <span> {unit.type}</span>
                                 {unit.title && <span className="aio-unit-name"> "{unit.title}"</span>}
                             </div>
@@ -86,7 +118,7 @@ function CreateUnitRows(filter) {
     return content;
 }
 
-function CreateSortBar() {
+function CreateSortBar(filters) {
     return (<aside>
         <header>
             <span title="0 selected">0</span>
@@ -118,10 +150,10 @@ function CreateSortBar() {
         </p>
 
         <p>
-            <button type="button">T1</button>
-            <button type="button">T2</button>
-            <button type="button">T3</button>
-            <button type="button">T4</button>
+            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(1) ? 'aio-toggle-active' : ''}`}}>T1</button>
+            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(2) ? 'aio-toggle-active' : ''}`}}>T2</button>
+            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(3) ? 'aio-toggle-active' : ''}`}}>T3</button>
+            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(4) ? 'aio-toggle-active' : ''}`}}>T4</button>
         </p>
 
         <p>
@@ -131,10 +163,16 @@ function CreateSortBar() {
     </aside>)
 }
 
+
 export default function AllInOne() {
+    const filters = {
+        tier: new TagFilter(useState([1, 2, 3, 4])),
+        category: new TagFilter(useState([])),
+    }
+
     return (
         <>
-            {CreateSortBar()}
+            {CreateSortBar(filters)}
             {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
             {document.documentElement.style.setProperty("--visible_columns", 3)}
             <div className="aio-main">
@@ -153,18 +191,18 @@ export default function AllInOne() {
                 <div className="aio-row-container">
                     {CreateLeaderRows()}
                 </div>
-                <div className="aio-row-container">
+                {filters.tier.hasTag(1) && <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 1)}
-                </div>
-                <div className="aio-row-container">
+                </div>}
+                {filters.tier.hasTag(2) && <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 2)}
-                </div>
-                <div className="aio-row-container">
+                </div>}
+                {filters.tier.hasTag(3) && <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 3)}
-                </div>
-                <div className="aio-row-container">
+                </div>}
+                {filters.tier.hasTag(4) && <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 4)}
-                </div>
+                </div>}
 
             </div>
         </>
