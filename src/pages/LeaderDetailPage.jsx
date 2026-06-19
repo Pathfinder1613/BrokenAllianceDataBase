@@ -39,7 +39,7 @@ export default function LeaderPage() {
             <div className="right-section">
                 <div className="detail-leader-header-containers">
                     <h1 className="leader-full-name">
-                        {leader.name}
+                        ★{leader.name}
                     </h1>
 
                     <p className="leader-full-tagline">
@@ -60,11 +60,11 @@ export default function LeaderPage() {
                             return (
                                 <li key={powerId}>
                                     <span className="leaderpower-name">
-                                        {power ? power.name : powerId}
+                                        {power ? power.name : powerId}  CD: {power?.cooldown ?? "no-cooldown"}
                                     </span>
                                     {power?.description && (
                                         <p className="leaderpower-description">
-                                            cooldown:{power.cooldown} description:{power.description} 
+                                             description: {power.description} 
                                         </p>
                                     )}
                                 </li>

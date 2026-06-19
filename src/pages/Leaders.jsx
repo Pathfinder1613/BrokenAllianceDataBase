@@ -45,7 +45,7 @@ export default function LeaderPage() {
                                         currentTarget.src = `/images/portraits/Placeholder.png`
                                     }
                                 } />
-                                <span style={{ color: color }} className="leader-name">{leader.name}</span>
+                                <span style={{ color: color }} className="leader-name">★{leader.name}</span>
                                 <span className="leader-type">{leader.title}</span>
                                 <span className="leader-quote">"{leader.tagline}"</span>
                                 <span className="leader-lore">

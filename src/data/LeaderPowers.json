@@ -2,337 +2,337 @@
     "air_cavalry": {
         "name": "Air Cavalry",
         "leader": "commander_hawk",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "All aircraft gain 15% movement speed and 10% turn speed"
     },
     "suppression_field": {
         "name": "Suppression Field",
         "leader": "commander_hawk",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "100s",
+        "description": "Deploys a suppression zone at target location. Enemies inside move 40% slower and deal 20% less damage for 15 seconds. Essential crowd control for aggressive pushes."
     },
     "airstrike": {
         "name": "Airstrike",
         "leader": "commander_hawk",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "75s",
+        "description": "Calls a precision airstrike on a target location. High AOE explosive damage — devastating vs vehicle clusters and structures. The signature Hawk ability."
     },
     "afterburners": {
         "name": "Afterburners",
         "leader": "commander_hawk",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "150s",
+        "description": "Aircraft speed +50% Weapon cooldowns -50% and Units ignore movement penalties"
     },
     "carpet_bomb": {
         "name": "Carpet Bomb",
         "leader": "commander_hawk",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "200s",
+        "description": "Designates a wide line across the battlefield — multiple bombers strike the entire corridor simultaneously. Massive terrain damage; destroys T1–T2 unit groups."
     },
     "hurricane_run": {
         "name": "Hurricane Run",
         "leader": "commander_hawk",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "280s",
+        "description": "Enemy vision reduced by 75% for you and your team vision is not change Enemy aircraft slowed by 50% Friendly aircraft inside gain stealth tho Lightning periodically strikes units must habe an weather manipulator building"
     },
     "national_infrastructure": {
         "name": "National Infrastructure",
         "leader": "president_enhet",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "150s",
+        "description": "Deploys a temporary infrastructure hub anywhere in vision. Nearby Mass Extractors and Factories gain increased production and build speed for 45 seconds. Can only have 3 at a time. also costing mass and power to use about 20"
     },
     "veteran_leadership": {
         "name": "Veteran Leadership",
         "leader": "president_enhet",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "All infantry gain experience 50% faster. Veteran units receive increased health and damage bonuses."
     },
     "emergency_mobilization": {
         "name": "Emergency Mobilization",
         "leader": "president_enhet",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "90s",
+        "description": "Instantly spawns a free squad of 5 Marines and 2 Combat ATVs at the hero's location. No cost. Excellent panic button for base defense."
     },
     "mac_rounds": {
         "name": "Mac Rounds",
         "leader": "president_enhet",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "150s",
+        "description": "Shoots a direct blast shoot. that dose eoe damage"
     },
     "resurrection_rings": {
         "name": "Resurrection Rings",
         "leader": "president_enhet",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "180s",
+        "description": "In its within the radius get heal the radius in an large are"
     },
     "broadcast": {
         "name": "Broadcast",
         "leader": "president_enhet",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "180s",
+        "description": "All UDF units on the entire map gain +10% damage and +10% movement speed for 20 seconds. The capstone power — used to time decisive pushes."
     },
     "networked_vision": {
         "name": "Networked Vision",
         "leader": "iq_iris_quantum",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "Passive unlocked first: all UDF units gain +30% vision range and stealth detection +50% while IQ drone is alive. Immediate map awareness advantage."
     },
     "combat_augmentation": {
         "name": "Combat Augmentation",
         "leader": "iq_iris_quantum",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "110s",
+        "description": "Targets a group of friendly units. For 30s boost health and damage by 5% cost 20mass and 20 power"
     },
     "quantum_barrier": {
         "name": "Quantum Barrier",
         "leader": "iq_iris_quantum",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "90s",
+        "description": "Projects a large energy barrier at a target location. That blocks 1k damge"
     },
     "sensor_sweep": {
         "name": "Sensor Sweep",
         "leader": "iq_iris_quantum",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "120s",
+        "description": "Reveals and mark are as long as you have an rader for 8 seconds including all stealth units.."
     },
     "disruption_pulse": {
         "name": "Disruption Pulse",
         "leader": "iq_iris_quantum",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "140s",
+        "description": "Fires an EMP pulse in a wide radius. Disables all enemy electronic units and structures for 12 seconds. Stacks with EMP Support Tank."
     },
     "quantum_ascension": {
         "name": "Quantum Ascension",
         "leader": "iq_iris_quantum",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "200s",
+        "description": "All units gain personal energy shields and Ignore terrain movement penalties along with boosted health permanently dose not stack must have an tier 3 lab to use it and 1,000 Mass + 1,000 Energy"
     },
     "living_storm": {
         "name": "Living Storm",
         "leader": "amalgam",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "Passive if unit gets and kill on infantry that unit grow in size and gain +200hp, +20 damage this cap at level 5"
     },
     "spore_burst": {
         "name": "Spore Burst",
         "leader": "amalgam",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "70s",
+        "description": "AOE Rot infection in large radius. Deals 80 damage to all enemies in range and spreads Corruption to all affected terrain tiles simultaneously. First and most used power."
     },
     "devour": {
         "name": "Devour",
         "leader": "amalgam",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "45s",
+        "description": "Consumes a damaged enemy unit below 30% HP. Amalgam heals 400 HP and permanently gains +25 max HP. Short cooldown — use constantly in melee brawls."
     },
     "merge": {
         "name": "Merge",
         "leader": "amalgam",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "120s",
+        "description": "Absorbs a nearby friendly unit temporarily. Amalgam grows and gains +50% damage and +30% HP for 20 seconds. The absorbed unit is released unharmed after."
     },
     "brood_surge": {
         "name": "Brood Surge",
         "leader": "amalgam",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "160s",
+        "description": "Instantly spawns 20 Rot Crawlers and 3 Hulk Amalgams at Amalgam's location at zero cost. Overwhelming numbers to support a push or defend against assault."
     },
     "biogenesis": {
         "name": "Biogenesis",
         "leader": "amalgam",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "140s",
+        "description": "A deployable structure that can be placed anywhere within the vision range. Once activated, it remains active for 90 seconds. While active, any friendly units killed will automatically respawn at the Ins. The structure can also attack enemy units, gaining Mass from dealing damage and securing kills."
     },
     "the_signal": {
         "name": "The Signal",
         "leader": "phantoms",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "Passive: T2+ Phantom units cost 15% less. All Phantom units on map gain +10% move speed while Phantoms hero is alive. Immediate economic and mobility advantages."
     },
     "disrupt_signal": {
         "name": "Disrupt Signal",
         "leader": "phantoms",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "80s",
+        "description": "Disables all electronic/machine enemy units in large radius for 12 seconds. EMP-like — only affects non-organic units. Ideal vs Sakupen and UDF vehicle columns."
     },
     "phantom_shift": {
         "name": "Phantom Shift",
         "leader": "phantoms",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "30s",
+        "description": "Instantly teleports to any Corruption zone on the map. 30-second cooldown — very frequent use. Ideal for rapid response, flanking, and escaping death."
     },
     "multiplicate": {
         "name": "Multiplicate",
         "leader": "phantoms",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "90s",
+        "description": "Phantoms splits into 3 weaker copies for 15 seconds. All copies fight and spread Corruption independently. After duration all copies merge back. Confuses enemy targeting."
     },
     "signal_override": {
         "name": "Signal Override",
         "leader": "phantoms",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "120s",
+        "description": "Converts all T1 enemy units in a large radius to Storm faction permanently. A devastating ability mid-battle — turns enemy chaff into Storm reinforcements. Cost depends in what units are capture"
     },
     "mass_deploy": {
         "name": "Mass Deploy",
         "leader": "phantoms",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "150s",
+        "description": "All Phantom factories produce units at 3× speed for 20 seconds simultaneously. Combined with The Signal passive cost reduction, floods the field with cheap T1 drones rapidly."
     },
     "warlords_presence": {
         "name": "Warlords Presence",
         "leader": "kizer",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "Passive: Sakupen units near Kizer deal +20% damage. Kizer executes enemies below 25% HP for bonus damage. Levels up through kills."
     },
     "blade_surge": {
         "name": "Blade Surge",
         "leader": "kizer",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "60s",
+        "description": "Kizer charges forward in a straight line, dealing massive melee damage to everything in his path and knocking back lighter units. Short range, devastating execution."
     },
     "overcharge_shields": {
         "name": "Overcharge Shields",
         "leader": "kizer",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "90s",
+        "description": "Kizer's personal shield absorbs 1200 damage for 10 seconds and reflects 20% of absorbed damage back at attackers. Also boosts nearby unit shields by 300 HP."
     },
     "execute": {
         "name": "Execute",
         "leader": "kizer",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "80s",
+        "description": "Targets one enemy unit below 40% HP — instantly destroys it regardless of remaining HP. Cannot target MCUs or experimental units. Devastating vs hero units."
     },
     "sacred_surge": {
         "name": "Sacred Surge",
         "leader": "kizer",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "150s",
+        "description": "Triggers Sacred Overflow faction mechanic at full strength regardless of current Energy levels — all Sakupen units gain +35% damage and +25% fire rate for 20 seconds."
     },
     "apex_form": {
         "name": "Apex Form",
         "leader": "kizer",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "240s",
+        "description": "Kizer undergoes temporary cybernetic overload — doubles in size visually, gaining +100% damage, immunity to stuns and slows, and AOE melee for 15 seconds. Match-winner when timed."
     },
     "target_acquisition": {
         "name": "Target Acquisition",
         "leader": "e_11",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "Passive: E-11 marks the highest-threat enemy on field. All Sakupen units deal +25% damage to the marked target. Auto-updates every 15 seconds."
     },
     "target_lock": {
         "name": "Target Lock",
         "leader": "e_11",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "70s",
+        "description": "Manually marks a specific enemy unit. All Sakupen units prioritise and deal +30% damage to it. Overrides the passive auto-mark. Cannot mark MCUs."
     },
     "ghost_step": {
         "name": "Ghost Step",
         "leader": "e_11",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "55s",
+        "description": "E-11 teleports to any friendly unit's location on the map instantly. Used for repositioning, escaping danger, or flanking. Short cooldown makes it highly mobile."
     },
     "system_upload": {
         "name": "System Upload",
         "leader": "e_11",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "100s",
+        "description": "Uploads a combat protocol to one friendly unit — permanently upgrades its damage by 20% and HP by 15%. Upgrades are permanent; use on T4 units for maximum value."
     },
     "sensor_blind": {
         "name": "Sensor Blind",
         "leader": "e_11",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "130s",
+        "description": "Deploys a jamming field at the target location. All enemy units inside lose vision and cannot use abilities for 15 seconds. Perfect setup for ambushes."
     },
     "override_protocol": {
         "name": "Override Protocol",
         "leader": "e_11",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "200s",
+        "description": "E-11 takes control of one enemy vehicle or structure for 30 seconds — it fights for Sakupen during that time. Cannot override MCUs or experimental units."
     },
     "efficient_assembly": {
         "name": "Efficient Assembly",
         "leader": "3c",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "PASSIVE",
+        "cooldown": null,
+        "description": "Passive: T2+ units cost 15% less; all factory build times –10%. Immediate economic advantage — 3C produces armies faster than any other Sakupen leader."
     },
     "deploy_assembly_node": {
         "name": "Deploy Assembly Node",
         "leader": "3c",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "120s",
+        "description": "Places a temporary forward factory at target location. Produces T1 Sakupen units for 45 seconds before collapsing. Excellent for forward pressure and defense."
     },
     "resource_surge": {
         "name": "Resource Surge",
         "leader": "3c",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "140s",
+        "description": "Instantly generates a large burst of Mass — equivalent to 45 seconds of full-economy income delivered immediately. Used to fund a decisive tech spike."
     },
     "shield_overcharge": {
         "name": "Shield Overcharge",
         "leader": "3c",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "110s",
+        "description": "All shields on all Sakupen units and structures on the field are fully restored instantly. Pairs devastatingly with the Bulwark mobile shield vehicle."
     },
     "mass_production": {
         "name": "Mass Production",
         "leader": "3c",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "160s",
+        "description": "All Sakupen factories produce units at 3× speed for 20 seconds simultaneously. Used to flood the field after a Sacred Overflow combat window."
     },
     "overflow_cascade": {
         "name": "Overflow Cascade",
         "leader": "3c",
-        "passive_active": "placeholder",
-        "cooldown": "placeholder",
-        "description": "null"
+        "passive_active": "ACTIVE",
+        "cooldown": "210s",
+        "description": "Triggers Sacred Overflow at maximum intensity for 30 seconds — all Sakupen units gain +40% damage, +30% fire rate, and full shield restoration simultaneously."
     }
 }
