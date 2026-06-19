@@ -8,10 +8,35 @@ export default function Login() {
     const navigate = useNavigate();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState(null);
+    const [loading, setLoading] = useState(false);
 
-    const handleSubmit = (e) => {
+    async function login(username, password) {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/login`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ username, password }),
+        });
+        if (!res.ok) throw new Error("Login failed");
+        const { access_token } = await res.json();
+        localStorage.setItem("token", access_token);
+    }
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
+        setError(null);
+        setLoading(true);
+        try {
+            await login(username, password);
+            navigate('/');   // where admins land after logging in
+        } catch (err) {
+            setError("Invalid username or password");
+        } finally {
+            setLoading(false);
+        }
     };
+
+    
 
     return (
         <Modal
@@ -21,7 +46,7 @@ export default function Login() {
         >
             <form className="form" onSubmit={handleSubmit}>
                 <p>Please sign in to continue.</p>
-
+                
                 <label>
                     Admin Name
                     <input
@@ -51,6 +76,7 @@ export default function Login() {
                 </label>
 
                 <button type="submit">Login</button>
+                {error && <p className="form-error">{error}</p>}
             </form>
         </Modal>
     );
