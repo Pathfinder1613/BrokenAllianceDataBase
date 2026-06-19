@@ -1,0 +1,338 @@
+{
+    "air_cavalry": {
+        "name": "Air Cavalry",
+        "leader": "commander_hawk",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "suppression_field": {
+        "name": "Suppression Field",
+        "leader": "commander_hawk",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "airstrike": {
+        "name": "Airstrike",
+        "leader": "commander_hawk",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "afterburners": {
+        "name": "Afterburners",
+        "leader": "commander_hawk",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "carpet_bomb": {
+        "name": "Carpet Bomb",
+        "leader": "commander_hawk",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "hurricane_run": {
+        "name": "Hurricane Run",
+        "leader": "commander_hawk",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "national_infrastructure": {
+        "name": "National Infrastructure",
+        "leader": "president_enhet",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "veteran_leadership": {
+        "name": "Veteran Leadership",
+        "leader": "president_enhet",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "emergency_mobilization": {
+        "name": "Emergency Mobilization",
+        "leader": "president_enhet",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "mac_rounds": {
+        "name": "Mac Rounds",
+        "leader": "president_enhet",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "resurrection_rings": {
+        "name": "Resurrection Rings",
+        "leader": "president_enhet",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "broadcast": {
+        "name": "Broadcast",
+        "leader": "president_enhet",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "networked_vision": {
+        "name": "Networked Vision",
+        "leader": "iq_iris_quantum",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "combat_augmentation": {
+        "name": "Combat Augmentation",
+        "leader": "iq_iris_quantum",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "quantum_barrier": {
+        "name": "Quantum Barrier",
+        "leader": "iq_iris_quantum",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "sensor_sweep": {
+        "name": "Sensor Sweep",
+        "leader": "iq_iris_quantum",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "disruption_pulse": {
+        "name": "Disruption Pulse",
+        "leader": "iq_iris_quantum",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "quantum_ascension": {
+        "name": "Quantum Ascension",
+        "leader": "iq_iris_quantum",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "living_storm": {
+        "name": "Living Storm",
+        "leader": "amalgam",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "spore_burst": {
+        "name": "Spore Burst",
+        "leader": "amalgam",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "devour": {
+        "name": "Devour",
+        "leader": "amalgam",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "merge": {
+        "name": "Merge",
+        "leader": "amalgam",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "brood_surge": {
+        "name": "Brood Surge",
+        "leader": "amalgam",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "biogenesis": {
+        "name": "Biogenesis",
+        "leader": "amalgam",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "the_signal": {
+        "name": "The Signal",
+        "leader": "phantoms",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "disrupt_signal": {
+        "name": "Disrupt Signal",
+        "leader": "phantoms",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "phantom_shift": {
+        "name": "Phantom Shift",
+        "leader": "phantoms",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "multiplicate": {
+        "name": "Multiplicate",
+        "leader": "phantoms",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "signal_override": {
+        "name": "Signal Override",
+        "leader": "phantoms",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "mass_deploy": {
+        "name": "Mass Deploy",
+        "leader": "phantoms",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "warlords_presence": {
+        "name": "Warlords Presence",
+        "leader": "kizer",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "blade_surge": {
+        "name": "Blade Surge",
+        "leader": "kizer",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "overcharge_shields": {
+        "name": "Overcharge Shields",
+        "leader": "kizer",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "execute": {
+        "name": "Execute",
+        "leader": "kizer",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "sacred_surge": {
+        "name": "Sacred Surge",
+        "leader": "kizer",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "apex_form": {
+        "name": "Apex Form",
+        "leader": "kizer",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "target_acquisition": {
+        "name": "Target Acquisition",
+        "leader": "e_11",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "target_lock": {
+        "name": "Target Lock",
+        "leader": "e_11",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "ghost_step": {
+        "name": "Ghost Step",
+        "leader": "e_11",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "system_upload": {
+        "name": "System Upload",
+        "leader": "e_11",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "sensor_blind": {
+        "name": "Sensor Blind",
+        "leader": "e_11",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "override_protocol": {
+        "name": "Override Protocol",
+        "leader": "e_11",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "efficient_assembly": {
+        "name": "Efficient Assembly",
+        "leader": "3c",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "deploy_assembly_node": {
+        "name": "Deploy Assembly Node",
+        "leader": "3c",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "resource_surge": {
+        "name": "Resource Surge",
+        "leader": "3c",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "shield_overcharge": {
+        "name": "Shield Overcharge",
+        "leader": "3c",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "mass_production": {
+        "name": "Mass Production",
+        "leader": "3c",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    },
+    "overflow_cascade": {
+        "name": "Overflow Cascade",
+        "leader": "3c",
+        "passive_active": "placeholder",
+        "cooldown": "placeholder",
+        "description": "null"
+    }
+}

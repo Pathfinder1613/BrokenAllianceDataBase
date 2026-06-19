@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 
 import '../Styles/LeaderFullpage.css';
 import LEADERS from '../data/Leaders.json';
+import LEADERSPOWERS from '../data/LeaderPowers.json';
 
 
 export default function LeaderPage() {
@@ -54,9 +55,22 @@ export default function LeaderPage() {
                 <div className="detail-leaderpower-containers">
                     <h1>Leader powers</h1>
                     <ul>
-                        {leader.skills.map((skill) => (
-                            <li key={skill}>{skill}</li>
-                        ))}
+                        {(leader.leader_power ?? []).map((powerId) => {
+                            const power = LEADERSPOWERS[powerId];
+                            return (
+                                <li key={powerId}>
+                                    <span className="leaderpower-name">
+                                        {power ? power.name : powerId}
+                                    </span>
+                                    {power?.description && (
+                                        <p className="leaderpower-description">
+                                            cooldown:{power.cooldown} description:{power.description} 
+                                        </p>
+                                    )}
+                                </li>
+                            );
+                        })}
+
                     </ul>
                 </div>
             </div>

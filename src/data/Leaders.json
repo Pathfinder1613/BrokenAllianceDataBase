@@ -5,7 +5,7 @@
     "faction": "UDF",
     "tagline": "Hit hard. Hit fast. Don't stop.",
     "lore": "Named after his father, James Hawk joined the Air Force after his father passed away and learned to fly the Pterodactylus Gunship. Over years of service he became known both for his mastery of the gunship and for his bravery against unfavorable odds, including flying through a hurricane to save a civilian transport ship from the CoRP. For his bravery and selflessness, President Enhet added him to the cabinet as head of the Department of Defense (DOD). Hawk's lifelong love of Earth's ancient flying reptiles led him to design the Quetzalcoatlus Gunship, built on years of flying and upgrading his own Pterodactylus Gunship.",
-    "skills": [
+    "leader_power": [
       "air_cavalry",
       "suppression_field",
       "airstrike",
@@ -20,7 +20,7 @@
     "faction": "UDF",
     "tagline": "Unity is our greatest weapon.",
     "lore": "A once high-ranking military general renowned for ending the Final War and bringing a lasting era of peace. The final battle was an all-or-nothing assault born of the CoRP's desperation amid diminishing supplies and public war exhaustion. Enhet's tactics and militaristic genius marshaled a spearhead of 10 million united soldiers that pierced the GTD (Great Tyrannus Dominion) capital and ended the war. His front-line bravery earned him the highest honor of leadership when the UDF was formed, and he became its President. His soldier's background drove revolutionary guerrilla tactics for safer, faster movement and ambush, and inspired the Groundbreaker (a mobile factory that tunnels underground to reach strategic locations) and the Groundhog (a stealth unit that waits underground to ambush passing forces and gather intel).",
-    "skills": [
+    "leader_power": [
       "national_infrastructure",
       "veteran_leadership",
       "emergency_mobilization",
@@ -34,8 +34,8 @@
     "title": "Tech / Intel Lead",
     "faction": "UDF",
     "tagline": "Information is the only weapon that never runs out of ammo.",
-    "lore": "Born into a family of researchers who studied genetic engineering, Iris grew up immersed in the field. She developed strong genetic-engineering skills but grew increasingly fascinated by the manipulation of space itself, inspired by the ancient alien ruins scattered across the galaxy. Her work caught President Enhet's attention, who saw military applications in it. This led to quantum-biological augmentation, which grants abilities to buff troopers and vehicles and project barriers and shielding, but at a cost: the energy exerted can cause intense hunger or, if overused, death. If an augmented individual dies, the unstable quantum energy within their body detonates in an explosive release. Despite the risks, Enhet authorized the Quantum Augmentation Program, allowing specially augmented humans to serve in the military alongside temporary augmentations.",
-    "skills": [
+    "lore": "Born into a family of researchers who studied genetic engineering, Iris grew up immersed in the field. She developed strong genetic-engineering leader_power but grew increasingly fascinated by the manipulation of space itself, inspired by the ancient alien ruins scattered across the galaxy. Her work caught President Enhet's attention, who saw military applications in it. This led to quantum-biological augmentation, which grants abilities to buff troopers and vehicles and project barriers and shielding, but at a cost: the energy exerted can cause intense hunger or, if overused, death. If an augmented individual dies, the unstable quantum energy within their body detonates in an explosive release. Despite the risks, Enhet authorized the Quantum Augmentation Program, allowing specially augmented humans to serve in the military alongside temporary augmentations.",
+    "leader_power": [
       "networked_vision",
       "combat_augmentation",
       "quantum_barrier",
@@ -50,7 +50,7 @@
     "faction": "the_storm",
     "tagline": "It does not think. It does not plan. It only consumes.",
     "lore": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar dignissim odio sit amet hendrerit. Integer in felis a purus tempus cursus. Etiam et odio mollis, dignissim augue ut, imperdiet mi. Duis eget ante fermentum, tincidunt sapien ac, viverra urna. Suspendisse rhoncus eu dolor et mattis. Integer luctus nibh euismod, volutpat turpis eget, vestibulum mi. Maecenas faucibus vitae turpis eget porta. Aliquam finibus non lorem vel hendrerit. Donec pharetra nisl vitae efficitur tincidunt. Vivamus eleifend accumsan quam eget varius.Sed consectetur vestibulum vehicula. In eu scelerisque augue. Proin viverra consequat mauris, eu dignissim sem maximus sit amet. Aliquam scelerisque lacus quam, ac tincidunt mi molestie vitae. Suspendisse et diam id turpis consectetur aliquet. Vestibulum ultrices, turpis semper tristique ultrices, lacus felis lacinia est, a venenatis justo massa vehicula erat. Phasellus molestie ante a mauris sodales feugiat in eu est. Integer sit amet molestie arcu, nec tempus libero. Quisque suscipit nec ex eget rhoncus. Cras ornare leo in lacinia eleifend. Maecenas in lorem suscipit, ullamcorper tellus a, placerat velit. Proin id eros at tortor aliquet sagittis vel sit amet nunc.",
-    "skills": [
+    "leader_power": [
       "living_storm",
       "spore_burst",
       "devour",
@@ -66,7 +66,7 @@
     "faction": "the_storm",
     "tagline": "The signal finds you. The signal changes you. The signal wins.",
     "lore": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar dignissim odio sit amet hendrerit. Integer in felis a purus tempus cursus. Etiam et odio mollis, dignissim augue ut, imperdiet mi. Duis eget ante fermentum, tincidunt sapien ac, viverra urna. Suspendisse rhoncus eu dolor et mattis. Integer luctus nibh euismod, volutpat turpis eget, vestibulum mi. Maecenas faucibus vitae turpis eget porta. Aliquam finibus non lorem vel hendrerit. Donec pharetra nisl vitae efficitur tincidunt. Vivamus eleifend accumsan quam eget varius.Sed consectetur vestibulum vehicula. In eu scelerisque augue. Proin viverra consequat mauris, eu dignissim sem maximus sit amet. Aliquam scelerisque lacus quam, ac tincidunt mi molestie vitae. Suspendisse et diam id turpis consectetur aliquet. Vestibulum ultrices, turpis semper tristique ultrices, lacus felis lacinia est, a venenatis justo massa vehicula erat. Phasellus molestie ante a mauris sodales feugiat in eu est. Integer sit amet molestie arcu, nec tempus libero. Quisque suscipit nec ex eget rhoncus. Cras ornare leo in lacinia eleifend. Maecenas in lorem suscipit, ullamcorper tellus a, placerat velit. Proin id eros at tortor aliquet sagittis vel sit amet nunc.",
-    "skills": [
+    "leader_power": [
       "the_signal",
       "disrupt_signal",
       "phantom_shift",
@@ -81,7 +81,7 @@
     "faction": "sakupen",
     "tagline": "Weakness is a choice. I chose otherwise.",
     "lore": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar dignissim odio sit amet hendrerit. Integer in felis a purus tempus cursus. Etiam et odio mollis, dignissim augue ut, imperdiet mi. Duis eget ante fermentum, tincidunt sapien ac, viverra urna. Suspendisse rhoncus eu dolor et mattis. Integer luctus nibh euismod, volutpat turpis eget, vestibulum mi. Maecenas faucibus vitae turpis eget porta. Aliquam finibus non lorem vel hendrerit. Donec pharetra nisl vitae efficitur tincidunt. Vivamus eleifend accumsan quam eget varius.Sed consectetur vestibulum vehicula. In eu scelerisque augue. Proin viverra consequat mauris, eu dignissim sem maximus sit amet. Aliquam scelerisque lacus quam, ac tincidunt mi molestie vitae. Suspendisse et diam id turpis consectetur aliquet. Vestibulum ultrices, turpis semper tristique ultrices, lacus felis lacinia est, a venenatis justo massa vehicula erat. Phasellus molestie ante a mauris sodales feugiat in eu est. Integer sit amet molestie arcu, nec tempus libero. Quisque suscipit nec ex eget rhoncus. Cras ornare leo in lacinia eleifend. Maecenas in lorem suscipit, ullamcorper tellus a, placerat velit. Proin id eros at tortor aliquet sagittis vel sit amet nunc.",
-    "skills": [
+    "leader_power": [
       "warlords_presence",
       "blade_surge",
       "overcharge_shields",
@@ -96,7 +96,7 @@
     "faction": "sakupen",
     "tagline": "Optimal outcome calculated. Executing.",
     "lore": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar dignissim odio sit amet hendrerit. Integer in felis a purus tempus cursus. Etiam et odio mollis, dignissim augue ut, imperdiet mi. Duis eget ante fermentum, tincidunt sapien ac, viverra urna. Suspendisse rhoncus eu dolor et mattis. Integer luctus nibh euismod, volutpat turpis eget, vestibulum mi. Maecenas faucibus vitae turpis eget porta. Aliquam finibus non lorem vel hendrerit. Donec pharetra nisl vitae efficitur tincidunt. Vivamus eleifend accumsan quam eget varius.Sed consectetur vestibulum vehicula. In eu scelerisque augue. Proin viverra consequat mauris, eu dignissim sem maximus sit amet. Aliquam scelerisque lacus quam, ac tincidunt mi molestie vitae. Suspendisse et diam id turpis consectetur aliquet. Vestibulum ultrices, turpis semper tristique ultrices, lacus felis lacinia est, a venenatis justo massa vehicula erat. Phasellus molestie ante a mauris sodales feugiat in eu est. Integer sit amet molestie arcu, nec tempus libero. Quisque suscipit nec ex eget rhoncus. Cras ornare leo in lacinia eleifend. Maecenas in lorem suscipit, ullamcorper tellus a, placerat velit. Proin id eros at tortor aliquet sagittis vel sit amet nunc.",
-    "skills": [
+    "leader_power": [
       "target_acquisition",
       "target_lock",
       "ghost_step",
@@ -111,7 +111,7 @@
     "faction": "sakupen",
     "tagline": "Production is power. Power is everything.",
     "lore": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar dignissim odio sit amet hendrerit. Integer in felis a purus tempus cursus. Etiam et odio mollis, dignissim augue ut, imperdiet mi. Duis eget ante fermentum, tincidunt sapien ac, viverra urna. Suspendisse rhoncus eu dolor et mattis. Integer luctus nibh euismod, volutpat turpis eget, vestibulum mi. Maecenas faucibus vitae turpis eget porta. Aliquam finibus non lorem vel hendrerit. Donec pharetra nisl vitae efficitur tincidunt. Vivamus eleifend accumsan quam eget varius.Sed consectetur vestibulum vehicula. In eu scelerisque augue. Proin viverra consequat mauris, eu dignissim sem maximus sit amet. Aliquam scelerisque lacus quam, ac tincidunt mi molestie vitae. Suspendisse et diam id turpis consectetur aliquet. Vestibulum ultrices, turpis semper tristique ultrices, lacus felis lacinia est, a venenatis justo massa vehicula erat. Phasellus molestie ante a mauris sodales feugiat in eu est. Integer sit amet molestie arcu, nec tempus libero. Quisque suscipit nec ex eget rhoncus. Cras ornare leo in lacinia eleifend. Maecenas in lorem suscipit, ullamcorper tellus a, placerat velit. Proin id eros at tortor aliquet sagittis vel sit amet nunc.",
-    "skills": [
+    "leader_power": [
       "efficient_assembly",
       "deploy_assembly_node",
       "resource_surge",

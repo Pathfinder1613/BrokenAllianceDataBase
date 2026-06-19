@@ -1,21 +1,4 @@
 {
-
-    "placeholder_abititie": {
-        "name": "atv turbo boost",
-        "cooldown": 45,
-        "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
-        "duration": 8,
-        "radius": 8
-    },
-
-    "atv_turbo_boost": {
-        "name": "atv turbo boost",
-        "cooldown": 45,
-        "description": "The ATV surges forward at 2× speed for <duration> seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
-        "duration": 8,
-        "radius": 8
-    },
-
     "deployable_smoke": {
         "name": "Deployable Smoke",
         "cooldown": 45,
@@ -23,16 +6,20 @@
         "duration": 8,
         "radius": 8
     },
-
-    "Frag_Throw": {
+    "turbo_boost": {
+        "name": "atv turbo boost",
+        "cooldown": 45,
+        "description": "The ATV surges forward at 2× speed for <duration> seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
+        "duration": 8,
+        "radius": 8
+    },
+    "frag_throw": {
         "name": "Frag Throw",
         "cooldown": 20,
         "description": "The Marine hurls a frag grenade at a target location. Deals <damge> AOE damage in a small radius. Effective against grouped infantry and light vehicles.",
         "damge": 50,
         "radius": 5
-
     },
-
     "napalm_burst": {
         "name": "Napalm Burst",
         "cooldown": 20,
@@ -40,7 +27,6 @@
         "damge": 8,
         "duration": 8
     },
-
     "piercing_shot": {
         "name": "Piercing Shot",
         "cooldown": 20,
@@ -48,18 +34,294 @@
         "damge": 190,
         "Pierce": 5
     },
-
-    "rail_shoot": {
-        "name": "Rail gun Shot",
-        "cooldown": 50,
-        "description": "unit fires a single armour-piercing round that passes through up to <Pierce> enemies in a straight line, dealing <damge> full damage to each.",
-        "damge": 290,
-        "Pierce": 5
+    "flak_burst": {
+        "name": "Flak Burst",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "suppression_burst": {
+        "name": "Suppression Burst",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "ranging_shot": {
+        "name": "Ranging Shot",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "emergency_triage": {
+        "name": "Emergency Triage",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "smoke_shell": {
+        "name": "Smoke Shell",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "afterburner": {
+        "name": "Afterburner",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "deep_scan": {
+        "name": "Deep Scan",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "dive_bomb": {
+        "name": "Dive Bomb",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "emergency_eject": {
+        "name": "Emergency Eject",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "rapid_construction": {
+        "name": "Rapid Construction",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "titanfall_hijack": {
+        "name": "Titanfall Hijack",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "deploy_launcher": {
+        "name": "Deploy Launcher",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "suppression_fire": {
+        "name": "Suppression Fire",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "burrow": {
+        "name": "Burrow",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "shoreline_barrage": {
+        "name": "Shoreline Barrage",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "missile_salvo": {
+        "name": "Missile Salvo",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "sam_strike": {
+        "name": "Sam Strike",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "overcharge_shield": {
+        "name": "Overcharge Shield",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "emergency_patch": {
+        "name": "Emergency Patch",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "devastation_shell": {
+        "name": "Devastation Shell",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "mode_switch": {
+        "name": "Mode Switch",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "experimental_prep": {
+        "name": "Experimental Prep",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "building_lift": {
+        "name": "Building Lift",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "rocket_volley": {
+        "name": "Rocket Volley",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "scramble": {
+        "name": "Scramble",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "naval_bombardment": {
+        "name": "Naval Bombardment",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "torpedo_salvo": {
+        "name": "Torpedo Salvo",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "nuclear_option": {
+        "name": "Nuclear Option",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "overdrive_field": {
+        "name": "Overdrive Field",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "lock_down": {
+        "name": "Lock Down",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "chain_emp": {
+        "name": "Chain Emp",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "creeping_barrage": {
+        "name": "Creeping Barrage",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "fortress_mode": {
+        "name": "Fortress Mode",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "strafing_run": {
+        "name": "Strafing Run",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "signal_intercept": {
+        "name": "Signal Intercept",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "carpet_nuke": {
+        "name": "Carpet Nuke",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "diplomatic_shield": {
+        "name": "Diplomatic Shield",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "iron_resolve": {
+        "name": "Iron Resolve",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "mass_upload": {
+        "name": "Mass Upload",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "mass_construction": {
+        "name": "Mass Construction",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "sustained_assault": {
+        "name": "Sustained Assault",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "emergency_resurface": {
+        "name": "Emergency Resurface",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "dreadnought_salvo": {
+        "name": "Dreadnought Salvo",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "placeholder_abititie": {
+        "name": "atv turbo boost",
+        "cooldown": 45,
+        "description": "The ATV surges forward at 2× speed for 6 seconds, passing through lighter units without slowing. Excellent for scouting behind enemy lines or escaping danger.",
+        "duration": 8,
+        "radius": 8
+    },
+    "grenade_throw": {
+        "name": "Grenade Throw",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "missile_barrage": {
+        "name": "Missile Barrage",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "overdrive": {
+        "name": "Overdrive",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "override_protocol": {
+        "name": "Override Protocol",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "overflow_cascade": {
+        "name": "Overflow Cascade",
+        "cooldown": "placeholder",
+        "description": null
     },
     "hunker_down": {
         "name": "hunker down",
         "cooldown": 50,
         "description": "3 time fire rate",
+        "damge": 290,
+        "Pierce": 5
+    },
+    "absorb": {
+        "name": "Absorb",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "consume": {
+        "name": "Consume",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "fission_burst": {
+        "name": "Fission Burst",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "accelerated_rot": {
+        "name": "Accelerated Rot",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "breach": {
+        "name": "Breach",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "signal_override": {
+        "name": "Signal Override",
+        "cooldown": "placeholder",
+        "description": null
+    },
+    "rail_shoot": {
+        "name": "Rail gun Shot",
+        "cooldown": 50,
+        "description": "unit fires a single armour-piercing round that passes through up to <Pierce> enemies in a straight line, dealing <damge> full damage to each.",
         "damge": 290,
         "Pierce": 5
     }

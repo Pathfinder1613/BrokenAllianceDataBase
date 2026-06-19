@@ -174,7 +174,7 @@ export default function AllInOne() {
         <>
             {CreateSortBar(filters)}
             {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
-            {document.documentElement.style.setProperty("--visible_columns", 3)}
+            {document.documentElement.style.setProperty("--visible_columns", 4)}
             <div className="aio-main">
                 <div className="aio-faction-header-container">
                     {Object.keys(FACTIONS).map((faction_id) => {
