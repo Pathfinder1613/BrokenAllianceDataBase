@@ -324,5 +324,10 @@
         "description": "unit fires a single armour-piercing round that passes through up to <Pierce> enemies in a straight line, dealing <damge> full damage to each.",
         "damge": 290,
         "Pierce": 5
+    },
+    "spore_sacrifice": {
+        "name": "Rapid Construction",
+        "cooldown": "One Time Use",
+        "description": "The unit converts its health into build progress for a target structure, sacrificing itself to complete construction faster."
     }
 }

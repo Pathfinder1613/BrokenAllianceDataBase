@@ -151,8 +151,8 @@
             }
         },
         {
-            "id": "frigate",
-            "title": null,
+            "id": "sentinel_class_frigate",
+            "title": "Sentinel-class Frigate",
             "type": "Frigate",
             "tag": [
                 "naval"
@@ -181,8 +181,8 @@
             }
         },
         {
-            "id": "patrol_boat",
-            "title": null,
+            "id": "sentinel_patrol_boat",
+            "title": "Sentinel Patrol Boat",
             "type": "Patrol Boat",
             "tag": [
                 "naval"
@@ -211,25 +211,25 @@
             }
         },
         {
-            "id": "artillery_boat",
-            "title": null,
-            "type": "Artillery Boat",
+            "id": "field_medic_truck",
+            "title": "Field Medic Truck",
+            "type": "Support Vehicle",
             "tag": [
-                "naval"
+                "land"
             ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
             "stats": {
-                "mass": 190,
+                "mass": 130,
                 "power": null,
-                "buildTimeSeconds": 12,
+                "buildTimeSeconds": 14,
                 "pop": 1,
-                "hp": 195,
-                "vision": "Medium"
+                "hp": 120,
+                "vision": "Short"
             },
             "abilities": [
-                "ranging_shot"
+                "emergency_triage"
             ],
             "weapons": [
                 "placeholder"
@@ -241,9 +241,9 @@
             }
         },
         {
-            "id": "field_medic_truck",
-            "title": "Field Medic Truck",
-            "type": "Support Vehicle",
+            "id": "tank_lynx",
+            "title": "Lynx",
+            "type": "tank attack",
             "tag": [
                 "land"
             ],
@@ -301,8 +301,8 @@
             }
         },
         {
-            "id": "interceptor",
-            "title": "Interceptor",
+            "id": "raptor_interceptor_mk1",
+            "title": "Raptor Interceptor mk1",
             "type": "Air / Anti-Air ",
             "tag": [
                 "air"
@@ -331,8 +331,8 @@
             }
         },
         {
-            "id": "spy_plane",
-            "title": null,
+            "id": "watcher_mk1",
+            "title": "Watcher mk1",
             "type": "Spy Plane",
             "tag": [
                 "air"
@@ -361,8 +361,8 @@
             }
         },
         {
-            "id": "bomber",
-            "title": null,
+            "id": "Vindicator_Bomber",
+            "title": "Vindicator Bomber",
             "type": "Bomber",
             "tag": [
                 "air"
@@ -391,8 +391,8 @@
             }
         },
         {
-            "id": "drop_ship",
-            "title": null,
+            "id": "m287_transport",
+            "title": "m287 transport",
             "type": "Drop Ship",
             "tag": [
                 "air"
@@ -2540,6 +2540,36 @@
             },
             "abilities": [
                 "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_spore",
+            "title": "Construction spore",
+            "type": "Construction Engineer",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 30,
+                "power": null,
+                "buildTimeSeconds": 6,
+                "pop": 1,
+                "hp": 60,
+                "vision": "Short"
+            },
+            "abilities": [
+                "spore_sacrifice"
             ],
             "weapons": [
                 "placeholder"
