@@ -4,6 +4,9 @@
             "id": "construction_engineer",
             "title": "Construction Engineer",
             "type": "Multi-Purpose Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -31,6 +34,9 @@
             "id": "atv",
             "title": "ATV",
             "type": "Multi-Purpose Scout Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -58,6 +64,9 @@
             "id": "marine",
             "title": "Marine",
             "type": "Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -85,6 +94,9 @@
             "id": "flamer_trooper",
             "title": "Flamer Trooper",
             "type": "Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -112,6 +124,9 @@
             "id": "deadeyes",
             "title": "Deadeyes",
             "type": "Sniper",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -139,6 +154,9 @@
             "id": "frigate",
             "title": null,
             "type": "Frigate",
+            "tag": [
+                "naval"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -166,6 +184,9 @@
             "id": "patrol_boat",
             "title": null,
             "type": "Patrol Boat",
+            "tag": [
+                "naval"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -193,6 +214,9 @@
             "id": "artillery_boat",
             "title": null,
             "type": "Artillery Boat",
+            "tag": [
+                "naval"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -220,6 +244,9 @@
             "id": "field_medic_truck",
             "title": "Field Medic Truck",
             "type": "Support Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -247,6 +274,9 @@
             "id": "mortar_buggy",
             "title": "Mortar Buggy",
             "type": "Siege / Artillery",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -274,6 +304,9 @@
             "id": "interceptor",
             "title": "Interceptor",
             "type": "Air / Anti-Air ",
+            "tag": [
+                "air"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -301,6 +334,9 @@
             "id": "spy_plane",
             "title": null,
             "type": "Spy Plane",
+            "tag": [
+                "air"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -328,6 +364,9 @@
             "id": "bomber",
             "title": null,
             "type": "Bomber",
+            "tag": [
+                "air"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -355,6 +394,9 @@
             "id": "drop_ship",
             "title": null,
             "type": "Drop Ship",
+            "tag": [
+                "air"
+            ],
             "tier": 1,
             "faction": "udf",
             "lore": null,
@@ -382,6 +424,9 @@
             "id": "construction_engineer_ii",
             "title": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -409,6 +454,9 @@
             "id": "pilot",
             "title": "Pilot",
             "type": "Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -436,6 +484,9 @@
             "id": "yeagers",
             "title": "Yeagers",
             "type": "Shock Troopers",
+            "tag": [
+                "infantry"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -463,6 +514,9 @@
             "id": "steelhead",
             "title": "Steelhead",
             "type": "Heavy Tank",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -490,6 +544,9 @@
             "id": "groundhog",
             "title": "Groundhog",
             "type": "Burrowing Tank",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -517,6 +574,9 @@
             "id": "river_gunboat",
             "title": null,
             "type": "River Gunboat",
+            "tag": [
+                "naval"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -544,6 +604,9 @@
             "id": "stegosaurus",
             "title": "Stegosaurus",
             "type": "Anti-Air Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -571,6 +634,9 @@
             "id": "cruiser",
             "title": null,
             "type": "Cruiser",
+            "tag": [
+                "naval"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -598,6 +664,9 @@
             "id": "shield_cruiser",
             "title": "Aegis",
             "type": "Shield Cruiser",
+            "tag": [
+                "naval"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -625,6 +694,9 @@
             "id": "repair_crawler",
             "title": null,
             "type": "Repair Crawler",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -652,6 +724,9 @@
             "id": "rhino",
             "title": "Rhino",
             "type": "Artillery Tank",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -679,6 +754,9 @@
             "id": "thunderbird",
             "title": "Thunderbird",
             "type": "Heavy Gunship / Dropship ",
+            "tag": [
+                "air"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -706,6 +784,9 @@
             "id": "delta_dart",
             "title": "Delta Dart",
             "type": "Interceptor / Bomber / Anti-Air ",
+            "tag": [
+                "air"
+            ],
             "tier": 2,
             "faction": "udf",
             "lore": null,
@@ -733,6 +814,9 @@
             "id": "construction_engineer_iii",
             "title": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -760,6 +844,9 @@
             "id": "albatross",
             "title": "Albatross",
             "type": "Dropship",
+            "tag": [
+                "air"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -787,6 +874,9 @@
             "id": "assault_frigate",
             "title": null,
             "type": "Assault Frigate",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -814,6 +904,9 @@
             "id": "aircraft_carrier",
             "title": null,
             "type": "Aircraft Carrier",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -841,6 +934,9 @@
             "id": "battleship",
             "title": null,
             "type": "Battleship",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -868,6 +964,9 @@
             "id": "submarine",
             "title": null,
             "type": "Submarine",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -895,6 +994,9 @@
             "id": "lancer",
             "title": "Lancer",
             "type": "Missile Platform",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -922,6 +1024,9 @@
             "id": "slow_field_generator",
             "title": null,
             "type": "Statis Field Generator",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -949,6 +1054,9 @@
             "id": "relay_tank",
             "title": null,
             "type": "Relay Tank",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -976,6 +1084,9 @@
             "id": "emp_support_tank",
             "title": null,
             "type": "EMP Support Tank",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -1003,6 +1114,9 @@
             "id": "howitzer_platform",
             "title": "Howitzer Platform",
             "type": "Artillery",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -1030,6 +1144,9 @@
             "id": "paladin_mbt",
             "title": "Paladin MBT",
             "type": "Elite Tank",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -1057,6 +1174,9 @@
             "id": "pterodactylus",
             "title": "Pterodactylus",
             "type": "Gunship",
+            "tag": [
+                "air"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -1084,6 +1204,9 @@
             "id": "spy_plane_iii",
             "title": "Spy Plane III",
             "type": "Air Scout ",
+            "tag": [
+                "air"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -1111,6 +1234,9 @@
             "id": "superior_mini_nuker",
             "title": "Superior Mini Nuker",
             "type": "Bomber",
+            "tag": [
+                "air"
+            ],
             "tier": 3,
             "faction": "udf",
             "lore": null,
@@ -1138,6 +1264,9 @@
             "id": "diplomatic_envoy",
             "title": "Diplomatic Envoy",
             "type": "Hero Unit",
+            "tag": [
+                "placeholder"
+            ],
             "tier": "Hero",
             "faction": "udf",
             "lore": null,
@@ -1165,6 +1294,9 @@
             "id": "commander_hawk",
             "title": "Commander Hawk",
             "type": "Hero Unit (T3 Pterodactylus)",
+            "tag": [
+                "air"
+            ],
             "tier": "Hero",
             "faction": "udf",
             "lore": "Named after his father. James Hawk joined the Airforce after his father passed away. Learned to fly the Pterodactylus Gunship. Became known for bravery — flying through a hurricane to save a civilian transport. President Enhet added him to the cabinet as head of the DOD branch. Hawk's love for flying lizards led to the creation of the Quetzalcoatlus Gunship. Hawk IS a T3 Pterodactylus.",
@@ -1192,6 +1324,9 @@
             "id": "iq_drone_chassis",
             "title": "IQ Drone Chassis",
             "type": "Hero Unit",
+            "tag": [
+                "placeholder"
+            ],
             "tier": "Hero",
             "faction": "udf",
             "lore": "Born into a family of researchers studying genetic engineering, Iris grew fascinated with manipulation of space itself due to the ancient alien ruins. Her work caught President Enhet's attention. This led to quantum-biological augmentation — abilities that buff troops and vehicles, create barriers and shields — but overuse can cause death. If the augmented individual dies, unstable quantum energy detonates. Despite risks, Enhet authorised the Quantum Augmentation Program.",
@@ -1219,6 +1354,9 @@
             "id": "experimental_construction_engineer",
             "title": "Experimental Construction Engineer",
             "type": "Experimental Builder",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 4,
             "faction": "udf",
             "lore": null,
@@ -1246,6 +1384,9 @@
             "id": "quetzalcoatlus",
             "title": "Quetzalcoatlus",
             "type": "Experimental Gunship",
+            "tag": [
+                "air"
+            ],
             "tier": 4,
             "faction": "udf",
             "lore": null,
@@ -1273,6 +1414,9 @@
             "id": "groundbreaker",
             "title": "Groundbreaker",
             "type": "Experimental Digger / Factory",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 4,
             "faction": "udf",
             "lore": null,
@@ -1300,6 +1444,9 @@
             "id": "poseidon",
             "title": "Poseidon",
             "type": "Experimental Warship",
+            "tag": [
+                "naval"
+            ],
             "tier": 4,
             "faction": "udf",
             "lore": null,
@@ -1327,6 +1474,9 @@
             "id": "construction_engineer_sakupen",
             "title": "Construction Engineer",
             "type": "Multi-Purpose Vehicle ",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": null,
@@ -1354,6 +1504,9 @@
             "id": "cybermen",
             "title": "Cybermen",
             "type": "Ground Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": "Clones. [Placeholder]",
@@ -1381,6 +1534,9 @@
             "id": "blitz",
             "title": "Blitz",
             "type": "Light Vehicle / Scout",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": "It's a motorcycle. [Placeholder]",
@@ -1408,6 +1564,9 @@
             "id": "probe_skiff",
             "title": "Probe Skiff",
             "type": "Naval Scout",
+            "tag": [
+                "naval"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": null,
@@ -1435,6 +1594,9 @@
             "id": "wasp",
             "title": "Wasp",
             "type": "Air Support",
+            "tag": [
+                "air"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": null,
@@ -1462,6 +1624,9 @@
             "id": "shield_generator_unit",
             "title": "Shield Generator Unit",
             "type": "Support Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": null,
@@ -1489,6 +1654,9 @@
             "id": "p_61",
             "title": "P-61",
             "type": "Suicide Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "sakupen",
             "lore": null,
@@ -1516,6 +1684,9 @@
             "id": "construction_engineer_ii_sakupen",
             "title": "Construction Engineer II",
             "type": "Multi-Purpose Vehicle ",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1543,6 +1714,9 @@
             "id": "recon_trooper",
             "title": "Recon Trooper",
             "type": "Infantry Scout",
+            "tag": [
+                "infantry"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1570,6 +1744,9 @@
             "id": "chainer",
             "title": "Chainer",
             "type": "Infantry Unit",
+            "tag": [
+                "infantry"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1597,6 +1774,9 @@
             "id": "energy_corvette",
             "title": null,
             "type": "Energy Corvette",
+            "tag": [
+                "naval"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1624,6 +1804,9 @@
             "id": "jumper",
             "title": "Jumper",
             "type": "Payload Special Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1651,6 +1834,9 @@
             "id": "bulwark",
             "title": "Bulwark",
             "type": "Mobile Shield Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1678,6 +1864,9 @@
             "id": "reflector_drone",
             "title": null,
             "type": "Reflector Drone",
+            "tag": [
+                "air"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1705,6 +1894,9 @@
             "id": "siege_rail_platform",
             "title": "Siege Rail Platform",
             "type": "Siege Artillery",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1732,6 +1924,9 @@
             "id": "rivenate",
             "title": "Rivenate",
             "type": "Gunship",
+            "tag": [
+                "air"
+            ],
             "tier": 2,
             "faction": "sakupen",
             "lore": null,
@@ -1759,6 +1954,9 @@
             "id": "construction_engineer_iii_sakupen",
             "title": "Construction Engineer III",
             "type": "Multi-Purpose Vehicle ",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1786,6 +1984,9 @@
             "id": "void_frigate",
             "title": null,
             "type": "Void Frigate",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1813,6 +2014,9 @@
             "id": "suppressor",
             "title": "Suppressor",
             "type": "Heavy Vehicle",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1840,6 +2044,9 @@
             "id": "dreadnought_cruiser",
             "title": null,
             "type": "Dreadnought Cruiser",
+            "tag": [
+                "naval"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -1867,6 +2074,9 @@
             "id": "fortress_crawler",
             "title": "Fortress Crawler",
             "type": "Siege / Artillery",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1894,6 +2104,9 @@
             "id": "delirium_gunship",
             "title": "Delirium Gunship",
             "type": "Gunship",
+            "tag": [
+                "air"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1921,6 +2134,9 @@
             "id": "overcharge_cannon",
             "title": "Overcharge Cannon",
             "type": "Siege / Artillery",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1948,6 +2164,9 @@
             "id": "apex_titan",
             "title": "Apex Titan",
             "type": "Elite Heavy Mech",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -1975,6 +2194,9 @@
             "id": "null_field_projector",
             "title": null,
             "type": "Null Field Projector",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -2002,6 +2224,9 @@
             "id": "lazboat",
             "title": "LazBoat",
             "type": "Naval",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "sakupen",
             "lore": null,
@@ -2029,6 +2254,9 @@
             "id": "kizer",
             "title": "Kizer",
             "type": "Hero Unit",
+            "tag": [
+                "placeholder"
+            ],
             "tier": "Hero",
             "faction": "sakupen",
             "lore": null,
@@ -2056,6 +2284,9 @@
             "id": "e_11",
             "title": "E-11",
             "type": "Hero Unit",
+            "tag": [
+                "placeholder"
+            ],
             "tier": "Hero",
             "faction": "sakupen",
             "lore": null,
@@ -2083,6 +2314,9 @@
             "id": "ion_3c_drone_swarm",
             "title": "Ion (3C Drone Swarm)",
             "type": "Hero Unit",
+            "tag": [
+                "placeholder"
+            ],
             "tier": "Hero",
             "faction": "sakupen",
             "lore": null,
@@ -2110,6 +2344,9 @@
             "id": "siege_engine",
             "title": "Siege Engine",
             "type": "Air Siege",
+            "tag": [
+                "air"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2137,6 +2374,9 @@
             "id": "juggernaut",
             "title": "Juggernaut",
             "type": "Experimental Heavy Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2164,6 +2404,9 @@
             "id": "sovereign",
             "title": "Sovereign",
             "type": "Experimental Titan",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2191,6 +2434,9 @@
             "id": "void_leviathan",
             "title": "Void Leviathan",
             "type": "Experimental Naval",
+            "tag": [
+                "naval"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2218,6 +2464,9 @@
             "id": "omega_drone_fleet",
             "title": "Omega Drone Fleet",
             "type": "Experimental Air",
+            "tag": [
+                "air"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2245,6 +2494,9 @@
             "id": "apex_protocol",
             "title": "Apex Protocol",
             "type": "Experimental Support",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2272,6 +2524,9 @@
             "id": "placeholder_experimental_navy",
             "title": null,
             "type": "Experimental Navy",
+            "tag": [
+                "naval"
+            ],
             "tier": 4,
             "faction": "sakupen",
             "lore": null,
@@ -2299,6 +2554,9 @@
             "id": "rot_crawler",
             "title": "Rot Crawler",
             "type": "Swarm Unit",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "the_storm",
             "lore": null,
@@ -2326,6 +2584,9 @@
             "id": "spore_skiff",
             "title": null,
             "type": "Spore Skiff",
+            "tag": [
+                "naval"
+            ],
             "tier": 1,
             "faction": "the_storm",
             "lore": null,
@@ -2353,6 +2614,9 @@
             "id": "spore_spitter",
             "title": null,
             "type": "Spore Spitter",
+            "tag": [
+                "infantry"
+            ],
             "tier": 1,
             "faction": "the_storm",
             "lore": null,
@@ -2380,6 +2644,9 @@
             "id": "tendril_creeper",
             "title": null,
             "type": "Tendril Creeper",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "the_storm",
             "lore": null,
@@ -2407,6 +2674,9 @@
             "id": "bile_lobber",
             "title": "Bile Lobber",
             "type": "Siege Artillery",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 1,
             "faction": "the_storm",
             "lore": null,
@@ -2434,6 +2704,9 @@
             "id": "hulk_amalgam",
             "title": "Hulk Amalgam",
             "type": "Heavy Infantry",
+            "tag": [
+                "infantry"
+            ],
             "tier": 2,
             "faction": "the_storm",
             "lore": null,
@@ -2461,6 +2734,9 @@
             "id": "rot_galleon",
             "title": null,
             "type": "Rot Galleon",
+            "tag": [
+                "naval"
+            ],
             "tier": 2,
             "faction": "the_storm",
             "lore": null,
@@ -2488,6 +2764,9 @@
             "id": "phantom_drone",
             "title": "Phantom Drone",
             "type": "Air Unit",
+            "tag": [
+                "air"
+            ],
             "tier": 2,
             "faction": "the_storm",
             "lore": null,
@@ -2515,6 +2794,9 @@
             "id": "rot_tendril",
             "title": null,
             "type": "Rot Tendril",
+            "tag": [
+                "placeholder"
+            ],
             "tier": 2,
             "faction": "the_storm",
             "lore": null,
@@ -2542,6 +2824,10 @@
             "id": "spore_cloud_generator",
             "title": null,
             "type": "Spore Cloud Generator",
+            "tag": [
+                "land",
+                "assault"
+            ],
             "tier": 2,
             "faction": "the_storm",
             "lore": null,
@@ -2569,6 +2855,9 @@
             "id": "amalgam_brute",
             "title": "Amalgam Brute",
             "type": "Elite Heavy",
+            "tag": [
+                "infantry"
+            ],
             "tier": 3,
             "faction": "the_storm",
             "lore": null,
@@ -2596,6 +2885,9 @@
             "id": "leviathan_spawn",
             "title": null,
             "type": "Leviathan Spawn",
+            "tag": [
+                "naval"
+            ],
             "tier": 3,
             "faction": "the_storm",
             "lore": null,
@@ -2623,6 +2915,9 @@
             "id": "corruption_carrier",
             "title": null,
             "type": "Corruption Carrier",
+            "tag": [
+                "air"
+            ],
             "tier": 3,
             "faction": "the_storm",
             "lore": null,
@@ -2650,6 +2945,9 @@
             "id": "rot_colossus",
             "title": "Rot Colossus",
             "type": "Heavy Siege",
+            "tag": [
+                "infantry"
+            ],
             "tier": 3,
             "faction": "the_storm",
             "lore": null,
@@ -2677,6 +2975,9 @@
             "id": "nest_cluster",
             "title": null,
             "type": "Nest Cluster",
+            "tag": [
+                "infantry"
+            ],
             "tier": 3,
             "faction": "the_storm",
             "lore": null,
@@ -2704,6 +3005,9 @@
             "id": "apex_amalgam",
             "title": "Apex Amalgam",
             "type": "Elite Monster",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2731,6 +3035,9 @@
             "id": "abyssal_leviathan",
             "title": "Abyssal Leviathan",
             "type": "Naval",
+            "tag": [
+                "naval"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2758,6 +3065,9 @@
             "id": "carrier",
             "title": "Carrier",
             "type": "Air",
+            "tag": [
+                "air"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2785,6 +3095,9 @@
             "id": "infector_engine",
             "title": "Infector Engine",
             "type": "Siege",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2812,6 +3125,9 @@
             "id": "symbiont_web",
             "title": "Symbiont Web",
             "type": "Support",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2839,6 +3155,9 @@
             "id": "the_maw",
             "title": "The Maw",
             "type": "Experimental Rot-Mass",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2866,6 +3185,9 @@
             "id": "world_eater",
             "title": "World Eater",
             "type": "Experimental Naval",
+            "tag": [
+                "naval"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2893,6 +3215,9 @@
             "id": "the_amalgamation",
             "title": "The Amalgamation",
             "type": "Experimental Walker",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2920,6 +3245,9 @@
             "id": "phantom_singularity",
             "title": "Phantom Singularity",
             "type": "Experimental Machine",
+            "tag": [
+                "vehicle"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
@@ -2947,6 +3275,9 @@
             "id": "rot_bloom",
             "title": "Rot Bloom",
             "type": "Experimental Support",
+            "tag": [
+                "infantry"
+            ],
             "tier": 4,
             "faction": "the_storm",
             "lore": null,
