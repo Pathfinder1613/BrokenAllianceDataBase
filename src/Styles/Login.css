@@ -2,34 +2,45 @@
     width: 400px;
     margin: 100px auto;
     padding: 2rem;
-    backdrop-filter: blur(3px);   
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-/* Title */
-.form h1 {
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-.form p {
-    text-align: center;
-    color: #b0b0b0;
-    margin-bottom: 2rem;
-}
-
-/* Form layout */
-.form form {
-    display: flex;
+    display: flex;              /* moved here from the dead `.form form` */
     flex-direction: column;
     gap: 1rem;
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    color: #e8e8e8;
 }
 
-/* Labels */
+/* intro line only — not the error */
+.form > p:first-of-type {
+    text-align: center;
+    color: #b0b0b0;
+    margin: 0 0 1rem;
+}
+
 .form label {
     display: flex;
     flex-direction: column;
-    font-size: 0.9rem;
     gap: 0.4rem;
+    font-size: 0.9rem;
+    color: #cfcfcf;
+}
+
+.form input::placeholder { color: #777; }
+
+.form button {
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.form button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.form p.form-error {           /* specific enough to beat `.form p` */
+    text-align: center;
+    color: #ff6b6b;
+    margin: 0;
 }
