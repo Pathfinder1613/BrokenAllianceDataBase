@@ -37,3 +37,13 @@ def delete_unit(id: str):
     with open(data_path, 'w') as file:
         json.dump({"units": Units}, file, indent=4)
     return {"deleted": id}
+
+@app.put("/units/{id}", response_model=Unit, status_code=200)
+def edit_unit(id: str, updated: Unit):
+    index = next((i for i, u in enumerate(Units) if u["id"] == id), None)
+    if index is None:
+        raise HTTPException(status_code=404, detail=f"Unit '{id}' not found")
+    Units[index] = updated.model_dump()
+    with open(data_path, 'w') as file:
+        json.dump({"units": Units}, file, indent=4)
+    return updated
