@@ -148,6 +148,7 @@ function CreateSortBar(filters) {
             <button type='button'>infantry</button>
             <button type="button">Air</button>
             <button type="button">Naval</button>
+            <button type="button">Hero</button>
         </p>
 
         <p>
