@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prestart": "node generate-file-list.cjs",
+    "prebuild": "node generate-file-list.cjs",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

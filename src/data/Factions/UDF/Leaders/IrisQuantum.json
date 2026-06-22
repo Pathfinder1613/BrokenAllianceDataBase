@@ -1,0 +1,15 @@
+{
+    "name": "IQ (Iris Quantum)",
+    "title": "Tech / Intel Lead",
+    "faction": "UDF",
+    "tagline": "Information is the only weapon that never runs out of ammo.",
+    "lore": "Born into a family of researchers who studied genetic engineering, Iris grew up immersed in the field. She developed strong genetic-engineering leader_power but grew increasingly fascinated by the manipulation of space itself, inspired by the ancient alien ruins scattered across the galaxy. Her work caught President Enhet's attention, who saw military applications in it. This led to quantum-biological augmentation, which grants abilities to buff troopers and vehicles and project barriers and shielding, but at a cost: the energy exerted can cause intense hunger or, if overused, death. If an augmented individual dies, the unstable quantum energy within their body detonates in an explosive release. Despite the risks, Enhet authorized the Quantum Augmentation Program, allowing specially augmented humans to serve in the military alongside temporary augmentations.",
+    "leader_power": [
+      "networked_vision",
+      "combat_augmentation",
+      "quantum_barrier",
+      "sensor_sweep",
+      "disruption_pulse",
+      "quantum_ascension"
+    ]
+}

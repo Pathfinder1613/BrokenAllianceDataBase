@@ -1,0 +1,15 @@
+{
+    "name": "President Enhet",
+    "title": "Political Leader",
+    "faction": "UDF",
+    "tagline": "Unity is our greatest weapon.",
+    "lore": "A once high-ranking military general renowned for ending the Final War and bringing a lasting era of peace. The final battle was an all-or-nothing assault born of the CoRP's desperation amid diminishing supplies and public war exhaustion. Enhet's tactics and militaristic genius marshaled a spearhead of 10 million united soldiers that pierced the GTD (Great Tyrannus Dominion) capital and ended the war. His front-line bravery earned him the highest honor of leadership when the UDF was formed, and he became its President. His soldier's background drove revolutionary guerrilla tactics for safer, faster movement and ambush, and inspired the Groundbreaker (a mobile factory that tunnels underground to reach strategic locations) and the Groundhog (a stealth unit that waits underground to ambush passing forces and gather intel).",
+    "leader_power": [
+      "national_infrastructure",
+      "veteran_leadership",
+      "emergency_mobilization",
+      "mac_rounds",
+      "resurrection_rings",
+      "broadcast"
+    ]
+}
