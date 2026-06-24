@@ -34,6 +34,14 @@ export default function HomePage() {
                 <button onClick={() => navigate('/aio')}>All units/building</button>
             </section>
 
+            <section className='about-section'>
+                <h3>Elevator Pitch </h3>
+                <p>
+                    Broken Alliance is a massive-scale sci-fi RTS set in a fractured universe where the United Defense Force's dream of galactic unity has collapsed. Four radically asymmetric factions disciplined humans, cybernetic elites, placeHolder, and a consuming cosmic Rot clash over alien ruins and resource-rich worlds. Drawing on the epic unit counts of Supreme Commander and the punchy hero-driven combat of Halo Wars, players navigate dynamic weather, destructible terrain, and faction-defining leader powers — all scored by their own music library. 
+                </p>
+                <h4>Core Gameplay Loop</h4>
+            </section>
+
         </div>
     );
 }
