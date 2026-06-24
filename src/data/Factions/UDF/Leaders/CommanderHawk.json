@@ -1,0 +1,15 @@
+{
+    "name": "Commander Hawk",
+    "title": "Field Commander",
+    "faction": "UDF",
+    "tagline": "Hit hard. Hit fast. Don't stop.",
+    "lore": "Named after his father, James Hawk joined the Air Force after his father passed away and learned to fly the Pterodactylus Gunship. Over years of service he became known both for his mastery of the gunship and for his bravery against unfavorable odds, including flying through a hurricane to save a civilian transport ship from the CoRP. For his bravery and selflessness, President Enhet added him to the cabinet as head of the Department of Defense (DOD). Hawk's lifelong love of Earth's ancient flying reptiles led him to design the Quetzalcoatlus Gunship, built on years of flying and upgrading his own Pterodactylus Gunship.",
+    "leader_power": [
+      "air_cavalry",
+      "suppression_field",
+      "airstrike",
+      "afterburners",
+      "carpet_bomb",
+      "hurricane_run"
+    ]
+}
