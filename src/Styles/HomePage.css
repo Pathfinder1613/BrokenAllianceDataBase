@@ -4,38 +4,51 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
-    padding-bottom: 64px;
+    gap: 64px;
+    padding-bottom: 80px;
 }
 
+/* ── hero ── */
 .hero {
     width: 100%;
-    padding: 80px 32px 64px;
+    padding: 100px 32px 48px;
     text-align: center;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    margin: 28px auto 0;
+    width: 100px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
 }
 
 .hero-title {
     font-size: clamp(2.5rem, 8vw, 6rem);
     font-weight: 900;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.25em;
     color: #fff;
     margin-bottom: 16px;
+    text-shadow:
+        0 0 40px rgba(255, 255, 255, 0.2),
+        0 0 100px rgba(255, 255, 255, 0.06);
 }
 
 .hero-tagline {
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
-    color: rgba(255, 255, 255, 0.55);
-    letter-spacing: 0.08em;
+    font-size: clamp(0.85rem, 2vw, 1rem);
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
     font-style: italic;
 }
 
-/* ── faction strip ──
-   Remove fixed width/height — let the content size it naturally. */
+/* ── faction strip ── */
 .faction-strip {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: 20px;
     padding: 0 32px;
 }
 
@@ -43,25 +56,28 @@
     width: 64px;
     height: 64px;
     object-fit: contain;
-    transition: transform 0.2s ease;
+    padding: 16px;
+    cursor: pointer;
 }
 
 .faction-strip img:hover {
-    transform: translateY(-4px);
+    transform: translateY(-6px);
 }
 
+/* ── blurb ── */
 .home-blurb {
-    max-width: 640px;
+    max-width: 600px;
     text-align: center;
     padding: 0 32px;
 }
 
 .home-blurb p {
     font-size: 1rem;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.85;
+    color: rgba(255, 255, 255, 0.5);
 }
 
+/* ── action buttons ── */
 .home-actions {
     display: flex;
     gap: 16px;
@@ -69,6 +85,39 @@
     justify-content: center;
 }
 
+/* ── about card ── */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 720px;
+    width: calc(100% - 64px);
+    text-align: center;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+}
+
+.about-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+}
+
+.about-section p {
+    font-size: 0.95rem;
+    line-height: 1.85;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+}
+
+/* ── responsive ── */
 @media (max-width: 600px) {
     .hero {
         padding: 60px 16px 40px;
@@ -76,5 +125,10 @@
 
     .home-actions button {
         width: 100%;
+    }
+
+    .about-section {
+        padding: 24px 20px;
+        width: calc(100% - 32px);
     }
 }
