@@ -17,6 +17,16 @@ class UnitWreckage(BaseModel):
     health: Optional[int]
 
 
+class Credentials(BaseModel):
+    username: str
+    password: str
+
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
+
+
 class Unit(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 

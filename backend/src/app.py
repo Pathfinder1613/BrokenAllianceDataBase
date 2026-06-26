@@ -1,12 +1,53 @@
 from fastapi import FastAPI, HTTPException, Depends
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from .schemas import Unit
+import jwt
+
+from .schemas import Unit, Credentials, Token
 from .db import get_db, engine, Base
 from . import models
+from .auth import verify_password, create_token, SECRET_KEY, ALGORITHM
 
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
+
+
+def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
+    try:
+        username = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])["sub"]
+    except jwt.ExpiredSignatureError:
+        raise HTTPException(status_code=401, detail="Token expired")
+    except jwt.InvalidTokenError:
+        raise HTTPException(status_code=401, detail="Invalid token")
+    user = db.query(models.User).filter(models.User.username == username).first()
+    if not user:
+        raise HTTPException(status_code=401, detail="User not found")
+    return user
+
+
+@app.post("/login", response_model=Token)
+def login(body: Credentials, db: Session = Depends(get_db)):
+    user = db.query(models.User).filter(models.User.username == body.username).first()
+    if not user or not verify_password(body.password, user.hashed_password):
+        raise HTTPException(status_code=401, detail="Invalid username or password")
+    return {"access_token": create_token(user.username), "token_type": "bearer"}
+
+
+@app.get("/me")
+def me(user: models.User = Depends(get_current_user)):
+    return {"username": user.username}
 
 
 @app.get("/units")

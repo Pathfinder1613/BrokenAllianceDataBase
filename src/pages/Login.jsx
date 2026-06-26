@@ -36,8 +36,6 @@ export default function Login() {
         }
     };
 
-    
-
     return (
         <Modal
             isOpen={true}
@@ -75,7 +73,9 @@ export default function Login() {
                     />
                 </label>
 
-                <button type="submit">Login</button>
+                <button type="submit" disabled={loading}>
+                    {loading ? 'Signing in…' : 'Login'}
+                </button>
                 {error && <p className="form-error">{error}</p>}
             </form>
         </Modal>

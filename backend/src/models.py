@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, JSON
+from sqlalchemy import Column, String, Integer, JSON
 from .db import Base
 
 
@@ -16,3 +16,9 @@ class UnitModel(Base):
     abilities = Column(JSON)
     weapons = Column(JSON)
     wreckage = Column(JSON)
+
+class User(Base):
+    __tablename__ = "users"
+    id = Column(Integer, primary_key=True)
+    username = Column(String, unique=True, index=True, nullable=False)
+    hashed_password = Column(String, nullable=False)
