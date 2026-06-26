@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, Response, Request, Cookie, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
@@ -22,32 +22,51 @@ app.add_middleware(
 )
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
-
-
-def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
+def get_current_user(
+    access_token: str | None = Cookie(default=None),
+    db: Session = Depends(get_db),
+):
+    if not access_token:
+        raise HTTPException(401, "Not authenticated")
     try:
-        username = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])["sub"]
-    except jwt.ExpiredSignatureError:
-        raise HTTPException(status_code=401, detail="Token expired")
-    except jwt.InvalidTokenError:
-        raise HTTPException(status_code=401, detail="Invalid token")
-    user = db.query(models.User).filter(models.User.username == username).first()
+        username = jwt.decode(access_token, SECRET_KEY, algorithms=[ALGORITHM])["sub"]
+    except jwt.PyJWTError:
+        raise HTTPException(401, "Invalid or expired token")
+    user = db.query(models.User).filter_by(username=username).first()
     if not user:
-        raise HTTPException(status_code=401, detail="User not found")
+        raise HTTPException(401, "User not found")
     return user
 
+@app.post("/logout")
+def logout(response: Response):
+    response.delete_cookie("access_token", path="/")
+    return {"ok": True}
 
-@app.post("/login", response_model=Token)
-def login(body: Credentials, db: Session = Depends(get_db)):
+@app.get("/me")
+def me(current_user: models.User = Depends(get_current_user)):
+    return {
+        "username": current_user.username,
+        "authenticated": True,
+    }
+
+@app.post("/login")
+def login(body: Credentials, response: Response, db: Session = Depends(get_db)):
     user = db.query(models.User).filter(models.User.username == body.username).first()
     if not user or not verify_password(body.password, user.hashed_password):
         raise HTTPException(status_code=401, detail="Invalid username or password")
-    return {"access_token": create_token(user.username), "token_type": "bearer"}
+    
+    token = create_token(user.username)
+    response.set_cookie(
+        key="access_token",
+        value=token,
+        httponly=True,
+        secure=False,
+        samesite="lax",
+        max_age=12 * 3600,  
+        path="/",
+    )
 
-
-@app.get("/me")
-def me(user: models.User = Depends(get_current_user)):
-    return {"username": user.username}
+    return {"ok": True}
 
 
 @app.get("/units")

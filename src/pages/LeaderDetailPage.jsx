@@ -60,7 +60,7 @@ export default function LeaderPage() {
                             return (
                                 <li key={powerId}>
                                     <span className="leaderpower-name">
-                                        {power ? power.name : powerId}  CD: {power?.cooldown ?? "no-cooldown"}
+                                        {power ? power.name : powerId}  CD: {power?.cooldown ?? "passives"}
                                     </span>
                                     {power?.description && (
                                         <p className="leaderpower-description">

@@ -15,6 +15,10 @@
     letter-spacing: 0.05em;
 }
 
+.navbar-logo--authed {
+    color: #f5c518;
+}
+
 .navbar-version {
     font-size: 0.75rem;
     opacity: 0.45;
@@ -37,8 +41,21 @@
     transition: background-color 0.15s ease;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-logout:hover {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-logout {
+    background: none;
+    border: none;
+    color: white;
+    font-size: inherit;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    opacity: 0.75;
 }
 
 .nav-links a.active {
@@ -75,7 +92,6 @@
         width: 100%;
         flex-direction: column;
         gap: 0.25rem;
-        backdrop-filter: blur(3px);
         backdrop-filter: blur(8px);
         border-bottom: 1px solid #333;
         padding: 0.5rem 1rem 0.75rem;

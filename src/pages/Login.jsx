@@ -15,11 +15,11 @@ export default function Login() {
         const res = await fetch(`${import.meta.env.VITE_API_URL}/login`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
+            credentials: "include", 
             body: JSON.stringify({ username, password }),
         });
         if (!res.ok) throw new Error("Login failed");
-        const { access_token } = await res.json();
-        localStorage.setItem("token", access_token);
+        
     }
 
     const handleSubmit = async (e) => {
