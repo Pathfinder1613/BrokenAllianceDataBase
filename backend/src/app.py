@@ -8,8 +8,13 @@ from .schemas import Unit, Credentials, Token
 from .db import get_db, engine, Base
 from . import models
 from .auth import verify_password, create_token, SECRET_KEY, ALGORITHM
+from dotenv import load_dotenv
+import os
 
 Base.metadata.create_all(bind=engine)
+
+load_dotenv()
+COOKIE_SECURE = os.getenv("COOKIE_SECURE")
 
 app = FastAPI()
 
@@ -26,6 +31,8 @@ def get_current_user(
     access_token: str | None = Cookie(default=None),
     db: Session = Depends(get_db),
 ):
+    print("ACCESS TOKEN:", access_token)
+    
     if not access_token:
         raise HTTPException(401, "Not authenticated")
     try:
@@ -42,12 +49,6 @@ def logout(response: Response):
     response.delete_cookie("access_token", path="/")
     return {"ok": True}
 
-@app.get("/me")
-def me(current_user: models.User = Depends(get_current_user)):
-    return {
-        "username": current_user.username,
-        "authenticated": True,
-    }
 
 @app.post("/login")
 def login(body: Credentials, response: Response, db: Session = Depends(get_db)):
@@ -56,11 +57,12 @@ def login(body: Credentials, response: Response, db: Session = Depends(get_db)):
         raise HTTPException(status_code=401, detail="Invalid username or password")
     
     token = create_token(user.username)
+
     response.set_cookie(
         key="access_token",
         value=token,
         httponly=True,
-        secure=False,
+        secure=COOKIE_SECURE,
         samesite="lax",
         max_age=12 * 3600,  
         path="/",
@@ -75,7 +77,7 @@ def get_all_units(db: Session = Depends(get_db)):
 
 
 @app.get("/units/{unit_id}", response_model=Unit)
-def get_unit(unit_id: str, db: Session = Depends(get_db)):
+def get_unit(unit_id: str, db: Session = Depends(get_db), _user=Depends(get_current_user)):
     unit = db.query(models.UnitModel).filter(models.UnitModel.id == unit_id).first()
     if unit is None:
         raise HTTPException(status_code=404, detail=f"Unit '{unit_id}' not found")
@@ -83,7 +85,7 @@ def get_unit(unit_id: str, db: Session = Depends(get_db)):
 
 
 @app.post("/units", response_model=Unit, status_code=201)
-def create_unit(post: Unit, db: Session = Depends(get_db)):
+def create_unit(post: Unit, db: Session = Depends(get_db), _user=Depends(get_current_user)):
     db_unit = models.UnitModel(**post.model_dump())
     db.add(db_unit)
     db.commit()
@@ -92,7 +94,7 @@ def create_unit(post: Unit, db: Session = Depends(get_db)):
 
 
 @app.delete("/units/{unit_id}", status_code=200)
-def delete_unit(unit_id: str, db: Session = Depends(get_db)):
+def delete_unit(unit_id: str, db: Session = Depends(get_db), _user=Depends(get_current_user)):
     unit = db.query(models.UnitModel).filter(models.UnitModel.id == unit_id).first()
     if unit is None:
         raise HTTPException(status_code=404, detail=f"Unit '{unit_id}' not found")
@@ -102,7 +104,7 @@ def delete_unit(unit_id: str, db: Session = Depends(get_db)):
 
 
 @app.put("/units/{unit_id}", response_model=Unit, status_code=200)
-def edit_unit(unit_id: str, updated: Unit, db: Session = Depends(get_db)):
+def edit_unit(unit_id: str, updated: Unit, db: Session = Depends(get_db), _user=Depends(get_current_user)):
     unit = db.query(models.UnitModel).filter(models.UnitModel.id == unit_id).first()
     if unit is None:
         raise HTTPException(status_code=404, detail=f"Unit '{unit_id}' not found")
