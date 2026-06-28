@@ -173,15 +173,6 @@ export default function AllInOne() {
     }
 
     return (
-// src/pages/AllInOne.jsx:178-179
-// {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
-// {document.documentElement.style.setProperty("--visible_columns", 4)}
-// These run on every render and return undefined (which React ignores), but the DOM mutation is a side effect in render — a React anti-pattern. Move into a useEffect with an empty dependency array (or just set the CSS vars once at module level since FACTION_ORDER is a constant).
-
-// [I3] <div className="aio-row"> missing key props
-// src/pages/AllInOne.jsx:53, src/pages/AllInOne.jsx:97
-
-// Both CreateLeaderRows and CreateUnitRows push <div className="aio-row"> elements into an array without key props. React will warn and may mis-reconcile list items. Add key={i} to the outer row div.
         <>
             {CreateSortBar(filters)}
             {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
