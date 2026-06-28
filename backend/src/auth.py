@@ -5,7 +5,10 @@ import os
 
 load_dotenv()
 SECRET_KEY = os.getenv("SECRET_KEY")
-ALGORITHM = os.getenv("ALGORITHM_CODE")
+ALGORITHM = os.getenv("ALGORITHM_CODE", "HS256")
+
+if not SECRET_KEY:
+    raise RuntimeError("SECRET_KEY env var is required but not set")
 
 def hash_password(password: str) -> str:
     return bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
