@@ -76,7 +76,7 @@ def me(user=Depends(get_current_user)):
 
 
 @app.get("/units")
-def get_all_units(db: Session = Depends(get_db)):
+def get_all_units(db: Session = Depends(get_db), _user=Depends(get_current_user)):
     return db.query(models.UnitModel).all()
 
 
