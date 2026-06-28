@@ -1,10 +1,9 @@
-from fastapi import FastAPI, Response, Request, Cookie, HTTPException, Depends
+from fastapi import FastAPI, Response, Cookie, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 import jwt
 
-from .schemas import Unit, Credentials, Token
+from .schemas import Unit, Credentials
 from .db import get_db, engine, Base
 from . import models
 from .auth import verify_password, create_token, SECRET_KEY, ALGORITHM
@@ -26,7 +25,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
 def get_current_user(
     access_token: str | None = Cookie(default=None),
     db: Session = Depends(get_db),
