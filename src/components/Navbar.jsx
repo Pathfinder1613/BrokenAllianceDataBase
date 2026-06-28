@@ -3,8 +3,6 @@ import { useState, useEffect } from 'react';
 import '../Styles/Navbar.css';
 
 function getIsAuthed() {
-    const token = localStorage.getItem('token');
-    if (!token) return false;
     try {
         const { exp } = JSON.parse(atob(token.split('.')[1]));
         return exp * 1000 > Date.now();
@@ -22,7 +20,7 @@ export default function Navbar() {
     // Ask the server whether the cookie is valid (JS can't read httpOnly cookies)
     async function checkAuth() {
         try {
-            const res = await fetch(`${import.meta.env.VITE_API_URL}/me`, {
+            const res = await fetch(`${import.meta.env.VITE_API_URL}logout`, {
                 credentials: "include",
             });
             setAuthed(res.ok);            // 200 = logged in, 401 = not

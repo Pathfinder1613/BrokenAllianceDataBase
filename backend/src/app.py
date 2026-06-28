@@ -14,7 +14,7 @@ import os
 Base.metadata.create_all(bind=engine)
 
 load_dotenv()
-COOKIE_SECURE = os.getenv("COOKIE_SECURE")
+COOKIE_SECURE = os.getenv("COOKIE_SECURE", "false").lower() == "true"
 
 app = FastAPI()
 
@@ -69,6 +69,12 @@ def login(body: Credentials, response: Response, db: Session = Depends(get_db)):
     )
 
     return {"ok": True}
+
+@app.get("/me")
+def me(user=Depends(get_current_user)):
+    return {
+        "username": user.username
+    }
 
 
 @app.get("/units")
