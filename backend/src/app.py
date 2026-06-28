@@ -31,8 +31,6 @@ def get_current_user(
     access_token: str | None = Cookie(default=None),
     db: Session = Depends(get_db),
 ):
-    print("ACCESS TOKEN:", access_token)
-    
     if not access_token:
         raise HTTPException(401, "Not authenticated")
     try:
