@@ -12,7 +12,7 @@ export default function Login() {
     const [loading, setLoading] = useState(false);
 
     async function login(username, password) {
-        const res = await fetch(`${import.meta.env.VITE_API_URL}/login`, {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}login`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             credentials: "include", 

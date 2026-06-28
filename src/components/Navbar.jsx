@@ -18,20 +18,20 @@ export default function Navbar() {
     const navigate = useNavigate();
 
     // Ask the server whether the cookie is valid (JS can't read httpOnly cookies)
-    async function checkAuth() {
-        try {
-            const res = await fetch(`${import.meta.env.VITE_API_URL}logout`, {
-                credentials: "include",
-            });
-            setAuthed(res.ok);            // 200 = logged in, 401 = not
-        } catch {
-            setAuthed(false);
-        }
-    }
+    // async function checkAuth() {
+    //     try {
+    //         const res = await fetch(`${import.meta.env.VITE_API_URL}me`, {
+    //             credentials: "include",
+    //         });
+    //         setAuthed(res.ok);            // 200 = logged in, 401 = not
+    //     } catch {
+    //         setAuthed(false);
+    //     }
+    // }
 
-    useEffect(() => {
-        checkAuth();
-    }, [location]);
+    // useEffect(() => {
+    //     checkAuth();
+    // }, [location]);
 
     async function logout() {
         try {
