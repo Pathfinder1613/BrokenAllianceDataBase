@@ -1,4 +1,5 @@
-import { useState, useEffect  } from 'react';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../Styles/AIO.css'
 
 import FACTIONS from '../data/Factions.json'
@@ -19,13 +20,11 @@ class TagFilter {
         const copied_tags = this.tags.slice()
         let new_state = false;
 
-        if (index === -1)
-        {
+        if (index === -1) {
             new_state = true;
             copied_tags.push(tag)
         }
-        else
-        {
+        else {
             copied_tags.splice(index, 1)
         }
 
@@ -123,7 +122,7 @@ function CreateSortBar(filters) {
         <header>
             <span title="0 selected">0</span>
             <a href="" title="clear selection">x</a>
-            <a href="#/" title="compare">compare</a>
+            <button onClick={() => navigate(``)} title="compare">compare</button>
         </header>
 
         <form>
@@ -143,19 +142,19 @@ function CreateSortBar(filters) {
         </p>
 
         <p>
-            <button type="button">Base</button>
-            <button type="button">Land</button>
-            <button type='button'>infantry</button>
-            <button type="button">Air</button>
-            <button type="button">Naval</button>
-            <button type="button">Hero</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("base") ? 'aio-toggle-active' : ''}` }}>Base</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("land") ? 'aio-toggle-active' : ''}` }}>Land</button>
+            <button className='aio-toggle-active' type='button' onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("infantry") ? 'aio-toggle-active' : ''}` }}>infantry</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("air") ? 'aio-toggle-active' : ''}` }}>Air</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("naval") ? 'aio-toggle-active' : ''}` }}>Naval</button>
         </p>
 
         <p>
-            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(1) ? 'aio-toggle-active' : ''}`}}>T1</button>
-            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(2) ? 'aio-toggle-active' : ''}`}}>T2</button>
-            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(3) ? 'aio-toggle-active' : ''}`}}>T3</button>
-            <button className='aio-toggle-active' type="button" onClick={({currentTarget: e}) => {e.className = `${filters.tier.toggleTag(4) ? 'aio-toggle-active' : ''}`}}>T4</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(1) ? 'aio-toggle-active' : ''}` }}>T1</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(2) ? 'aio-toggle-active' : ''}` }}>T2</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(3) ? 'aio-toggle-active' : ''}` }}>T3</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(4) ? 'aio-toggle-active' : ''}` }}>T4</button>
+            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(5) ? 'aio-toggle-active' : ''}` }}>Hero</button>
         </p>
 
         <p>
@@ -165,11 +164,23 @@ function CreateSortBar(filters) {
     </aside>)
 }
 
+function UnitFilter(unit, filters) {
+    const tierAllowed =
+        filters.tier.hasTag(unit.tier);
+
+    const tagAllowed =
+        unit.tag?.some(tag =>
+            filters.tag.hasTag(tag.toLowerCase())
+        );
+
+    return tierAllowed && tagAllowed;
+}
+
 
 export default function AllInOne() {
     const filters = {
-        tier: new TagFilter(useState([1, 2, 3, 4])),
-        category: new TagFilter(useState([])),
+        tier: new TagFilter(useState([1, 2, 3, 4, 5])),
+        tag: new TagFilter(useState(["base", "land", "infantry", "air", "naval"])),
     }
 
     return (
@@ -190,9 +201,12 @@ export default function AllInOne() {
                         )
                     })}
                 </div>
-                <div className="aio-row-container">
+                {/* <div className="aio-row-container">
                     {CreateLeaderRows()}
                 </div>
+                {filters.tier.hasTag(5) && <div className="aio-row-container">
+                    {CreateUnitRows((unit) => unit.tier === 5 )}
+                </div>}
                 {filters.tier.hasTag(1) && <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 1)}
                 </div>}
@@ -204,7 +218,26 @@ export default function AllInOne() {
                 </div>}
                 {filters.tier.hasTag(4) && <div className="aio-row-container">
                     {CreateUnitRows((unit) => unit.tier === 4)}
-                </div>}
+                </div>} */}
+
+                <div className="aio-row-container">
+                    {CreateLeaderRows()}
+                </div>
+
+                {[1, 2, 3, 4, 5].map(tier =>
+                    filters.tier.hasTag(tier) && (
+                        <div
+                            key={tier}
+                            className="aio-row-container"
+                        >
+                            {CreateUnitRows(unit =>
+                                unit.tier === tier &&
+                                UnitFilter(unit, filters)
+                            )}
+                        </div>
+                    )
+                )}
+
 
             </div>
         </>
