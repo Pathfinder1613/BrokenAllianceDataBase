@@ -1,0 +1,3335 @@
+{
+    "units": [
+        {
+            "id": "construction_engineer",
+            "title": "Construction Engineer",
+            "type": "Multi-Purpose Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 150,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "deployable_smoke"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "atv",
+            "title": "ATV",
+            "type": "Multi-Purpose Scout Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 150,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "turbo_boost"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "marine",
+            "title": "Marine",
+            "type": "Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 10,
+                "power": null,
+                "buildTimeSeconds": 5,
+                "pop": 1,
+                "hp": 90,
+                "vision": "Short"
+            },
+            "abilities": [
+                "frag_throw"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "flamer_trooper",
+            "title": "Flamer Trooper",
+            "type": "Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 10,
+                "power": null,
+                "buildTimeSeconds": 5,
+                "pop": 1,
+                "hp": 90,
+                "vision": "Short"
+            },
+            "abilities": [
+                "napalm_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "deadeyes",
+            "title": "Deadeyes",
+            "type": "Sniper",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 10,
+                "power": null,
+                "buildTimeSeconds": 5,
+                "pop": 1,
+                "hp": 90,
+                "vision": "Large"
+            },
+            "abilities": [
+                "piercing_shot"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "sentinel_class_frigate",
+            "title": "Sentinel-class Frigate",
+            "type": "Frigate",
+            "tag": [
+                "naval"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 180,
+                "power": null,
+                "buildTimeSeconds": 18,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "flak_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "sentinel_patrol_boat",
+            "title": "Sentinel Patrol Boat",
+            "type": "Patrol Boat",
+            "tag": [
+                "naval"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 190,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "suppression_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "field_medic_truck",
+            "title": "Field Medic Truck",
+            "type": "Support Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 130,
+                "power": null,
+                "buildTimeSeconds": 14,
+                "pop": 1,
+                "hp": 120,
+                "vision": "Short"
+            },
+            "abilities": [
+                "emergency_triage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "tank_lynx",
+            "title": "Lynx",
+            "type": "tank attack",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 130,
+                "power": null,
+                "buildTimeSeconds": 14,
+                "pop": 1,
+                "hp": 120,
+                "vision": "Short"
+            },
+            "abilities": [
+                "emergency_triage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "mortar_buggy",
+            "title": "Mortar Buggy",
+            "type": "Siege / Artillery",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 180,
+                "power": null,
+                "buildTimeSeconds": 18,
+                "pop": 2,
+                "hp": 100,
+                "vision": "Short"
+            },
+            "abilities": [
+                "smoke_shell"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "raptor_interceptor_mk1",
+            "title": "Raptor Interceptor mk1",
+            "type": "Air / Anti-Air ",
+            "tag": [
+                "air"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 180,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 2,
+                "hp": 100,
+                "vision": "Short"
+            },
+            "abilities": [
+                "afterburner"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "watcher_mk1",
+            "title": "Watcher mk1",
+            "type": "Spy Plane",
+            "tag": [
+                "air"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "deep_scan"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "Vindicator_Bomber",
+            "title": "Vindicator Bomber",
+            "type": "Bomber",
+            "tag": [
+                "air"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "dive_bomb"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "m287_transport",
+            "title": "m287 transport",
+            "type": "Drop Ship",
+            "tag": [
+                "air"
+            ],
+            "tier": 1,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "emergency_eject"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_engineer_ii",
+            "title": "Construction Engineer II",
+            "type": "Multi-Purpose Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 250,
+                "power": null,
+                "buildTimeSeconds": 22,
+                "pop": 1,
+                "hp": 295,
+                "vision": "Short"
+            },
+            "abilities": [
+                "rapid_construction"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "pilot",
+            "title": "Pilot",
+            "type": "Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 250,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 165,
+                "vision": "Large"
+            },
+            "abilities": [
+                "titanfall_hijack"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "yeagers",
+            "title": "Yeagers",
+            "type": "Shock Troopers",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 250,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 165,
+                "vision": "Large"
+            },
+            "abilities": [
+                "deploy_launcher"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "steelhead",
+            "title": "Steelhead",
+            "type": "Heavy Tank",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 400,
+                "power": null,
+                "buildTimeSeconds": 35,
+                "pop": 10,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "suppression_fire"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "groundhog",
+            "title": "Groundhog",
+            "type": "Burrowing Tank",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 400,
+                "power": null,
+                "buildTimeSeconds": 35,
+                "pop": 10,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "burrow"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "river_gunboat",
+            "title": null,
+            "type": "River Gunboat",
+            "tag": [
+                "naval"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 350,
+                "power": null,
+                "buildTimeSeconds": 30,
+                "pop": 5,
+                "hp": 300,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "shoreline_barrage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "stegosaurus",
+            "title": "Stegosaurus",
+            "type": "Anti-Air Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 350,
+                "power": null,
+                "buildTimeSeconds": 30,
+                "pop": 10,
+                "hp": 200,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "missile_salvo"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "cruiser",
+            "title": null,
+            "type": "Cruiser",
+            "tag": [
+                "naval"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 350,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 12,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "sam_strike"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "shield_cruiser",
+            "title": "Aegis",
+            "type": "Shield Cruiser",
+            "tag": [
+                "naval"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 800,
+                "power": null,
+                "buildTimeSeconds": 70,
+                "pop": 12,
+                "hp": 800,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "overcharge_shield"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "repair_crawler",
+            "title": null,
+            "type": "Repair Crawler",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 280,
+                "power": null,
+                "buildTimeSeconds": 25,
+                "pop": 3,
+                "hp": 200,
+                "vision": "Short"
+            },
+            "abilities": [
+                "emergency_patch"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rhino",
+            "title": "Rhino",
+            "type": "Artillery Tank",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 450,
+                "power": null,
+                "buildTimeSeconds": 40,
+                "pop": 25,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "devastation_shell"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "thunderbird",
+            "title": "Thunderbird",
+            "type": "Heavy Gunship / Dropship ",
+            "tag": [
+                "air"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 450,
+                "power": null,
+                "buildTimeSeconds": 50,
+                "pop": 25,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "emergency_eject"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "delta_dart",
+            "title": "Delta Dart",
+            "type": "Interceptor / Bomber / Anti-Air ",
+            "tag": [
+                "air"
+            ],
+            "tier": 2,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 180,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 2,
+                "hp": 100,
+                "vision": "Short"
+            },
+            "abilities": [
+                "mode_switch"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_engineer_iii",
+            "title": "Construction Engineer III",
+            "type": "Multi-Purpose Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 250,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "experimental_prep"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "albatross",
+            "title": "Albatross",
+            "type": "Dropship",
+            "tag": [
+                "air"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 555,
+                "power": null,
+                "buildTimeSeconds": 90,
+                "pop": 10,
+                "hp": 250,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "building_lift"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "assault_frigate",
+            "title": null,
+            "type": "Assault Frigate",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 700,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 10,
+                "hp": 600,
+                "vision": "Large"
+            },
+            "abilities": [
+                "rocket_volley"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "aircraft_carrier",
+            "title": null,
+            "type": "Aircraft Carrier",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 700,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 10,
+                "hp": 600,
+                "vision": "Large"
+            },
+            "abilities": [
+                "scramble"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "battleship",
+            "title": null,
+            "type": "Battleship",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 700,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 12,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "naval_bombardment"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "submarine",
+            "title": null,
+            "type": "Submarine",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 650,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 12,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "torpedo_salvo"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "lancer",
+            "title": "Lancer",
+            "type": "Missile Platform",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 500,
+                "power": null,
+                "buildTimeSeconds": 45,
+                "pop": 30,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "nuclear_option"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "slow_field_generator",
+            "title": null,
+            "type": "Statis Field Generator",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 450,
+                "power": null,
+                "buildTimeSeconds": 40,
+                "pop": 25,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "overdrive_field"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "relay_tank",
+            "title": null,
+            "type": "Relay Tank",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 700,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 10,
+                "hp": 600,
+                "vision": "Large"
+            },
+            "abilities": [
+                "lock_down"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "emp_support_tank",
+            "title": null,
+            "type": "EMP Support Tank",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 550,
+                "power": null,
+                "buildTimeSeconds": 48,
+                "pop": 8,
+                "hp": 280,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "chain_emp"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "howitzer_platform",
+            "title": "Howitzer Platform",
+            "type": "Artillery",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 650,
+                "power": null,
+                "buildTimeSeconds": 55,
+                "pop": 15,
+                "hp": 200,
+                "vision": "Short"
+            },
+            "abilities": [
+                "creeping_barrage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "paladin_mbt",
+            "title": "Paladin MBT",
+            "type": "Elite Tank",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 900,
+                "power": null,
+                "buildTimeSeconds": 75,
+                "pop": 15,
+                "hp": 700,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "fortress_mode"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "pterodactylus",
+            "title": "Pterodactylus",
+            "type": "Gunship",
+            "tag": [
+                "air"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 800,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 700,
+                "vision": "Large"
+            },
+            "abilities": [
+                "strafing_run"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "spy_plane_iii",
+            "title": "Spy Plane III",
+            "type": "Air Scout ",
+            "tag": [
+                "air"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 100,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Large"
+            },
+            "abilities": [
+                "signal_intercept"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "superior_mini_nuker",
+            "title": "Superior Mini Nuker",
+            "type": "Bomber",
+            "tag": [
+                "air"
+            ],
+            "tier": 3,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 900,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 1,
+                "hp": 350,
+                "vision": "Large"
+            },
+            "abilities": [
+                "carpet_nuke"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "diplomatic_envoy",
+            "title": "Diplomatic Envoy",
+            "type": "Hero Unit",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 5,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": "Free",
+                "power": null,
+                "buildTimeSeconds": 45,
+                "pop": 1,
+                "hp": 350,
+                "vision": "Large"
+            },
+            "abilities": [
+                "diplomatic_shield"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "commander_hawk",
+            "title": "Commander Hawk",
+            "type": "Hero Unit (T3 Pterodactylus)",
+            "tag": [
+                "air"
+            ],
+            "tier": 5,
+            "faction": "udf",
+            "lore": "Named after his father. James Hawk joined the Airforce after his father passed away. Learned to fly the Pterodactylus Gunship. Became known for bravery \u00e2\u20ac\u201d flying through a hurricane to save a civilian transport. President Enhet added him to the cabinet as head of the DOD branch. Hawk's love for flying lizards led to the creation of the Quetzalcoatlus Gunship. Hawk IS a T3 Pterodactylus.",
+            "stats": {
+                "mass": "Free",
+                "power": null,
+                "buildTimeSeconds": 45,
+                "pop": 1,
+                "hp": 350,
+                "vision": "Large"
+            },
+            "abilities": [
+                "iron_resolve"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "iq_drone_chassis",
+            "title": "IQ Drone Chassis",
+            "type": "Hero Unit",
+            "tag": [
+                "air"
+            ],
+            "tier": 5,
+            "faction": "udf",
+            "lore": "Born into a family of researchers studying genetic engineering, Iris grew fascinated with manipulation of space itself due to the ancient alien ruins. Her work caught President Enhet's attention. This led to quantum-biological augmentation \u00e2\u20ac\u201d abilities that buff troops and vehicles, create barriers and shields \u00e2\u20ac\u201d but overuse can cause death. If the augmented individual dies, unstable quantum energy detonates. Despite risks, Enhet authorised the Quantum Augmentation Program.",
+            "stats": {
+                "mass": "Free",
+                "power": null,
+                "buildTimeSeconds": 50,
+                "pop": 1,
+                "hp": 500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "mass_upload"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "experimental_construction_engineer",
+            "title": "Experimental Construction Engineer",
+            "type": "Experimental Builder",
+            "tag": [
+                "land"
+            ],
+            "tier": 4,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 1500,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "mass_construction"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "quetzalcoatlus",
+            "title": "Quetzalcoatlus",
+            "type": "Experimental Gunship",
+            "tag": [
+                "air"
+            ],
+            "tier": 4,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 1500,
+                "power": null,
+                "buildTimeSeconds": 120,
+                "pop": 10,
+                "hp": 900,
+                "vision": "Large"
+            },
+            "abilities": [
+                "sustained_assault"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "groundbreaker",
+            "title": "Groundbreaker",
+            "type": "Experimental Digger / Factory",
+            "tag": [
+                "land"
+            ],
+            "tier": 4,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 1500,
+                "power": null,
+                "buildTimeSeconds": 120,
+                "pop": 20,
+                "hp": 1000,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "emergency_resurface"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "poseidon",
+            "title": "Poseidon",
+            "type": "Experimental Warship",
+            "tag": [
+                "naval"
+            ],
+            "tier": 4,
+            "faction": "udf",
+            "lore": null,
+            "stats": {
+                "mass": 3500,
+                "power": null,
+                "buildTimeSeconds": 210,
+                "pop": 35,
+                "hp": 4000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "dreadnought_salvo"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_engineer_sakupen",
+            "title": "Construction Engineer",
+            "type": "Multi-Purpose Vehicle ",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 150,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "cybermen",
+            "title": "Cybermen",
+            "type": "Ground Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "Clones. [Placeholder]",
+            "stats": {
+                "mass": 25,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 3,
+                "hp": 40,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "grenade_throw"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "blitz",
+            "title": "Blitz",
+            "type": "Light Vehicle / Scout",
+            "tag": [
+                "land"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": "It's a motorcycle. [Placeholder]",
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 100,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "grenade_throw"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "probe_skiff",
+            "title": "Probe Skiff",
+            "type": "Naval Scout",
+            "tag": [
+                "naval"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 100,
+                "power": null,
+                "buildTimeSeconds": 12,
+                "pop": 1,
+                "hp": 120,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "wasp",
+            "title": "Wasp",
+            "type": "Air Support",
+            "tag": [
+                "air"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 12,
+                "pop": 2,
+                "hp": 150,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "shield_generator_unit",
+            "title": "Shield Generator Unit",
+            "type": "Support Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 40,
+                "pop": 5,
+                "hp": 250,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "p_61",
+            "title": "P-61",
+            "type": "Suicide Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 10,
+                "pop": 1,
+                "hp": 250,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_engineer_ii_sakupen",
+            "title": "Construction Engineer II",
+            "type": "Multi-Purpose Vehicle ",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 150,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "recon_trooper",
+            "title": "Recon Trooper",
+            "type": "Infantry Scout",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 100,
+                "power": null,
+                "buildTimeSeconds": 25,
+                "pop": 6,
+                "hp": 120,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "chainer",
+            "title": "Chainer",
+            "type": "Infantry Unit",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 250,
+                "power": null,
+                "buildTimeSeconds": 25,
+                "pop": 6,
+                "hp": 120,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "energy_corvette",
+            "title": null,
+            "type": "Energy Corvette",
+            "tag": [
+                "naval"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 300,
+                "power": null,
+                "buildTimeSeconds": 28,
+                "pop": 5,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "jumper",
+            "title": "Jumper",
+            "type": "Payload Special Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 300,
+                "power": null,
+                "buildTimeSeconds": 28,
+                "pop": 5,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "bulwark",
+            "title": "Bulwark",
+            "type": "Mobile Shield Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 400,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 4,
+                "hp": 1500,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "reflector_drone",
+            "title": null,
+            "type": "Reflector Drone",
+            "tag": [
+                "air"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 100,
+                "power": null,
+                "buildTimeSeconds": 30,
+                "pop": 9,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "siege_rail_platform",
+            "title": "Siege Rail Platform",
+            "type": "Siege Artillery",
+            "tag": [
+                "land"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 400,
+                "power": null,
+                "buildTimeSeconds": 36,
+                "pop": 12,
+                "hp": 200,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rivenate",
+            "title": "Rivenate",
+            "type": "Gunship",
+            "tag": [
+                "air"
+            ],
+            "tier": 2,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 350,
+                "power": null,
+                "buildTimeSeconds": 65,
+                "pop": 10,
+                "hp": 260,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_engineer_iii_sakupen",
+            "title": "Construction Engineer III",
+            "type": "Multi-Purpose Vehicle ",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 150,
+                "power": null,
+                "buildTimeSeconds": 15,
+                "pop": 1,
+                "hp": 195,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "void_frigate",
+            "title": null,
+            "type": "Void Frigate",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 750,
+                "power": null,
+                "buildTimeSeconds": 65,
+                "pop": 10,
+                "hp": 700,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "suppressor",
+            "title": "Suppressor",
+            "type": "Heavy Vehicle",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 77,
+                "hp": 1000,
+                "vision": "Short"
+            },
+            "abilities": [
+                "missile_barrage"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "dreadnought_cruiser",
+            "title": null,
+            "type": "Dreadnought Cruiser",
+            "tag": [
+                "naval"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 1400,
+                "power": null,
+                "buildTimeSeconds": 110,
+                "pop": 22,
+                "hp": 1800,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "fortress_crawler",
+            "title": "Fortress Crawler",
+            "type": "Siege / Artillery",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 1200,
+                "power": null,
+                "buildTimeSeconds": 90,
+                "pop": 20,
+                "hp": 600,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "delirium_gunship",
+            "title": "Delirium Gunship",
+            "type": "Gunship",
+            "tag": [
+                "air"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 10,
+                "pop": 6,
+                "hp": 200,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "overcharge_cannon",
+            "title": "Overcharge Cannon",
+            "type": "Siege / Artillery",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 700,
+                "power": null,
+                "buildTimeSeconds": 58,
+                "pop": 18,
+                "hp": 250,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "apex_titan",
+            "title": "Apex Titan",
+            "type": "Elite Heavy Mech",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 1300,
+                "power": null,
+                "buildTimeSeconds": 95,
+                "pop": 18,
+                "hp": 1200,
+                "vision": "Large"
+            },
+            "abilities": [
+                "overdrive"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "null_field_projector",
+            "title": null,
+            "type": "Null Field Projector",
+            "tag": [
+                "land"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 900,
+                "power": null,
+                "buildTimeSeconds": 75,
+                "pop": 12,
+                "hp": 400,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "lazboat",
+            "title": "LazBoat",
+            "type": "Naval",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 1800,
+                "power": null,
+                "buildTimeSeconds": 200,
+                "pop": 26,
+                "hp": 400,
+                "vision": "High"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "kizer",
+            "title": "Kizer",
+            "type": "Hero Unit",
+            "tag": [
+                "land"
+            ],
+            "tier": 5,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": "Free",
+                "power": null,
+                "buildTimeSeconds": null,
+                "pop": 1,
+                "hp": 500,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "e_11",
+            "title": "E-11",
+            "type": "Hero Unit",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 5,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": "Free",
+                "power": null,
+                "buildTimeSeconds": null,
+                "pop": 1,
+                "hp": 450,
+                "vision": "Large"
+            },
+            "abilities": [
+                "override_protocol"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "ion_3c_drone_swarm",
+            "title": "Ion (3C Drone Swarm)",
+            "type": "Hero Unit",
+            "tag": [
+                "air"
+            ],
+            "tier": 5,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": "Free",
+                "power": null,
+                "buildTimeSeconds": null,
+                "pop": 1,
+                "hp": 400,
+                "vision": "Large"
+            },
+            "abilities": [
+                "overflow_cascade"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "siege_engine",
+            "title": "Siege Engine",
+            "type": "Air Siege",
+            "tag": [
+                "air"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 3000,
+                "power": null,
+                "buildTimeSeconds": 180,
+                "pop": 20,
+                "hp": 2000,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "juggernaut",
+            "title": "Juggernaut",
+            "type": "Experimental Heavy Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 900,
+                "power": null,
+                "buildTimeSeconds": 35,
+                "pop": 7,
+                "hp": 951,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "hunker_down"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "sovereign",
+            "title": "Sovereign",
+            "type": "Experimental Titan",
+            "tag": [
+                "land"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 5000,
+                "power": null,
+                "buildTimeSeconds": 300,
+                "pop": 50,
+                "hp": 8000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "void_leviathan",
+            "title": "Void Leviathan",
+            "type": "Experimental Naval",
+            "tag": [
+                "naval"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 4500,
+                "power": null,
+                "buildTimeSeconds": 270,
+                "pop": 45,
+                "hp": 6000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "omega_drone_fleet",
+            "title": "Omega Drone Fleet",
+            "type": "Experimental Air",
+            "tag": [
+                "air"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 3000,
+                "power": null,
+                "buildTimeSeconds": 180,
+                "pop": 30,
+                "hp": 3000,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "apex_protocol",
+            "title": "Apex Protocol",
+            "type": "Experimental Support",
+            "tag": [
+                "land"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 5000,
+                "power": null,
+                "buildTimeSeconds": 300,
+                "pop": 67,
+                "hp": 1,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "placeholder_experimental_navy",
+            "title": null,
+            "type": "Experimental Navy",
+            "tag": [
+                "naval"
+            ],
+            "tier": 4,
+            "faction": "sakupen",
+            "lore": null,
+            "stats": {
+                "mass": 5000,
+                "power": null,
+                "buildTimeSeconds": 300,
+                "pop": 67,
+                "hp": 4500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "construction_spore",
+            "title": "Construction spore",
+            "type": "Construction Engineer",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 30,
+                "power": null,
+                "buildTimeSeconds": 6,
+                "pop": 1,
+                "hp": 60,
+                "vision": "Short"
+            },
+            "abilities": [
+                "spore_sacrifice"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rot_crawler",
+            "title": "Rot Crawler",
+            "type": "Swarm Unit",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 30,
+                "power": null,
+                "buildTimeSeconds": 6,
+                "pop": 1,
+                "hp": 60,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "spore_skiff",
+            "title": null,
+            "type": "Spore Skiff",
+            "tag": [
+                "naval"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 50,
+                "power": null,
+                "buildTimeSeconds": 8,
+                "pop": 1,
+                "hp": 80,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "spore_spitter",
+            "title": null,
+            "type": "Spore Spitter",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 60,
+                "power": null,
+                "buildTimeSeconds": 8,
+                "pop": 1,
+                "hp": 70,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "tendril_creeper",
+            "title": null,
+            "type": "Tendril Creeper",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 40,
+                "power": null,
+                "buildTimeSeconds": 7,
+                "pop": 1,
+                "hp": 50,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "bile_lobber",
+            "title": "Bile Lobber",
+            "type": "Siege Artillery",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 1,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 80,
+                "power": null,
+                "buildTimeSeconds": 10,
+                "pop": 2,
+                "hp": 60,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "hulk_amalgam",
+            "title": "Hulk Amalgam",
+            "type": "Heavy Infantry",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 250,
+                "power": null,
+                "buildTimeSeconds": 22,
+                "pop": 5,
+                "hp": 400,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rot_galleon",
+            "title": null,
+            "type": "Rot Galleon",
+            "tag": [
+                "naval"
+            ],
+            "tier": 2,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 220,
+                "power": null,
+                "buildTimeSeconds": 20,
+                "pop": 4,
+                "hp": 350,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "phantom_drone",
+            "title": "Phantom Drone",
+            "type": "Air Unit",
+            "tag": [
+                "air"
+            ],
+            "tier": 2,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 150,
+                "power": null,
+                "buildTimeSeconds": 14,
+                "pop": 3,
+                "hp": 150,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rot_tendril",
+            "title": null,
+            "type": "Rot Tendril",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 2,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 200,
+                "power": null,
+                "buildTimeSeconds": 18,
+                "pop": 3,
+                "hp": 150,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "spore_cloud_generator",
+            "title": null,
+            "type": "Spore Cloud Generator",
+            "tag": [
+                "land",
+                "assault"
+            ],
+            "tier": 2,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 180,
+                "power": null,
+                "buildTimeSeconds": 16,
+                "pop": 3,
+                "hp": 130,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "amalgam_brute",
+            "title": "Amalgam Brute",
+            "type": "Elite Heavy",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 3,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 550,
+                "power": null,
+                "buildTimeSeconds": 48,
+                "pop": 10,
+                "hp": 900,
+                "vision": "Short"
+            },
+            "abilities": [
+                "absorb"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "leviathan_spawn",
+            "title": null,
+            "type": "Leviathan Spawn",
+            "tag": [
+                "naval"
+            ],
+            "tier": 3,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 600,
+                "power": null,
+                "buildTimeSeconds": 55,
+                "pop": 9,
+                "hp": 700,
+                "vision": "Large"
+            },
+            "abilities": [
+                "consume"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "corruption_carrier",
+            "title": null,
+            "type": "Corruption Carrier",
+            "tag": [
+                "air"
+            ],
+            "tier": 3,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 500,
+                "power": null,
+                "buildTimeSeconds": 44,
+                "pop": 8,
+                "hp": 400,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rot_colossus",
+            "title": "Rot Colossus",
+            "type": "Heavy Siege",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 3,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 700,
+                "power": null,
+                "buildTimeSeconds": 60,
+                "pop": 15,
+                "hp": 600,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "nest_cluster",
+            "title": null,
+            "type": "Nest Cluster",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 3,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 450,
+                "power": null,
+                "buildTimeSeconds": 40,
+                "pop": 6,
+                "hp": 350,
+                "vision": "Short"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "apex_amalgam",
+            "title": "Apex Amalgam",
+            "type": "Elite Monster",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 1400,
+                "power": null,
+                "buildTimeSeconds": 100,
+                "pop": 20,
+                "hp": 2200,
+                "vision": "Large"
+            },
+            "abilities": [
+                "fission_burst"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "abyssal_leviathan",
+            "title": "Abyssal Leviathan",
+            "type": "Naval",
+            "tag": [
+                "naval"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 1500,
+                "power": null,
+                "buildTimeSeconds": 110,
+                "pop": 22,
+                "hp": 2000,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "carrier",
+            "title": "Carrier",
+            "type": "Air",
+            "tag": [
+                "air"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 1200,
+                "power": null,
+                "buildTimeSeconds": 88,
+                "pop": 18,
+                "hp": 1200,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "infector_engine",
+            "title": "Infector Engine",
+            "type": "Siege",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 1300,
+                "power": null,
+                "buildTimeSeconds": 95,
+                "pop": 20,
+                "hp": 700,
+                "vision": "Medium"
+            },
+            "abilities": [
+                "accelerated_rot"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "symbiont_web",
+            "title": "Symbiont Web",
+            "type": "Support",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 900,
+                "power": null,
+                "buildTimeSeconds": 76,
+                "pop": 14,
+                "hp": 500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "the_maw",
+            "title": "The Maw",
+            "type": "Experimental Rot-Mass",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 5000,
+                "power": null,
+                "buildTimeSeconds": 300,
+                "pop": 50,
+                "hp": 7000,
+                "vision": "Large"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "world_eater",
+            "title": "World Eater",
+            "type": "Experimental Naval",
+            "tag": [
+                "naval"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 4500,
+                "power": null,
+                "buildTimeSeconds": 270,
+                "pop": 45,
+                "hp": 6000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "breach"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "the_amalgamation",
+            "title": "The Amalgamation",
+            "type": "Experimental Walker",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 4000,
+                "power": null,
+                "buildTimeSeconds": 240,
+                "pop": 40,
+                "hp": 5500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "phantom_singularity",
+            "title": "Phantom Singularity",
+            "type": "Experimental Machine",
+            "tag": [
+                "land"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 3500,
+                "power": null,
+                "buildTimeSeconds": 210,
+                "pop": 35,
+                "hp": 4500,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "signal_override"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        },
+        {
+            "id": "rot_bloom",
+            "title": "Rot Bloom",
+            "type": "Experimental Support",
+            "tag": [
+                "infantry"
+            ],
+            "tier": 4,
+            "faction": "the_storm",
+            "lore": null,
+            "stats": {
+                "mass": 2500,
+                "power": 2500,
+                "buildTimeSeconds": 150,
+                "pop": 25,
+                "hp": 2000,
+                "vision": "Massive"
+            },
+            "abilities": [
+                "placeholder_abititie"
+            ],
+            "weapons": [
+                "placeholder"
+            ],
+            "wreckage": {
+                "mass": null,
+                "power": null,
+                "health": null
+            }
+        }
+    ]
+}
