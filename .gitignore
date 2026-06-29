@@ -24,6 +24,7 @@ src/assets/*.mp4
 .env.*
 !.env.example
 venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo

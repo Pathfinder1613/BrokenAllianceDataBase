@@ -14,12 +14,14 @@ Base.metadata.create_all(bind=engine)
 
 load_dotenv()
 COOKIE_SECURE = os.getenv("COOKIE_SECURE", "false").lower() == "true"
+_cors_env = os.getenv("CORS_ORIGINS", "http://localhost:5173")
+CORS_ORIGINS = [o.strip() for o in _cors_env.split(",")]
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -59,8 +61,8 @@ def login(body: Credentials, response: Response, db: Session = Depends(get_db)):
         value=token,
         httponly=True,
         secure=COOKIE_SECURE,
-        samesite="lax",
-        max_age=12 * 3600,  
+        samesite="none" if COOKIE_SECURE else "lax",
+        max_age=12 * 3600,
         path="/",
     )
 
