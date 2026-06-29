@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Modal from '../components/modal.jsx';
+import { useAuth } from '../contexts/AuthContext';
 
 import '../Styles/Login.css'
 
@@ -10,26 +11,26 @@ export default function Login() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
+    const { login } = useAuth();
 
-    async function login(username, password) {
+    async function loginRequest(u, p) {
         const res = await fetch(`${import.meta.env.VITE_API_URL}login`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            credentials: "include", 
-            body: JSON.stringify({ username, password }),
+            credentials: "include",
+            body: JSON.stringify({ username: u, password: p }),
         });
         if (!res.ok) throw new Error("Login failed");
-        
     }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError(null);
         setLoading(true);
         try {
-            await login(username, password);
-            navigate('/');   // where admins land after logging in
-        } catch (err) {
+            await loginRequest(username, password);
+            login();
+            navigate('/');
+        } catch {
             setError("Invalid username or password");
         } finally {
             setLoading(false);
@@ -44,7 +45,7 @@ export default function Login() {
         >
             <form className="form" onSubmit={handleSubmit}>
                 <p>Please sign in to continue.</p>
-                
+
                 <label>
                     Admin Name
                     <input

@@ -1,0 +1,225 @@
+/* ── Layout ──────────────────────────────────────────────── */
+.dash {
+    min-height: 100vh;
+    color: #c9c9c9;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    padding: 2rem 2.5rem;
+}
+
+.dash-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #e0e0e0;
+    margin: 0 0 1.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #2a2a2e;
+}
+
+/* ── Search combo ────────────────────────────────────────── */
+.dash-combo {
+    position: relative;
+    width: 340px;
+    margin-bottom: 2rem;
+}
+
+.dash-search-input {
+    width: 100%;
+    backdrop-filter: blur(3px);
+    color: #e0e0e0;
+    border: 1px solid #2e2e35;
+    border-radius: 4px;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.9rem;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.15s;
+}
+
+.dash-search-input::placeholder {
+    color: #555;
+}
+
+.dash-search-input:hover {
+    border-color: #f0c040;
+}
+
+.dash-search-input:focus {
+    border-color: #f0c040;
+}
+
+/* ── Dropdown ────────────────────────────────────────────── */
+.dash-dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(3px);
+    border: 1px solid #2e2e35;
+    border-radius: 4px;
+    max-height: 260px;
+    overflow-y: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0.25rem 0;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.dash-dropdown::-webkit-scrollbar {
+    width: 5px;
+}
+.dash-dropdown::-webkit-scrollbar-track {
+    background: #1a1a1f;
+}
+.dash-dropdown::-webkit-scrollbar-thumb {
+    background: #3a3a42;
+    border-radius: 3px;
+}
+
+.dash-dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.85rem;
+    cursor: pointer;
+    transition: background 0.1s;
+}
+
+.dash-dropdown-item:hover {
+    background: #23232a;
+}
+
+.dash-dropdown-title {
+    font-size: 0.88rem;
+    color: #d4d4d4;
+}
+
+.dash-dropdown-meta {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+/* ── Form layout ─────────────────────────────────────────── */
+.dash-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+/* ── Section cards ───────────────────────────────────────── */
+.dash-section {
+    border: 1px solid #22222a;
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    flex: 1 1 300px;
+    min-width: 260px;
+}
+
+.dash-section h2 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #888;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #22222a;
+}
+
+/* ── Grid of fields ──────────────────────────────────────── */
+.dash-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+}
+
+/* ── Individual field ────────────────────────────────────── */
+.dash-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.dash-field span {
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.dash-field input,
+.dash-field textarea {
+    backdrop-filter: blur(3px);
+    color: #d8d8d8;
+    border-radius: 4px;
+    padding: 0.45rem 0.65rem;
+    font-size: 0.85rem;
+    font-family: inherit;
+    outline: none;
+    resize: vertical;
+    transition: border-color 0.15s;
+}
+
+.dash-field input:hover,
+.dash-field textarea:hover {
+    border-color: #f0c040;
+}
+
+.dash-field input:focus,
+.dash-field textarea:focus {
+    border-color: #f0c040;
+}
+
+.dash-field input:disabled {
+    color: #484848;
+    backdrop-filter: blur(3px);
+    cursor: not-allowed;
+}
+
+/* ── Footer / save ───────────────────────────────────────── */
+.dash-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1.25rem 0 0.5rem;
+}
+
+.dash-btn {
+    color: #d0d0d0;
+    padding: 0.55rem 1.75rem;
+    font-size: 0.85rem;
+    font-family: inherit;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.dash-btn:hover {
+    border-color: #f0c040;
+    color: #f0c040;
+}
+
+.dash-btn:focus {
+    border-color: #f0c040;
+    color: #f0c040;
+}
+
+/* ── Status messages ─────────────────────────────────────── */
+.dash-ok {
+    font-size: 0.8rem;
+    color: #5dba74;
+    letter-spacing: 0.04em;
+}
+
+.dash-error {
+    font-size: 0.8rem;
+    color: #c0504d;
+    letter-spacing: 0.04em;
+}

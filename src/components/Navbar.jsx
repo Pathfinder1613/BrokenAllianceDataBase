@@ -1,51 +1,21 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { useAuth } from "../contexts/AuthContext";
 import "../Styles/Navbar.css";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [authed, setAuthed] = useState(false);
-
-    const location = useLocation();
+    const { isAdmin, logout: authLogout } = useAuth();
     const navigate = useNavigate();
 
-    async function checkAuth() {
-        try {
-            const res = await fetch(
-                `${import.meta.env.VITE_API_URL}me`,
-                {
-                    credentials: "include",
-                }
-            );
-
-            setAuthed(res.ok);
-        } catch {
-            setAuthed(false);
-        }
-    }
-
-    useEffect(() => {
-        checkAuth();
-    }, [location.pathname]);
-
     async function logout() {
-        try {
-            await fetch(
-                `${import.meta.env.VITE_API_URL}logout`,
-                {
-                    method: "POST",
-                    credentials: "include",
-                }
-            );
-        } finally {
-            setAuthed(false);
-            navigate("/");
-        }
+        await authLogout();
+        navigate("/");
     }
 
     return (
         <nav className="navbar">
-            <span className={`navbar-logo${authed ? " navbar-logo--authed" : ""}`}>
+            <span className={`navbar-logo${isAdmin ? " navbar-logo--authed" : ""}`}>
                 BROKEN ALLIANCE
             </span>
 
@@ -62,15 +32,15 @@ export default function Navbar() {
                 <li><NavLink to="/aio">AIO</NavLink></li>
                 <li><NavLink to="/detail-viewer">viewer</NavLink></li>
 
-                {authed && (
-                    <li>
-                        <button
-                            className="nav-logout"
-                            onClick={logout}
-                        >
-                            Logout
-                        </button>
-                    </li>
+                {isAdmin && (
+                    <>
+                        <li><NavLink to="/admin">Dashboard</NavLink></li>
+                        <li>
+                            <button className="nav-logout" onClick={logout}>
+                                Logout
+                            </button>
+                        </li>
+                    </>
                 )}
             </ul>
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import '../Styles/AIO.css'
+import '../Styles/AIO.css';
+import SorterBar from '../components/SorterBar';
 
 import FACTIONS from '../data/Factions.json'
 import LEADERS from '../data/Leaders.json'
@@ -117,52 +117,6 @@ function CreateUnitRows(filter) {
     return content;
 }
 
-function CreateSortBar(filters) {
-    return (<aside>
-        <header>
-            <span title="0 selected">0</span>
-            <a href="" title="clear selection">x</a>
-            <button onClick={() => navigate(``)} title="compare">compare</button>
-        </header>
-
-        <form>
-            <input
-                id="filter"
-                type="text"
-                placeholder="filter"
-                autoFocus
-            />
-        </form>
-
-        <p>
-            <button type="button">UDF</button>
-            <button type="button">Sakupen</button>
-            <button type="button">The Storm</button>
-            <button type="button">The Trogs</button>
-        </p>
-
-        <p>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("base") ? 'aio-toggle-active' : ''}` }}>Base</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("land") ? 'aio-toggle-active' : ''}` }}>Land</button>
-            <button className='aio-toggle-active' type='button' onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("infantry") ? 'aio-toggle-active' : ''}` }}>infantry</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("air") ? 'aio-toggle-active' : ''}` }}>Air</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tag.toggleTag("naval") ? 'aio-toggle-active' : ''}` }}>Naval</button>
-        </p>
-
-        <p>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(1) ? 'aio-toggle-active' : ''}` }}>T1</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(2) ? 'aio-toggle-active' : ''}` }}>T2</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(3) ? 'aio-toggle-active' : ''}` }}>T3</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(4) ? 'aio-toggle-active' : ''}` }}>T4</button>
-            <button className='aio-toggle-active' type="button" onClick={({ currentTarget: e }) => { e.className = `${filters.tier.toggleTag(5) ? 'aio-toggle-active' : ''}` }}>Hero</button>
-        </p>
-
-        <p>
-            <button type="button" title="view units by kind">By Kind</button>
-            <button type="button" title="view units by class">By Class</button>
-        </p>
-    </aside>)
-}
 
 function UnitFilter(unit, filters) {
     const tierAllowed =
@@ -176,16 +130,27 @@ function UnitFilter(unit, filters) {
     return tierAllowed && tagAllowed;
 }
 
+function ToggleUnit(unitId) {
+    setSelectedUnits(current => {
+        if (current.includes(unitId)) {
+            return current.filter(id => id !== unitId);
+        }
+
+        return [...current, unitId];
+    });
+}
+
 
 export default function AllInOne() {
     const filters = {
         tier: new TagFilter(useState([1, 2, 3, 4, 5])),
         tag: new TagFilter(useState(["base", "land", "infantry", "air", "naval"])),
     }
+    const [selectedUnits, setSelectedUnits] = useState([]);
 
     return (
         <>
-            {CreateSortBar(filters)}
+            <SorterBar filters={filters} selectedUnits={selectedUnits} />
             {document.documentElement.style.setProperty("--total_columns", FACTION_ORDER.length)}
             {document.documentElement.style.setProperty("--visible_columns", 4)}
             <div className="aio-main">
@@ -201,24 +166,6 @@ export default function AllInOne() {
                         )
                     })}
                 </div>
-                {/* <div className="aio-row-container">
-                    {CreateLeaderRows()}
-                </div>
-                {filters.tier.hasTag(5) && <div className="aio-row-container">
-                    {CreateUnitRows((unit) => unit.tier === 5 )}
-                </div>}
-                {filters.tier.hasTag(1) && <div className="aio-row-container">
-                    {CreateUnitRows((unit) => unit.tier === 1)}
-                </div>}
-                {filters.tier.hasTag(2) && <div className="aio-row-container">
-                    {CreateUnitRows((unit) => unit.tier === 2)}
-                </div>}
-                {filters.tier.hasTag(3) && <div className="aio-row-container">
-                    {CreateUnitRows((unit) => unit.tier === 3)}
-                </div>}
-                {filters.tier.hasTag(4) && <div className="aio-row-container">
-                    {CreateUnitRows((unit) => unit.tier === 4)}
-                </div>} */}
 
                 <div className="aio-row-container">
                     {CreateLeaderRows()}
