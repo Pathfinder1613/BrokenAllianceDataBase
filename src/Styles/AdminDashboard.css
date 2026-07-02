@@ -17,11 +17,18 @@
     border-bottom: 1px solid #2a2a2e;
 }
 
+/* ── Toolbar (search + new button) ──────────────────────── */
+.dash-toolbar {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
 /* ── Search combo ────────────────────────────────────────── */
 .dash-combo {
     position: relative;
     width: 340px;
-    margin-bottom: 2rem;
 }
 
 .dash-search-input {
@@ -211,6 +218,61 @@
     color: #f0c040;
 }
 
+/* ── New unit button ─────────────────────────────────────── */
+.dash-btn--new {
+    border: 1px solid #5dba74;
+    color: #5dba74;
+    margin-bottom: 1rem;
+}
+
+.dash-btn--new:hover,
+.dash-btn--new:focus {
+    border-color: #7dd694;
+    color: #7dd694;
+}
+
+.dash-new-banner {
+    font-size: 0.8rem;
+    color: #5dba74;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Clear button ────────────────────────────────────────── */
+.dash-btn--clear {
+    border: 1px solid #888;
+    color: #888;
+}
+
+.dash-btn--clear:hover,
+.dash-btn--clear:focus {
+    border-color: #bbb;
+    color: #bbb;
+}
+
+/* ── Delete button ───────────────────────────────────────── */
+.dash-btn--delete {
+    border: 1px solid #c0504d;
+    color: #c0504d;
+}
+
+.dash-btn--delete:hover,
+.dash-btn--delete:focus {
+    border-color: #d9726f;
+    color: #d9726f;
+}
+
+.dash-btn--confirm {
+    border-color: #e07b00;
+    color: #e07b00;
+}
+
+.dash-btn--confirm:hover,
+.dash-btn--confirm:focus {
+    border-color: #f09030;
+    color: #f09030;
+}
+
 /* ── Status messages ─────────────────────────────────────── */
 .dash-ok {
     font-size: 0.8rem;
@@ -222,4 +284,9 @@
     font-size: 0.8rem;
     color: #c0504d;
     letter-spacing: 0.04em;
+}
+
+.dash-status {
+    display: inline-flex;
+    align-items: center;
 }
