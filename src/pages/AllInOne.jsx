@@ -123,9 +123,7 @@ function UnitFilter(unit, filters) {
         filters.tier.hasTag(unit.tier);
 
     const tagAllowed =
-        unit.tag?.some(tag =>
-            filters.tag.hasTag(tag.toLowerCase())
-        );
+        unit.tag?.some(tag => filters.tag.hasTag(tag.toLowerCase()));
 
     return tierAllowed && tagAllowed;
 }
@@ -173,14 +171,8 @@ export default function AllInOne() {
 
                 {[1, 2, 3, 4, 5].map(tier =>
                     filters.tier.hasTag(tier) && (
-                        <div
-                            key={tier}
-                            className="aio-row-container"
-                        >
-                            {CreateUnitRows(unit =>
-                                unit.tier === tier &&
-                                UnitFilter(unit, filters)
-                            )}
+                        <div key={tier} className="aio-row-container">
+                            {CreateUnitRows(unit => UnitFilter(unit, filters))}
                         </div>
                     )
                 )}
