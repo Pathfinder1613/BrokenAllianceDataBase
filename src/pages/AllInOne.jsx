@@ -172,7 +172,7 @@ export default function AllInOne() {
                 {[1, 2, 3, 4, 5].map(tier =>
                     filters.tier.hasTag(tier) && (
                         <div key={tier} className="aio-row-container">
-                            {CreateUnitRows(unit => UnitFilter(unit, filters))}
+                            {CreateUnitRows(unit => unit.tier == tier && UnitFilter(unit, filters))}
                         </div>
                     )
                 )}
