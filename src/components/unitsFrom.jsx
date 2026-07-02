@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Modal from './modal';
 import '../Styles/AdminDashboard.css';
 
 const EMPTY_FORM = {
@@ -137,11 +138,8 @@ export default function UnitForm({ unit, api, onSaved, onDeleted, onClear }) {
     }
 
     async function handleDelete() {
-        if (!confirmDelete) {
-            setConfirmDelete(true);
-            return;
-        }
         setDeleteStatus('deleting');
+
         try {
             const res = await fetch(`${api}units/${form.id}`, {
                 method: 'DELETE',
@@ -162,17 +160,36 @@ export default function UnitForm({ unit, api, onSaved, onDeleted, onClear }) {
 
     return (
         <form className="dash-form" onSubmit={handleSave}>
-            {isNew && <p className="dash-new-banner">New unit — fill in all fields and save.</p>}
+            {/* {isNew && <p className="dash-new-banner">New unit — fill in all fields and save.</p>} */}
 
             <section className="dash-section">
                 <h2>Identity</h2>
                 <div className="dash-grid">
-                    <Field label="ID"      name="id"      value={form.id}      onChange={handleChange} disabled={!isNew} />
-                    <Field label="Title"   name="title"   value={form.title}   onChange={handleChange} />
-                    <Field label="Type"    name="type"    value={form.type}    onChange={handleChange} />
-                    <Field label="Faction" name="faction" value={form.faction} onChange={handleChange} />
-                    <Field label="Tier"    name="tier"    value={form.tier}    onChange={handleChange} />
-                    <Field label="Tags (comma-separated)" name="tag" value={form.tag} onChange={handleChange} />
+                    <Field label="ID"
+                        name="id"
+                        value={form.id}
+                        onChange={handleChange}
+                        disabled={!isNew} />
+                    <Field label="Title"
+                        name="title"
+                        value={form.title}
+                        onChange={handleChange} />
+                    <Field label="Type"
+                        name="type"
+                        value={form.type}
+                        onChange={handleChange} />
+                    <Field label="Faction"
+                        name="faction"
+                        value={form.faction}
+                        onChange={handleChange} />
+                    <Field label="Tier"
+                        name="tier"
+                        value={form.tier}
+                        onChange={handleChange} />
+                    <Field label="Tags (comma-separated)"
+                        name="tag"
+                        value={form.tag}
+                        onChange={handleChange} />
                 </div>
                 <Field label="Lore" name="lore" value={form.lore} onChange={handleChange} textarea />
             </section>
@@ -180,12 +197,12 @@ export default function UnitForm({ unit, api, onSaved, onDeleted, onClear }) {
             <section className="dash-section">
                 <h2>Stats</h2>
                 <div className="dash-grid">
-                    <Field label="Mass"           name="stats_mass"             value={form.stats_mass}             onChange={handleChange} />
-                    <Field label="Power"          name="stats_power"            value={form.stats_power}            onChange={handleChange} />
+                    <Field label="Mass" name="stats_mass" value={form.stats_mass} onChange={handleChange} />
+                    <Field label="Power" name="stats_power" value={form.stats_power} onChange={handleChange} />
                     <Field label="Build Time (s)" name="stats_buildTimeSeconds" value={form.stats_buildTimeSeconds} onChange={handleChange} />
-                    <Field label="Pop"            name="stats_pop"              value={form.stats_pop}              onChange={handleChange} />
-                    <Field label="HP"             name="stats_hp"               value={form.stats_hp}               onChange={handleChange} />
-                    <Field label="Vision"         name="stats_vision"           value={form.stats_vision}           onChange={handleChange} />
+                    <Field label="Pop" name="stats_pop" value={form.stats_pop} onChange={handleChange} />
+                    <Field label="HP" name="stats_hp" value={form.stats_hp} onChange={handleChange} />
+                    <Field label="Vision" name="stats_vision" value={form.stats_vision} onChange={handleChange} />
                 </div>
             </section>
 
@@ -193,15 +210,15 @@ export default function UnitForm({ unit, api, onSaved, onDeleted, onClear }) {
                 <h2>Abilities &amp; Weapons</h2>
                 <div className="dash-grid">
                     <Field label="Abilities (comma-separated)" name="abilities" value={form.abilities} onChange={handleChange} />
-                    <Field label="Weapons (comma-separated)"   name="weapons"   value={form.weapons}   onChange={handleChange} />
+                    <Field label="Weapons (comma-separated)" name="weapons" value={form.weapons} onChange={handleChange} />
                 </div>
             </section>
 
             <section className="dash-section">
                 <h2>Wreckage</h2>
                 <div className="dash-grid">
-                    <Field label="Mass"   name="wreckage_mass"   value={form.wreckage_mass}   onChange={handleChange} />
-                    <Field label="Power"  name="wreckage_power"  value={form.wreckage_power}  onChange={handleChange} />
+                    <Field label="Mass" name="wreckage_mass" value={form.wreckage_mass} onChange={handleChange} />
+                    <Field label="Power" name="wreckage_power" value={form.wreckage_power} onChange={handleChange} />
                     <Field label="Health" name="wreckage_health" value={form.wreckage_health} onChange={handleChange} />
                 </div>
             </section>
@@ -217,34 +234,69 @@ export default function UnitForm({ unit, api, onSaved, onDeleted, onClear }) {
 
                 {!isNew && (
                     <button
-                        className={`dash-btn dash-btn--delete${confirmDelete ? ' dash-btn--confirm' : ''}`}
+                        className="dash-btn dash-btn--delete"
                         type="button"
-                        onClick={handleDelete}
+                        onClick={() => setConfirmDelete(true)}
                         disabled={deleteStatus === 'deleting'}
                     >
-                        {deleteStatus === 'deleting'
-                            ? 'Deleting…'
-                            : confirmDelete
-                                ? 'Confirm Delete'
-                                : 'Delete Unit'}
+                        {deleteStatus === 'deleting' ? 'Deleting…' : 'Delete Unit'}
                     </button>
                 )}
 
-                {confirmDelete && deleteStatus !== 'deleting' && (
-                    <button className="dash-btn" type="button" onClick={() => setConfirmDelete(false)}>
-                        Cancel
-                    </button>
+                {isNew && (
+                    <span className="dash-status">
+                        {saveStatus === 'ok' && <span className="dash-ok">Unit created.</span>}
+                        {saveStatus === 'error' && <span className="dash-error">Create failed.</span>}
+                    </span>
                 )}
-
-                <span className="dash-status">
-                    {saveStatus === 'ok'    && <span className="dash-ok">{isNew ? 'Unit created.' : 'Saved successfully.'}</span>}
-                    {saveStatus === 'error' && <span className="dash-error">Save failed.</span>}
-                    {deleteStatus === 'error' && <span className="dash-error">Delete failed.</span>}
-                </span>
             </div>
+
+            <div className="dash-footer">
+                {isNew ? (
+                    <span className="dash-status">
+                        {saveStatus === 'ok' && <span className="dash-ok">Unit created.</span>}
+                        {saveStatus === 'error' && <span className="dash-error">Create failed.</span>}
+                    </span>
+                ) : (
+                    <span className="dash-status">
+                        {saveStatus === 'ok' && <span className="dash-ok">Saved successfully.</span>}
+                        {saveStatus === 'error' && <span className="dash-error">Save failed.</span>}
+                        {deleteStatus === 'error' && <span className="dash-error">Delete failed.</span>}
+                    </span>
+                )}
+            </div>
+
+            {!isNew && (
+                <Modal
+                    isOpen={confirmDelete}
+                    onClose={() => setConfirmDelete(false)}
+                    title="Confirm Delete"
+                >
+                    <p>Are you sure you want to delete this unit? This action cannot be undone.</p>
+                    <div className="dash-modal-buttons">
+                        <button
+                            className="dash-btn dash-btn--delete"
+                            type="button"
+                            onClick={handleDelete}
+                            disabled={deleteStatus === 'deleting'}
+                        >
+                            {deleteStatus === 'deleting' ? 'Deleting…' : 'Confirm Delete'}
+                        </button>
+                        <button
+                            className="dash-btn"
+                            type="button"
+                            onClick={() => setConfirmDelete(false)}
+                        >
+                            Cancel
+                        </button>
+                    </div>
+                </Modal>
+            )}
         </form>
     );
 }
+
+
 
 function Field({ label, name, value, onChange, disabled, textarea }) {
     return (
